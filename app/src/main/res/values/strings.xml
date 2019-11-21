@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Universidades do Brasil</string>
+    <string name="label_estado"><b>Estado:</b> </string>
+    <string name="label_numero_de_graduados"><b>Número de graduados:</b> </string>
+    <string name="sao_paulo">São Paulo</string>
+    <string name="zero">0</string>
+</resources>
