@@ -2,7 +2,6 @@ package com.olivercastilho.universidadesdobrasil.data.repositories
 
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.State
-import com.olivercastilho.universidadesdobrasil.data.models.University
 
 class StateRepository {
     companion object States {
@@ -61,7 +60,7 @@ class StateRepository {
             7.75
         )
         val maranhao = State(
-            "Pará",
+            "Maranhão",
             187446,
             R.drawable.ma,
             3.56
@@ -169,19 +168,36 @@ class StateRepository {
             7.05
         )
 
-        val byState = mapOf(
-            acre.name to mapOf(
-                "UNIVERSIDADE FEDERAL DO ACRE" to University(
-                    "UNIVERSIDADE FEDERAL DO ACRE"
-                ),
-                "INSTITUTO DE ENSINO SUPERIOR DO ACRE" to University(
-                    "INSTITUTO DE ENSINO SUPERIOR DO ACRE"
-                )
-                )
-        )
-
-        fun getUniversitiesByState(state: String): Map<String, University>? {
-            return byState[state]
+        fun getStates(): List<State> {
+            return listOf(
+                distritoFederal,
+                saoPaulo,
+                rioDeJaneiro,
+                parana,
+                santaCatarina,
+                matoGrossoDoSul,
+                rioGrandeDoSul,
+                espiritoSanto,
+                minasGerais,
+                goias,
+                matoGrosso,
+                tocantins,
+                amapa,
+                roraima,
+                sergipe,
+                rioGrandeDoNorte,
+                acre,
+                paraiba,
+                pernambuco,
+                rondonia,
+                amazonas,
+                piaui,
+                ceara,
+                alagoas,
+                bahia,
+                para,
+                maranhao
+            )
         }
     }
 }

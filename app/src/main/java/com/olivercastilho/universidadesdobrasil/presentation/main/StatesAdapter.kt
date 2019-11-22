@@ -1,12 +1,15 @@
 package com.olivercastilho.universidadesdobrasil.presentation.main
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.State
+import com.olivercastilho.universidadesdobrasil.presentation.universities.UniversitiesActivity
 import kotlinx.android.synthetic.main.cardview_state.view.*
 
 class StatesAdapter(private val context: Context, private val states: List<State>) : RecyclerView.Adapter<StatesAdapter.ViewHolder>() {
@@ -46,6 +49,12 @@ class StatesAdapter(private val context: Context, private val states: List<State
             itemView.image_imageState.setImageResource(state.image)
             itemView.textView_statePosition.text = statePosition
             itemView.textView_demography.text = "${state.demography}% da população com nível superior"
+
+            itemView.setOnClickListener {
+                val intent = Intent(it.context, UniversitiesActivity::class.java)
+                intent.putExtra("state", state.name)
+                startActivity(it.context, intent, null)
+            }
         }
     }
 }

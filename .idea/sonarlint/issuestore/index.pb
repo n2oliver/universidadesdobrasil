@@ -19,3 +19,8 @@ Tapp/src/main/java/com/olivercastilho/universidadesdobrasil/data/models/Universi
 _app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/StateRepository.kt,0\b\0b09b312e7df4981211642bfec1a6ead5c9a8f4b
 Œ
 \app/src/main/java/com/olivercastilho/universidadesdobrasil/presentation/main/MainActivity.kt,8\1\8103a3f3ff1d300813ab5913af307c9f1530d557
+>
+app/.gitignore,5\1\51e1c5d383dfaa35e0e7e5873a0a99355a86880f
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
