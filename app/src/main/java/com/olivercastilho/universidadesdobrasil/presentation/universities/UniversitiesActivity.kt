@@ -16,6 +16,7 @@ class UniversitiesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_universities)
 
         val state = intent.getStringExtra("state")
+        val stateInitials = intent.getStringExtra("stateInitials")
 
         var of = "do"
         if(
@@ -41,6 +42,6 @@ class UniversitiesActivity : AppCompatActivity() {
 
         universitiesList.layoutManager = LinearLayoutManager(this)
         universitiesList.adapter =
-            UniversitiesAdapter(this, universities)
+            UniversitiesAdapter(this, universities, stateInitials)
     }
 }

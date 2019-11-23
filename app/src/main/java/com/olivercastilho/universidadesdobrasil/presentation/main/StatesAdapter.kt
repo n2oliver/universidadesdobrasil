@@ -53,6 +53,7 @@ class StatesAdapter(private val context: Context, private val states: List<State
             itemView.setOnClickListener {
                 val intent = Intent(it.context, UniversitiesActivity::class.java)
                 intent.putExtra("state", state.name)
+                intent.putExtra("stateInitials", state.initials)
                 startActivity(it.context, intent, null)
             }
         }

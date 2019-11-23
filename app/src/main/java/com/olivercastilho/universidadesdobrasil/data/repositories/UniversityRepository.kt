@@ -22,7 +22,10 @@ class UniversityRepository {
             ),
 
             StateRepository.alagoas.name to mapOf(
-                32 to University("UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS - UNCISAL", "UNCISAL", "12517793000108", "MACEIO", "Pública", "Estadual", "57010300", "Trapiche da Barra", "(82) 3315-6705 / (82) 33156702", "", "pesquisadoruncisal@gmail.com", null)
+                32 to University("UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS - UNCISAL", "UNCISAL", "12517793000108", "MACEIO", "Pública", "Estadual", "57010300", "Trapiche da Barra", "(82) 3315-6705 / (82) 33156702", "", "pesquisadoruncisal@gmail.com", null),
+                88 to University("FACULDADE DE FORMAÇÃO DE PROFESSORES DE PENEDO", "FFPP",	"12432605000130",	"PENEDO",	"Privada", "Privada",	"57200000",	"Centro",	"(82)3551-2780 / (82)3551-2161 / (82) 3551-2694", "www.frm.edu.br/penedo", "sec.frm.penedo@hotmail.com", null),
+                577 to University("UNIVERSIDADE FEDERAL DE ALAGOAS",	"UFAL",	"24464109000148", "MACEIO",	"Pública",	"Federal",	"57072970",	"TABULEIRO DO MARTINS",	"(82) 3214-1006 /	(82) 3214 1700",	"www.ufal.edu.br", "gr@reitoria.ufal.br", null),
+                621 to University("CENTRO DE ESTUDOS SUPERIORES DE MACEIÓ",	"CESMAC",	"12207742000171", "MACEIO", "Privada",	"Privada",	"57051160",	"Farol",	"(82) 3215-5205 / (82) 3221-0402",	"www.fejal.com.br", "joaosampaio@fejal.com.br", null)
             ),
 
             StateRepository.amazonas.name to mapOf(

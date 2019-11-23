@@ -33,15 +33,6 @@
             android:textSize="12sp"/>
 
         <TextView
-            android:id="@+id/textView_universityNetwork"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:text="University network"
-            android:textIsSelectable="true"
-            android:textSize="12sp"/>
-
-        <TextView
             android:id="@+id/textView_universityNeighborhood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -51,6 +42,17 @@
             android:textSize="14sp"/>
 
         <TextView
+            android:visibility="gone"
+            android:id="@+id/textView_universityNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="University network"
+            android:textIsSelectable="true"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:visibility="gone"
             android:id="@+id/textView_universityCep"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -60,6 +62,7 @@
             android:textSize="12sp" />
 
         <TextView
+            android:visibility="gone"
             android:id="@+id/textView_universityPhone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

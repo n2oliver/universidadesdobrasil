@@ -10,15 +10,12 @@ import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
 import kotlinx.android.synthetic.main.cardview_university.view.*
 
-class UniversitiesAdapter(private val context: Context, private val universities: ArrayList<University>) :
+class UniversitiesAdapter(private val context: Context, private val universities: ArrayList<University>, private val stateInitials: String) :
     RecyclerView.Adapter<UniversitiesAdapter.ViewHolder>() {
 
-    private var statePosition = 0
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.cardview_university, parent, false)
-        return ViewHolder(
-            view
-        )
+        return ViewHolder(view, stateInitials)
     }
 
     override fun getItemCount(): Int {
@@ -26,15 +23,14 @@ class UniversitiesAdapter(private val context: Context, private val universities
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        statePosition++
         holder.bindView(universities[position])
     }
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View, private val stateInitials: String) : RecyclerView.ViewHolder(itemView) {
         fun bindView(university: University) {
             itemView.textView_universityName.text = "${university.name} (${university.initials})"
             itemView.textView_universityNetwork.text = "Rede: ${university.network}\nCategoria administrativa: ${university.administrativeCategory}"
-            itemView.textView_universityNeighborhood.text = "Localização: ${university.neighborhood}, ${university.city}"
+            itemView.textView_universityNeighborhood.text = "${university.neighborhood}, ${university.city} - $stateInitials"
             itemView.textView_universityCep.text = "CEP: ${university.cep}"
             itemView.textView_universityPhone.text = "Telefone: ${university.telephone}"
             university.image?.let {
