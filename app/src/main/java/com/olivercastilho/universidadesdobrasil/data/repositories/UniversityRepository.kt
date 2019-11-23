@@ -25,7 +25,15 @@ class UniversityRepository {
                 32 to University("UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS - UNCISAL", "UNCISAL", "12517793000108", "MACEIO", "Pública", "Estadual", "57010300", "Trapiche da Barra", "(82) 3315-6705 / (82) 33156702", "", "pesquisadoruncisal@gmail.com", null),
                 88 to University("FACULDADE DE FORMAÇÃO DE PROFESSORES DE PENEDO", "FFPP",	"12432605000130",	"PENEDO",	"Privada", "Privada",	"57200000",	"Centro",	"(82)3551-2780 / (82)3551-2161 / (82) 3551-2694", "www.frm.edu.br/penedo", "sec.frm.penedo@hotmail.com", null),
                 577 to University("UNIVERSIDADE FEDERAL DE ALAGOAS",	"UFAL",	"24464109000148", "MACEIO",	"Pública",	"Federal",	"57072970",	"TABULEIRO DO MARTINS",	"(82) 3214-1006 /	(82) 3214 1700",	"www.ufal.edu.br", "gr@reitoria.ufal.br", null),
-                621 to University("CENTRO DE ESTUDOS SUPERIORES DE MACEIÓ",	"CESMAC",	"12207742000171", "MACEIO", "Privada",	"Privada",	"57051160",	"Farol",	"(82) 3215-5205 / (82) 3221-0402",	"www.fejal.com.br", "joaosampaio@fejal.com.br", null)
+                621 to University("CENTRO DE ESTUDOS SUPERIORES DE MACEIÓ",	"CESMAC",	"12207742000171", "MACEIO", "Privada",	"Privada",	"57051160",	"Farol",	"(82) 3215-5205 / (82) 3221-0402",	"www.fejal.com.br", "joaosampaio@fejal.com.br", null),
+                908 to University("FACULDADE ALAGOANA DE ADMINISTRAÇÃO", "FAA", "11918109000129", "MACEIO", "Privada", "Privada",	"57035550","Jatiuca", "(82) 304-5200", "", "marcioacbarro@yahoo.com.br", null),
+                1051 to University("FACULDADE DE CIÊNCIAS CONTÁBEIS - MACEIÓ",	"SEUNE",	"1280666000103", "MACEIO",	"Privada",	"Privada", "57051190", "FAROL", "(82) 3336-2640 / (82)  3236 2709",	"www.seune.edu.br", "seune@seune.edu.br", null),
+                1298 to University("Faculdade Estácio de Alagoas - Estácio FAL",	"FAL",	"2608755000107",	"MACEIO",	"Privada",	"Privada","57035560",	"Jatiúca",	"(82) 3214-6800 /	(82) 2123 2059",	"", "fal@fal.br	/ cgfalal@gmail.com", null),
+                1504 to University("FACULDADE MAURÍCIO DE NASSAU DE MACEIÓ", "UNINASSAU",		"7991012000174", "MACEIO",	"Privada", "Privada", "57035230", "Ponta Verde",	"(82) 3036-2299 /	(82) 3036-2299", "www.mauriciodenassau.edu.br", "emec@sereducacional.com", null),
+                1637 to University("FACULDADE DE CIÊNCIAS JURÍDICAS E SOCIAIS DE MACEIÓ",	"FAMA",	"3475871000150",	"MACEIO",	"Privada",	"Privada", "57020020",	"Centro",	"(82) 3336-9700",		"https://famaalagoas.edu.br/", "luit@uol.com.br / dir.academica@fama-al.com.br", null),
+                1956 to University("INSTITUTO BATISTA DE ENSINO SUPERIOR DE ALAGOAS",	"IBESA",	"12320966000195",	"MACEIO",	"Privada",	"Privada", "57021090",	"Farol", "(82) 3215-2744 / (82) 3326-1823",	"www.ibesa.com.br", "laercioguerra.melo@gmail.com", null),
+                1965 to University("FACULDADE DE TECNOLOGIA DE ALAGOAS",	"FAT/AL",	"1073457000199",	"MACEIO",	"Privada", "Privada",	"57045150",	"Serraria",	"(82) 3328-7000 / (82) 3214-7700 / (82) 3328-7000 (82) 3214-7700", "www.fat-al.edu.br","maceju@uol.com.br"	, null)
+
             ),
 
             StateRepository.amazonas.name to mapOf(
