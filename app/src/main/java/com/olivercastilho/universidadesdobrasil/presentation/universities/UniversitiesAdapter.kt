@@ -4,6 +4,7 @@ import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
@@ -32,10 +33,14 @@ class UniversitiesAdapter(private val context: Context, private val universities
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bindView(university: University) {
             itemView.textView_universityName.text = "${university.name} (${university.initials})"
-            itemView.textView_universityNeighborhood.text = university.neighborhood
-            itemView.textView_universityCity.text = university.city
-            itemView.textView_universityCep.text = university.cep
-            itemView.textView_universityPhone.text = university.telephone
+            itemView.textView_universityNetwork.text = "Rede: ${university.network}\nCategoria administrativa: ${university.administrativeCategory}"
+            itemView.textView_universityNeighborhood.text = "Localização: ${university.neighborhood}, ${university.city}"
+            itemView.textView_universityCep.text = "CEP: ${university.cep}"
+            itemView.textView_universityPhone.text = "Telefone: ${university.telephone}"
+            university.image?.let {
+                itemView.image_imageUniversity.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 220)
+                itemView.image_imageUniversity.setImageResource(it)
+            }
         }
     }
 }

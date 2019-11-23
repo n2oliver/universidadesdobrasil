@@ -24,3 +24,9 @@ _app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/St
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+œ
+lapp/src/main/java/com/olivercastilho/universidadesdobrasil/presentation/universities/UniversitiesActivity.kt,3\2\327860fe2e634362d1491c161aa7f21eb10c5be8
+”
+dapp/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/UniversityRepository.kt,b\c\bc03d1a5990bed5e0e58940981f97aab2c4482bf
+›
+kapp/src/main/java/com/olivercastilho/universidadesdobrasil/presentation/universities/UniversitiesAdapter.kt,5\d\5d1fcde2786727a1f3c5ba5ed0406332084b9c4f

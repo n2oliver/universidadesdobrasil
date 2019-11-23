@@ -11,4 +11,6 @@ data class University(
     val neighborhood: String,
     val telephone: String,
     val site: String,
-    val email: String)
+    val email: String,
+    val image: Int?
+)

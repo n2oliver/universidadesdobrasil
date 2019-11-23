@@ -6,12 +6,14 @@
     android:layout_marginTop="2dp"
     android:layout_marginRight="2dp"
     android:background="#f0f0f0"
-    android:orientation="horizontal">
+    android:orientation="vertical">
 
     <ImageView
         android:id="@+id/image_imageUniversity"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0"
+        android:scaleType="centerCrop"
         android:contentDescription="TODO" />
 
     <LinearLayout
@@ -27,8 +29,17 @@
             android:fontFamily="casual"
             android:text="University name"
             android:textIsSelectable="true"
-            android:textColor="#1d1d1d"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/textView_universityNetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="University network"
+            android:textIsSelectable="true"
+            android:textSize="12sp"/>
 
         <TextView
             android:id="@+id/textView_universityNeighborhood"
@@ -37,17 +48,7 @@
             android:fontFamily="sans-serif-light"
             android:text="University Neighborhood"
             android:textIsSelectable="true"
-            android:textColor="#1d1d1d" />
-
-        <TextView
-            android:id="@+id/textView_universityCity"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-light"
-            android:text="University City"
-            android:textIsSelectable="true"
-            android:textColor="#1d1d1d"
-            android:textSize="10sp" />
+            android:textSize="14sp"/>
 
         <TextView
             android:id="@+id/textView_universityCep"
@@ -56,8 +57,7 @@
             android:fontFamily="sans-serif-light"
             android:text="000000-000"
             android:textIsSelectable="true"
-            android:textColor="#1d1d1d"
-            android:textSize="10sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/textView_universityPhone"
@@ -66,8 +66,7 @@
             android:fontFamily="sans-serif-light"
             android:text="(xx) xxxx-xxxx"
             android:textIsSelectable="true"
-            android:textColor="#1d1d1d"
-            android:textSize="10sp" />
+            android:textSize="12sp" />
     </LinearLayout>
 
 </LinearLayout>
