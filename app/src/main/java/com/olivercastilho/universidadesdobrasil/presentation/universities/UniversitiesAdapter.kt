@@ -31,7 +31,7 @@ class UniversitiesAdapter(private val context: Context, private val universities
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         fun bindView(university: University) {
-            itemView.textView_universityName.text = university.name
+            itemView.textView_universityName.text = "${university.name} (${university.initials})"
             itemView.textView_universityNeighborhood.text = university.neighborhood
             itemView.textView_universityCity.text = university.city
             itemView.textView_universityCep.text = university.cep

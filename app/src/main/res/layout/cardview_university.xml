@@ -26,6 +26,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="casual"
             android:text="University name"
+            android:textIsSelectable="true"
             android:textColor="#1d1d1d"
             android:textStyle="bold" />
 
@@ -35,6 +36,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:text="University Neighborhood"
+            android:textIsSelectable="true"
             android:textColor="#1d1d1d" />
 
         <TextView
@@ -43,6 +45,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:text="University City"
+            android:textIsSelectable="true"
             android:textColor="#1d1d1d"
             android:textSize="10sp" />
 
@@ -52,6 +55,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:text="000000-000"
+            android:textIsSelectable="true"
             android:textColor="#1d1d1d"
             android:textSize="10sp" />
 
@@ -61,6 +65,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
             android:text="(xx) xxxx-xxxx"
+            android:textIsSelectable="true"
             android:textColor="#1d1d1d"
             android:textSize="10sp" />
     </LinearLayout>
