@@ -37,7 +37,7 @@ class UniversitiesActivity : AppCompatActivity() {
         ){
             of = "da"
         }
-        supportActionBar!!.title = "Universidades $of $state"
+        supportActionBar!!.title = "$state"
         val universities = ArrayList<University>((UniversityRepository.university[state] ?: error("Cannot fetch all universities")).values)
 
         universitiesList.layoutManager = LinearLayoutManager(this)
