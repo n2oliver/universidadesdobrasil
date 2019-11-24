@@ -73,7 +73,22 @@ class UniversityRepository {
             ),
 
             StateRepository.amapa.name to mapOf(
-                15522 to University("INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE ALAGOAS", "IFAP", "10820882000195", "MACAPA", "Pública", "Federal", "68908198", "Julião Ramos", "(92)  3237-2214", "www.ifap.edu.br", "reitoria@ifap.edu.br", null)
+                15522 to University("INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE ALAGOAS", "IFAP", "10820882000195", "MACAPA", "Pública", "Federal", "68908198", "Julião Ramos", "(92)  3237-2214", "www.ifap.edu.br", "reitoria@ifap.edu.br", null),
+                830	to University("UNIVERSIDADE FEDERAL DO AMAPÁ",	"UNIFAP",	"34868257000181", "MACAPA", "Pública",	"Federal","68902280",	"Zerão",	"(96) 3312-1705", "http://www.unifap.br", "unifap@unifap.br / pi@unifap.br / prograd@unifap.br / reitor@unifap.br / dav@unifap.br", null),
+                861	to University("CENTRO DE ENSINO SUPERIOR DO AMAPÁ", "CEAP",	 "4661922000109",	"MACAPA", "Privada", "Privada",	"68906720",	"Alvorada",	"(96) 3261-2133 / (96) 3261-1401",	"www.ceap.br", "ceap@ceap.br",	null),
+                1591 to University("FACULDADE SEAMA",	"SEAMA",	"3065816000191",	"MACAPA",	"Privada","Privada","68908126", "Laguinho", "(96) 2101-5151 / (96) 2101-5151",	"www.seama.edu.br", "seama@seama.edu.br", null),
+                1823 to University("INSTITUTO DE ENSINO SUPERIOR DO AMAPÁ",	"IESAP",	"10227585000130",	"MACAPA",	"Privada",	"Privada", "68901025",	"Trem",	"(96) 3222-6605 /	(96) 3222-6403",	"www.iesap.edu.br", "iesap@iesap.edu.br / iesap@hotmail.com",	null),
+                1877 to University("FACULDADE ATUAL",	"FAAT",	"6173834000185",	"MACAPA", "Privada", "Privada", "68906350", "Central",	"(96) 3217-1491 / (96) 3217-1474",	"www.faculdadeatual.com.br", "katymotinha@uol.com.br", null),
+                2069 to University("FACULDADE DE TEOLOGIA E CIÊNCIAS HUMANAS",	"FATECH",	"4191375000137",	"MACAPA", "Privada", "Privada",	"68906370", "Centro",	"(96) 3223-9239 /	(96) 3223-9238",	"faculdadefatech.com.br", "fatech753@yahoo.com.br", null),
+                2380 to University("Faculdade Estácio do Amapá - Estácio FAMAP",	"FAMAP",	"2608755000107",	"MACAPA",	"Privada", "Privada",	"68903000",	"Jardim Equatorial",	"(96) 3312-2201 / (96) 3312-2209",	"www.famap.edu.br", "famap@famap.edu.br / cgfamap@gmail.com", null),
+                2469 to University("INSTITUTO MACAPAENSE DE ENSINO SUPERIOR", "IMMES", "4159727000177",	"MACAPA",	"Privada", "Privada",	"68900075", "Centro",	"(96) 3223-4244 /	(96) 3223-4244 / (96) 3223-4204",	"www.immes.com.br", "diretoria@immes.com.br / mrivaldo@uol.com.br", null),
+                2773 to University("FACULDADE DE MACAPÁ",	"FAMA",	"4492733000141",	"MACAPA",	"Privada", "Privada", "68900000",	"Cabralzinho",	"(96) 2101-0400 / (96) 2101-0409",	"https://www.faculdadedemacapa.com.br/", "ddi@kroton.com.br", null),
+                2917 to University("FACULDADE BRASIL NORTE",	"FABRAN",	"6099229000101", "MACAPA",	"Privada",	"Privada",	"68908127",	"Jesus de Nazaré",	"(96) 3223-7924",	"", "marcioacbarros@yahoo.com.br", null),
+                3769 to University("FACULDADE MADRE TEREZA",	"FAMAT",	"4666494000107",	"SANTANA",	"Privada",	"Privada",	"68925000",	"Nova Brasília",	"(96) 3281-2645 /	(96) 3281-2645",	"www.madretereza.edu.br", "madretereza@madretereza.edu.br", null),
+                3787 to University("FACULDADE DE ENSINO SUPERIOR DA AMAZÔNIA",	"FESAM",	"1711282000106",	"MACAPA",	"Privada",	"Privada",	"68908-127",	"Laguinho",	"(96) 3224-2954",	"", "marcioacbarros@yahoo.com.br", null),
+                3977 to University("FACULDADE DE TECNOLOGIA DO AMAPÁ",	"META",	"5255345000100",	"MACAPA",	"Privada",	"Privada",	"68903150",	"Jardim Marco Zero",	"(96) 3241-6636 / (96) 3243-1828",	"www.meta.edu.br", "hildemar@meta.edu.br", null),
+                5701 to University("UNIVERSIDADE DO ESTADO DO AMAPÁ",	"UEAP",	"394577000125",	"MACAPA",	"Pública", "Estadual",	"68900070",	"Central",	"(96) 2101-0524 / (96) 2101-0506", 	"www.ueap.ap.gov.br", "ueap@ueap.ap.gov.br", null),
+                11593 to University("FACULDADE DE TECNOLOGIA DE MACAPÁ",	"FTA",	"8790056000107",	"MACAPA",	"Privada", "Privada",	"68908080",	"Julião Ramos",	"(96) 3222-2208",	"http://www.faculdadeapoena.com.br/", "apoena@secrel.com.br", null)
             ),
 
             StateRepository.bahia.name to mapOf(
