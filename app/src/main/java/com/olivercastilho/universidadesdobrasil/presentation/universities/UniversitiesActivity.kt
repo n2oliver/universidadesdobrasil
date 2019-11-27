@@ -7,6 +7,7 @@ import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
 import com.olivercastilho.universidadesdobrasil.data.repositories.StateRepository
 import com.olivercastilho.universidadesdobrasil.data.repositories.UniversityRepository
+import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
 
 class UniversitiesActivity : AppCompatActivity() {
@@ -37,7 +38,7 @@ class UniversitiesActivity : AppCompatActivity() {
         ){
             of = "da"
         }
-        supportActionBar!!.title = "$state"
+        textView_appName.text = "Universidades\n$of $state"
         val universities = ArrayList<University>((UniversityRepository.university[state] ?: error("Cannot fetch all universities")).values)
 
         universitiesList.layoutManager = LinearLayoutManager(this)

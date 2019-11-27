@@ -1,4 +1,4 @@
-package com.olivercastilho.universidadesdobrasil.presentation.main
+package com.olivercastilho.universidadesdobrasil.presentation.states
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,7 +7,7 @@ import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.repositories.StateRepository
 import kotlinx.android.synthetic.main.activity_main.*
 
-class MainActivity : AppCompatActivity() {
+class StatesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

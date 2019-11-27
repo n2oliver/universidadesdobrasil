@@ -1,4 +1,4 @@
-package com.olivercastilho.universidadesdobrasil.presentation.main
+package com.olivercastilho.universidadesdobrasil.presentation.states
 
 import android.content.Context
 import android.content.Intent
@@ -18,7 +18,8 @@ class StatesAdapter(private val context: Context, private val states: List<State
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.cardview_state, parent, false)
         return ViewHolder(
-            view
+            view,
+            states
         )
     }
 
@@ -31,7 +32,7 @@ class StatesAdapter(private val context: Context, private val states: List<State
         holder.bindView(states[position], "${position+1}º - ")
     }
 
-    class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View, val states: List<State>) : RecyclerView.ViewHolder(itemView) {
         fun bindView(state: State, statePosition: String) {
             var graduatedNumber = ""
             var i = 0
@@ -55,6 +56,9 @@ class StatesAdapter(private val context: Context, private val states: List<State
                 intent.putExtra("state", state.name)
                 intent.putExtra("stateInitials", state.initials)
                 startActivity(it.context, intent, null)
+            }
+            if(state.underContruction){
+                itemView.textView_underConstuction.visibility = View.VISIBLE
             }
         }
     }

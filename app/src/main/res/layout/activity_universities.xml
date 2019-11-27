@@ -5,15 +5,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".presentation.universities.UniversitiesActivity">
-
+    <include layout="@layout/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/action_bar"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/universitiesList"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="Hello World!"
         tools:listitem="@layout/cardview_state"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/action_bar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

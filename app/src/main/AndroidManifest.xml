@@ -8,15 +8,17 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/ub_logo"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".presentation.main.MainActivity">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".presentation.intro.IntroActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".presentation.universities.UniversitiesActivity"/>
+        <activity android:name=".presentation.landing.LandingActivity"/>
+        <activity android:name=".presentation.states.StatesActivity" />
+        <activity android:name=".presentation.universities.UniversitiesActivity" />
     </application>
 
 </manifest>
