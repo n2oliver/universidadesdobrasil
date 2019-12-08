@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.State
 import com.olivercastilho.universidadesdobrasil.presentation.universities.UniversitiesActivity
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.cardview_state.view.*
 
 class StatesAdapter(private val context: Context, private val states: List<State>) : RecyclerView.Adapter<StatesAdapter.ViewHolder>() {
@@ -17,6 +18,7 @@ class StatesAdapter(private val context: Context, private val states: List<State
     private var statePosition = 0
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.cardview_state, parent, false)
+        (context as StatesActivity).imageView_statePhoto.setImageResource(R.drawable.df)
         return ViewHolder(
             view,
             states
@@ -29,11 +31,11 @@ class StatesAdapter(private val context: Context, private val states: List<State
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         statePosition++
-        holder.bindView(states[position], "${position+1}º - ")
+        holder.bindView(states[position], "${position+1}º - ", context)
     }
 
     class ViewHolder(itemView: View, val states: List<State>) : RecyclerView.ViewHolder(itemView) {
-        fun bindView(state: State, statePosition: String) {
+        fun bindView(state: State, statePosition: String, context: Context) {
             var graduatedNumber = ""
             var i = 0
             state.graduatedNumber.toString().reversed().forEach {
@@ -52,13 +54,13 @@ class StatesAdapter(private val context: Context, private val states: List<State
             itemView.textView_demography.text = "${state.demography}% da população com nível superior"
 
             itemView.setOnClickListener {
+                (context as StatesActivity).imageView_statePhoto.setImageResource(state.image)
+            }
+            itemView.linearLayout_viewUniversities.setOnClickListener {
                 val intent = Intent(it.context, UniversitiesActivity::class.java)
                 intent.putExtra("state", state.name)
                 intent.putExtra("stateInitials", state.initials)
                 startActivity(it.context, intent, null)
-            }
-            if(state.underContruction){
-                itemView.textView_underConstuction.visibility = View.VISIBLE
             }
         }
     }

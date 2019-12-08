@@ -24,13 +24,11 @@
         android:scaleType="centerCrop"
         android:contentDescription="TODO" />
     <ImageView
-        android:src="@drawable/ic_search_black_24dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="@id/imageView_statePhoto"
         app:layout_constraintRight_toRightOf="@id/imageView_statePhoto"
-        android:elevation="2dp"
-        android:contentDescription="TODO" />
+        android:elevation="2dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/statesList"
