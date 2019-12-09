@@ -19,7 +19,7 @@ class UniversitiesAdapter(private val context: Context, private val universities
     }
 
     override fun getItemCount(): Int {
-        return universities.size
+        return universities.count()
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
@@ -34,8 +34,10 @@ class UniversitiesAdapter(private val context: Context, private val universities
             itemView.textView_universityCep.text = "CEP: ${university.cep}"
             itemView.textView_universityPhone.text = "Telefone: ${university.telephone}"
             university.image?.let {
-                itemView.image_imageUniversity.layoutParams = LinearLayout.LayoutParams(LinearLayout.LayoutParams.MATCH_PARENT, 220)
                 itemView.image_imageUniversity.setImageResource(it)
+                itemView.image_imageUniversity.visibility = View.VISIBLE
+            }?:let {
+                itemView.image_imageUniversity.visibility = View.GONE
             }
         }
     }

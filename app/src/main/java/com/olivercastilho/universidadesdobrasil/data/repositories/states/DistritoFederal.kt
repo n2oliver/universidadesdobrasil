@@ -1,10 +1,24 @@
 package com.olivercastilho.universidadesdobrasil.data.repositories.states
-
+import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
 
 class DistritoFederal {
     companion object {
         val universities = mapOf(
+            2 to University(
+                "UNIVERSIDADE DE BRASÍLIA",
+                "UNB",
+                "38174000143",
+                "BRASILIA",
+                "Pública",
+                "Federal",
+                "70910900",
+                "Asa Norte",
+                "(61) 3307-1750/2600",
+                "http://www.unb.br",
+                "unb@unb.br",
+                R.drawable.universidade_de_brasilia
+            ),
             402 to University(
                 "CENTRO UNIVERSITÁRIO DE BRASÍLIA",
                 "UNICEUB",
@@ -17,7 +31,7 @@ class DistritoFederal {
                 "(61) 39661252",
                 "www.uniceub.br",
                 "academico@uniceub.br",
-                null
+                R.drawable.centro_universitario_de_brasilia_uniceub
             ),
             403 to University(
                 "UNIVERSIDADE CATÓLICA DE BRASÍLIA",
@@ -31,7 +45,7 @@ class DistritoFederal {
                 "(61) 33569000",
                 "www.ucb.br",
                 "pauloh@ucb.br / mozart@ucb.br / sybelle@ucb.br",
-                null
+                R.drawable.universidade_catolica_de_brasilia_ucb
             ),
             404 to University(
                 "FACULDADES INTEGRADAS DA UPIS",
@@ -45,7 +59,7 @@ class DistritoFederal {
                 "(61) 3445-6700",
                 "www.upis.br",
                 "rodolpho@upis.br",
-                null
+                R.drawable.faculdades_integradas_da_upis_upis
             ),
             518 to University(
                 "CENTRO UNIVERSITÁRIO DO DISTRITO FEDERAL",

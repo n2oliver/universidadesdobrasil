@@ -733,20 +733,6 @@ class Ceara {
                 "www.ifce.edu.br",
                 "reitoria@ifce.edu.br",
                 null
-            ),
-            2 to University(
-                "UNIVERSIDADE DE BRASÍLIA",
-                "UNB",
-                "38174000143",
-                "BRASILIA",
-                "Pública",
-                "Federal",
-                "70910900",
-                "Asa Norte",
-                "(61) 3307-1750/2600",
-                "http://www.unb.br",
-                "unb@unb.br",
-                null
             )
         )
     }

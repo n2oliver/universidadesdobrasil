@@ -15,8 +15,9 @@
 
     <LinearLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
         android:layout_weight="1"
+        android:layout_height="wrap_content"
+
         android:layout_margin="10dp"
         android:orientation="vertical">
 
@@ -31,6 +32,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="1º"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:textColor="#1d1d1d"/>
 
@@ -40,6 +42,7 @@
                 android:layout_height="wrap_content"
                 android:fontFamily="casual"
                 android:text="@string/sao_paulo"
+                android:textSize="12sp"
                 android:textStyle="bold"
                 android:textColor="#1d1d1d" />
         </LinearLayout>
