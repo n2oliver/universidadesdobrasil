@@ -7,19 +7,25 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
 import com.olivercastilho.universidadesdobrasil.R
+import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
+import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_web_search.*
 
 
 class WebSearchActivity : AppCompatActivity() {
-
+    private lateinit var initials: String
+    private lateinit var stateInitials: String
+    private var url: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_search)
-        val initials = intent.getStringExtra("initials")
-        val stateInitials = intent.getStringExtra("stateInitials")
-
+        initials = intent.getStringExtra("initials")
+        stateInitials = intent.getStringExtra("stateInitials")
+        url = "https://www.google.com.br/search?q=$initials+$stateInitials&newwindow=0"
+        val context = this
         webview_search.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
+                context.url = url
                 if (url == null || url.startsWith("http://") || url.startsWith("https://"))
                     return false
 
@@ -33,6 +39,22 @@ class WebSearchActivity : AppCompatActivity() {
             }
         }
         webview_search.settings.javaScriptEnabled = true
-        webview_search.loadUrl("https://www.google.com.br/search?q=$initials+$stateInitials&newwindow=0&tbm=nws")
+        webview_search.loadUrl(url)
+
+        imageView_ublogo.setOnClickListener {
+            intent = Intent(this, StatesActivity::class.java)
+            startActivity(intent)
+        }
+    }
+
+    override fun onBackPressed() {
+        if(url != "https://www.google.com.br/search?q=$initials+$stateInitials&newwindow=0") {
+            url = "https://www.google.com.br/search?q=$initials+$stateInitials&newwindow=0"
+            webview_search.loadUrl(url)
+            webview_search.copyBackForwardList()
+            return
+        } else {
+            super.onBackPressed()
+        }
     }
 }

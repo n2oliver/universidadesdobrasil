@@ -18,7 +18,7 @@
         android:layout_height="0dp"
         app:layout_constraintVertical_weight="1"
         android:layout_marginTop="10dp"
-        tools:listitem="@layout/cardview_state"
+        tools:listitem="@layout/cardview_university"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/action_bar"
