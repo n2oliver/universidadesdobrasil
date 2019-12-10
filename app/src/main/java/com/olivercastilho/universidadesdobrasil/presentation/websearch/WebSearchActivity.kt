@@ -6,6 +6,10 @@ import android.os.Bundle
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import androidx.appcompat.app.AppCompatActivity
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.RequestConfiguration
+import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
@@ -15,13 +19,27 @@ import kotlinx.android.synthetic.main.activity_web_search.*
 class WebSearchActivity : AppCompatActivity() {
     private lateinit var initials: String
     private lateinit var stateInitials: String
+    private lateinit var originalUrl: String
     private var url: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_search)
-        initials = intent.getStringExtra("initials")
-        stateInitials = intent.getStringExtra("stateInitials")
-        url = "https://www.google.com.br/search?q=$initials+$stateInitials&newwindow=0"
+
+        MobileAds.initialize(this)
+        if(BuildConfig.DEBUG) {
+            val testDeviceIds = listOf(getString(R.string.test_devive_id))
+            val configuration =
+                RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
+            MobileAds.setRequestConfiguration(configuration)
+        }
+        val adRequest  = AdRequest.Builder()
+            .build()
+        adView.loadAd(adRequest)
+
+        initials = intent.getStringExtra("initials")?:""
+        stateInitials = intent.getStringExtra("stateInitials")?:""
+        originalUrl = "https://www.google.com.br/search?q=$initials&newwindow=0"
+        url = originalUrl
         val context = this
         webview_search.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
@@ -48,8 +66,8 @@ class WebSearchActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if(url != "https://www.google.com.br/search?q=$initials+$stateInitials&newwindow=0") {
-            url = "https://www.google.com.br/search?q=$initials+$stateInitials&newwindow=0"
+        if(url != originalUrl) {
+            url = originalUrl
             webview_search.loadUrl(url)
             webview_search.copyBackForwardList()
             return

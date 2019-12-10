@@ -3,10 +3,7 @@ package com.olivercastilho.universidadesdobrasil.presentation.universities
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.AdSize
-import com.google.android.gms.ads.AdView
-import com.google.android.gms.ads.MobileAds
+import com.google.android.gms.ads.*
 import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
@@ -14,6 +11,8 @@ import com.olivercastilho.universidadesdobrasil.data.repositories.StateRepositor
 import com.olivercastilho.universidadesdobrasil.data.repositories.UniversityRepository
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
+import java.util.*
+import kotlin.collections.ArrayList
 
 
 class UniversitiesActivity : AppCompatActivity() {
@@ -23,7 +22,12 @@ class UniversitiesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_universities)
 
         MobileAds.initialize(this)
-
+        if(BuildConfig.DEBUG) {
+            val testDeviceIds = listOf(getString(R.string.test_devive_id))
+            val configuration =
+                RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
+            MobileAds.setRequestConfiguration(configuration)
+        }
         val adRequest  = AdRequest.Builder()
             .build()
         adView.loadAd(adRequest)
