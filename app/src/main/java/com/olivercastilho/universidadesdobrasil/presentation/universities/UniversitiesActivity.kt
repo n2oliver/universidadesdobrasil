@@ -22,20 +22,11 @@ class UniversitiesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_universities)
 
-        MobileAds.initialize(this) {
-            val adView = AdView(this)
-            adView.adSize = AdSize.BANNER
-            when(BuildConfig.BUILD_TYPE) {
-                "release" -> adView.adUnitId = "ca-app-pub-8124594027670911/8574164798"
-                else ->adView.adUnitId = "ca-app-pub-3940256099942544/6300978111"
-            }
+        MobileAds.initialize(this)
 
-            val adRequest  = AdRequest.Builder()
-                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-                .build()
-            adView.loadAd(adRequest)
-
-        }
+        val adRequest  = AdRequest.Builder()
+            .build()
+        adView.loadAd(adRequest)
 
         val state = intent.getStringExtra("state")
         val stateInitials = intent.getStringExtra("stateInitials")
