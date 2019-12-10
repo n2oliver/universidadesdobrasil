@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "351620019181",
+    "firebase_url": "https://universidades-do-brasil.firebaseio.com",
+    "project_id": "universidades-do-brasil",
+    "storage_bucket": "universidades-do-brasil.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:351620019181:android:78e81969e3840cbc36ede4",
+        "android_client_info": {
+          "package_name": "com.olivercastilho.universidadesdobrasil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "351620019181-9bvissr5huuahgmj2esrtb1tp7prh26c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC64soaqVadX5-shQ_4j1-2iaBrgIQnmMk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "351620019181-9bvissr5huuahgmj2esrtb1tp7prh26c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

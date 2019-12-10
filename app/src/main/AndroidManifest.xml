@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.olivercastilho.universidadesdobrasil">
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -9,7 +10,9 @@
         android:roundIcon="@drawable/ub_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".presentation.intro.IntroActivity"
+        <activity android:name=".presentation.websearch.WebSearchActivity"></activity>
+        <activity
+            android:name=".presentation.intro.IntroActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,12 +20,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".presentation.landing.LandingActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".presentation.states.StatesActivity"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".presentation.universities.UniversitiesActivity"
-            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".presentation.landing.LandingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.states.StatesActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".presentation.universities.UniversitiesActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

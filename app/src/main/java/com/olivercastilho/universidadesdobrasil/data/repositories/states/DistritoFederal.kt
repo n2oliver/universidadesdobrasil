@@ -73,7 +73,7 @@ class DistritoFederal {
                 "(61) 37048802",
                 "www.udf.edu.br",
                 "renato@udf.edu.br",
-                null
+                R.drawable.centro_universitario_do_distrito_federal_udf
             ),
             706 to University(
                 "FACULDADE DE ARTES DULCINA DE MORAES",
@@ -87,7 +87,7 @@ class DistritoFederal {
                 "(61) 32265385",
                 "www.dulcina.art.br",
                 "lucia@dulcina.art.br",
-                null
+                R.drawable.faculdade_de_artes_dulcina_de_moraes_fadm
             ),
             774 to University(
                 "FACULDADE ALVORADA DE INFORMÁTICA E PROCESSAMENTO DE DADOS",
@@ -101,7 +101,7 @@ class DistritoFederal {
                 "(61)  3425 5674",
                 "www.alvorada.edu.br",
                 "alvorada@alvorada.com.br / andersonjca@gmail.com / henriquehortencioneto@alvorada.edu.br",
-                null
+                R.drawable.faculdade_alvorada_de_informatica_e_processamento_de_dados_faipd
             ),
             775 to University(
                 "FACULDADE ALVORADA DE EDUCAÇÃO FÍSICA E DESPORTO",
