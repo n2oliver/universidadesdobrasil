@@ -85,7 +85,10 @@ class UniversitiesActivity : AppCompatActivity() {
 
         if(searchString != "") {
             universities.forEach {
-                if (searchString.toRegex().find(it.initials.toLowerCase()) != null || searchString.toRegex().find(it.neighborhood.toLowerCase()) != null || searchString.toRegex().find(it.name.toLowerCase()) != null || searchString.toRegex().find(it.city.toLowerCase()) != null) {
+                if (searchString.toRegex().find(it.initials.toLowerCase()) != null ||
+                    searchString.toRegex().find(it.neighborhood.toLowerCase()) != null ||
+                    searchString.toRegex().find(it.name.toLowerCase()) != null ||
+                    searchString.toRegex().find(it.city.toLowerCase()) != null) {
                     universitiesFiltered.add(it)
                 }
             }
