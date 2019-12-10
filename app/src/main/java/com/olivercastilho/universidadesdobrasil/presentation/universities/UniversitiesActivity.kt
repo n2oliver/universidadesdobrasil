@@ -1,8 +1,13 @@
 package com.olivercastilho.universidadesdobrasil.presentation.universities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.AdSize
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
+import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
 import com.olivercastilho.universidadesdobrasil.data.repositories.StateRepository
@@ -10,11 +15,27 @@ import com.olivercastilho.universidadesdobrasil.data.repositories.UniversityRepo
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
 
+
 class UniversitiesActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_universities)
+
+        MobileAds.initialize(this) {
+            val adView = AdView(this)
+            adView.adSize = AdSize.BANNER
+            when(BuildConfig.BUILD_TYPE) {
+                "release" -> adView.adUnitId = "ca-app-pub-8124594027670911/8574164798"
+                else ->adView.adUnitId = "ca-app-pub-3940256099942544/6300978111"
+            }
+
+            val adRequest  = AdRequest.Builder()
+                .addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
+                .build()
+            adView.loadAd(adRequest)
+
+        }
 
         val state = intent.getStringExtra("state")
         val stateInitials = intent.getStringExtra("stateInitials")

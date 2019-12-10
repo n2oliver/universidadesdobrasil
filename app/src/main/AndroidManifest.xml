@@ -10,6 +10,9 @@
         android:roundIcon="@drawable/ub_logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-8124594027670911~5750838134"/>
         <activity android:name=".presentation.websearch.WebSearchActivity"></activity>
         <activity
             android:name=".presentation.intro.IntroActivity"
