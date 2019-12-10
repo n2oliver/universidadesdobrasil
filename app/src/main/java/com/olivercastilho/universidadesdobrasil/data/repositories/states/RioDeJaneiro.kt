@@ -1922,6 +1922,20 @@ class RioDeJaneiro {
                 "",
                 "lndourado@ig.com.br /  moizes.oliveira@gmail.com",
                 null
+            ),
+            163.1 to University(
+                "UNIVERSIDADE ESTÁCIO DE SÁ",
+                "UNESA",
+                "34075739008240",
+                "QUEIMADOS",
+                "Privada",
+                "Privada",
+                "26320160",
+                "Centro",
+                "(21) 2663-4800",
+                "",
+                "vr.graduacao@estacio.br / cgunesa@gmail.com / dae@estacio.br",
+                null
             )
         )
     }

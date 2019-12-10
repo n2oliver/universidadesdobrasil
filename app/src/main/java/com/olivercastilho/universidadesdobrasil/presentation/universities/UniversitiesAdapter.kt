@@ -32,7 +32,7 @@ class UniversitiesAdapter(private val context: Context, private val universities
         private fun openBrowser(view: View, university: University){
             val intent = Intent(view.context, WebSearchActivity::class.java)
             intent.putExtra("initials", university.initials)
-            intent.putExtra("stateInitials", stateInitials)
+            intent.putExtra("neighborhood", university.neighborhood)
             ContextCompat.startActivity(view.context, intent, null)
         }
 

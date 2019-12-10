@@ -1,6 +1,10 @@
 package com.olivercastilho.universidadesdobrasil.presentation.universities
 
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
+import android.widget.SearchView
+import android.widget.SearchView.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.gms.ads.*
@@ -55,10 +59,40 @@ class UniversitiesActivity : AppCompatActivity() {
             of = "da"
         }
         textView_appName.text = "Universidades\n$of $state"
-        val universities = ArrayList<University>((UniversityRepository.university[state] ?: error("Cannot fetch all universities")).values)
+        var universities = ArrayList<University>((UniversityRepository.university[state] ?: error("Cannot fetch all universities")).values)
+        findUniversities("", universities, stateInitials)
+        searchInput.setOnQueryTextListener (object : OnQueryTextListener,
+            androidx.appcompat.widget.SearchView.OnQueryTextListener {
+
+            override fun onQueryTextChange(newText: String): Boolean {
+                findUniversities(newText, universities, stateInitials)
+                return false
+            }
+
+            override fun onQueryTextSubmit(query: String): Boolean {
+                // task HERE
+                return false
+            }
+
+        })
+    }
+
+    private fun findUniversities(str: String, universitiesItems: ArrayList<University>, stateInitials: String){
+        var universities = universitiesItems
+        var universitiesFiltered = arrayListOf<University>()
+
+        val searchString = str.toLowerCase()
+
+        if(searchString != "") {
+            universities.forEach {
+                if (searchString.toRegex().find(it.initials.toLowerCase()) != null || searchString.toRegex().find(it.neighborhood.toLowerCase()) != null || searchString.toRegex().find(it.name.toLowerCase()) != null || searchString.toRegex().find(it.city.toLowerCase()) != null) {
+                    universitiesFiltered.add(it)
+                }
+            }
+            universities = universitiesFiltered
+        }
 
         universitiesList.layoutManager = LinearLayoutManager(this)
-        universitiesList.adapter =
-            UniversitiesAdapter(this, universities, stateInitials)
+        universitiesList.adapter = UniversitiesAdapter(this, universities, stateInitials)
     }
 }

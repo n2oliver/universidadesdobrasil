@@ -18,7 +18,7 @@ import kotlinx.android.synthetic.main.activity_web_search.*
 
 class WebSearchActivity : AppCompatActivity() {
     private lateinit var initials: String
-    private lateinit var stateInitials: String
+    private lateinit var neighborhood: String
     private lateinit var originalUrl: String
     private var url: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,8 +37,8 @@ class WebSearchActivity : AppCompatActivity() {
         adView.loadAd(adRequest)
 
         initials = intent.getStringExtra("initials")?:""
-        stateInitials = intent.getStringExtra("stateInitials")?:""
-        originalUrl = "https://www.google.com.br/search?q=$initials&newwindow=0"
+        neighborhood = intent.getStringExtra("neighborhood")?:""
+        originalUrl = "https://www.google.com.br/search?q=$initials+$neighborhood&newwindow=0"
         url = originalUrl
         val context = this
         webview_search.webViewClient = object : WebViewClient() {
