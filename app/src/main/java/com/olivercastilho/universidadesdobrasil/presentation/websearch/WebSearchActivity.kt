@@ -49,7 +49,7 @@ class WebSearchActivity : AppCompatActivity() {
         originalUrl = "https://www.google.com.br/search?q=$name+$initials+$neighborhood&newwindow=0"
         url = originalUrl
         val context = this
-        textView_universityNameBottom.text = name
+        textView_universityNameBottom.text = "$name ($initials)"
 
         AppBarTitle.changeAppBarTitle(textView_appName, state)
 
