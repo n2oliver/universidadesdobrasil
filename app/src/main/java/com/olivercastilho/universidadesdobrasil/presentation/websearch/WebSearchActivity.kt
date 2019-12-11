@@ -15,9 +15,11 @@ import com.olivercastilho.universidadesdobrasil.presentation.AppBarTitle
 import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_web_search.*
+import kotlinx.android.synthetic.main.universityname.*
 
 
 class WebSearchActivity : AppCompatActivity() {
+    private lateinit var name: String
     private lateinit var initials: String
     private lateinit var neighborhood: String
     private lateinit var state: String
@@ -39,13 +41,15 @@ class WebSearchActivity : AppCompatActivity() {
             .build()
         adView.loadAd(adRequest)
 
+        name = intent.getStringExtra("name")?:""
         initials = intent.getStringExtra("initials")?:""
         neighborhood = intent.getStringExtra("neighborhood")?:""
         state = intent.getStringExtra("state")?:""
 
-        originalUrl = "https://www.google.com.br/search?q=$initials+$neighborhood&newwindow=0"
+        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$neighborhood&newwindow=0"
         url = originalUrl
         val context = this
+        textView_universityNameBottom.text = name
 
         AppBarTitle.changeAppBarTitle(textView_appName, state)
 
