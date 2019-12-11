@@ -11,6 +11,7 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
 import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
+import com.olivercastilho.universidadesdobrasil.presentation.AppBarTitle
 import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_web_search.*
@@ -19,11 +20,13 @@ import kotlinx.android.synthetic.main.activity_web_search.*
 class WebSearchActivity : AppCompatActivity() {
     private lateinit var initials: String
     private lateinit var neighborhood: String
+    private lateinit var state: String
     private lateinit var originalUrl: String
     private var url: String? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_search)
+
 
         MobileAds.initialize(this)
         if(BuildConfig.DEBUG) {
@@ -38,9 +41,14 @@ class WebSearchActivity : AppCompatActivity() {
 
         initials = intent.getStringExtra("initials")?:""
         neighborhood = intent.getStringExtra("neighborhood")?:""
+        state = intent.getStringExtra("state")?:""
+
         originalUrl = "https://www.google.com.br/search?q=$initials+$neighborhood&newwindow=0"
         url = originalUrl
         val context = this
+
+        AppBarTitle.changeAppBarTitle(textView_appName, state)
+
         webview_search.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
                 context.url = url

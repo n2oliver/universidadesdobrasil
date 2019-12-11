@@ -1,8 +1,10 @@
 package com.olivercastilho.universidadesdobrasil.presentation.universities
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import android.widget.SearchView
 import android.widget.SearchView.*
 import androidx.appcompat.app.AppCompatActivity
@@ -13,6 +15,8 @@ import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
 import com.olivercastilho.universidadesdobrasil.data.repositories.StateRepository
 import com.olivercastilho.universidadesdobrasil.data.repositories.UniversityRepository
+import com.olivercastilho.universidadesdobrasil.presentation.AppBarTitle.Companion.changeAppBarTitle
+import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
 import java.util.*
@@ -39,33 +43,14 @@ class UniversitiesActivity : AppCompatActivity() {
         val state = intent.getStringExtra("state")
         val stateInitials = intent.getStringExtra("stateInitials")
 
-        var of = "do"
-        if(
-            state == StateRepository.saoPaulo.name ||
-            state == StateRepository.santaCatarina.name ||
-            state == StateRepository.minasGerais.name ||
-            state == StateRepository.goias.name ||
-            state == StateRepository.roraima.name ||
-            state == StateRepository.sergipe.name ||
-            state == StateRepository.pernambuco.name ||
-            state == StateRepository.rondonia.name ||
-            state == StateRepository.alagoas.name
-        ) {
-            of = "de"
-        } else if(
-            state == StateRepository.paraiba.name ||
-            state == StateRepository.bahia.name
-        ){
-            of = "da"
-        }
-        textView_appName.text = "Universidades\n$of $state"
+        changeAppBarTitle(textView_appName, state)
         var universities = ArrayList<University>((UniversityRepository.university[state] ?: error("Cannot fetch all universities")).values)
-        findUniversities("", universities, stateInitials)
+        findUniversities("", universities, stateInitials, state)
         searchInput.setOnQueryTextListener (object : OnQueryTextListener,
             androidx.appcompat.widget.SearchView.OnQueryTextListener {
 
             override fun onQueryTextChange(newText: String): Boolean {
-                findUniversities(newText, universities, stateInitials)
+                findUniversities(newText, universities, stateInitials, state)
                 return false
             }
 
@@ -75,9 +60,13 @@ class UniversitiesActivity : AppCompatActivity() {
             }
 
         })
+        imageView_ublogo.setOnClickListener {
+            intent = Intent(this, StatesActivity::class.java)
+            startActivity(intent)
+        }
     }
 
-    private fun findUniversities(str: String, universitiesItems: ArrayList<University>, stateInitials: String){
+    private fun findUniversities(str: String, universitiesItems: ArrayList<University>, stateInitials: String, stateName: String){
         var universities = universitiesItems
         var universitiesFiltered = arrayListOf<University>()
 
@@ -96,6 +85,6 @@ class UniversitiesActivity : AppCompatActivity() {
         }
 
         universitiesList.layoutManager = LinearLayoutManager(this)
-        universitiesList.adapter = UniversitiesAdapter(this, universities, stateInitials)
+        universitiesList.adapter = UniversitiesAdapter(this, universities, stateInitials, stateName)
     }
 }

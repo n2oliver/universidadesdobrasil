@@ -17,7 +17,7 @@ class DistritoFederal {
                 "(61) 3307-1750/2600",
                 "http://www.unb.br",
                 "unb@unb.br",
-                R.drawable.universidade_de_brasilia
+                null
             ),
             402 to University(
                 "CENTRO UNIVERSITÁRIO DE BRASÍLIA",
@@ -31,7 +31,7 @@ class DistritoFederal {
                 "(61) 39661252",
                 "www.uniceub.br",
                 "academico@uniceub.br",
-                R.drawable.centro_universitario_de_brasilia_uniceub
+                null
             ),
             403 to University(
                 "UNIVERSIDADE CATÓLICA DE BRASÍLIA",
@@ -45,7 +45,7 @@ class DistritoFederal {
                 "(61) 33569000",
                 "www.ucb.br",
                 "pauloh@ucb.br / mozart@ucb.br / sybelle@ucb.br",
-                R.drawable.universidade_catolica_de_brasilia_ucb
+                null
             ),
             404 to University(
                 "FACULDADES INTEGRADAS DA UPIS",
@@ -59,7 +59,7 @@ class DistritoFederal {
                 "(61) 3445-6700",
                 "www.upis.br",
                 "rodolpho@upis.br",
-                R.drawable.faculdades_integradas_da_upis_upis
+                null
             ),
             518 to University(
                 "CENTRO UNIVERSITÁRIO DO DISTRITO FEDERAL",
@@ -73,7 +73,7 @@ class DistritoFederal {
                 "(61) 37048802",
                 "www.udf.edu.br",
                 "renato@udf.edu.br",
-                R.drawable.centro_universitario_do_distrito_federal_udf
+                null
             ),
             706 to University(
                 "FACULDADE DE ARTES DULCINA DE MORAES",
@@ -87,7 +87,7 @@ class DistritoFederal {
                 "(61) 32265385",
                 "www.dulcina.art.br",
                 "lucia@dulcina.art.br",
-                R.drawable.faculdade_de_artes_dulcina_de_moraes_fadm
+                null
             ),
             774 to University(
                 "FACULDADE ALVORADA DE INFORMÁTICA E PROCESSAMENTO DE DADOS",
@@ -101,7 +101,7 @@ class DistritoFederal {
                 "(61)  3425 5674",
                 "www.alvorada.edu.br",
                 "alvorada@alvorada.com.br / andersonjca@gmail.com / henriquehortencioneto@alvorada.edu.br",
-                R.drawable.faculdade_alvorada_de_informatica_e_processamento_de_dados_faipd
+                null
             ),
             775 to University(
                 "FACULDADE ALVORADA DE EDUCAÇÃO FÍSICA E DESPORTO",
