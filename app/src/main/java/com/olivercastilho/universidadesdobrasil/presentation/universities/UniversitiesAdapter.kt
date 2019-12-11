@@ -31,6 +31,7 @@ class UniversitiesAdapter(private val context: Context, private val universities
     class ViewHolder(itemView: View, private val stateInitials: String, private val stateName: String) : RecyclerView.ViewHolder(itemView) {
         private fun openBrowser(view: View, university: University){
             val intent = Intent(view.context, WebSearchActivity::class.java)
+            intent.putExtra("name", university.name)
             intent.putExtra("initials", university.initials)
             intent.putExtra("neighborhood", university.neighborhood)
             intent.putExtra("state", stateName)
