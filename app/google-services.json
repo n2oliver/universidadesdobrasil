@@ -8,9 +8,9 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1004839134082:android:ee54c6233faf75ab6ba59b",
+        "mobilesdk_app_id": "1:1004839134082:android:28877ecc863b3b646ba59b",
         "android_client_info": {
-          "package_name": "com.olivercastilho.universidadesdobrasil"
+          "package_name": "com.universidadesdobrasil"
         }
       },
       "oauth_client": [
