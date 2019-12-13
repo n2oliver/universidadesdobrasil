@@ -3,7 +3,8 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f1f2f6">
     <LinearLayout
         android:id="@+id/linearLayout_actionBar"
         android:layout_width="match_parent"
@@ -30,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:singleLine="false"
+        android:textColor="#1975f0"
         android:layout_gravity="center_vertical"/>
     </LinearLayout>
 
