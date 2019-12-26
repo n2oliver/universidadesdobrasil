@@ -1,5 +1,4 @@
 package com.olivercastilho.universidadesdobrasil.data.repositories.states
-import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
 
 class DistritoFederal {
@@ -8,842 +7,362 @@ class DistritoFederal {
             2 to University(
                 "UNIVERSIDADE DE BRASÍLIA",
                 "UNB",
-                "38174000143",
                 "BRASILIA",
-                "Pública",
-                "Federal",
-                "70910900",
-                "Asa Norte",
-                "(61) 3307-1750/2600",
-                "http://www.unb.br",
-                "unb@unb.br",
-                null
+                "Asa Norte"
             ),
             402 to University(
                 "CENTRO UNIVERSITÁRIO DE BRASÍLIA",
                 "UNICEUB",
-                "59857000187",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70790075",
-                "Asa Norte",
-                "(61) 39661252",
-                "www.uniceub.br",
-                "academico@uniceub.br",
-                null
+                "Asa Norte"
             ),
             403 to University(
                 "UNIVERSIDADE CATÓLICA DE BRASÍLIA",
                 "UCB",
-                "331801000130",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71966700",
-                "Águas Claras",
-                "(61) 33569000",
-                "www.ucb.br",
-                "pauloh@ucb.br / mozart@ucb.br / sybelle@ucb.br",
-                null
+                "Águas Claras"
             ),
             404 to University(
                 "FACULDADES INTEGRADAS DA UPIS",
                 "UPIS",
-                "319889000174",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390125",
-                "ASA SUL",
-                "(61) 3445-6700",
-                "www.upis.br",
-                "rodolpho@upis.br",
-                null
+                "ASA SUL"
             ),
             518 to University(
                 "CENTRO UNIVERSITÁRIO DO DISTRITO FEDERAL",
                 "UDF",
-                "78220000138",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390030",
-                "ASA SUL",
-                "(61) 37048802",
-                "www.udf.edu.br",
-                "renato@udf.edu.br",
-                null
+                "ASA SUL"
             ),
             706 to University(
                 "FACULDADE DE ARTES DULCINA DE MORAES",
                 "FADM",
-                "33701392000175",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70392902",
-                "ASA SUL",
-                "(61) 32265385",
-                "www.dulcina.art.br",
-                "lucia@dulcina.art.br",
-                null
+                "ASA SUL"
             ),
             774 to University(
                 "FACULDADE ALVORADA DE INFORMÁTICA E PROCESSAMENTO DE DADOS",
                 "FAIPD",
-                "720011000146",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70790160",
-                "Asa Norte",
-                "(61)  3425 5674",
-                "www.alvorada.edu.br",
-                "alvorada@alvorada.com.br / andersonjca@gmail.com / henriquehortencioneto@alvorada.edu.br",
-                null
+                "Asa Norte"
             ),
             775 to University(
                 "FACULDADE ALVORADA DE EDUCAÇÃO FÍSICA E DESPORTO",
                 "FAEFD",
-                "720011000146",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70770520",
-                "ASA NORTE",
-                "61-3425-5600",
-                "www.alvorada.com.br",
-                "andersonjca@gmail.com",
-                null
+                "ASA NORTE"
             ),
             1060 to University(
                 "CENTRO UNIVERSITÁRIO DO INSTITUTO DE EDUCAÇÃO SUPERIOR DE BRASÍLIA - IESB",
                 "IESB",
-                "422333000109",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70850090",
-                "Asa Norte",
-                "(61) 3448-9800",
-                "",
-                "iesb@iesb.br",
-                null
+                "Asa Norte"
             ),
             1113 to University(
                 "CENTRO UNIVERSITÁRIO EURO-AMERICANO",
                 "UNIEURO",
-                "37174034000102",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70200001",
-                "Asa Sul",
-                "(61) 3445 5888",
-                "www.unieuro.edu.br",
-                "reitoria@unieuro.com.br",
-                null
+                "Asa Sul"
             ),
             1173 to University(
                 "FACULDADE ANHANGUERA DE BRASÍLIA",
                 "FAB",
-                "5808792000149",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72030700",
-                "Águas Claras",
-                "61 33526290",
-                "www.unianhanguera.edu.br",
-                "daex.aesa@aesapar.com / mantenedora@aesapar.com",
-                null
+                "Águas Claras"
             ),
             1309 to University(
                 "FACULDADE JESUS MARIA JOSÉ",
                 "FAJESU",
-                "62103619000189",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72130400",
-                "Taguatinga",
-                "(61) 3354 1838",
-                "www.fajesu.edu.br",
-                "secretaria@fajesu.edu.br",
-                null
+                "Taguatinga"
             ),
             1333 to University(
                 "FACULDADE CECAP DO LAGO NORTE",
                 "CECAP",
-                "78694000180",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71515205",
-                "LAGO NORTE",
-                "(61) 3468-9000",
-                "www.cecap.com.br",
-                "lina@cecap.com.br / cecap@educsup.org",
-                null
+                "LAGO NORTE"
             ),
             1428 to University(
                 "INSTITUTO DE ENSINO SUPERIOR PLANALTO",
                 "IESPLAN",
-                "697649000103",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390070",
-                "Asa Sul",
-                "(61) 3442 6016 / 34426011",
-                "www.Iesplan.br",
-                "ceplanalto@Iesplan.br",
-                null
+                "Asa Sul"
             ),
             1446 to University(
                 "CENTRO UNIVERSITÁRIO PLANALTO DO DISTRITO FEDERAL - UNIPLAN",
                 "UNIPLAN",
-                "1711282000106",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390130",
-                "ASA SUL",
-                "(61) 345 9100",
-                "www.uniplandf.edu.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "ASA SUL"
             ),
             1507 to University(
                 "FACULDADE PROJEÇÃO DE CEILÂNDIA",
                 "FACEB",
-                "10297324000197",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72210300",
-                "Ceilândia Norte",
-                "(61) 3038-7602",
-                "http://www.faculdadeprojecao.edu.br",
-                "catarina@projecao.br / fernando.figueiredo@projecao.br / jose.sergio@projecao.br",
-                null
+                "Ceilândia Norte"
             ),
             1518 to University(
                 "FACULDADE SANTA TEREZINHA",
                 "FAST",
-                "5808792000149",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72000000",
-                "Taguatinga",
-                "(61) 3475 2244",
-                "www.unianhanguera.edu.br",
-                "daex.aesa@aesapar.com / mantenedora@aesapar.com",
-                null
+                "Taguatinga"
             ),
             1538 to University(
                 "FACULDADE PROJEÇÃO",
                 "FAPRO",
-                "26444216000130",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72115700",
-                "Taguatinga",
-                "(61) 34513954",
-                "www.faculdadeprojecao.edu.br",
-                "catarina@projecao.br / fernando.figueiredo@projecao.br / jose.sergio@projecao.br",
-                null
+                "Taguatinga"
             ),
             1660 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS E TECNOLÓGICAS FACITEC",
                 "FACITEC",
-                "3316456000153",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72035509",
-                "Taguatinga",
-                "(61)30389700",
-                "www.facitec.br",
-                "facitec@facitec.br",
-                null
+                "Taguatinga"
             ),
             1661 to University(
                 "FACULDADE DE ADMINISTRAÇÃO ESCOLA SUPERIOR PROFESSOR PAULO MARTINS",
                 "ESPAM",
-                "3619353000162",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "73025040",
-                "Sobradinho",
-                "(61) 3487 7100",
-                "",
-                "catarina@projecao.br / fernando.figueiredo@projecao.br / jose.sergio@projecao.br",
-                null
+                "Sobradinho"
             ),
             1710 to University(
                 "FACULDADE DE NEGÓCIOS E TECNOLOGIAS DA INFORMAÇÃO",
                 "FACNET",
-                "5808792000149",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72030110",
-                "Taguatinga Sul",
-                "(61) 30371234",
-                "www.unianhanguera.edu.br",
-                "daex.aesa@aesapar.com / mantenedora@aesapar.com",
-                null
+                "Taguatinga Sul"
             ),
             1739 to University(
                 "IMP de Ensino Superior - IMP",
                 "IMP",
-                "3383280000152",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72035509",
-                "Taguatinga",
-                "(61)32267955",
-                "www.institutoimp.com.br",
-                "otavio@weducacional.com.br",
-                null
+                "Taguatinga"
             ),
             1779 to University(
                 "FACULDADE AIEC",
                 "AIEC / FAAB",
-                "3476821000197",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70670431",
-                "Sudoeste",
-                "(61) 3403-0000",
-                "www.aiec.br",
-                "secretaria@aiec.br",
-                null
+                "Sudoeste"
             ),
             1943 to University(
                 "FACULDADE SERRANA DE ENSINO SUPERIOR",
                 "FASEP",
-                "3950437000184",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "73040130",
-                "Sobradinho",
-                "(61)3487-5246/3487-4936",
-                "www.fasep.edu.br",
-                "uniserr@terra.com.br",
-                null
+                "Sobradinho"
             ),
             1951 to University(
                 "INSTITUTO DE EDUCAÇÃO E ENSINO SUPERIOR DE SAMAMBAIA",
                 "IESA",
-                "3736680000102",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72310060",
-                "Samambaia",
-                "(61) 3358-5057",
-                "www.iesadf.edu.br",
-                "faculdadesiesa@terra.com.br",
-                null
+                "Samambaia"
             ),
             1966 to University(
                 "FACULDADE ALBERT EINSTEIN",
                 "FALBE",
-                "4260186000179",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390050",
-                " 1º e 2º Pav",
-                "Plano Piloto",
-                "www.falbe.edu.br",
-                "diretor@falbe.edu.br",
-                null
+                " 1º e 2º Pav"
             ),
             2021 to University(
                 "FACULDADE JK - UNIDADE II - GAMA",
                 "",
-                "4244832000104",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72405370",
-                "Gama",
-                "(61)30318080",
-                "http://www.faculdadejkgama.edu.br",
-                "caf@rededeensinojk.com.br",
-                null
+                "Gama"
             ),
             2484 to University(
                 "FACULDADE PROCESSUS",
                 "PFD",
-                "116962000100",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70309079",
-                "Asa Sul",
-                "(61) 3442 5300 e 3442 5301",
-                "www.institutoprocessus.com.br",
-                "claudine@institutoprocessus.com.br",
-                null
+                "Asa Sul"
             ),
             2491 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DO CECAP",
                 "ISCECAP",
-                "78694000180",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71515205",
-                "Lago Norte",
-                "(61) 3468 9000",
-                "www.cecap.com.br",
-                "cecap@cecap.com.br / cecap@educsup.org",
-                null
+                "Lago Norte"
             ),
             2580 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO PAULO MARTINS",
                 "ISPAM",
-                "3619353000162",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "73025040",
-                "Sobradinho",
-                "(61) 3487 7100",
-                "",
-                "catarina@projecao.br / fernando.figueiredo@projecao.br / jose.sergio@projecao.br",
-                null
+                "Sobradinho"
             ),
             2904 to University(
                 "FACULDADE JK - GUARÁ",
                 "ESAMC BRASÍLIA",
-                "4861294000105",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390120",
-                "Asa Sul",
-                "(61) 3214-0100",
-                "www.rededeensinojk.com.br",
-                "claudia@rededeensinojk.com.br",
-                null
+                "Asa Sul"
             ),
             2942 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO FRANCISCANO NOSSA SENHORA DE FÁTIMA",
                 "FATIMA",
-                "95606380000119",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390060",
-                " Módulos",
-                "Asa Sul - Região Administrativa I",
-                "www.institutofatima.edu.br",
-                "(61) 3443-6554 / ines@institutofatima.edu.br /  helena@institutofatima.edu.br /  secretaria@institutofatima.edu.br",
-                null
+                " Módulos"
             ),
             2964 to University(
                 "FACULDADE PROJEÇÃO DO GUARÁ",
                 "",
-                "5158317000174",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71015057",
-                "Guará II",
-                "(61)33813000",
-                "www.faculdadeprojecao.edu.br",
-                "catarina@projecao.br / fernando.figueiredo@projecao.br / jose.sergio@projecao.br",
-                null
+                "Guará II"
             ),
             3203 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO ALBERT EINSTEIN",
                 "ISALBE",
-                "4260186000179",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390050",
-                " 1º e 2º Pav",
-                "Plano Piloto",
-                "www.falbe.edu.br",
-                "diretorfalbe@falbe.edu.br",
-                null
+                " 1º e 2º Pav"
             ),
             3223 to University(
                 "ESCOLA SUPERIOR DE CIÊNCIAS DA SAÚDE",
                 "ESCS",
-                "4287092000193",
                 "BRASILIA",
-                "Pública",
-                "Estadual",
-                "70710100",
-                "Asa Norte",
-                "33269300",
-                "www.escs.edu.br",
-                "gabescs@gmail.com",
-                null
+                "Asa Norte"
             ),
             3396 to University(
                 "FACULDADE LS",
                 "FACELS",
-                "2846920000150",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72120190",
-                "Taguatinga Sul",
-                "(61) 3352 2294",
-                "www.ls.edu.br",
-                "mada@ls.edu.br",
-                null
+                "Taguatinga Sul"
             ),
             3573 to University(
                 "FACULDADE TEOLÓGICA BATISTA DE BRASÍLIA",
                 "FTBB",
-                "505172000117",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70860110",
-                "Asa Norte",
-                "(61) 3272 1136",
-                "www.ftbb.com.br",
-                "ftbb@ftbb.com.br",
-                null
+                "Asa Norte"
             ),
             3610 to University(
                 "FACULDADES INTEGRADAS PROMOVE DE BRASILIA",
                 "",
-                "10739240000166",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71020621",
-                "Guará I",
-                "(61) 30359500",
-                "www.unicesp.edu.br",
-                "unicesp@unicesp.edu.br",
-                null
+                "Guará I"
             ),
             3611 to University(
                 "FACULDADES INTEGRADAS DA UNIÃO DE ENSINO SUPERIOR CERTO",
                 "UNICERTO",
-                "3464958000121",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72020600",
-                "Taguatinga -",
-                "(61) 3352 6404",
-                "www.unicerto.edu.br",
-                "secunicerto@yahoo.com.br",
-                null
+                "Taguatinga -"
             ),
             3663 to University(
                 "FACULDADE EVANGÉLICA",
                 "FE",
-                "5926949000130",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390100",
-                "Asa Sul",
-                "(61) 37048700",
-                "www.fe.edu.br",
-                "dalmaarruda@gmail.com",
-                null
+                "Asa Sul"
             ),
             3854 to University(
                 "FACULDADE DAS ÁGUAS EMENDADAS - FAE",
                 "FAE",
-                "3082246000148",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "73320000",
-                "Planaltina",
-                "(61) 3388 0809",
-                "www.faedf.edu.br",
-                "jupasaeducacionais@uol.com.br",
-                null
+                "Planaltina"
             ),
             3867 to University(
                 "FACULDADE MAUÁ DE BRASÍLIA",
                 "MAUADF",
-                "5969033000168",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72110800",
-                "Região Administrativa III Taguatinga",
-                "(61) 3397 5251",
-                "www.mauadf.com.br",
-                "dilcia@mauadf.com.br",
-                null
+                "Região Administrativa III Taguatinga"
             ),
             3874 to University(
                 "ESCOLA SUPERIOR PROFESSOR PAULO MARTINS",
                 "ESPAM",
-                "3619353000162",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "73340010",
-                "Planaltina",
-                "(61) 3389 2519",
-                "",
-                "catarina@projecao.br / fernando.figueiredo@projecao.br / jose.sergio@projecao.br",
-                null
+                "Planaltina"
             ),
             3980 to University(
                 "FACULDADE DE TECNOLOGIA CENACAP",
                 "CENACAP",
-                "2880389000132",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70760795",
-                "Plano Piloto",
-                "(61) 3347 1094",
-                "www.cenacap.com.br",
-                "cbitencourt@rededeensinojk.com.br",
-                null
+                "Plano Piloto"
             ),
             3992 to University(
                 "FACULDADE JK - ASA NORTE",
                 "-",
-                "9508124000157",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70333900",
-                "Asa Sul",
-                "(61)3272-0707",
-                "www.rededeensinojk.com.br",
-                "eaparente@gmail.com",
-                null
+                "Asa Sul"
             ),
             4068 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DO ICESP",
                 "ISE-ICESP",
-                "22669915000127",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71020621",
-                "Guará",
-                "(61) 3383 9500",
-                "www.unicesp.edu.br",
-                "unicesp@unicesp.edu.br",
-                null
+                "Guará"
             ),
             4095 to University(
                 "FACULDADE DE TECNOLOGIA EQUIPE DARWIN",
                 "FTED",
-                "5563315000160",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71968720",
-                "",
-                "(61) 3356 0900 e 33565603",
-                "www.faculdadedarwin.com",
-                "conselhosuperior@hotmail.com",
-                null
+                ""
             ),
             4173 to University(
                 "FACULDADE DE TECNOLOGIA PAULO FREIRE",
                 "FATEP-DF",
-                "8611500000171",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71503502",
-                "Lago Norte",
-                "(61) 3035 6006",
-                "",
-                "deosimar@unb.br",
-                null
+                "Lago Norte"
             ),
             4199 to University(
                 "FACULDADE DE TECNOLOGIA ROGACIONISTA",
                 "ROGA",
-                "83660225000100",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71065325",
-                "Guará II",
-                "(61) 3301 5737",
-                "www.rogacionista.edu.br",
-                "facroga@gmail.com",
-                null
+                "Guará II"
             ),
             4416 to University(
                 "FACULDADE JK - UNIDADE I - GAMA",
                 "",
-                "8692649000122",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72405165",
-                "Setor Central Gama",
-                "61 33855956",
-                "www.rededeensinojk.com.br",
-                "",
-                null
+                "Setor Central Gama"
             ),
             4588 to University(
                 "FACULDADE APOGEU",
                 "APOGEU",
-                "6929784000113",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72405290",
-                "Setor Central",
-                "61-34847097",
-                "www.faculdadesapogeu.com.br",
-                "secretaria@faculdadeapogeu.com.br",
-                null
+                "Setor Central"
             ),
             4732 to University(
                 "FACULDADE DE TECNOLOGIA SENAC DF",
                 "FAC SENAC DF",
-                "3296968000103",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70390003",
-                "Asa Sul",
-                "(61) 3217-8815",
-                "www.facsenac.edu.br",
-                "flavia.silveira@senacdf.com.br",
-                null
+                "Asa Sul"
             ),
             5277 to University(
                 "FACULDADE FORTIUM",
                 "",
-                "7075247000116",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70710200",
-                "Asa Norte",
-                "(61) 92959945",
-                "www.fortium.edu.br",
-                "reuzi@fortium.com.br",
-                null
+                "Asa Norte"
             ),
             5290 to University(
                 "FACULDADE DE CIÊNCIAS E TECNOLOGIA DE BRASÍLIA",
                 "FACITEB",
-                "5808792000149",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70394901",
-                "Asa Sul",
-                "061 33227246",
-                "",
-                "daex.aesa@aesapar.com / mantenedora@aesapar.com",
-                null
+                "Asa Sul"
             ),
             5439 to University(
                 "FACULDADES INTEGRADAS DA UNIÃO EDUCACIONAL DO PLANALTO CENTRAL - FACIPLAC",
                 "FACIPLAC",
-                "720144000112",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "71615300",
-                "LAGO SUL",
-                "(61)3035 7575 / (61) 3035 7568",
-                "www.faciplac.edu.br",
-                "fatima.uniplac@gmail.com / gezanemeth@gmail.com / deusa.uniplac@gmail.com",
-                null
+                "LAGO SUL"
             ),
             11895 to University(
                 "FACULDADE EVANGÉLICA DE TAGUATINGA",
                 "FE TAGUATINGA",
-                "8958350000177",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "72140604",
-                "Taguatinga",
-                "(61)34911620",
-                "www.fe.edu.br",
-                "dalmaarruda@gmail.com / helpcaldas@gmail.com",
-                null
+                "Taguatinga"
             ),
             12247 to University(
                 "ESCOLA DE DIREITO DE BRASÍLIA",
                 "EDB",
-                "2474172000122",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70200670",
-                "Asa Sul",
-                "35356565",
-                "www.idp.edu.br",
-                "idp@idp.edu.br",
-                null
+                "Asa Sul"
             ),
             12803 to University(
                 "FACULDADE IBMEC DISTRITO FEDERAL",
                 "IBMEC/DF",
-                "4298309000160",
                 "BRASILIA",
-                "Privada",
-                "Privada",
-                "70712900",
-                "Asa Norte",
-                "(061) 38787777",
-                "www.ibmec.br/df",
-                "richardfb@ibmecdf.br / valquiria.dumere@veris.edu.br / santusambs@ibmecmg.br",
-                null
+                "Asa Norte"
             ),
             14408 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIENCIA E TECNOLOGIA DE BRASILIA",
                 "IFB",
-                "10791831000182",
                 "BRASILIA",
-                "Pública",
-                "Federal",
-                "70730521",
-                "Asa Norte",
-                "061 39055435",
-                "www.ifb.edu.br",
-                "ifb@mec.gov.br",
-                null
+                "Asa Norte"
             ),
             78 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE ALEGRE",
                 "FAFIA",
-                "27174101000135",
                 "ALEGRE",
-                "Pública",
-                "Municipal",
-                "29500000",
-                "Centro",
-                "",
-                "http://www.fafia.edu.br",
-                "fafia@fafia.edu.br",
-                null
+                "Centro"
             )
         )
     }

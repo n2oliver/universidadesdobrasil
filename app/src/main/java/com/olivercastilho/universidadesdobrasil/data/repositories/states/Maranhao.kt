@@ -8,422 +8,182 @@ class Maranhao {
             548 to University(
                 "UNIVERSIDADE FEDERAL DO MARANHÃO",
                 "UFMA",
-                "6279103000119",
                 "SAO LUIS",
-                "Pública",
-                "Federal",
-                "64800000",
-                "BANCANGA",
-                "(98) 3301 8004 / 3301 8003",
-                "www.ufma.br",
-                "aldir@ufma.br",
-                null
+                "BANCANGA"
             ),
             568 to University(
                 "UNIVERSIDADE ESTADUAL DO MARANHÃO",
                 "UEMA",
-                "6352421000168",
                 "SAO LUIS",
-                "Pública",
-                "Estadual",
-                "65055970",
-                " Tirirical.",
-                "(98)3245 5461",
-                "www.uema.br",
-                "reitoria@uema.br",
-                null
+                " Tirirical."
             ),
             823 to University(
                 "CENTRO UNIVERSITÁRIO DO MARANHÃO",
                 "UNICEUMA",
-                "23689763000197",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65075120",
-                "Renascença II",
-                "(98)3214 4277",
-                "www.ceuma.br",
-                "ntae@ceuma.br",
-                null
+                "Renascença II"
             ),
             1115 to University(
                 "FACULDADE SANTA TEREZINHA",
                 "CEST",
-                "6048565000125",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65045180",
-                "Anil",
-                "(98) 3213 8000",
-                "www.cest.edu.br",
-                "cest@elo.com.br",
-                null
+                "Anil"
             ),
             1452 to University(
                 "FACULDADE ATENAS MARANHENSE",
                 "FAMA",
-                "3062543000121",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65065470",
-                "Turu",
-                "(98)21086000",
-                "www.fama.br",
-                "ddi@kroton.com.br",
-                null
+                "Turu"
             ),
             1546 to University(
                 "FACULDADE DE EDUCAÇÃO SÃO FRANCISCO",
                 "FAESF",
-                "6043988000152",
                 "PEDREIRAS",
-                "Privada",
-                "Privada",
-                "65725000",
-                "engenho",
-                "(99) 36265400",
-                "www.faesf.com.br",
-                "faesf@faesf.com.br",
-                null
+                "engenho"
             ),
             1590 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS APLICADAS",
                 "FACSÃOLUÍS",
-                "3186792000129",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65020250",
-                "Diamante",
-                "(098) 3214-6400 / 6430",
-                "www.facsaoluis.br",
-                "geraldo@facsaoluis.br",
-                null
+                "Diamante"
             ),
             1597 to University(
                 "FACULDADE SANTA FÉ",
                 "CESSF",
-                "2706152000130",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65040003",
-                "Outreiro da Cruz",
-                "(98) 21090505",
-                "www.santafe.edu.br",
-                "duda@santafe.edu.br",
-                null
+                "Outreiro da Cruz"
             ),
             1717 to University(
                 "FACULDADE DE IMPERATRIZ",
                 "FACIMP",
-                "69441194000167",
                 "IMPERATRIZ",
-                "Privada",
-                "Privada",
-                "65900000",
-                "Residencial Kubitschek",
-                "(99) 3524 8298 ou 3524 1775",
-                "www.facimp.edu.br",
-                "gabinete@facimp.edu.br",
-                null
+                "Residencial Kubitschek"
             ),
             1847 to University(
                 "FACULDADE ATENAS MARANHENSE DE IMPERATRIZ",
                 "FAMA",
-                "3062543000121",
                 "IMPERATRIZ",
-                "Privada",
-                "Privada",
-                "65901100",
-                "Centro",
-                "(99) 21016000",
-                "www.famaitz.edu.br",
-                "ddi@kroton.com.br",
-                null
+                "Centro"
             ),
             1885 to University(
                 "UNIDADE DE ENSINO SUPERIOR DOM BOSCO",
                 "UNDB",
-                "41478561000188",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65075970",
-                "Renascença",
-                "(98)40097070",
-                "www.undb.com.br",
-                "nti@dbosco.com.br / francineide@undb.com.br / ceres@elo.com.br / francineide1@hotmail.com",
-                null
+                "Renascença"
             ),
             1931 to University(
                 "INSTITUTO DE ENSINO SUPERIOR FRANCISCANO",
                 "IESF",
-                "10187537000166",
                 "PACO DO LUMIAR",
-                "Privada",
-                "Privada",
-                "65130000",
-                "Maiobão",
-                "(98) 3274 32 04",
-                "www.iesfma.com.br",
-                "tiagocarneiro@iesfma.com.br",
-                null
+                "Maiobão"
             ),
             1967 to University(
                 "FACULDADE DO VALE DO ITAPECURÚ",
                 "FAI",
-                "3963172000159",
                 "CAXIAS",
-                "Privada",
-                "Privada",
-                "65600120",
-                "CENTRO",
-                "99 3421-7000/3421-8000",
-                "http://www.faionline.com.br",
-                "fai@faionline.com.br",
-                null
+                "CENTRO"
             ),
             2049 to University(
                 "INSTITUTO DE ESTUDOS SUPERIORES DO MARANHÃO",
                 "IESMA",
-                "6349146000123",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65010010",
-                "Centro",
-                "(98) 3334-6458",
-                "www.iesma.com.br",
-                "amcolins@elo.com.br",
-                null
+                "Centro"
             ),
             2189 to University(
                 "FACULDADE DO MARANHÃO",
                 "FACAM-MA",
-                "4855275000168",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65000000",
-                "Centro",
-                "(98) 3227.1238/3227.8916",
-                "",
-                "carloscesarbandeira@yahoo.com.br /  facam@live.com",
-                null
+                "Centro"
             ),
             2539 to University(
                 "FACULDADE EVANGÉLICA DO MEIO NORTE",
                 "FAEME",
-                "2831442000105",
                 "COROATA",
-                "Privada",
-                "Privada",
-                "65415000",
-                "Centro",
-                "(99) 3641 2812",
-                "",
-                "faeme.ieb@hotmail.com",
-                null
+                "Centro"
             ),
             2554 to University(
                 "FACULDADE DE EDUCAÇÃO SANTA TEREZINHA",
                 "FEST",
-                "6754600000121",
                 "IMPERATRIZ",
-                "Privada",
-                "Privada",
-                "65915000",
-                "Parque Anhanguera",
-                "(99) 2101 0880",
-                "www.fest.edu.br",
-                "fest@fest.edu.br",
-                null
+                "Parque Anhanguera"
             ),
             2724 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DO SUL DO MARANHÃO",
                 "IESMA",
-                "4564299000168",
                 "IMPERATRIZ",
-                "Privada",
-                "Privada",
-                "65907070",
-                "Nova Imperatriz",
-                "(99) 2101 0202",
-                "www.unisulma.edu.br",
-                "unisulma@unisulma.edu.br / ckto@terra.com.br / rosanavcarneiro@hotmail.com / gdi@unisulma.edu.br",
-                null
+                "Nova Imperatriz"
             ),
             2909 to University(
                 "FACULDADE DO ESTADO DO MARANHÃO",
                 "FACEM",
-                "1711282000106",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65071680",
-                "Calhau",
-                "(98) 32368081",
-                "www.unilist.com.br/facem",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Calhau"
             ),
             2949 to University(
                 "FACULDADE DO BAIXO PARNAÍBA",
                 "FAP",
-                "3985642000185",
                 "CHAPADINHA",
-                "Privada",
-                "Privada",
-                "65500000",
-                "Centro",
-                "(98) 3471 1955",
-                "www.fapeduca.com.br",
-                "iscde@terra.com.br",
-                null
+                "Centro"
             ),
             3375 to University(
                 "INSTITUTO DE ENSINO SUPERIOR MÚLTIPLO",
                 "IESM",
-                "5379062000170",
                 "TIMON",
-                "Privada",
-                "Privada",
-                "65434760",
-                "Parque São Francisco",
-                "(99) 3212 2185",
-                "www.institutoiesm.com.br",
-                "iesm-faculdade@uol.com.br",
-                null
+                "Parque São Francisco"
             ),
             3724 to University(
                 "FACULDADE MARANHENSE SÃO JOSÉ DOS COCAIS",
                 "FSJ",
-                "5957429000195",
                 "TIMON",
-                "Privada",
-                "Privada",
-                "65631540",
-                "Loteamento Boa Vista",
-                "(99) 3212 5538",
-                "www.sjc.edu.br",
-                "fsj@sjc.edu.br / carminha.antropologia@gmail.com / herbert.lago@com / marcodolago@hotmail",
-                null
+                "Loteamento Boa Vista"
             ),
             3741 to University(
                 "FACULDADE DE EDUCAÇÃO DE BACABAL - FEBAC",
                 "FEBAC",
-                "5438997000180",
                 "BACABAL",
-                "Privada",
-                "Privada",
-                "65700000",
-                "Centro",
-                "(99) 36213403",
-                "www.febac.edu.br",
-                "viviane@febac.edu.br / neyderman@febac.edu.br / edvania@febac.edu.br / gildasiomendes@oi.com.br",
-                null
+                "Centro"
             ),
             3785 to University(
                 "INSTITUTO MARANHENSE DE ENSINO E CULTURA",
                 "IMEC",
-                "6099229000101",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65071680",
-                "Jacarati",
-                "(98) 3236 1307",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Jacarati"
             ),
             3869 to University(
                 "INSTITUTO FLORENCE DE ENSINO SUPERIOR",
                 "IFES",
-                "6040046000110",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65020470",
-                "Centro",
-                "98 38782120",
-                "www.florence.edu.br",
-                "florencesuperior@gmail.com",
-                null
+                "Centro"
             ),
             4399 to University(
                 "FACULDADE DE BALSAS",
                 "UNIBALSAS",
-                "7344774000189",
                 "BALSAS",
-                "Privada",
-                "Privada",
-                "65800000",
-                "Fazenda Malidere 4",
-                "(99)35414603",
-                "www.unibalsas.edu.br",
-                "dir.geral@unibalsas.edu.br",
-                null
+                "Fazenda Malidere 4"
             ),
             4865 to University(
                 "FACULDADE PITÁGORAS DE SÃO LUIZ",
                 "",
-                "3239470000109",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65061050",
-                "Olho D'água",
-                "(98) 3878.8000",
-                "faculdadepitagoras.com.br",
-                "ddi@kroton.com.br",
-                null
+                "Olho D'água"
             ),
             4964 to University(
                 "FACULDADE DE CIÊNCIAS E TECNOLOGIA DO MARANHÃO",
                 "FACEMA",
-                "8074032000143",
                 "CAXIAS",
-                "Privada",
-                "Privada",
-                "65606020",
-                "CENTRO",
-                "9934226800",
-                "www.facema.edu.br",
-                "facema@facema.edu.br",
-                null
+                "CENTRO"
             ),
             12601 to University(
                 "FACULDADE BRASILEIRA DE ESTUDOS AVANÇADOS",
                 "FABEA",
-                "2425923000110",
                 "SAO LUIS",
-                "Privada",
-                "Privada",
-                "65071680",
-                "Alto do Calhau",
-                "(98)32139898",
-                "www.isanfgv.com.br",
-                "fabea@isanfgv.com.br",
-                null
+                "Alto do Calhau"
             ),
             600 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO MARANHÃO",
                 "IFMA",
-                "10735145000194",
                 "SAO LUIS",
-                "Pública",
-                "Federal",
-                "65030005",
-                "Monte Castelo",
-                "(98) 3218 9001/(98) 3218 9033",
-                "www.ifma.edu.br",
-                "gabinete@ifma.edu.br",
-                null
+                "Monte Castelo"
             )
         )
     }

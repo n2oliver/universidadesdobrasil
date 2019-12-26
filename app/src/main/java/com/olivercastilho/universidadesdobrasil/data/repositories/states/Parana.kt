@@ -8,2592 +8,1112 @@ class Parana {
             1257 to University(
                 "FACULDADE DE ADMINISTRAÇÃO  CIÊNCIAS EDUCAÇÃO E LETRAS",
                 "FACEL",
-                "77387363000156",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80420010",
-                "Centro",
-                "(41) 3324 1115",
-                "www.facel.com.br",
-                "secretaria@facel.com.br",
-                null
+                "Centro"
             ),
             725 to University(
                 "FACULDADE ESTADUAL DE FILOSOFIA CIÊNCIAS E LETRAS DE PARANAGUÁ",
                 "FAFIPAR",
-                "77046951000126",
                 "PARANAGUA",
-                "Pública",
-                "Estadual",
-                "83203280",
-                "Centro",
-                "41-3423-3644",
-                "www.fafipar.br",
-                "fafipar@fafipar.br",
-                null
+                "Centro"
             ),
             1449 to University(
                 "FACULDADE DE EDUCAÇÃO ADMINISTRAÇÃO E TECNOLOGIA DE IBAITI",
                 "FEATI",
-                "2972004000167",
                 "IBAITI",
-                "Privada",
-                "Privada",
-                "84900000",
-                "Flamenguinho",
-                "(43) 3546 1263 / (43) 3546-2468",
-                "www.feati.com.br",
-                "feati@feati.com.br",
-                null
+                "Flamenguinho"
             ),
             1534 to University(
                 "FACULDADE DE CIÊNCIAS LETRAS E EDUCAÇÃO DO NOROESTE DO PARANÁ",
                 "FACLENOR",
-                "80893423000117",
                 "LOANDA",
-                "Privada",
-                "Privada",
-                "87900000",
-                "CENTRO",
-                "(44) 3425 1109",
-                "www.novohorizonte.edu.br",
-                "inovohorizonte@brturbo.com.br",
-                null
+                "CENTRO"
             ),
             14724 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO PARANÁ",
                 "IFPR",
-                "10652179000115",
                 "CURITIBA",
-                "Pública",
-                "Federal",
-                "80230150",
-                "Rebouças",
-                "(41) 3535 1660",
-                "www.ifpr.edu.br",
-                "gabinete@ifpr.edu.br",
-                null
+                "Rebouças"
             ),
             9 to University(
                 "UNIVERSIDADE ESTADUAL DE LONDRINA",
                 "UEL",
-                "77046951000126",
                 "LONDRINA",
-                "Pública",
-                "Estadual",
-                "86051990",
-                "CAMPUS UNIVERSITÁRIO",
-                "(43)) 3371 4311",
-                "www.uel.br",
-                "gabreitor@uel.br / proplandaai@uel.br",
-                null
+                "CAMPUS UNIVERSITÁRIO"
             ),
             10 to University(
                 "PONTIFÍCIA UNIVERSIDADE CATÓLICA DO PARANÁ",
                 "PUCPR",
-                "76659820000151",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80215901",
-                "Prado Velho",
-                "(41) 3271-2303",
-                "www.pucpr.br",
-                "alboni.vieira@pucpr.br / estatistica@pucpr.br",
-                null
+                "Prado Velho"
             ),
             46 to University(
                 "FACULDADE ESTADUAL DE CIÊNCIAS ECONÔMICAS DE APUCARANA",
                 "FECEA",
-                "77046951000126",
                 "APUCARANA",
-                "Pública",
-                "Estadual",
-                "86800970",
-                "VILA NOVA",
-                "(43) 3420 5700",
-                "www.fecea.br",
-                "fecea@fecea.br",
-                null
+                "VILA NOVA"
             ),
             57 to University(
                 "UNIVERSIDADE ESTADUAL DE MARINGÁ",
                 "UEM",
-                "77046951000126",
                 "MARINGA",
-                "Pública",
-                "Estadual",
-                "87020900",
-                "Zona 7",
-                "(44)3011-4240",
-                "www.uem.br",
-                "sec-pen@uem.br",
-                null
+                "Zona 7"
             ),
             75 to University(
                 "FACULDADE ESTADUAL DE EDUCAÇÃO CIÊNCIAS E LETRAS DE PARANAVAÍ",
                 "FAFIPA",
-                "77046951000126",
                 "PARANAVAI",
-                "Pública",
-                "Estadual",
-                "87703000",
-                "Jardim Morumbi",
-                "(44)34233210",
-                "www.fafipa.br",
-                "fafipa@fafipa.pr.gov.br",
-                null
+                "Jardim Morumbi"
             ),
             197 to University(
                 "FACULDADE DE EDUCAÇÃO SUPERIOR DO PARANÁ",
                 "FESPRR",
-                "76602895000104",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80060150",
-                "Centro",
-                "(41) 3028 6500",
-                "www.fesppr.br",
-                "fesp@fesppr.br /  paludo@fesppr.br",
-                null
+                "Centro"
             ),
             298 to University(
                 "UNIVERSIDADE NORTE DO PARANÁ",
                 "UNOPAR",
-                "75234583000114",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86041140",
-                "Jardim Piza",
-                "(43)3371-7700",
-                "www.unopar.br",
-                "cadastro@unopar.br",
-                null
+                "Jardim Piza"
             ),
             299 to University(
                 "FACULDADE DE JANDAIA DO SUL",
                 "FAFIJAN",
-                "78197993000120",
                 "JANDAIA DO SUL",
-                "Privada",
-                "Privada",
-                "86900000",
-                "Centro",
-                "(43) 3432 4141",
-                "www.fafijan.br",
-                "cac@fafijan.br",
-                null
+                "Centro"
             ),
             353 to University(
                 "FACULDADE EVANGÉLICA DO PARANÁ",
                 "FEPAR",
-                "76575604000128",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80730000",
-                "Bigorrilho",
-                "(41)32405500",
-                "http://www.fepar.edu.br",
-                "fepar@fepar.edu.br / nielcia@fepar.edu.br",
-                null
+                "Bigorrilho"
             ),
             355 to University(
                 "UNIVERSIDADE TUIUTI DO PARANÁ",
                 "UTP",
-                "76590249000166",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82515180",
-                "Bacacheri",
-                "(41) 3331 7700",
-                "www.utp.br",
-                "gabinete@utp.br",
-                null
+                "Bacacheri"
             ),
             421 to University(
                 "FACULDADE ESTADUAL DE CIÊNCIAS E LETRAS DE CAMPO MOURÃO",
                 "FECILCAM",
-                "77046951000126",
                 "CAMPO MOURAO",
-                "Pública",
-                "Estadual",
-                "87303100",
-                "CENTRO",
-                "(44) 3518 1880 R- 827",
-                "http://www.fecilcam.br/",
-                "fecilcam@fecilcam.br",
-                null
+                "CENTRO"
             ),
             430 to University(
                 "CENTRO UNIVERSITÁRIO FILADÉLFIA",
                 "UNIFIL",
-                "78624202000100",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86020000",
-                "Centro",
-                "(43) 3375-7500",
-                "www.unifil.br",
-                "caa@unifil.br",
-                null
+                "Centro"
             ),
             432 to University(
                 "FACULDADE PARANAENSE",
                 "FACCAR",
-                "75344895000180",
                 "ROLANDIA",
-                "Privada",
-                "Privada",
-                "86600000",
-                "Jardim Horácio Cabral",
-                "(43)32558500",
-                "www.faccar.com.br",
-                "secretariageral@faccar.com.br / jaime@faccar.com.br",
-                null
+                "Jardim Horácio Cabral"
             ),
             437 to University(
                 "UNIVERSIDADE PARANAENSE",
                 "UNIPAR",
-                "75517151000110",
                 "UMUARAMA",
-                "Privada",
-                "Privada",
-                "87500001",
-                "Centro",
-                "4436212828",
-                "http://www.unipar.br/",
-                "degedu@unipar.br /  avaliacao@unipar.br",
-                null
+                "Centro"
             ),
             535 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE MANDAGUARI",
                 "FAFIMAN",
-                "78959145000101",
                 "MANDAGUARI",
-                "Pública",
-                "Municipal",
-                "86975000",
-                "CENTRO",
-                "(44) 3233-1356",
-                "www.fafiman.br",
-                "secretaria@fafiman.br",
-                null
+                "CENTRO"
             ),
             557 to University(
                 "ESCOLA DE MÚSICA E BELAS ARTES DO PARANÁ",
                 "EMBAP",
-                "77046951000126",
                 "CURITIBA",
-                "Pública",
-                "Estadual",
-                "80440220",
-                "BATEL",
-                "41-30260029",
-                "www.embap.pr.gov.br",
-                "belasartes@embap.pr.gov.br",
-                null
+                "BATEL"
             ),
             558 to University(
                 "FACULDADE DE ARTES DO PARANÁ",
                 "FAP",
-                "77046951000126",
                 "CURITIBA",
-                "Pública",
-                "Estadual",
-                "80035050",
-                "BAIRRO CABRAL",
-                "(41) 32507300",
-                "www.fap.pr.gov.br",
-                "sac@fap.pr.gov.br / gislainevagetti@fap.pr.gov.br / jorgesantos@fap.pr.gov.br",
-                null
+                "BAIRRO CABRAL"
             ),
             571 to University(
                 "UNIVERSIDADE FEDERAL DO PARANÁ",
                 "UFPR",
-                "75095679000149",
                 "CURITIBA",
-                "Pública",
-                "Federal",
-                "80060000",
-                "CENTRO",
-                "(41)3360-5001",
-                "www.ufpr.br",
-                "copaie@ufpr.br / prograd@ufpr.br / exped@ufpr.br / junglos@ufpr.br",
-                null
+                "CENTRO"
             ),
             588 to University(
                 "UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ",
                 "UTFPR",
-                "75101873000190",
                 "CURITIBA",
-                "Pública",
-                "Federal",
-                "80230010",
-                "Rebouças",
-                "(41) 3310 4423",
-                "",
-                "reitoria@utfpr.edu.br",
-                null
+                "Rebouças"
             ),
             609 to University(
                 "UNIVERSIDADE ESTADUAL DO OESTE DO PARANÁ",
                 "UNIOESTE",
-                "77046951000126",
                 "CASCAVEL",
-                "Pública",
-                "Estadual",
-                "85819110",
-                "JARDIM UNIVERSITÁRIO",
-                "4532203084",
-                "www.unioeste.br",
-                "gpc@unioeste.br",
-                null
+                "JARDIM UNIVERSITÁRIO"
             ),
             649 to University(
                 "CENTRO UNIVERSITÁRIO DE UNIÃO DA VITÓRIA",
                 "UNIUV",
-                "75967745000123",
                 "UNIAO DA VITORIA",
-                "Pública",
-                "Municipal",
-                "84600000",
-                "São Basílio Magno",
-                "(42) 3522-1837",
-                "www.uniuv.edu.br",
-                "uniuv@uniuv.edu.br",
-                null
+                "São Basílio Magno"
             ),
             687 to University(
                 "FACULDADE ESTADUAL DE FILOSOFIA CIÊNCIAS LETRAS UNIÃO DA VITÓRIA",
                 "FAFIUV",
-                "77046951000126",
                 "UNIAO DA VITORIA",
-                "Pública",
-                "Estadual",
-                "84600000",
-                "CENTRO",
-                "42 35219100",
-                "www.fafiuv.br",
-                "fafiuv@yahoo.com.br",
-                null
+                "CENTRO"
             ),
             715 to University(
                 "CENTRO UNIVERSITÁRIO FRANCISCANO DO PARANÁ",
                 "FAE",
-                "76497338000162",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80230080",
-                "Centro",
-                "(41)2105-4100",
-                "",
-                "dlne@fae.edu",
-                null
+                "Centro"
             ),
             730 to University(
                 "UNIVERSIDADE ESTADUAL DE PONTA GROSSA",
                 "UEPG",
-                "77046951000126",
                 "PONTA GROSSA",
-                "Pública",
-                "Estadual",
-                "84030900",
-                "Uvaranas",
-                "(42)32203000 / (42)32203300",
-                "www.uepg.br",
-                "uepg@uepg.br",
-                null
+                "Uvaranas"
             ),
             761 to University(
                 "FACULDADES SPEI",
                 "FACSPEI",
-                "77667822000155",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80410180",
-                "Centro",
-                "(41) 3321 3131",
-                "www.spei.br",
-                "vera@spei.br",
-                null
+                "Centro"
             ),
             810 to University(
                 "CENTRO TÉCNICO-EDUCACIONAL SUPERIOR DO OESTE PARANAENSE",
                 "CTESOP",
-                "78669868000176",
                 "ASSIS CHATEAUBRIAND",
-                "Privada",
-                "Privada",
-                "85935000",
-                "Jardim Paraná",
-                "(44) 3528 2337",
-                "http://www.ctesop.com.br",
-                "unimeo@unimeo.com.br",
-                null
+                "Jardim Paraná"
             ),
             822 to University(
                 "ESCOLA SUPERIOR DE ESTUDOS EMPRESARIAIS E INFORMÁTICA",
                 "ESEEI",
-                "79472437000188",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80215170",
-                "Prado Velho",
-                "",
-                "www.spet.br",
-                "izabel@spet.br",
-                null
+                "Prado Velho"
             ),
             873 to University(
                 "FACULDADES UNIFICADAS DE FOZ DO IGUAÇU",
                 "UNIFOZ",
-                "77806750000180",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85851400",
-                "Centro",
-                "(45) 3574 2611",
-                "www.unifoz.com.br",
-                "unifoz@unifoz.com.br",
-                null
+                "Centro"
             ),
             877 to University(
                 "FACULDADE DE ECONOMIA E PROCESSAMENTO DE DADOS DE FOZ DO IGUAÇU",
                 "FEPI",
-                "75432153000107",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85863720",
-                "Jardim Central",
-                "(45) 3520 1727",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Jardim Central"
             ),
             918 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DE CASCAVEL",
                 "FCSAC",
-                "80882772000133",
                 "CASCAVEL",
-                "Privada",
-                "Privada",
-                "85806080",
-                "Santa Cruz",
-                "(45) 3036 3636",
-                "www.univel.br",
-                "desenvolvimento@univel.br",
-                null
+                "Santa Cruz"
             ),
             1042 to University(
                 "UNIVERSIDADE POSITIVO",
                 "UP",
-                "78791712000163",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81280330",
-                "Campo Comprido",
-                "(41) 3317-3000",
-                "www.up.com.br",
-                "secretaria@up.com.br",
-                null
+                "Campo Comprido"
             ),
             1078 to University(
                 "FACULDADE INTEGRADO DE CAMPO MOURÃO",
                 "CEI",
-                "79264628000154",
                 "CAMPO MOURAO",
-                "Privada",
-                "Privada",
-                "87301010",
-                "CENTRO",
-                "(44) 3518 2500",
-                "www.grupointegrado.br",
-                "secretaria@grupointegrado.br",
-                null
+                "CENTRO"
             ),
             1079 to University(
                 "FACULDADE MARINGÁ",
                 "CESPAR",
-                "1201203000109",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87010020",
-                "ZONA 07",
-                "(44) 3027 1100",
-                "www.faculdadesmaringa.br",
-                "faculdadesmaringa@faculdadesmaringa.br",
-                null
+                "ZONA 07"
             ),
             1125 to University(
                 "FACULDADES INTEGRADAS ESPÍRITA",
                 "FIES",
-                "76038843000149",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82010340",
-                "Santo Inácio",
-                "(41) 3111 1717",
-                "www.faculdadeespirita.com.br",
-                "dirgeral@faculdadeespirita.com.br",
-                null
+                "Santo Inácio"
             ),
             1126 to University(
                 "UNIVERSIDADE ESTADUAL DO CENTRO OESTE",
                 "UNICENTRO",
-                "77046951000126",
                 "GUARAPUAVA",
-                "Pública",
-                "Estadual",
-                "85015430",
-                "",
-                "(42) 3621-1000",
-                "www.unicentro.br",
-                "webmail@unicentro.br",
-                null
+                ""
             ),
             1196 to University(
                 "CENTRO UNIVERSITÁRIO DE MARINGÁ - CEUMAR",
                 "CESUMAR",
-                "79265617000199",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87013000",
-                "Jd. Aclimação",
-                "(44) 3027 6360",
-                "www.cesumar.br",
-                "normas@cesumar.br",
-                null
+                "Jd. Aclimação"
             ),
             1198 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS E APLICADAS DO PARANÁ",
                 "FACET",
-                "127468000141",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80010130",
-                "Centro",
-                "(41) 3223 6860",
-                "www.facet.br",
-                "facet@facet.br",
-                null
+                "Centro"
             ),
             1205 to University(
                 "FACULDADE EDUCACIONAL DA LAPA",
                 "FAEL",
-                "2558975000165",
                 "LAPA",
-                "Privada",
-                "Privada",
-                "83750000",
-                "Boqueirão",
-                "(41) 3622 2270",
-                "www.fael.edu.br",
-                "secretariageral@fael.edu.br",
-                null
+                "Boqueirão"
             ),
             1232 to University(
                 "CENTRO UNIVERSITÁRIO CAMPOS DE ANDRADE",
                 "UNIANDRADE",
-                "79732194000170",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80020040",
-                "Centro",
-                "(41)  3219-4290",
-                "www.uniandrade.edu.br",
-                "ana.vogt@gmail.com",
-                null
+                "Centro"
             ),
             1256 to University(
                 "FACULDADE DOM BOSCO",
                 "DOM BOSCO",
-                "2096765000100",
                 "CASCAVEL",
-                "Privada",
-                "Privada",
-                "85806095",
-                "Loteamento FAG",
-                "(45) 3321 3900",
-                "www.dombosco.fag.edu.br",
-                "sergio.angelis@fag.edu.br / ilna@fag.edu.br / afonso@fag.edu.br",
-                null
+                "Loteamento FAG"
             ),
             1258 to University(
                 "FACULDADE DE CIÊNCIAS APLICADAS DE CASCAVEL",
                 "FACIAP",
-                "2149312000197",
                 "CASCAVEL",
-                "Privada",
-                "Privada",
-                "85810000",
-                "Centro",
-                "(45) 3219 4411",
-                "daex.aesa@aesapar.com",
-                "educacional.av@uniban.br",
-                null
+                "Centro"
             ),
             1291 to University(
                 "FACULDADE DO NORTE PIONEIRO",
                 "FANORPI",
-                "2088640000120",
                 "SANTO ANTONIO DA PLATINA",
-                "Privada",
-                "Privada",
-                "86430000",
-                "",
-                "(43) 3534 4177",
-                "www.fanorpi.com.br",
-                "cvmaluly@fanorpi.com.br",
-                null
+                ""
             ),
             1325 to University(
                 "FACULDADE DE APUCARANA",
                 "FAP",
-                "73243164000113",
                 "APUCARANA",
-                "Privada",
-                "Privada",
-                "86811500",
-                "Jardim Flamingos",
-                "(43) 3033 8900",
-                "www.fap.com.br",
-                "fap@fap.com.br",
-                null
+                "Jardim Flamingos"
             ),
             1336 to University(
                 "FACULDADE ASSIS GURGACZ",
                 "FAG",
-                "2203539000173",
                 "CASCAVEL",
-                "Privada",
-                "Privada",
-                "85806095",
-                "Loteamento FAG",
-                "(45) 3321 3900",
-                "www.fag.edu.br",
-                "sergio.angelis@fag.edu.br / ilna@fag.edu.br / afonso@fag.edu.br",
-                null
+                "Loteamento FAG"
             ),
             1337 to University(
                 "FACULDADE MATER DEI",
                 "FMD",
-                "78243599000181",
                 "PATO BRANCO",
-                "Privada",
-                "Privada",
-                "85501200",
-                "Centro",
-                "(46) 2101-8200",
-                "www.materdei.edu.br",
-                "facmater@whiteduck.psi.br",
-                null
+                "Centro"
             ),
             1396 to University(
                 "FACULDADE DINÂMICA DAS CATARATAS",
                 "UDC",
-                "1208350000100",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85852010",
-                "Centro",
-                "(45) 3523 6900",
-                "www.udc.edu.br",
-                "angela@udc.edu.br / ivana@udc.edu.br",
-                null
+                "Centro"
             ),
             1399 to University(
                 "FACULDADE UNISSA DE SARANDI",
                 "UNISSA",
-                "2712657000107",
                 "SARANDI",
-                "Privada",
-                "Privada",
-                "87111970",
-                "Jardim Universitário",
-                "(44) 3264 6000",
-                "www.unissa.edu.br",
-                "unissa@unissa.edu.br",
-                null
+                "Jardim Universitário"
             ),
             1400 to University(
                 "FACULDADE METROPOLITANA DE CURITIBA",
                 "FAMEC",
-                "2783419000192",
                 "SAO JOSE DOS PINHAIS",
-                "Privada",
-                "Privada",
-                "83040550",
-                "Afonso Pena",
-                "(41) 3593 1200",
-                "www.famec.com.br",
-                "eduardo.vaz@famec.com.br / alessandra.campos@famec.com.br",
-                null
+                "Afonso Pena"
             ),
             1417 to University(
                 "FACULDADE CENECISTA DE CAMPO LARGO",
                 "FACECLA",
-                "33621384000119",
                 "CAMPO LARGO",
-                "Privada",
-                "Privada",
-                "83601140",
-                "Centro",
-                "(41)3116-3300",
-                "www.facecla.com.br",
-                "marilei@presidentekennedy.br / ensinosuperior@cnec.br",
-                null
+                "Centro"
             ),
             1419 to University(
                 "CENTRO UNIVERSITÁRIO CURITIBA",
                 "UNICURITIBA",
-                "76534924000130",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80220181",
-                "Rebouças",
-                "(41) 3213 8700",
-                "www.unicuritiba.edu.br",
-                "milton.mayer@unicuritiba.edu.br /  processolegal@aena.br",
-                null
+                "Rebouças"
             ),
             1430 to University(
                 "FACULDADE INGÁ",
                 "",
-                "1207056000184",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87070810",
-                "Parque Industrial Bandeirantes",
-                "(44) 3033 5009",
-                "www.faculdadeinga.com.br",
-                "normas@uninga.br",
-                null
+                "Parque Industrial Bandeirantes"
             ),
             1453 to University(
                 "FACULDADE CIODONTO",
                 "-",
-                "78190063000145",
                 "SARANDI",
-                "Privada",
-                "Privada",
-                "87111010",
-                "Centro",
-                "(44) 3035-2909",
-                "",
-                "doris@faculdadeciodonto.edu.br / academicopedagogico@faculdadeciodonto.edu.br / ciodonto.mg@gmail.com",
-                null
+                "Centro"
             ),
             1487 to University(
                 "FACULDADE DOM BOSCO",
                 "FDB",
-                "2797469000129",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "40080240",
-                "Vila Guaíra",
-                "(41) 3218-5550",
-                "www.dombosco.com.br",
-                "acad-faculdade@dombosco.com.br",
-                null
+                "Vila Guaíra"
             ),
             1491 to University(
                 "FACULDADE INTERNACIONAL DE CURITIBA",
                 "FACINTER",
-                "2261854000157",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80410150",
-                "Centro",
-                "(41) 21025944",
-                "www.facinter.br",
-                "pi@grupouninter.com.br / jbernardi@grupouninter.com.br",
-                null
+                "Centro"
             ),
             1500 to University(
                 "FACULDADE DE ENSINO SUPERIOR DE SÃO MIGUEL DO IGUAÇU",
                 "FAESI",
-                "3097823000175",
                 "SAO MIGUEL DO IGUACU",
-                "Privada",
-                "Privada",
-                "85877000",
-                "Conjunto Panorama",
-                "(45) 3565 3181",
-                "www.faesi.com.br",
-                "faesi@faesi.com.br",
-                null
+                "Conjunto Panorama"
             ),
             1503 to University(
                 "FACULDADE DOUTOR LEOCÁDIO JOSÉ CORREIA",
                 "FALEC",
-                "76581065000130",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82640070",
-                "Santa Cândida",
-                "(41) 3256 5717/ 3357 6852",
-                "www.falec.br",
-                "falec@falec.br /  agdamotta@gmail.com",
-                null
+                "Santa Cândida"
             ),
             1508 to University(
                 "FACULDADE METROPOLITANA DE MARINGÁ",
                 "UNIFAMMA",
-                "3125509000159",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87013160",
-                "Zona 01",
-                "(44) 2101 5550/5554",
-                "www.unifamma.edu.br",
-                "unifamma@unifamma.edu.br / lupercio@unifamma.edu.br",
-                null
+                "Zona 01"
             ),
             1519 to University(
                 "FACULDADE DE PATO BRANCO",
                 "FADEP",
-                "3420225000195",
                 "PATO BRANCO",
-                "Privada",
-                "Privada",
-                "85503350",
-                "Fraron",
-                "(46) 3220 3000",
-                "www.fadep.br",
-                "fadep@fadep.br",
-                null
+                "Fraron"
             ),
             1523 to University(
                 "FACULDADE DE DIREITO FRANCISCO BELTRÃO",
                 "CESUL",
-                "2756462000169",
                 "FRANCISCO BELTRAO",
-                "Privada",
-                "Privada",
-                "85601970",
-                "CENTRO",
-                "(46) 3524 4242",
-                "www.cesul.br",
-                "cesul@cesul.br",
-                null
+                "CENTRO"
             ),
             1535 to University(
                 "FACULDADE SÃO JUDAS TADEU DE PINHAIS",
                 "FAPI",
-                "3059298000101",
                 "PINHAIS",
-                "Privada",
-                "Privada",
-                "83320010",
-                "ESTANCIA",
-                "(41) 3667 6000",
-                "",
-                "fabiula@fapi-pinhais.com.br / fabiula@fapi-pinhais.com.br",
-                null
+                "ESTANCIA"
             ),
             1536 to University(
                 "FACULDADE DE TELÊMACO BORBA",
                 "FATEB",
-                "904138000115",
                 "TELEMACO BORBA",
-                "Privada",
-                "Privada",
-                "84266010",
-                "Alto das Oliveiras",
-                "(42) 3271 8000",
-                "www.fatebtb.edu.br",
-                "coordenacaopedagogica@fatebtb.edu.br",
-                null
+                "Alto das Oliveiras"
             ),
             1550 to University(
                 "FACULDADE DE EDUCAÇÃO FÍSICA DE FOZ DO IGUAÇU",
                 "FEPI",
-                "75432153000107",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85863720",
-                "CENTRO",
-                "(45) 3520 1727",
-                "http://www.cesufoz.edu.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "CENTRO"
             ),
             1567 to University(
                 "FACULDADE VIZINHANÇA VALE DO IGUAÇU",
                 "VIZIVALI",
-                "5033396000197",
                 "DOIS VIZINHOS",
-                "Pública",
-                "Municipal",
-                "85660000",
-                "São Francisco de Assis",
-                "(46)3536-4438",
-                "www.cpea.br/vizivali",
-                "secretariavizivali@cpea.br",
-                null
+                "São Francisco de Assis"
             ),
             1574 to University(
                 "FACULDADE EDUCACIONAL DE MEDIANEIRA",
                 "FACEMED",
-                "120750000105",
                 "MEDIANEIRA",
-                "Privada",
-                "Privada",
-                "85884000",
-                "CENTRO",
-                "(45)32643050",
-                "www.udc.edu.br/udcmedianeira",
-                "gisele@udc.edu.br",
-                null
+                "CENTRO"
             ),
             1577 to University(
                 "FACULDADE INTERMUNICIPAL DO NOROESTE DO PARANÁ",
                 "FACINOR",
-                "3591907000160",
                 "LOANDA",
-                "Privada",
-                "Privada",
-                "87900000",
-                "Alto da Glória",
-                "(44)34251037",
-                "facinor.br",
-                "facinor@facinor.br",
-                null
+                "Alto da Glória"
             ),
             1611 to University(
                 "FACULDADE EDUCACIONAL DE ARAPOTI",
                 "FATI",
-                "3414062000138",
                 "ARAPOTI",
-                "Privada",
-                "Privada",
-                "84990000",
-                "Residencial Inpacel",
-                "(43) 3557-2566",
-                "www.faculdadearapoti.com.br",
-                "fati@faculdadearapoti.com.br",
-                null
+                "Residencial Inpacel"
             ),
             1612 to University(
                 "FACULDADE SUL BRASIL",
                 "FASUL",
-                "3554221000108",
                 "TOLEDO",
-                "Privada",
-                "Privada",
-                "85903590",
-                "Jardim Coopagro",
-                "(45)32774000",
-                "www.fasul.edu.br",
-                "aziz.diretor@fasul.edu.br",
-                null
+                "Jardim Coopagro"
             ),
             1613 to University(
                 "FACULDADE ADVENTISTA PARANAENSE",
                 "IAP",
-                "76726884000390",
                 "IVATUBA",
-                "Privada",
-                "Privada",
-                "87130000",
-                "Zona Rural",
-                "(44) 3236-8000",
-                "www.iap.org.br",
-                "eliseu.reis@iap.org.br",
-                null
+                "Zona Rural"
             ),
             1614 to University(
                 "FACULDADE ASTORGA",
                 "FAAST",
-                "11288799000180",
                 "ASTORGA",
-                "Privada",
-                "Privada",
-                "86730000",
-                "Centro",
-                "(44) 3234 3321",
-                "www.faast.edu.br",
-                "faast@faast.edu.br",
-                null
+                "Centro"
             ),
             1615 to University(
                 "INSTITUTO SUPERIOR DO LITORAL DO PARANÁ",
                 "ISULPAR",
-                "3642383000190",
                 "PARANAGUA",
-                "Privada",
-                "Privada",
-                "83203310",
-                "Costeira",
-                "4134249257/34233415",
-                "www.isulpar.edu.br",
-                "secretaria@isulpar.edu.br",
-                null
+                "Costeira"
             ),
             1632 to University(
                 "FACULDADE PITÁGORAS DE LONDRINA",
                 "",
-                "3456737000101",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86047500",
-                "Gleba Palhano",
-                "(43) 3373-7333",
-                "www.faculdadepitagoras.com.br",
-                "marcosj@pitagoras.com.br / ddi@kroton.com.br",
-                null
+                "Gleba Palhano"
             ),
             1657 to University(
                 "FACULDADE EDUCACIONAL DE DOIS VIZINHOS",
                 "FAED",
-                "3386832000186",
                 "DOIS VIZINHOS",
-                "Privada",
-                "Privada",
-                "85660000",
-                "Nossa Senhora Aparecida",
-                "(46) 35815000",
-                "www.unisep.edu.br",
-                "unisep@unisep.edu.br",
-                null
+                "Nossa Senhora Aparecida"
             ),
             1678 to University(
                 "FACULDADE DE CIÊNCIAS DE WENCESLAU BRAZ",
                 "FACIBRA",
-                "3023569000160",
                 "WENCESLAU BRAZ",
-                "Privada",
-                "Privada",
-                "84950000",
-                "Vila Toyoki",
-                "(43) 3528-3194",
-                "www.facibra.edu.br",
-                "facibra@facibra.edu.br / mauro.rizzo@uol.com.br / fabianolbueno@hotmail.com",
-                null
+                "Vila Toyoki"
             ),
             1679 to University(
                 "FACULDADE DE CAMPINA GRANDE DO SUL",
                 "FACSUL",
-                "3549742000169",
                 "CAMPINA GRANDE DO SUL",
-                "Privada",
-                "Privada",
-                "83430000",
-                "Jardim Paulista",
-                "(41) 3679 1022",
-                "www.facsul.edu.br",
-                "facsul@facsul.edu.br",
-                null
+                "Jardim Paulista"
             ),
             1714 to University(
                 "ESCOLA SUPERIOR DE GESTÃO COMERCIAL E MARKETING",
                 "ESIC",
-                "4730949000106",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81630090",
-                "Hauer",
-                "(41)33761417",
-                "www.esic.br",
-                "pi.esic@esic.br / academico@esic.br / diretor@esic.br / leila.orgekoviski@esic.br",
-                null
+                "Hauer"
             ),
             1716 to University(
                 "FACULDADE UNIÃO DAS AMÉRICAS",
                 "",
-                "3525090000122",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85870901",
-                "Loteamento Universitário das Américas",
-                "(45)21059005",
-                "www.uniamerica.br",
-                "direcao@uniamerica.br",
-                null
+                "Loteamento Universitário das Américas"
             ),
             1726 to University(
                 "FACULDADE SANTA AMÉLIA",
                 "SECAL",
-                "2785295000184",
                 "PONTA GROSSA",
-                "Privada",
-                "Privada",
-                "84010210",
-                "Centro",
-                "(42) 3220 6700",
-                "",
-                "rubia@secal.edu.br",
-                null
+                "Centro"
             ),
             1733 to University(
                 "FACULDADE DE ENSINO SUPERIOR DE MARECHAL CÂNDIDO RONDON",
                 "ISEPE  RONDON",
-                "3113945000108",
                 "MARECHAL CANDIDO RONDON",
-                "Privada",
-                "Privada",
-                "85960000",
-                "Centro",
-                "(45) 3284 7400",
-                "",
-                "jcsportela@hotmail.com",
-                null
+                "Centro"
             ),
             1750 to University(
                 "UNIDADE DE ENSINO SUPERIOR EXPOENTE",
                 "UNIEXP",
-                "3848950000169",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82560430",
-                "Boa Vista",
-                "(41)3312 4100",
-                "www.faculdadeexpoente.edu.br",
-                "gstraube@expoente.com.br",
-                null
+                "Boa Vista"
             ),
             1759 to University(
                 "FACULDADE PADRE JOÃO BAGOZZI",
                 "FACULDADE BAGOZZI",
-                "53416921000104",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81070110",
-                "Portão",
-                "(41) 3521-2727",
-                "www.faculdadebagozzi.edu.br",
-                "faculdade@faculdadebagozzi.edu.br / contato@pomini.org",
-                null
+                "Portão"
             ),
             1774 to University(
                 "FACULDADE EDUCACIONAL DE PONTA GROSSA",
                 "UNIÃO",
-                "3568170000165",
                 "PONTA GROSSA",
-                "Privada",
-                "Privada",
-                "84010090",
-                "Centro",
-                "(42) 32209999",
-                "www.uniao.edu.br",
-                "ddi@kroton.com.br",
-                null
+                "Centro"
             ),
             1789 to University(
                 "FACULDADE CATUAÍ",
                 "ICES",
-                "3323335000139",
                 "CAMBE",
-                "Privada",
-                "Privada",
-                "86186000",
-                "Conjunto Castelo Branco",
-                "(43) 3253-5454",
-                "www.faculdadecatuai.com.br",
-                "mvalduga@faculdadecatuai.com.br:maria.valduga@yahoo.com.br",
-                null
+                "Conjunto Castelo Branco"
             ),
             1797 to University(
                 "FACULDADE NORTE PARANAENSE",
                 "UNINORTE",
-                "3800157000190",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86039560",
-                "Cervejaria",
-                "(43) 40094009",
-                "www.uninorte.edu.br",
-                "uninorte@uninorte.edu.br",
-                null
+                "Cervejaria"
             ),
             1798 to University(
                 "FACULDADE EDUCACIONAL DE CORNÉLIO PROCÓPIO",
                 "FACED",
-                "3756377000163",
                 "CORNELIO PROCOPIO",
-                "Privada",
-                "Privada",
-                "86300000",
-                "Conjunto Universitário",
-                "(43) 3524 3301",
-                "www.faccrei.edu.br",
-                "diretoria@faccrei.edu.br",
-                null
+                "Conjunto Universitário"
             ),
             1800 to University(
                 "FACULDADE DE REALEZA",
                 "CESREAL",
-                "2577023000199",
                 "REALEZA",
-                "Privada",
-                "Privada",
-                "85770000",
-                "Rodovia",
-                "(46) 3543-4444",
-                "www.cesreal.br",
-                "cesreal@cesreal.br",
-                null
+                "Rodovia"
             ),
             1801 to University(
                 "FACULDADE DOM BOSCO DE UBIRATÃ",
                 "DOM BOSCO UBIRATÃ",
-                "86815214000131",
                 "UBIRATA",
-                "Privada",
-                "Privada",
-                "85440000",
-                "Centro",
-                "(44) 3543-1607",
-                "www.faculdadesdombosco.edu.br",
-                "fundacaoxingu@uol.com.br",
-                null
+                "Centro"
             ),
             1817 to University(
                 "Faculdade Estácio de Curitiba",
                 "",
-                "2608755000107",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80050152",
-                "Cristo Rei",
-                "(41) 3315.5000",
-                "",
-                "direcao.ctba@radial.br / cgradcuritiba@gmail.com",
-                null
+                "Cristo Rei"
             ),
             1850 to University(
                 "FACULDADE ALVORADA DE TECNOLOGIA E EDUCAÇÃO DE MARINGÁ",
                 "FACULDADE ALVORADA",
-                "80898448000103",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87030010",
-                "Centro",
-                "(44) 3220-2000",
-                "www.faculdadealvoradamga.com.br",
-                "nucleo@alvorada.edu.br",
-                null
+                "Centro"
             ),
             1856 to University(
                 "FACULDADE DO NORTE NOVO DE APUCARANA",
                 "FACNOPAR",
-                "3347235000142",
                 "APUCARANA",
-                "Privada",
-                "Privada",
-                "86806380",
-                "Parque Industrial Norte",
-                "(43) 3420 1700",
-                "www.facnopar.com.br",
-                "facnopar@facnopar.com.br",
-                null
+                "Parque Industrial Norte"
             ),
             1872 to University(
                 "FACULDADES INTEGRADAS SANTA CRUZ DE CURITIBA",
                 "FARESC",
-                "76753086000195",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81040110",
-                "Novo Mundo",
-                "(41) 3248-0311",
-                "www.santacruz.br",
-                "elcio@santacruz.br",
-                null
+                "Novo Mundo"
             ),
             1879 to University(
                 "FACULDADE EDUCACIONAL DE ARAUCÁRIA",
                 "FACEAR",
-                "79613030000123",
                 "ARAUCARIA",
-                "Privada",
-                "Privada",
-                "83707000",
-                "Thomas Coelho",
-                "(41) 3643 1551",
-                "www.facear.edu.br",
-                "murilo@facear.edu.br",
-                null
+                "Thomas Coelho"
             ),
             1899 to University(
                 "FACULDADE DO NOROESTE PARANAENSE",
                 "FANP",
-                "3808761000162",
                 "NOVA ESPERANCA",
-                "Privada",
-                "Privada",
-                "87600000",
-                "Centro",
-                "(44) 3252 1122",
-                "www.fanp.com",
-                "secretaria@fanp.com.br",
-                null
+                "Centro"
             ),
             1900 to University(
                 "FACULDADE ANCHIETA DE ENSINO SUPERIOR DO PARANÁ",
                 "FAESP",
-                "81908386000136",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81315000",
-                "Cidade Industrial",
-                "(41) 3346 4548",
-                "www.faesppr.edu.br",
-                "faesp@faesppr.edu.br",
-                null
+                "Cidade Industrial"
             ),
             1903 to University(
                 "FACULDADE CRISTO REI",
                 "FACCREI",
-                "3685747000119",
                 "CORNELIO PROCOPIO",
-                "Privada",
-                "Privada",
-                "86300000",
-                "Conjunto Universitário",
-                "(43) 3524 3301",
-                "www.faccrei.edu.br",
-                "diretoria@faccrei.edu.br",
-                null
+                "Conjunto Universitário"
             ),
             1907 to University(
                 "FACULDADE EDUCACIONAL DE COLOMBO",
                 "FAEC",
-                "4002246000153",
                 "COLOMBO",
-                "Privada",
-                "Privada",
-                "83405030",
-                "Jd Nossa Senhora de Fátima",
-                "(41)  3621 0505",
-                "www.faecpr.edu.br",
-                "direcao@faecpr.edu.br",
-                null
+                "Jd Nossa Senhora de Fátima"
             ),
             1927 to University(
                 "FACULDADES INTEGRADAS DO VALE DO IGUAÇU",
                 "",
-                "3564489000112",
                 "UNIAO DA VITORIA",
-                "Privada",
-                "Privada",
-                "84600000",
-                "Rio da Areia",
-                "(42) 3522 6192",
-                "www.uniguacu.edu.br",
-                "pi@uniguacu.edu.br",
-                null
+                "Rio da Areia"
             ),
             1938 to University(
                 "FACULDADE GLOBAL DE UMUARAMA",
                 "FGU",
-                "78201498000148",
                 "UMUARAMA",
-                "Privada",
-                "Privada",
-                "87505100",
-                "Jardim Tamoyo",
-                "(44) 3621 4700 / (44)3621-4707",
-                "www.fgu.edu.br",
-                "faculglobal@uol.com.br /  colglobal@uol.com.br / contato@pomini.org / suporte@pomini.org",
-                null
+                "Jardim Tamoyo"
             ),
             1939 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE LONDRINA - INESUL",
                 "INESUL",
-                "4002246000153",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86000000",
-                "Centro",
-                "(43) 3379 2000",
-                "www.inesul.edu.br",
-                "diretoria.inesul@inesul.edu.br",
-                null
+                "Centro"
             ),
             2035 to University(
                 "FACULDADE JAGUARIAÍVA",
                 "FAJAR",
-                "4156193000125",
                 "JAGUARIAIVA",
-                "Privada",
-                "Privada",
-                "84200000",
-                "Centro",
-                "43 35352830",
-                "www.fajar.edu.br",
-                "fajar@fajar.edu.br",
-                null
+                "Centro"
             ),
             2077 to University(
                 "FACULDADE ANGLO-AMERICANO",
                 "FAA",
-                "42178665000130",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85868030",
-                "Vila A",
-                "45-35744015",
-                "www.udc.edu.br",
-                "fabio@udc.edu.br / angela@udc.edu.br",
-                null
+                "Vila A"
             ),
             2086 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE FOZ DO IGUAÇU",
                 "IESFI",
-                "75432153000107",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85863720",
-                "Jardim Central",
-                "(45) 3520 1727",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Jardim Central"
             ),
             2117 to University(
                 "FACULDADE DE CIÊNCIA E TECNOLOGIA",
                 "FACITEC",
-                "4424091000143",
                 "PALOTINA",
-                "Privada",
-                "Privada",
-                "85950000",
-                "Jardim Itália",
-                "(44) 3649 9002 e 3649-9024",
-                "www.uespar.edu.br",
-                "uespar@uespar.edu.br",
-                null
+                "Jardim Itália"
             ),
             2141 to University(
                 "FACULDADE TEOLÓGICA BATISTA DO PARANÁ",
                 "FTBP",
-                "76706936000102",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80250200",
-                "Água Verde",
-                "(41) 3024 8142",
-                "www.ftbp.com.br",
-                "ftbp@ftbp.com.br",
-                null
+                "Água Verde"
             ),
             2157 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO SANT´ANA",
                 "ISESA",
-                "80234826000154",
                 "PONTA GROSSA",
-                "Privada",
-                "Privada",
-                "84010310",
-                "Centro",
-                "(42) 3224 0301",
-                "www.iessa.edu.br",
-                "secretaria@iessa.edu.br",
-                null
+                "Centro"
             ),
             2160 to University(
                 "FACULDADE SANT'ANA",
                 "IESSA",
-                "80234826000154",
                 "PONTA GROSSA",
-                "Privada",
-                "Privada",
-                "84010310",
-                "Centro",
-                "(42) 3224 0301",
-                "www.iessa.edu.br",
-                "secretaria@iessa.edu.br",
-                null
+                "Centro"
             ),
             2165 to University(
                 "FACULDADE FOZ DO IGUAÇU",
                 "FAFIG",
-                "6099229000101",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85863720",
-                "Jardim Central",
-                "(45) 3520-1727",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Jardim Central"
             ),
             2188 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO NOSSA SENHORA DE SION",
                 "ISE - SION",
-                "76657097000171",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80420180",
-                "Batel",
-                "(41) 3019- 6155 - (41) 30776112",
-                "www.isesion.edu.br",
-                "ise@sioncuritiba.com.br",
-                null
+                "Batel"
             ),
             2202 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE GUARATUBA",
                 "ISEPE",
-                "3858997000103",
                 "GUARATUBA",
-                "Privada",
-                "Privada",
-                "83280000",
-                "Piçarras",
-                "(41) 3472 9070",
-                "www.isepe.com.br",
-                "direcao@isepeguaratuba.com.br",
-                null
+                "Piçarras"
             ),
             2206 to University(
                 "FACULDADE FAE SÃO JOSÉ DOS PINHAIS",
                 "",
-                "76497338000162",
                 "SAO JOSE DOS PINHAIS",
-                "Privada",
-                "Privada",
-                "83030730",
-                "Centro",
-                "(41) 2117 9800",
-                "",
-                "dlne@fae.edu",
-                null
+                "Centro"
             ),
             2282 to University(
                 "FACULDADE DE CAFELÂNDIA",
                 "FAC",
-                "4058620000132",
                 "CAFELANDIA",
-                "Privada",
-                "Privada",
-                "85415000",
-                "Parque São Paulo",
-                "(45) 32412600",
-                "www.faculdadeunica.edu.br",
-                "direcao@faculdadeunica.edu.br /  sepe@faculdadeunica.edu.br",
-                null
+                "Parque São Paulo"
             ),
             2301 to University(
                 "FACULDADE FIDELIS",
                 "FF",
-                "77501286000113",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81670250",
-                "Boqueirão",
-                "(41) 3376-4566",
-                "www.fidelis.edu.br",
-                "fidelis@fidelis.edu.br / secretaria@fidelis.edu.br / hamilton@erasto.com.br",
-                null
+                "Boqueirão"
             ),
             2312 to University(
                 "FACULDADE LUTERANA RUI BARBOSA",
                 "FALURB",
-                "81576365000160",
                 "MARECHAL CANDIDO RONDON",
-                "Privada",
-                "Privada",
-                "85960000",
-                "Centro",
-                "(45)3254-2175",
-                "www.falurb.edu.br",
-                "falurb@falurb.edu.br",
-                null
+                "Centro"
             ),
             2420 to University(
                 "FACULDADE PARANAENSE",
                 "FAPAR",
-                "6099229000101",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80420060",
-                "Batel",
-                "(41)3015-4601",
-                "",
-                "marcioacbarros@unip.br",
-                null
+                "Batel"
             ),
             2447 to University(
                 "INSTITUTO EDUCACIONAL DE CASTRO",
                 "INEC",
-                "4024498000183",
                 "CASTRO",
-                "Privada",
-                "Privada",
-                "84165490",
-                "Centro",
-                "(42) 3232 0743",
-                "www.facastro.edu.br",
-                "facastro@facastro.edu.br",
-                null
+                "Centro"
             ),
             2461 to University(
                 "FACULDADE CBES",
                 "CBES",
-                "3096318000106",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80010120",
-                "Centro",
-                "(41) 30397670",
-                "www.cbes.edu.br",
-                "marileusa.secretaria@cbes.edu.br",
-                null
+                "Centro"
             ),
             2513 to University(
                 "FACULDADE ARTHUR THOMAS",
                 "CESA",
-                "4961394000103",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86061450",
-                "Jardim Maringá",
-                "(43) 3031-5015",
-                "www.faatensino.com.br",
-                "administrativo@faatensino.com.br / contato@pomini.org / suporte@pomini.org",
-                null
+                "Jardim Maringá"
             ),
             2573 to University(
                 "FACULDADE TEOLÓGICA SUL AMERICANA",
                 "FTSA",
-                "86873668000169",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86055670",
-                "Gleba Palhano",
-                "(43) 3371-0200",
-                "www.ftsa.edu.br",
-                "jorge@ftsa.edu.br",
-                null
+                "Gleba Palhano"
             ),
             2582 to University(
                 "FACULDADE DE ENSINO SUPERIOR DO CENTRO DO PARANÁ",
                 "UCP",
-                "73206468000100",
                 "PITANGA",
-                "Privada",
-                "Privada",
-                "85200000",
-                "Cantu",
-                "42 3646 5555",
-                "www.ucpparana.edu.br",
-                "direcao@ucpparana.edu.br",
-                null
+                "Cantu"
             ),
             2620 to University(
                 "FACULDADE DE AMPÉRE",
                 "FAMPER",
-                "5051670000150",
                 "AMPERE",
-                "Privada",
-                "Privada",
-                "85640000",
-                "Centro",
-                "(46) 3547 3031",
-                "www.famper.com.br",
-                "famper@famper.com.br",
-                null
+                "Centro"
             ),
             2624 to University(
                 "FACULDADE DO LITORAL PARANAENSE",
                 "FLP",
-                "3858997000103",
                 "GUARATUBA",
-                "Privada",
-                "Privada",
-                "83280000",
-                "Piçarras",
-                "(41) 3442-8500",
-                "www.isepe.com.br",
-                "direcao@isepeguaratuba.com.br",
-                null
+                "Piçarras"
             ),
             2787 to University(
                 "FACULDADES PEQUENO PRÍNCIPE",
                 "FPP",
-                "76591569000130",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80230020",
-                "Rebouças",
-                "(41) 3310 1500",
-                "www.fpp.edu.br",
-                "adrianne.rauli@fpp.edu.br",
-                null
+                "Rebouças"
             ),
             2799 to University(
                 "FANEESP - FACULDADE NACIONAL DE EDUCAÇÃO E ENSINO SUPERIOR DO PARANÁ",
                 "FANEESP",
-                "4002246000153",
                 "ARAUCARIA",
-                "Privada",
-                "Privada",
-                "83707070",
-                "Thomaz Coelho",
-                "(41) 3552 1300",
-                "www.faneesp.edu.br",
-                "direcao@faneesp.edu.br",
-                null
+                "Thomaz Coelho"
             ),
             2805 to University(
                 "FACULDADE MODELO",
                 "FACIMOD",
-                "5121388000100",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82970000",
-                "Cajuru",
-                "(41) 3226 4545",
-                "www.modelo.edu.br",
-                "secretaria@facimod.com.br",
-                null
+                "Cajuru"
             ),
             2808 to University(
                 "FACULDADES ITECNE DE CASCAVEL",
                 "ITECNE",
-                "3964817000178",
                 "CASCAVEL",
-                "Privada",
-                "Privada",
-                "85807030",
-                "Coqueiral",
-                "(45) 3226 0110",
-                "www.itecne.com.br",
-                "faculdade@itecnecascavel.com.br",
-                null
+                "Coqueiral"
             ),
             2831 to University(
                 "FACULDADE DOM BOSCO DE GOIOERÊ",
                 "DOM BOSCO GOIOERÊ",
-                "86815214000131",
                 "GOIO-ERE",
-                "Privada",
-                "Privada",
-                "87360000",
-                "Jardim Curitiba",
-                "(44) 3522 5126",
-                "www.faculdadesdombosco.edu.br",
-                "fundacaoxingu@uol.com.br",
-                null
+                "Jardim Curitiba"
             ),
             2841 to University(
                 "FACULDADE PARANAPANEMA",
                 "FP",
-                "7425183000136",
                 "PORECATU",
-                "Privada",
-                "Privada",
-                "86160000",
-                "Centro",
-                "(43) 3623-8310",
-                "www.faculdadeparanapanema.com.br",
-                "esap@sercomtel.com.br",
-                null
+                "Centro"
             ),
             3027 to University(
                 "FACULDADE DE CIÊNCIAS EDUCACIONAIS E SISTEMAS INTEGRADOS",
                 "FACESI",
-                "5041441000155",
                 "IBIPORA",
-                "Privada",
-                "Privada",
-                "86200000",
-                "Centro",
-                "(43) 32587991",
-                "www.facesi.edu.br",
-                "facesi@facesi.edu.br",
-                null
+                "Centro"
             ),
             3158 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO ANGLO-AMERICANO DE FOZ DO IGUAÇU",
                 "ISEAAFI",
-                "42178665000130",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85860590",
-                "Vila A",
-                "",
-                "www.angloamericano.edu.br",
-                "reitorpauloalonso@angloamericano.edu.br",
-                null
+                "Vila A"
             ),
             3180 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO UNIÃO DAS AMÉRICAS",
                 "UNIAMÉRICA",
-                "3525090000122",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85870901",
-                "Jardim Universitário",
-                "(45)21059000",
-                "http://www.uniamerica.br",
-                "direcao@uniamerica.br",
-                null
+                "Jardim Universitário"
             ),
             3193 to University(
                 "FACULDADES INTEGRADAS DOS CAMPOS GERAIS",
                 "CESCAGE",
-                "3014204000170",
                 "PONTA GROSSA",
-                "Privada",
-                "Privada",
-                "84030000",
-                "Uvaranas",
-                "(42) 3219-8000",
-                "www.cescage.edu.br",
-                "cescage@cescage.edu.br",
-                null
+                "Uvaranas"
             ),
             3232 to University(
                 "FACULDADE IGUAÇU",
                 "FI",
-                "5298778000142",
                 "CAPANEMA",
-                "Privada",
-                "Privada",
-                "85760000",
-                "Centro",
-                "(46) 3552 1464 e 3552 1776",
-                "www.faculdadeiguacu.edu.br",
-                "nelsonposseti@uol.com.br / suporte@pomini.org",
-                null
+                "Centro"
             ),
             3309 to University(
                 "FACULDADE DE TECNOLOGIA INTERNACIONAL",
                 "FATEC INTERNACIONAL",
-                "2261854000157",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80410150",
-                "Centro",
-                "(41) 2102 7944",
-                "www.fatecinternacional.com.br",
-                "vilmaaguiar@grupouninter.com.br / pi@grupouninter.com.br / jbernardi@grupouninter.com.br",
-                null
+                "Centro"
             ),
             3380 to University(
                 "FACULDADE MISSIONEIRA DO PARANÁ",
                 "FAMIPAR",
-                "86742335000109",
                 "CASCAVEL",
-                "Privada",
-                "Privada",
-                "85807430",
-                "Jardim Seminário",
-                "(45) 3226 1340",
-                "www.famipar.edu.br",
-                "secretaria@famipar.edu.br",
-                null
+                "Jardim Seminário"
             ),
             3393 to University(
                 "FACULDADE DE ENSINO SUPERIOR DOM BOSCO",
                 "FACDOMBOSCO",
-                "5505290000149",
                 "CORNELIO PROCOPIO",
-                "Privada",
-                "Privada",
-                "86300000",
-                "Centro",
-                "(43) 35232494/35236872",
-                "www.facdombosco.edu.br",
-                "faculdadedombosco@bol.com.br",
-                null
+                "Centro"
             ),
             3502 to University(
                 "FACULDADE DA FRONTEIRA - FAF",
                 "FAF",
-                "79541587000520",
                 "BARRACAO",
-                "Pública",
-                "Municipal",
-                "85700000",
-                "Industrial",
-                "(49)36441684",
-                "www.faf.edu.br",
-                "faf@faf.edu.br",
-                null
+                "Industrial"
             ),
             3509 to University(
                 "FACULDADE VICENTINA - FAVI",
                 "FAVI",
-                "76535665000161",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80510020",
-                "Alto São Francisco",
-                "(41) 3222 7716",
-                "www.favic.com.br",
-                "andremar@mps.com.br",
-                null
+                "Alto São Francisco"
             ),
             3536 to University(
                 "FACULDADE DE TEOLOGIA EVANGÉLICA EM CURITIBA - FATEV",
                 "FATEV",
-                "40388647000157",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82120200",
-                "Pilarzinho",
-                "(41) 3302-5133",
-                "www.me.org.br/fatev",
-                "fatev@me.org.br /  contato@pomini.org / suporte@pomini.org",
-                null
+                "Pilarzinho"
             ),
             3602 to University(
                 "FACULDADES INTEGRADAS DO BRASIL",
                 "FACBRASIL",
-                "2741457000182",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82820540",
-                "Tarumã",
-                "(041) 3361 4200",
-                "www.unibrasil.com.br",
-                "lima@unibrasil.com.br",
-                null
+                "Tarumã"
             ),
             3649 to University(
                 "FACULDADE CIDADE VERDE",
                 "FCV",
-                "5885457000144",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87020035",
-                "Zona 07",
-                "(44)  3028-4416",
-                "www.fcv.edu.br",
-                "fcv@fcv.edu.br / vicentini@fcv.edu.br / barbieri@fcv.edu.br",
-                null
+                "Zona 07"
             ),
             3683 to University(
                 "FACULDADE UNILAGOS",
                 "UNILAGOS",
-                "5428075000191",
                 "MANGUEIRINHA",
-                "Privada",
-                "Privada",
-                "85540000",
-                "Centro",
-                "(46)32431371",
-                "www.unilagos.com.br",
-                "direcao@unilagos.com.br",
-                null
+                "Centro"
             ),
             3684 to University(
                 "FUNDAÇÃO DE ENSINO SUPERIOR DE CLEVELÂNDIA",
                 "FESC",
-                "4205727000166",
                 "CLEVELANDIA",
-                "Privada",
-                "Privada",
-                "85530000",
-                "Centro",
-                "(46) 3252 3399",
-                "www.fescpr.edu.br",
-                "fesc@wln.com.br",
-                null
+                "Centro"
             ),
             3688 to University(
                 "FACULDADES INTEGRADAS DO VALE DO IVAÍ",
                 "",
-                "78600012000144",
                 "IVAIPORA",
-                "Privada",
-                "Privada",
-                "86870000",
-                "Centro",
-                "(43) 3472 1414",
-                "www.univale.com.br",
-                "diretoria@univale.com.br",
-                null
+                "Centro"
             ),
             3777 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE CURITIBA",
                 "IESC",
-                "1711282000106",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82970000",
-                "Cajuru",
-                "(41) 3015 4601",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Cajuru"
             ),
             3790 to University(
                 "FACULDADE DE TECNOLOGIA ENSITEC",
                 "ENSITEC",
-                "2656757000163",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80610320",
-                "Portão",
-                "(41)30914500",
-                "www.ensitec.com.br",
-                "danielle.olandoski@ensitec.com.br / alder.oliveira@ensitec.com.br / franceli.scremin@ensitec.com.br",
-                null
+                "Portão"
             ),
             3797 to University(
                 "FACULDADE GUAIRACÁ",
                 "FAG",
-                "6060722000118",
                 "GUARAPUAVA",
-                "Privada",
-                "Privada",
-                "85010000",
-                "Centro",
-                "(42) 3622 2000",
-                "www.faculdadeguairaca.edu.br",
-                "guairaca@faculdadeguairaca.edu.br",
-                null
+                "Centro"
             ),
             3807 to University(
                 "FACULDADE DE TECNOLOGIA IAPEC",
                 "IAPEC",
-                "85411312000140",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86070000",
-                "Jardim Shangri-La A",
-                "(43)3347-3121",
-                "",
-                "secretariasuperior@iapec.com.br",
-                null
+                "Jardim Shangri-La A"
             ),
             3981 to University(
                 "FACULDADE DE TECNOLOGIA INTEGRAL",
                 "CETI",
-                "4639959000122",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80230110",
-                "Centro",
-                "(41) 3027 7554",
-                "www.integralsien.com.br",
-                "tam@integralsien.com.br",
-                null
+                "Centro"
             ),
             3986 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DO PARANÁ",
                 "INSEP",
-                "2684150000197",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87060010",
-                "Borba Gato",
-                "(44) 3225 - 1197",
-                "www.insep.edu.br",
-                "fainsep@fainsep.edu.br",
-                null
+                "Borba Gato"
             ),
             3993 to University(
                 "FACULDADE DE TECNOLOGIA CETEP",
                 "CETEP",
-                "5209811000110",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80060130",
-                "Centro",
-                "(41) 3362 1705",
-                "www.cetepensino.com.br",
-                "cassiano@cetepensino.com.br",
-                null
+                "Centro"
             ),
             4009 to University(
                 "FACULDADE DE TECNOLOGIA RADIAL CURITIBA",
                 "FATEC RADIAL CTBA",
-                "2608755000107",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82820480",
-                "Alto",
-                "(41) 3315 5000",
-                "",
-                "cgradcuritiba@gmail.com / danielle.fialho@estacio.br",
-                null
+                "Alto"
             ),
             4045 to University(
                 "FACULDADE DE TECNOLOGIA TUPY CURITIBA",
                 "FTT-CWB",
-                "84684182000157",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81690300",
-                "Pinheirinho",
-                "0 xx 41 32960132",
-                "www.sociesc.org.br/pt/ftt-curitiba/",
-                "fttctb@sociesc.com.br",
-                null
+                "Pinheirinho"
             ),
             4093 to University(
                 "FACULDADE DE TECNOLOGIA DE CURITIBA",
                 "FATEC-PR",
-                "4972854000190",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81070150",
-                "Portão",
-                "(41) 3246-7722",
-                "www.fatecpr.edu.br",
-                "vera.adib@fatecpr.edu.br",
-                null
+                "Portão"
             ),
             4330 to University(
                 "FACULDADE DE TECNOLOGIA AMÉRICA DO SUL",
                 "",
-                "7307468000172",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87013190",
-                "Centro",
-                "(44) 3031-0002",
-                "www.americadosul.edu.br",
-                "geral@americadosul.edu.br / academico@americadosul.edu.br / contato@pomini.org",
-                null
+                "Centro"
             ),
             4496 to University(
                 "FACULDADE DE TECNOLOGIA DO VALE DO IVAÍ",
                 "FATEC-IVAI",
-                "5440305000138",
                 "IVAIPORA",
-                "Privada",
-                "Privada",
-                "86870000",
-                "Centro",
-                "043-34720201",
-                "",
-                "direcao@ucpparana.edu.br / advjanesilva@hotmail.com",
-                null
+                "Centro"
             ),
             4534 to University(
                 "FACULDADE DE TECNOLOGIA HERRERO",
                 "FATEC",
-                "3366031000159",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80610240",
-                "Portão",
-                "(41) 3026 8411",
-                "www.herrero.com.br",
-                "herrero@herrero.com.br",
-                null
+                "Portão"
             ),
             4584 to University(
                 "FACULDADE DE TECNOLOGIA MACHADO DE ASSIS",
                 "FAMA",
-                "78696218000110",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "81130110",
-                "Novo Mundo",
-                "(41) 32562624",
-                "www.sema.edu.br",
-                "sorgon@yahoo.com",
-                null
+                "Novo Mundo"
             ),
             4605 to University(
                 "FACULDADE DE ENSINO SUPERIOR KM 125",
                 "",
-                "7587432000190",
                 "CORNELIO PROCOPIO",
-                "Privada",
-                "Privada",
-                "86300000",
-                "Centro",
-                "(43)3523-5896",
-                "",
-                "fakcen@hotmail.com",
-                null
+                "Centro"
             ),
             4661 to University(
                 "FACULDADE DE AGRONEGÓCIO PARAÍSO DO NORTE",
                 "FAPAN",
-                "7481324000138",
                 "PARAISO DO NORTE",
-                "Privada",
-                "Privada",
-                "87780000",
-                "Centro",
-                "(44)3431-1212 3431-2211",
-                "http://www.fapanpr.edu.br",
-                "fapan@fapanpr.edu.br",
-                null
+                "Centro"
             ),
             4751 to University(
                 "FACULDADE DE TECNOLOGIA E CIENCIAS DO NORTE DO PARANÁ",
                 "FATECIE",
-                "7724708000134",
                 "PARANAVAI",
-                "Privada",
-                "Privada",
-                "87709000",
-                "Jardim São João",
-                "(44)3422-0716",
-                "http://fatecie.com",
-                "gilmar_fisica@nobel.br",
-                null
+                "Jardim São João"
             ),
             4765 to University(
                 "FACULDADE DE TECNOLOGIA ALFA DE UMUARAMA",
                 "",
-                "81236267000184",
                 "UMUARAMA",
-                "Privada",
-                "Privada",
-                "87502180",
-                "Centro",
-                "(44)3622-2562 / (44)3622-2500",
-                "www.faculdadealfaumuarama.com.br",
-                "carlos@colegioalfa.com.br / contato@pomini.org / suporte@pomini.org",
-                null
+                "Centro"
             ),
             4869 to University(
                 "FACULDADE DE TECNOLOGIA PITÁGORAS - UNIDADE LONDRINA",
                 "",
-                "5356755000147",
                 "LONDRINA",
-                "Privada",
-                "Privada",
-                "86039000",
-                "Jardim Siam",
-                "4333277559",
-                "",
-                "epeo@epeo.com.br",
-                null
+                "Jardim Siam"
             ),
             4922 to University(
                 "FACULDADE INTEGRADA DAS CATARATAS",
                 "",
-                "1208350000100",
                 "FOZ DO IGUACU",
-                "Privada",
-                "Privada",
-                "85864390",
-                "Jardim Comercial das Bandeiras",
-                "45-35201900",
-                "",
-                "angela@udc.edu.br / udc@udc.edu.br",
-                null
+                "Jardim Comercial das Bandeiras"
             ),
             4938 to University(
                 "FACULDADE CLARETIANA DE TEOLOGIA",
                 "",
-                "44943835000150",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80250180",
-                "Rebouças",
-                "(41) 32228115",
-                "www.studium.com.br",
-                "secretariacrt@claretiano.edu.br / marciovisconde@yahoo.com.br",
-                null
+                "Rebouças"
             ),
             4998 to University(
                 "FACULDADE DE TECNOLOGIA INESUL DO PARANÁ",
                 "FIPAR",
-                "4002246000153",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80230010",
-                "Centro",
-                "",
-                "www.inesul.edu.br",
-                "direcaogeral@inesul.edu.br",
-                null
+                "Centro"
             ),
             5000 to University(
                 "FACULDADE ESTAÇÃO",
                 "FAEST",
-                "7867311000100",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80230010",
-                "Centro",
-                "(41)2101-8800 / (41)9945-9999 / (41)9945-9999",
-                "www.ebs.edu.br",
-                "judas@ebs.edu.br /  claudineia@ebs.edu.br",
-                null
+                "Centro"
             ),
             5025 to University(
                 "FACULDADE DE EDUCAÇÃO SÃO BRAZ",
                 "",
-                "5415347000119",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "82300490",
-                "São Braz",
-                "(041) 30161234",
-                "www.isal.edu.br",
-                "vera.pacheco@isal.edu.br",
-                null
+                "São Braz"
             ),
             5079 to University(
                 "FACULDADE EDUCACIONAL DE MATELÂNDIA",
                 "FAMA",
-                "2098262000166",
                 "MATELANDIA",
-                "Privada",
-                "Privada",
-                "85887000",
-                "Centro",
-                "(45)3262-1000",
-                "www.faculdadematelandia.edu.br",
-                "coordenacao@faculdadematelandia.edu.br",
-                null
+                "Centro"
             ),
             5186 to University(
                 "FACULDADE DINÂMICA",
                 "",
-                "1208350000100",
                 "CASCAVEL",
-                "Privada",
-                "Privada",
-                "85812001",
-                "Centro",
-                "45-32226900",
-                "www.udc.edu.br",
-                "udc@udc.edu.br",
-                null
+                "Centro"
             ),
             5403 to University(
                 "FACULDADES OPET",
                 "",
-                "75118406000172",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80520000",
-                "Bom Retiro",
-                "(41)3028-2800",
-                "www.opet.com.br",
-                "faculdadesopet@opet.com.br",
-                null
+                "Bom Retiro"
             ),
             5511 to University(
                 "FACULDADE CAMPO REAL",
                 "CAMPO REAL",
-                "3291761000138",
                 "GUARAPUAVA",
-                "Privada",
-                "Privada",
-                "85015240",
-                "Santa Cruz",
-                "(42)3621-5200",
-                "www.camporeal.edu.br",
-                "diretoria@camporeal.edu.br",
-                null
+                "Santa Cruz"
             ),
             5518 to University(
                 "FACULDADE GUARAPUAVA",
                 "FG",
-                "9150706000104",
                 "GUARAPUAVA",
-                "Privada",
-                "Privada",
-                "85015180",
-                "Jordão",
-                "(42)3621-7000",
-                "www.faculdadesguarapuava.br",
-                "diretoriageral@unigua.edu.br",
-                null
+                "Jordão"
             ),
             11007 to University(
                 "FACULDADE CENTRO OESTE",
                 "FACEOPAR",
-                "8372011000104",
                 "LARANJEIRAS DO SUL",
-                "Privada",
-                "Privada",
-                "85301050",
-                "CENTRO",
-                "(42)3635 6028",
-                "www.faig.com.br",
-                "faig@faig.com.br / monica@faig.com.br",
-                null
+                "CENTRO"
             ),
             11818 to University(
                 "FACULDADE DE TECNOLOGIA INSPIRAR",
                 "Inspirar",
-                "7109722000128",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80510000",
-                "São Francisco",
-                "41 3019-2828",
-                "www.inspirar.com.br",
-                "faculdade@inspirar.com.br",
-                null
+                "São Francisco"
             ),
             12754 to University(
                 "FACULDADE TEOLÓGICA DA ASSEMBLÉIA DE DEUS EM CURITIBA",
                 "FATADC",
-                "84835941000135",
                 "CURITIBA",
-                "Privada",
-                "Privada",
-                "80060120",
-                "Centro Cívico",
-                "(41)32323711",
-                "www.fatadc.com.br",
-                "edsonmartins9@gmail.com",
-                null
+                "Centro Cívico"
             ),
             12766 to University(
                 "FACULDADE UNIÃO DE CAMPO MOURÃO",
                 "",
-                "9221952000100",
                 "CAMPO MOURAO",
-                "Privada",
-                "Privada",
-                "87300000",
-                "Centro",
-                "44-35182300",
-                "www.faculdadeuniaocampomourao.com.br",
-                "contato@faculdadeuniaocampomourao.com.br",
-                null
+                "Centro"
             ),
             12847 to University(
                 "FACULDADE EDUCACIONAL DE FRANCISCO BELTRÃO",
                 "FEFB",
-                "3386832000186",
                 "FRANCISCO BELTRAO",
-                "Privada",
-                "Privada",
-                "85605040",
-                "MINIGUAÇU",
-                "46-3520 5000",
-                "www.unisep.edu.br",
-                "unisep.fb@unisep.edu.br",
-                null
+                "MINIGUAÇU"
             ),
             13832 to University(
                 "FACULDADE SAGRADA FAMÍLIA",
                 "FASF",
-                "76578244000118",
                 "PONTA GROSSA",
-                "Privada",
-                "Privada",
-                "84010760",
-                "Centro",
-                "(42) 3027-8000",
-                "www.faculdadesagradafamilia.com.br",
-                "contato@pomini.org / suporte@pomini.org / marceloalvespinto@yahoo.com.br",
-                null
+                "Centro"
             ),
             14367 to University(
                 "FACULDADE EFICAZ",
                 "FACULDADE EFICAZ",
-                "7778960000126",
                 "MARINGA",
-                "Privada",
-                "Privada",
-                "87020025",
-                "Zona 07",
-                "44 3029-9094",
-                "www.institutoeficaz.com.br",
-                "contato@institutoeficaz.com.br",
-                null
+                "Zona 07"
             ),
             15001 to University(
                 "UNIVERSIDADE FEDERAL DA INTEGRAÇÃO LATINO-AMERICANA",
                 "UNILA",
-                "11806275000133",
                 "FOZ DO IGUACU",
-                "Pública",
-                "Federal",
-                "85867900",
-                "Itaipu",
-                "+55 (45) 3576.7300",
-                "http://www.unila.edu.br/",
-                "secretaria.academica@unila.edu.br",
-                null
+                "Itaipu"
             ),
             15015 to University(
                 "Universidade Estadual do Norte do Paraná",
                 "UENP",
-                "8885100000154",
                 "JACAREZINHO",
-                "Pública",
-                "Estadual",
-                "86400000",
-                "Centro",
-                "(43) 3525-3589",
-                "www.uenp.edu.br",
-                "fatimapadoan@uenp.edu.br / fatimapadoan@gmail.com",
-                null
+                "Centro"
             )
         )
     }

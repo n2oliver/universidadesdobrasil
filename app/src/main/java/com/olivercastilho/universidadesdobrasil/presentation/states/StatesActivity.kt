@@ -33,4 +33,8 @@ class StatesActivity : AppCompatActivity() {
         statesList.adapter =
             StatesAdapter(this, states)
     }
+
+    override fun onBackPressed() {
+        finishAffinity()
+    }
 }

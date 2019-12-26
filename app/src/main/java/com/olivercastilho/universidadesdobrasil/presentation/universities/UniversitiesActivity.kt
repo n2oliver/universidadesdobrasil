@@ -2,10 +2,6 @@ package com.olivercastilho.universidadesdobrasil.presentation.universities
 
 import android.content.Intent
 import android.os.Bundle
-import android.text.Editable
-import android.text.TextWatcher
-import android.view.View
-import android.widget.SearchView
 import android.widget.SearchView.*
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
@@ -13,13 +9,11 @@ import com.google.android.gms.ads.*
 import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.University
-import com.olivercastilho.universidadesdobrasil.data.repositories.StateRepository
 import com.olivercastilho.universidadesdobrasil.data.repositories.UniversityRepository
 import com.olivercastilho.universidadesdobrasil.presentation.AppBarTitle.Companion.changeAppBarTitle
 import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
-import java.util.*
 import kotlin.collections.ArrayList
 
 

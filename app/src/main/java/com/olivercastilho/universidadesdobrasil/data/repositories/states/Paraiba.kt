@@ -8,534 +8,230 @@ class Paraiba {
             1076 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE CAJAZEIRAS",
                 "FAFIC",
-                "8798779000144",
                 "CAJAZEIRAS",
-                "Privada",
-                "Privada",
-                "58900000",
-                "Centro",
-                "(83) 3531 3500",
-                "www.fescfafic.edu.br",
-                "fafic@fescfafic.edu.br",
-                null
+                "Centro"
             ),
             1166 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA  DA PARAÍBA",
                 "IFPB",
-                "10783898000175",
                 "JOAO PESSOA",
-                "Pública",
-                "Federal",
-                "58015430",
-                "JAGUARIBE",
-                "(83)3208-3004",
-                "http://www.ifpb.edu.br",
-                "ifpb@ifpb.edu.br",
-                null
+                "JAGUARIBE"
             ),
             339 to University(
                 "FACULDADE SANTA EMÍLIA DE RODAT",
                 "FASER",
-                "3995211000108",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58023650",
-                "Tambia",
-                "(83) 3214 4820",
-                "www.faser.edu.br",
-                "eeser@faser.edu.br",
-                null
+                "Tambia"
             ),
             352 to University(
                 "CENTRO UNIVERSITÁRIO DE JOÃO PESSOA",
                 "UNIPÊ",
-                "8679557000102",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58053000",
-                "Água Fria",
-                "(83) 2106 9200",
-                "http://www.unipe.br",
-                "reitoria@unipe.br / jaugusto@unipe.br",
-                null
+                "Água Fria"
             ),
             550 to University(
                 "UNIVERSIDADE ESTADUAL DA PARAÍBA",
                 "UEPB",
-                "12671814000137",
                 "CAMPINA GRANDE",
-                "Pública",
-                "Estadual",
-                "58100753",
-                "Centro",
-                "(83) 33153303",
-                "www.uepb.edu.br",
-                "reitoria@uepb.edu.br",
-                null
+                "Centro"
             ),
             579 to University(
                 "UNIVERSIDADE FEDERAL DA PARAÍBA",
                 "UFPB",
-                "24098477000110",
                 "JOAO PESSOA",
-                "Pública",
-                "Federal",
-                "58051900",
-                "Castelo Branco",
-                "(83) 3216 7150",
-                "www.ufpb.br",
-                "pi@ufpb.br;cpme@prg.ufpb.br;proplan@proplan.ufpb.br,cpa@reitoria.ufpb.br",
-                null
+                "Castelo Branco"
             ),
             848 to University(
                 "FACULDADE PARAIBANA DE PROCESSAMENTO DE DADOS",
                 "FPPD",
-                "11888849000160",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58031130",
-                "Bairro dos Estados",
-                "(83) 2106 9500",
-                "www.asper.com.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Bairro dos Estados"
             ),
             959 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS",
                 "FAFIL",
-                "6056001000134",
                 "SANTA RITA",
-                "Privada",
-                "Privada",
-                "58301055",
-                "Popular",
-                "(83) 3229 1479",
-                "www.iespa.edu.br",
-                "iespa@ig.com.br",
-                null
+                "Popular"
             ),
             1075 to University(
                 "INSTITUTO DE EDUCAÇÃO SUPERIOR DA PARAÍBA",
                 "IESP",
-                "70118716000173",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58037010",
-                "BESSA",
-                "(83) 2106 3811",
-                "",
-                "diretoriageral@fatecpb.edu.br",
-                null
+                "BESSA"
             ),
             1334 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS - FACISA",
                 "FACISA",
-                "2108023000140",
                 "CAMPINA GRANDE",
-                "Privada",
-                "Privada",
-                "58104600",
-                "Catole",
-                "(83)21018800",
-                "www.facisa.edu.br",
-                "facisa@uol.com.br",
-                null
+                "Catole"
             ),
             1462 to University(
                 "INSTITUTO PARAIBANO DE ENSINO RENOVADO",
                 "INPER",
-                "11888849000160",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58033450",
-                "Jardim Marizópolis",
-                "(83) 2106 9600",
-                "www.asper.com.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Jardim Marizópolis"
             ),
             1753 to University(
                 "FACULDADE DE ENFERMAGEM NOVA ESPERANÇA",
                 "FACENE",
-                "2949141000180",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58067695",
-                "Gramame",
-                "(83) 2106-4777",
-                "www.facene.com.br",
-                "facene@facene.com.br",
-                null
+                "Gramame"
             ),
             1948 to University(
                 "FACULDADE DE ENSINO SUPERIOR DA PARAÍBA",
                 "FESP",
-                "4040513000187",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58037000",
-                "Manaíra",
-                "(83) 2106 6175",
-                "www.fespfaculdades.com.br",
-                "sedup@uol.com.br",
-                null
+                "Manaíra"
             ),
             1995 to University(
                 "FACULDADE DE MEDICINA NOVA ESPERANÇA",
                 "FAMENE",
-                "2949141000180",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58067695",
-                "Gramame",
-                "(83) 2106-4777",
-                "www.famene.com.br",
-                "facene@facene.com.br",
-                null
+                "Gramame"
             ),
             2027 to University(
                 "FACULDADE DE CAMPINA GRANDE",
                 "FAC-CG",
-                "3890380000175",
                 "CAMPINA GRANDE",
-                "Privada",
-                "Privada",
-                "58400262",
-                "Centro",
-                "83 3321 4601",
-                "www.unescfaculdades.com.br",
-                "uescg@uol.com.br",
-                null
+                "Centro"
             ),
             2082 to University(
                 "FACULDADE DE CIÊNCIAS MÉDICAS DA PARAÍBA",
                 "FCM-PB",
-                "4438680000180",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58010740",
-                "Centro",
-                "(83)30440344.30440300",
-                "www.cienciasmedicas.com.br",
-                "diracad@cienciasmedicas.com.br",
-                null
+                "Centro"
             ),
             2158 to University(
                 "FACULDADE SANTA MARIA",
                 "FSM",
-                "3945249000168",
                 "CAJAZEIRAS",
-                "Privada",
-                "Privada",
-                "58900000",
-                "Cristo Rei",
-                "(83) 3531 1365 / (83) 3531-2848",
-                "www.fsm.edu.br",
-                "anagoldfarb@bol.com.br",
-                null
+                "Cristo Rei"
             ),
             2243 to University(
                 "FACULDADE PARAÍBANA",
                 "FAP",
-                "6099229000101",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58043150",
-                "Miramar",
-                "(83)  3214-7673",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Miramar"
             ),
             2362 to University(
                 "FACULDADE DE CIÊNCIAS MÉDICAS DE CAMPINA GRANDE",
                 "FCM",
-                "2108023000140",
                 "CAMPINA GRANDE",
-                "Privada",
-                "Privada",
-                "58100000",
-                "Itararé",
-                "(83)21018800",
-                "www.cesed.br",
-                "fcm@cesed.br",
-                null
+                "Itararé"
             ),
             2435 to University(
                 "FACULDADE DE CIÊNCIAS CONTÁBEIS LUIZ MENDES",
                 "LUMEN FACULDADES",
-                "930084000162",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58040040",
-                "Torre",
-                "(83) 3243 8380",
-                "www.lumenfaculdades.edu.br",
-                "humbertolumen@hotmail.com",
-                null
+                "Torre"
             ),
             2564 to University(
                 "UNIVERSIDADE FEDERAL DE CAMPINA GRANDE",
                 "UFCG",
-                "5055128000176",
                 "CAMPINA GRANDE",
-                "Pública",
-                "Federal",
-                "58109900",
-                "Bodocongó",
-                "(83) 3310 1467",
-                "www.ufcg.edu.br",
-                "reitor@ufcg.edu.br",
-                null
+                "Bodocongó"
             ),
             2730 to University(
                 "UNIPB - FACULDADE UNIDA DA PARAÍBA",
                 "UNIPB",
-                "5247100000130",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58020540",
-                "Tambiá",
-                "(83) 31332900",
-                "www.unipb.com.br",
-                "clay.mattozo@fpb.edu.br",
-                null
+                "Tambiá"
             ),
             2845 to University(
                 "FACULDADE REINALDO RAMOS",
                 "FARR",
-                "5139034000185",
                 "CAMPINA GRANDE",
-                "Privada",
-                "Privada",
-                "58400328",
-                "São José",
-                "(83) 3341 7997",
-                "www.cesrei.com.br",
-                "direcaocesrei@bol.com.br",
-                null
+                "São José"
             ),
             3099 to University(
                 "FACULDADE POTIGUAR DA PARAÍBA",
                 "FPB",
-                "5247100000130",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58020540",
-                "Tambiá",
-                "(83) 31332920",
-                "www.fpb.edu.br",
-                "clay.mattozo@fpb.edu.br",
-                null
+                "Tambiá"
             ),
             3192 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE CAJAZEIRAS",
                 "ISEC",
-                "3621926000192",
                 "CAJAZEIRAS",
-                "Privada",
-                "Privada",
-                "58900000",
-                "Jardim Adalgisa",
-                "(83)35313011",
-                "www.faspcz.com.br",
-                "veraneide.soares@hotmail.com",
-                null
+                "Jardim Adalgisa"
             ),
             3304 to University(
                 "FACULDADES INTEGRADAS DE PATOS",
                 "FIP",
-                "9277278000185",
                 "PATOS",
-                "Privada",
-                "Privada",
-                "58704000",
-                "Belo Horizonte",
-                "(83) 3421 2742",
-                "ffm.com.br",
-                "ffmascarenhas@uol.com.br",
-                null
+                "Belo Horizonte"
             ),
             3590 to University(
                 "FACULDADE DE ENFERMAGEM SÃO VICENTE DE PAULA",
                 "FESVIP",
-                "3461131000164",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58030020",
-                "Estados",
-                "(83) 3225.8449",
-                "www.fesvip.com.br",
-                "fesvip@fesvip.com.br",
-                null
+                "Estados"
             ),
             3805 to University(
                 "FACULDADE DE TECNOLOGIA DA PARAÍBA",
                 "FATECPB",
-                "70118716000173",
                 "CABEDELO",
-                "Privada",
-                "Privada",
-                "58037010",
-                "Estrada de Cabedelo",
-                "(83) 2106 3833",
-                "www.fatecpb.edu.br",
-                "diretoriageral@fatecpb.edu.br",
-                null
+                "Estrada de Cabedelo"
             ),
             3817 to University(
                 "FACULDADE MAURÍCIO DE NASSAU DE JOÃO PESSOA",
                 "FMN JOÃO PESSOA",
-                "5474470000100",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58013123",
-                "Centro",
-                "(83) 2107-5959",
-                "www.mauriciodenassau.edu.br",
-                "emec@sereducacional.com",
-                null
+                "Centro"
             ),
             3838 to University(
                 "FACULDADE DE TECNOLOGIA DO UNIUOL",
                 "UNIUOL",
-                "4726062000136",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58013490",
-                "Centro",
-                "(83) 3241 9904 e 88310052",
-                "www.uniuol.com.br",
-                "uniuol@uniuol.com.br",
-                null
+                "Centro"
             ),
             3879 to University(
                 "FACULDADE MAURÍCIO DE NASSAU DE CAMPINA GRANDE",
                 "FMN CG",
-                "5933016000170",
                 "CAMPINA GRANDE",
-                "Privada",
-                "Privada",
-                "58105227",
-                "Estação Velha",
-                "(83) 3341-3900",
-                "www.mauriciodenassau.edu.br",
-                "emec@sereducacional.com",
-                null
+                "Estação Velha"
             ),
             3989 to University(
                 "FACULDADE DE TECNOLOGIA DE JOÃO PESSOA",
                 "FATEC",
-                "5314862000102",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58043260",
-                "Miramar",
-                "(83) 3244 7940",
-                "www.fatecjp.com.br",
-                "manu@fatecjp.com.br",
-                null
+                "Miramar"
             ),
             4094 to University(
                 "FACULDADE DE TECNOLOGIA IBRATEC DE JOÃO PESSOA",
                 "UNIBRATEC",
-                "10330472000166",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58037000",
-                "Manaíra",
-                "(83) 3245 7571",
-                "www.faculdadeidez.com.br",
-                "contato@faculdadeidez.com.br",
-                null
+                "Manaíra"
             ),
             4178 to University(
                 "FACULDADE EVILÁSIO FORMIGA",
                 "FEF",
-                "3945249000168",
                 "CAJAZEIRAS",
-                "Privada",
-                "Privada",
-                "58900000",
-                "Belo Horizonte",
-                "(83)3531-3788",
-                "",
-                "ramosformiga@bol.com.br",
-                null
+                "Belo Horizonte"
             ),
             4201 to University(
                 "FACULDADE DE ENSINO SUPERIOR DO NORDESTE",
                 "FAESNE",
-                "6939694000103",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58020500",
-                "Tambiá",
-                "(83)3222 5959",
-                "",
-                "patricia@stfadvogados.com.br / faesne@educsup.org",
-                null
+                "Tambiá"
             ),
             4533 to University(
                 "FACULDADE SÃO FRANCISCO DA PARAÍBA",
                 "FASP",
-                "7541724000191",
                 "CAJAZEIRAS",
-                "Privada",
-                "Privada",
-                "58900000",
-                "Jardim Adalgisa",
-                "(83) 3531-3011",
-                "www.fsf.edu.br",
-                "veraluciaclaudino@bol.com.br",
-                null
+                "Jardim Adalgisa"
             ),
             4631 to University(
                 "FACULDADE ANGLO-AMERICANO DE JOÃO PESSOA",
                 "FAAJP",
-                "7415446000126",
                 "JOAO PESSOA",
-                "Privada",
-                "Privada",
-                "58010630",
-                "Centro",
-                "83 32481035   e  83  99939549",
-                "",
-                "jlperez@globo.com",
-                null
+                "Centro"
             ),
             12625 to University(
                 "ESCOLA SUPERIOR DE AVIAÇÃO CIVIL",
                 "ESAC",
-                "2108023000140",
                 "CAMPINA GRANDE",
-                "Privada",
-                "Privada",
-                "58104600",
-                "Catolé",
-                "(83)21018100",
-                "",
-                "facisa@cesed.br",
-                null
+                "Catolé"
             )
         )
     }

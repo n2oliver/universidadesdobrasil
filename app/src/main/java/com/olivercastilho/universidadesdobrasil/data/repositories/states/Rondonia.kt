@@ -8,450 +8,194 @@ class Rondonia {
             450 to University(
                 "CENTRO UNIVERSITÁRIO LUTERANO DE JI-PARANÁ",
                 "CEULJI/ULBRA",
-                "88332580000165",
                 "JI-PARANA",
-                "Privada",
-                "Privada",
-                "76907438",
-                "Jardim Aurélio Bernardi",
-                "69. 3416 3100 ou 3416.3121",
-                "www.ulbra.br/jiparana",
-                "graduacaojp@ulbra.br / direcaojp@ulbra.br / valdinei@ulbra.br",
-                null
+                "Jardim Aurélio Bernardi"
             ),
             699 to University(
                 "FUNDAÇÃO UNIVERSIDADE FEDERAL DE RONDÔNIA",
                 "UNIR",
-                "4418943000190",
                 "PORTO VELHO",
-                "Pública",
-                "Federal",
-                "76808695",
-                "Zona Rural",
-                "s/n",
-                "www.unir.br",
-                "reitoria@unir.br",
-                null
+                "Zona Rural"
             ),
             788 to University(
                 "FACULDADE DE RONDÔNIA",
                 "FARO",
-                "8155411000168",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "76815800",
-                "Campus FARO",
-                "Zona Rural",
-                "www.faro.edu.br",
-                "coordenacaoacadgeral@faro.edu.br",
-                null
+                "Campus FARO"
             ),
             797 to University(
                 "Faculdade AVEC de Vilhena",
                 "AVEC",
-                "8667147000141",
                 "VILHENA",
-                "Privada",
-                "Privada",
-                "76995000",
-                "Nova Vilhena",
-                "(69) 3322-2822",
-                "www.avec.br",
-                "avec@avec.br",
-                null
+                "Nova Vilhena"
             ),
             833 to University(
                 "FACULDADES INTEGRADAS DE ARIQUEMES",
                 "FIAR",
-                "14605984000149",
                 "ARIQUEMES",
-                "Privada",
-                "Privada",
-                "78932110",
-                "Setor 06",
-                "(69) 3536 1025",
-                "www.fiar.com.br",
-                "fiar@fiar.com.br",
-                null
+                "Setor 06"
             ),
             900 to University(
                 "FACULDADE DE CIÊNCIAS ADMINISTRATIVAS E DE TECNOLOGIA",
                 "FATEC",
-                "34737163000173",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78905160",
-                "Setor Industrial",
-                "(69) 3217-9340",
-                "www.fatec-ro.br",
-                "hmhijazi1@hotmail.com / gildasiomendes@oi.com.br / ewascheck@hotmail.com",
-                null
+                "Setor Industrial"
             ),
             1086 to University(
                 "FACULDADE DE EDUCAÇÃO DE COLORADO DO OESTE",
                 "FAEC",
-                "84559475000102",
                 "COLORADO DO OESTE",
-                "Privada",
-                "Privada",
-                "78996000",
-                "Centro",
-                "(69) 3341 2275",
-                "http://www.faec.br/site/index.php",
-                "faec@avec.br",
-                null
+                "Centro"
             ),
             1087 to University(
                 "FACULDADES INTEGRADAS APARÍCIO CARVALHO",
                 "FIMCA",
-                "1129686000188",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78912640",
-                "Jardim Eldorado",
-                "(69) 3217 8900",
-                "www.fimca.com.br",
-                "fimca@fimca.com.br",
-                null
+                "Jardim Eldorado"
             ),
             1403 to University(
                 "FACULDADE DE PIMENTA BUENO",
                 "FAP",
-                "2798518000148",
                 "PIMENTA BUENO",
-                "Privada",
-                "Privada",
-                "78984000",
-                "Centro",
-                "(69) 3451 4100",
-                "www.fapb.edu.br",
-                "direcao@athenaseducacional.com.br",
-                null
+                "Centro"
             ),
             1414 to University(
                 "FACULDADE SÃO LUCAS",
                 "FSL",
-                "84596170000170",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78916450",
-                "Areal",
-                "(69) 3211 8001",
-                "www.saolucas.edu.br",
-                "faculdade@saolucas.edu.br",
-                null
+                "Areal"
             ),
             1515 to University(
                 "FACULDADE DE EDUCAÇÃO DE PORTO VELHO",
                 "UNIRON",
-                "3327149000178",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78910541",
-                "3 Marias",
-                "(69) 3733 5000",
-                "www.uniron.edu.br",
-                "diracademica@uniron.edu.br / karinaner@gmail.com / rfjacaranda@uol.com.br / marcoportela@pop.com.br",
-                null
+                "3 Marias"
             ),
             1540 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE RONDÔNIA",
                 "IESUR",
-                "84580943000120",
                 "ARIQUEMES",
-                "Privada",
-                "Privada",
-                "78932000",
-                "Setor das Grandes Áreas",
-                "(69) 3535 5005",
-                "www.faar.edu.br",
-                "iesur@faar.edu.br",
-                null
+                "Setor das Grandes Áreas"
             ),
             1699 to University(
                 "FACULDADE DE EDUCAÇÃO DE JARU",
                 "UNICENTRO",
-                "3524789000178",
                 "JARU",
-                "Privada",
-                "Privada",
-                "78940000",
-                "Setor 02",
-                "(69) 3521 5606",
-                "www.unicentroro.edu.br",
-                "unicentro@unicentroro.edu.br",
-                null
+                "Setor 02"
             ),
             1722 to University(
                 "FACULDADE DE PORTO VELHO",
                 "FIP",
-                "5919287000171",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78908790",
-                "Flodoaldo Pontes Pinto",
-                "(69) 3211-6000",
-                "www.portovelho.br",
-                "contato@portovelho.br",
-                null
+                "Flodoaldo Pontes Pinto"
             ),
             1728 to University(
                 "FACULDADE INTERAMERICANA DE PORTO VELHO",
                 "UNIRON",
-                "3327149000178",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78919541",
-                "Cascalheira",
-                "(69) 3733 5000",
-                "www.uniron.edu.br",
-                "diracademica@uniron.edu.br / amatzenbacher@gmail.com / alexandre.porto@uniron.edu.br",
-                null
+                "Cascalheira"
             ),
             1738 to University(
                 "INSTITUTO LUTERANO DE ENSINO SUPERIOR DE PORTO VELHO",
                 "ULBRA ILES",
-                "88332580000165",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78915450",
-                "Mato Grosso",
-                "(69) 32167600",
-                "www.ulbra.br/portovelho",
-                "direcaopvh@ulbra.br / valdinei@ulbra.br",
-                null
+                "Mato Grosso"
             ),
             1917 to University(
                 "FACULDADE DE CIÊNCIAS BIOMÉDICAS DE CACOAL",
                 "FACIMED",
-                "2801291000142",
                 "CACOAL",
-                "Privada",
-                "Privada",
-                "78976005",
-                "Jardim Clodoaldo",
-                "(69) 3441 1950",
-                "www.facimed.edu.br",
-                "assessoria_presidencia@facimed.edu.br",
-                null
+                "Jardim Clodoaldo"
             ),
             2022 to University(
                 "FACULDADE DE ROLIM DE MOURA",
                 "FAROL",
-                "4767589000109",
                 "ROLIM DE MOURA",
-                "Privada",
-                "Privada",
-                "78987000",
-                "Zona Rural",
-                "(69) 3442 4004",
-                "www.farol.edu.br",
-                "bentaperes@hotmail.com",
-                null
+                "Zona Rural"
             ),
             2058 to University(
                 "FACULDADE METROPOLITANA",
                 "UNNESA",
-                "3653762000185",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78912640",
-                "Jardim Eldorado",
-                "(69) 3026-1020",
-                "www.metropolitana-ro.com.br",
-                "fimca@fimca.com.br",
-                null
+                "Jardim Eldorado"
             ),
             2323 to University(
                 "FACULDADE DA AMAZÔNIA",
                 "FAMA",
-                "4398722000105",
                 "VILHENA",
-                "Privada",
-                "Privada",
-                "78995000",
-                "Cristo Rei",
-                "(69) 3322 5114",
-                "www.fama-ro.com.br",
-                "rosangela.cipriano@uol.com.br",
-                null
+                "Cristo Rei"
             ),
             2754 to University(
                 "FACULDADE SÃO PAULO",
                 "FSP",
-                "2798518000229",
                 "ROLIM DE MOURA",
-                "Privada",
-                "Privada",
-                "78987000",
-                "São Cristóvão",
-                "(69)3442-1001",
-                "www.facsaopaulo.edu.br",
-                "direcao@athenaseducacional.com.br",
-                null
+                "São Cristóvão"
             ),
             2779 to University(
                 "FACULDADE DE INFORMÁTICA DE OURO PRETO DO OESTE",
                 "FIOURO",
-                "4892637000190",
                 "OURO PRETO DO OESTE",
-                "Privada",
-                "Privada",
-                "78950000",
-                "Incra",
-                "(69) 3461 4278",
-                "www.uneouro.edu.br",
-                "adriancury@unescnet.br / mauro.rizzo@uol.com.br",
-                null
+                "Incra"
             ),
             2840 to University(
                 "FACULDADE METODISTA DE TEOLOGIA E CIÊNCIAS HUMANAS DA AMAZÔNIA",
                 "FATEO-PVH",
-                "5204188000103",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78901100",
-                "Nossa Senhora da Graça",
-                "(69) 3223 1724 / 3026 7001",
-                "www.imam.edu.br",
-                "direcao@imam.edu.br",
-                null
+                "Nossa Senhora da Graça"
             ),
             3991 to University(
                 "FACULDADE DE TECNOLOGIA SÃO MATEUS",
                 "FATESM",
-                "3832600000104",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78915620",
-                "Areal",
-                "(69) 3211 8001 e 32118002",
-                "www.saomateus.edu.br",
-                "faculdade@saomateus.edu.br",
-                null
+                "Areal"
             ),
             4255 to University(
                 "FACULDADES INTEGRADAS DE CACOAL",
                 "UNESC",
-                "5706023000130",
                 "CACOAL",
-                "Privada",
-                "Privada",
-                "78976215",
-                "Incra",
-                "(69) 34414503",
-                "www.unescnet.br",
-                "unesc@unescnet.br / rodrigo@unescnet.br",
-                null
+                "Incra"
             ),
             4411 to University(
                 "FACULDADE PANAMERICANA DE JI-PARANÁ",
                 "",
-                "7355714000161",
                 "JI-PARANA",
-                "Privada",
-                "Privada",
-                "78961080",
-                "Urupá",
-                "(69) 3219 5000",
-                "www.unijipa.edu.br",
-                "presidencia@athenaseducacional.com.br",
-                null
+                "Urupá"
             ),
             4592 to University(
                 "FACULDADE DE OURO PRETO DO OESTE",
                 "UNEOURO",
-                "4892637000190",
                 "OURO PRETO DO OESTE",
-                "Privada",
-                "Privada",
-                "78950000",
-                "Incra",
-                "(69) 34614278",
-                "www.uneouro.edu.br",
-                "uneouro@uneouro.edu.br",
-                null
+                "Incra"
             ),
             4594 to University(
                 "FACULDADE CATÓLICA DE RONDONIA",
                 "FCR",
-                "5902606000136",
                 "PORTO VELHO",
-                "Privada",
-                "Privada",
-                "78900030",
-                "Centro",
-                "(69) 32114505",
-                "www.fcrondonia.edu.br",
-                "fabioheck@hotmail.com",
-                null
+                "Centro"
             ),
             4613 to University(
                 "FACULDADE DE EDUCAÇÃO E MEIO AMBIENTE",
                 "FAEMA",
-                "7548950000102",
                 "ARIQUEMES",
-                "Privada",
-                "Privada",
-                "78932000",
-                "Setor 6",
-                "(69) 3536 6600",
-                "www.faema.edu.br",
-                "faema@faema.edu.br",
-                null
+                "Setor 6"
             ),
             4785 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE RONDÔNIA",
                 "IFRO",
-                "394445018817",
                 "PORTO VELHO",
-                "Pública",
-                "Federal",
-                "78900",
-                "Flodoaldo Pontes Pinto",
-                "(69) 3212-0066",
-                "www.ifro.edu.br",
-                "jackson@ifro.edu.br",
-                null
+                "Flodoaldo Pontes Pinto"
             ),
             10009 to University(
                 "FAMAC - FACULDADE DE MACHADINHO DO OESTE",
                 "FAMAC",
-                "8103847000103",
                 "MACHADINHO D'OESTE",
-                "Privada",
-                "Privada",
-                "78948000",
-                "Bom Futuro",
-                "(69)35361025",
-                "www.famac.com.br",
-                "flaviomotta@fiar.com.br",
-                null
+                "Bom Futuro"
             ),
             11645 to University(
                 "FACULDADE DE EDUCAÇÃO E CULTURA DE VILHENA",
                 "FAEV",
-                "5706023000130",
                 "VILHENA",
-                "Privada",
-                "Privada",
-                "78985000",
-                "Estrada do Aeroporto",
-                "(69) 34414503",
-                "www.unescnet.br/vilhena",
-                "rodrigo@unescnet.br",
-                null
+                "Estrada do Aeroporto"
             )
         )
     }

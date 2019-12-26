@@ -8,268 +8,116 @@ class Amazonas {
             4 to University(
                 "UNIVERSIDADE FEDERAL DO AMAZONAS",
                 "UFAM",
-                "4378626000197",
                 "MANAUS",
-                "Pública",
-                "Federal",
-                "69077000",
-                "Coroado II",
-                "(92) 3305-4513",
-                "www.ufam.edu.br",
-                "gabinete@ufam.edu.br",
-                null
+                "Coroado II"
             ),
             452 to University(
                 "CENTRO UNIVERSITÁRIO LUTERANO DE MANAUS",
                 "CEULM/ULBRA",
-                "88332580000165",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69077730",
-                "JAPIIM",
-                "(92) 3616 9800",
-                "www.ulbra-mao.br",
-                "legisnorma.manaus@ulbra.br / valdinei@ulbra.br / ines.oliveira@ulbra.br",
-                null
+                "JAPIIM"
             ),
             668 to University(
                 "CENTRO UNIVERSITÁRIO DE ENSINO SUPERIOR DO AMAZONAS",
                 "CIESA",
-                "4278057000108",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69058818",
-                "Flores",
-                "(92) 3643 4200",
-                "www.ciesa.br",
-                "ciesa@ciesa.br / reitor@ciesa.br",
-                null
+                "Flores"
             ),
             669 to University(
                 "UNIVERSIDADE NILTON LINS",
                 "UNINILTONLINS",
-                "4803904000106",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69058040",
-                "Parque Laranjeiras",
-                "(92) 3643 2000",
-                "www.niltonlins.br",
-                "uniniltonlins@niltonlins.br / csantana@niltonlins.br",
-                null
+                "Parque Laranjeiras"
             ),
             1049 to University(
                 "INSTITUTO DE ENSINO SUPERIOR FUCAPI",
                 "CESF",
-                "4153540000166",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69075351",
-                "Distrito Industrial",
-                "(92)21273066",
-                "www.fucapi.br",
-                "faculdade.fucapi@fucapi.br",
-                null
+                "Distrito Industrial"
             ),
             1381 to University(
                 "FACULDADE MARTHA FALCÃO",
                 "FMF",
-                "2153389000130",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69057090",
-                "Adrianópolis",
-                "(92) 2121 0900",
-                "www.infs.com.br",
-                "secfmf@infs.com.br / claudio@infs.com.br / helena@infs.com.br / leticia@infs.com.br",
-                null
+                "Adrianópolis"
             ),
             1422 to University(
                 "CENTRO UNIVERSITÁRIO DO NORTE",
                 "UNINORTE",
-                "63692180000130",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69020030",
-                "Centro",
-                "(92) 32125345",
-                "http://www.uninorte.com.br",
-                "kelly.souza@uninorte.com.br",
-                null
+                "Centro"
             ),
             1436 to University(
                 "ESCOLA SUPERIOR BATISTA DO AMAZONAS",
                 "ESBAM",
-                "3410604000102",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69057510",
-                "Adrianopolis",
-                "(92)33051800",
-                "www.esbam.edu.br",
-                "esbam@esbam.edu.br / direcaogeral@esbam.edu.br",
-                null
+                "Adrianopolis"
             ),
             1592 to University(
                 "FACULDADE DE ODONTOLOGIA DE MANAUS",
                 "FOM",
-                "1192563000191",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69020011",
-                "Centro",
-                "(92) 30875659",
-                "www.fom.edu.br",
-                "f.o.m@uol.com.br",
-                null
+                "Centro"
             ),
             1638 to University(
                 "FACULDADE DO AMAZONAS",
                 "IAES",
-                "6043492000189",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69005307",
-                "Nossa Senhora das Graças",
-                "(92) 35846068",
-                "www.iaes.com.br",
-                "faculdadedoamazonas@gmail.com",
-                null
+                "Nossa Senhora das Graças"
             ),
             1906 to University(
                 "INSTITUTO DE ENSINO SUPERIOR MATERDEI",
                 "IES-MATERDEI",
-                "1640902000155",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69010170",
-                "Centro",
-                "(92) 210 10 800",
-                "www.iesmaterdei.com.br",
-                "iesmaterdei@iesmaterdei.com.br",
-                null
+                "Centro"
             ),
             2147 to University(
                 "FACULDADE METROPOLITANA DE MANAUS",
                 "FAMETRO",
-                "3817341000142",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69050000",
-                "Chapada",
-                "(92) 21211000",
-                "www.fametro.edu.br",
-                "leandroseffair@uol.com.br / cinaracardoso@hotmail.com /  mcseffair@uol.com.br",
-                null
+                "Chapada"
             ),
             2186 to University(
                 "FACULDADE SALESIANA DOM BOSCO",
                 "FSDB",
-                "4373163000170",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69010090",
-                "Centro",
-                "(92)2125 4690 21254639",
-                "http://www.fsdb.edu.br",
-                "cesar@fsdb.edu.br / sandra@fsdb.edu.br",
-                null
+                "Centro"
             ),
             2436 to University(
                 "FACULDADE TÁHIRIH",
                 "FT",
-                "5555099000101",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69084598",
-                "São José IV",
-                "(92) 3249 9500 / 3249 9503",
-                "www.adcam.org.br",
-                "adcam@adcam.org.br / secfaculdade@adcam.org.br",
-                null
+                "São José IV"
             ),
             2676 to University(
                 "FACULDADE LA SALLE",
                 "UNILASALLE",
-                "92741990000137",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69040040",
-                "Dom Pedro",
-                "(92) 3655 1202",
-                "www.unilasalle.edu.br/manaus",
-                "jussara@lasalle.g12.br",
-                null
+                "Dom Pedro"
             ),
             3172 to University(
                 "UNIVERSIDADE DO ESTADO DO AMAZONAS",
                 "UEA",
-                "4280196000176",
                 "MANAUS",
-                "Pública",
-                "Estadual",
-                "69005010",
-                "Flores",
-                "(92) 3214-5774",
-                "www.uea.edu.br",
-                "gabinetechefia@uea.edu.br / ebrocki@uea.edu.br",
-                null
+                "Flores"
             ),
             4277 to University(
                 "FACULDADE LITERATUS",
                 "FAL",
-                "3754112000126",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69050001",
-                "Chapada",
-                "(92) 32128900",
-                "www.literatus.edu.br",
-                "direcao.graduacao@literatus.edu.br",
-                null
+                "Chapada"
             ),
             1812 to University(
                 "INSTITUTO FEDERAL DO AMAZONAS",
                 "IFAM",
-                "394445018817",
                 "MANAUS",
-                "Pública",
-                "Federal",
-                "69020120",
-                "CENTRO",
-                "(92) 3621-6715",
-                "ifam.edu.br",
-                "gabinete@ifam.edu.br /  deg_proen@ifam.edu.br",
-                null
+                "CENTRO"
             ),
             3397 to University(
                 "FACULDADE BOAS NOVAS DE CIÊNCIAS TEOLÓGICAS SOCIAIS E BIOTECNOLÓGICAS",
                 "FBNCTSB",
-                "84541689000151",
                 "MANAUS",
-                "Privada",
-                "Privada",
-                "69077000",
-                "Japiim",
-                "(92)  32372214",
-                "www.faculdadeboasnovas.edu.br",
-                "mariajose@faculdadeboasnovas.edu.br",
-                null
+                "Japiim"
             )
         )
     }

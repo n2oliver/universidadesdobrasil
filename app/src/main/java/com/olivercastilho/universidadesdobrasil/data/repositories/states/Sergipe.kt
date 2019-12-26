@@ -8,198 +8,86 @@ class Sergipe {
             3 to University(
                 "UNIVERSIDADE FEDERAL DE SERGIPE",
                 "UFS",
-                "13031547000104",
                 "SAO CRISTOVAO",
-                "Pública",
-                "Federal",
-                "49100000",
-                "Jardim Rosa Elze",
-                "(79) 2105-6408",
-                "www.ufs.br",
-                "gabinete@ufs.br",
-                null
+                "Jardim Rosa Elze"
             ),
             398 to University(
                 "UNIVERSIDADE TIRADENTES",
                 "UNIT",
-                "13013263000187",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49032490",
-                "Farolândia",
-                "(79) 3218 2100",
-                "http://www.unit.br",
-                "reitoria@unit.br / betisabel_vilar@unit.br",
-                null
+                "Farolândia"
             ),
             1090 to University(
                 "FACULDADE SÃO LUÍS DE FRANÇA",
                 "FSLF",
-                "32728800000110",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49055380",
-                "Getúlio Vargas",
-                "(79) 3214 3990",
-                "www.fslf.com.br",
-                "atendimento@faculdadesaoluis.com.br",
-                null
+                "Getúlio Vargas"
             ),
             1151 to University(
                 "FACULDADE DE ADMINISTRAÇÃO E NEGÓCIOS DE SERGIPE",
                 "FANESE",
-                "1303292000102",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49035800",
-                "Coroa do Meio",
-                "(79) 3234-6350",
-                "www.fanese.edu.br",
-                "ionaldo@fanese.edu.br /  dinecedraz@yahoo.com.br /  solangemelo@fanese.edu.br",
-                null
+                "Coroa do Meio"
             ),
             1968 to University(
                 "FACULDADE ATLÂNTICO",
                 "FA",
-                "32882664000118",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49037620",
-                "Atalaia Velha",
-                "(79) 3243 1435 e 3243 3558",
-                "www.faculdadeatlantico.com.br",
-                "faculdadeatlantico@infonet.com.br",
-                null
+                "Atalaia Velha"
             ),
             2045 to University(
                 "FACULDADE AMADEUS",
                 "FAMA",
-                "4287594000114",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49010180",
-                "Centro",
-                "(79) 2105 2050",
-                "www.faculdadeamadeus.com.br",
-                "secretaria@faculdadeamadeus.com.br",
-                null
+                "Centro"
             ),
             2122 to University(
                 "Faculdade Estácio de Sergipe - Estácio FASE",
                 "FASE",
-                "2608755000107",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49020490",
-                "Salgado Filho",
-                "(79) 3246 8100",
-                "www.fase-se.edu.br",
-                "itzyguary.quezada@estacio.br / cgfase@gmail.com",
-                null
+                "Salgado Filho"
             ),
             2248 to University(
                 "FACULDADE SERGIPANA",
                 "FASER",
-                "6099229000101",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49027220",
-                "Grangeru",
-                "(79) 3217 7476",
-                "http://www.unilist.com.br/faser/",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Grangeru"
             ),
             3427 to University(
                 "FACULDADE JOSÉ AUGUSTO VIEIRA",
                 "FJAV",
-                "32744278000160",
                 "LAGARTO",
-                "Privada",
-                "Privada",
-                "49400000",
-                "Cidade Nova",
-                "(79)3631-9210 / 9212 / 9216",
-                "www.fjav.com.br",
-                "p.institucional@fjav.com.br",
-                null
+                "Cidade Nova"
             ),
             3506 to University(
                 "FACULDADE DE CIÊNCIAS EDUCACIONAIS DE SERGIPE",
                 "FCES",
-                "5193146000114",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49035810",
-                "Coroa do Meio",
-                "(79) 3234-6380",
-                "www.faceeducar.com.br",
-                "andre.freitas@globo.com / solangemelo@fanese.edu.br",
-                null
+                "Coroa do Meio"
             ),
             3778 to University(
                 "FACULDADE DE ARACAJU",
                 "FACAR",
-                "1711282000106",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49027220",
-                "Grageru",
-                "(79) 3217 3904",
-                "www.unilist.com.br/faser/",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Grageru"
             ),
             4121 to University(
                 "FACULDADE TOBIAS BARRETO",
                 "FTB",
-                "6787789000159",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49015160",
-                "São José",
-                "(79)3217.3073",
-                "www.ftb-se.edu.br",
-                "emec@sereducacional.com",
-                null
+                "São José"
             ),
             5362 to University(
                 "FACULDADE SERIGY",
                 "FASERGY",
-                "7488169000181",
                 "ARACAJU",
-                "Privada",
-                "Privada",
-                "49020330",
-                "Salgado Filho",
-                "(79)3246-1450",
-                "www.faculdadeserigy.com.br",
-                "valmar@infonet.com.br",
-                null
+                "Salgado Filho"
             ),
             3183 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE SERGIPE",
                 "IFS",
-                "10728444000100",
                 "ARACAJU",
-                "Pública",
-                "Federal",
-                "49055260",
-                "Getúlio Vargas",
-                "(79) 3711-3100",
-                "www.ifs.edu.br",
-                "gabinete.reitoria@ifs.edu.br",
-                null
+                "Getúlio Vargas"
             )
         )
     }

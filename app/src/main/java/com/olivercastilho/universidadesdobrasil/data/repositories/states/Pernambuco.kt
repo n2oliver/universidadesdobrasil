@@ -8,1318 +8,566 @@ class Pernambuco {
             11 to University(
                 "UNIVERSIDADE CATÓLICA DE PERNAMBUCO",
                 "UNICAP",
-                "10847705000100",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50050900",
-                "Boa Vista",
-                "(81) 2119 4110",
-                "http://www.unicap.br",
-                "prubens@unicap.br / hlima@unicap.br",
-                null
+                "Boa Vista"
             ),
             72 to University(
                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DA MATA SUL",
                 "FAMASUL",
-                "8653818000115",
                 "PALMARES",
-                "Pública",
-                "Municipal",
-                "55540000",
-                "ENGENHO SAO MANOEL",
-                "081-3661-0625",
-                "www.aemasul.com",
-                "",
-                null
+                "ENGENHO SAO MANOEL"
             ),
             73 to University(
                 "CENTRO DE ENSINO SUPERIOR DE ARCOVERDE",
                 "CESA",
-                "11462454000109",
                 "ARCOVERDE",
-                "Pública",
-                "Municipal",
-                "56512902",
-                "SÃO CRISTOVÃO",
-                "(87)3821-0644 / (87)9927-4392",
-                "www.aesa-cesa.br",
-                "direcaocesa@hotmail.com",
-                null
+                "SÃO CRISTOVÃO"
             ),
             144 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS DE OLINDA",
                 "FACHO",
-                "10579324000180",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53250770",
-                "OURO PRETO",
-                "(81) 3429 4100",
-                "www.facho.br",
-                "facho@facho.br",
-                null
+                "OURO PRETO"
             ),
             159 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE CARUARU",
                 "FAFICA",
-                "10019339000193",
                 "CARUARU",
-                "Privada",
-                "Privada",
-                "55030902",
-                "Petrópolis",
-                "(81) 2103-3900",
-                "www.fafica.com",
-                "everaldo@fafica.com",
-                null
+                "Petrópolis"
             ),
             160 to University(
                 "FACULDADE FRASSINETTI DO RECIFE",
                 "FAFIRE",
-                "10847747000133",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50060002",
-                "Boa Vista",
-                "(81) 2122-3500",
-                "www.fafire.br",
-                "mdasgracas@fafire.br",
-                null
+                "Boa Vista"
             ),
             405 to University(
                 "FOCCA - FACULDADE DE OLINDA",
                 "FOCCA",
-                "11573730000106",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53120090",
-                "Carmo",
-                "(81) 3429 1052",
-                "www.focca.com.br",
-                "focca@elogica.com.br / focca@focca.com.br / diretora@focca.com.br",
-                null
+                "Carmo"
             ),
             408 to University(
                 "ESCOLA SUPERIOR DE RELAÇÕES PÚBLICAS",
                 "ESURP",
-                "11009156000150",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "52020220",
-                "AFLITOS",
-                "(81) 34278600",
-                "www.esurp.edu.br",
-                "seger@esurp.edu.br",
-                null
+                "AFLITOS"
             ),
             409 to University(
                 "UNIVERSIDADE DE PERNAMBUCO",
                 "UPE",
-                "11022597000191",
                 "RECIFE",
-                "Pública",
-                "Estadual",
-                "50100010",
-                "Santo Amaro",
-                "(81) 31833715",
-                "www.upe.br",
-                "prograd@upe.pe.gov.br",
-                null
+                "Santo Amaro"
             ),
             410 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS ESUDA",
                 "FCHE",
-                "10473817000130",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50050480",
-                "Santo Amaro",
-                "(81) 3412 4242",
-                "www.esuda.com.br",
-                "coord.academica@esuda.com.br",
-                null
+                "Santo Amaro"
             ),
             580 to University(
                 "UNIVERSIDADE FEDERAL DE PERNAMBUCO",
                 "UFPE",
-                "24134488000108",
                 "RECIFE",
-                "Pública",
-                "Federal",
-                "50670901",
-                "Cidade Universitária",
-                "81 2126 8001",
-                "www.ufpe.br",
-                "alins@ufpe.br",
-                null
+                "Cidade Universitária"
             ),
             587 to University(
                 "UNIVERSIDADE FEDERAL RURAL DE PERNAMBUCO",
                 "UFRPE",
-                "24416174000106",
                 "RECIFE",
-                "Pública",
-                "Federal",
-                "52071030",
-                "Dois Irmãos",
-                "(81) 3320 6001",
-                "www.ufrpe.br",
-                "reitoria@reitoria.ufrpe.br",
-                null
+                "Dois Irmãos"
             ),
             657 to University(
                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DE SERRA TALHADA",
                 "FAFOPST",
-                "11115011000133",
                 "SERRA TALHADA",
-                "Pública",
-                "Municipal",
-                "56900000",
-                "NSª DA CONCEIÇÃO",
-                "(87) 3831 2311",
-                "",
-                "mariajosevasconcelos09@hotmail.com",
-                null
+                "NSª DA CONCEIÇÃO"
             ),
             674 to University(
                 "CENTRO DE ENSINO SUPERIOR DO VALE SÃO FRANCISCO",
                 "CESVASF",
-                "10264877000143",
                 "BELEM DE SAO FRANCISCO",
-                "Pública",
-                "Municipal",
-                "56440000",
-                "Nova Olinda",
-                "(87)38761248",
-                "www.cesvasf.com.br",
-                "cesvasf@uol.com.br",
-                null
+                "Nova Olinda"
             ),
             685 to University(
                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DE BELO JARDIM",
                 "FABEJA",
-                "11464153000106",
                 "BELO JARDIM",
-                "Pública",
-                "Municipal",
-                "55150000",
-                "ZONA RURAL",
-                "(81) 3726 1929",
-                "www.aeb.edu.br",
-                "luziasquinca@hotmail.com",
-                null
+                "ZONA RURAL"
             ),
             686 to University(
                 "FACULDADE DE CIÊNCIAS APLICADAS DE LIMOEIRO",
                 "FACAL",
-                "11166741000163",
                 "LIMOEIRO",
-                "Pública",
-                "Municipal",
-                "55700000",
-                "CENTRO",
-                "",
-                "www.facal.edu.br",
-                "facal@facal.edu.br",
-                null
+                "CENTRO"
             ),
             692 to University(
                 "FACULDADE DE CIÊNCIAS APLICADAS E SOCIAIS DE PETROLINA",
                 "FACAPE",
-                "11157971000166",
                 "PETROLINA",
-                "Pública",
-                "Municipal",
-                "56328903",
-                "VILA EDUARDO",
-                "",
-                "www.facape.br",
-                "romerio.galvao@facape.br",
-                null
+                "VILA EDUARDO"
             ),
             701 to University(
                 "FACULDADE DE CIÊNCIAS DA ADMINISTRAÇÃO DE GARANHUNS",
                 "FAGA",
-                "11224920000100",
                 "GARANHUNS",
-                "Pública",
-                "Municipal",
-                "55290000",
-                "SÃO JOSÉ",
-                "(87) 37611596",
-                "www.aesga.edu.br",
-                "avai.aesga@hotmail.com / izaura_matos@hotmail.com",
-                null
+                "SÃO JOSÉ"
             ),
             702 to University(
                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DE GOIANA",
                 "F.F.P.G.",
-                "11408812000197",
                 "GOIANA",
-                "Pública",
-                "Municipal",
-                "55900000",
-                "CENTRO",
-                "(81) 3626 0740",
-                "",
-                "ffpg@uol.com.br",
-                null
+                "CENTRO"
             ),
             703 to University(
                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DE ARARIPINA",
                 "FAFOPA",
-                "11469541000180",
                 "ARARIPINA",
-                "Pública",
-                "Municipal",
-                "56280000",
-                "Centro",
-                "(87) 3873.1001",
-                "portalaeda.edu.br",
-                "fafopa@hotmail.com",
-                null
+                "Centro"
             ),
             704 to University(
                 "FACULDADE DE CIÊNCIAS AGRÁRIAS DE ARARIPINA",
                 "FACIAGRA",
-                "11469541000180",
                 "ARARIPINA",
-                "Pública",
-                "Municipal",
-                "56280000",
-                "CENTRO",
-                "(87) 3873 1001",
-                "www.portalaeda.com.br",
-                "aeda@htnet.com.br",
-                null
+                "CENTRO"
             ),
             720 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS APLICADAS DO CABO DE SANTO AGOSTINHO",
                 "FACHUCA",
-                "11690351000198",
                 "CABO DE SANTO AGOSTINHO",
-                "Pública",
-                "Municipal",
-                "54510110",
-                "Destilaria",
-                "(81) 35210400",
-                "www.fachuca.edu.br",
-                "fachuca@fachuca.edu.br",
-                null
+                "Destilaria"
             ),
             753 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS DO SERTÃO CENTRAL",
                 "FACHUSC",
-                "11351343000117",
                 "SALGUEIRO",
-                "Pública",
-                "Municipal",
-                "56000000",
-                "AUGUSTO SAMPAIO",
-                "",
-                "",
-                "fachusc2000@yahoo.com.br",
-                null
+                "AUGUSTO SAMPAIO"
             ),
             760 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS DE PERNAMBUCO",
                 "FCHPE",
-                "8141582000138",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50050180",
-                "Boa Vista",
-                "(81)32214423 (81)32225870",
-                "www.sopece.br",
-                "sopece@sopece.br",
-                null
+                "Boa Vista"
             ),
             1012 to University(
                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DE AFOGADOS DA INGAZEIRA",
                 "FAFOPAI",
-                "11479037000160",
                 "AFOGADOS DA INGAZEIRA",
-                "Pública",
-                "Municipal",
-                "56800000",
-                "CENTRO",
-                "(87) 3838 1579/(87) 838.1765",
-                "",
-                "aedai@zaz.com.br",
-                null
+                "CENTRO"
             ),
             1021 to University(
                 "FACULDADE DE CIÊNCIAS DE TIMBAÚBA",
                 "FACET",
-                "70223060000159",
                 "TIMBAUBA",
-                "Privada",
-                "Privada",
-                "55870000",
-                "SAPUCAIA",
-                "(81) 3631 0752",
-                "www.faculdadedetimbauba.com.br",
-                "facet@bol.com.br",
-                null
+                "SAPUCAIA"
             ),
             1034 to University(
                 "UNIÃO DE ESCOLAS SUPERIORES DA FUNESO",
                 "UNESF",
-                "8905382000104",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53060770",
-                "JARDIM FRAGOSO",
-                "(81) 30541990",
-                "www.funeso.com.br",
-                "funesounesf@funeso.com.br",
-                null
+                "JARDIM FRAGOSO"
             ),
             1077 to University(
                 "Faculdade Estácio do Recife - Estácio FIR",
                 "FIR",
-                "2608755000107",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50720635",
-                "Madalena",
-                "(81) 21018300",
-                "www.fir.br",
-                "daniele.cunha@estacio.br / cgfirpe@gmail.com / luiz.oliveira@estacio.br / kesi.gomes@estacio.br",
-                null
+                "Madalena"
             ),
             1136 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS DE IGARASSU",
                 "FACIG",
-                "950468000147",
                 "IGARASSU",
-                "Privada",
-                "Privada",
-                "53600000",
-                "CENTRO",
-                "(81) 3543 1636/(81) 3543 1205",
-                "www.facig-pe.edu.br",
-                "diretoriafacig@hotmail.com",
-                null
+                "CENTRO"
             ),
             1143 to University(
                 "FACULDADE DE EDUCAÇÃO SUPERIOR DE TIMBAÚBA",
                 "FAEST",
-                "861006000153",
                 "TIMBAUBA",
-                "Privada",
-                "Privada",
-                "55870000",
-                "Sapucaia",
-                "(81) 3631 0752",
-                "",
-                "faest@bol.com.br",
-                null
+                "Sapucaia"
             ),
             1255 to University(
                 "FACULDADE BOA VIAGEM",
                 "FBV",
-                "11405837000137",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "51190540",
-                "Imbiribeira",
-                "(81) 30814444",
-                "www.fbv.br",
-                "fbv@fbv.br",
-                null
+                "Imbiribeira"
             ),
             1296 to University(
                 "ESCOLA SUPERIOR DE MARKETING",
                 "ESM",
-                "10568061000103",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50720001",
-                "Madalena",
-                "(81) 30810596",
-                "www.escolademarketing.com.br",
-                "coordenacao@escolademarketing.com.br",
-                null
+                "Madalena"
             ),
             1328 to University(
                 "FACULDADE DE COMUNICAÇÃO E TURISMO DE OLINDA",
                 "FACOTTUR",
-                "69904449000180",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53120010",
-                "Bairro Novo",
-                "81-34290772",
-                "www.facottur.org",
-                "academico@facottur.org",
-                null
+                "Bairro Novo"
             ),
             1383 to University(
                 "FACULDADE JOSÉ LACERDA FILHO DE CIÊNCIAS APLICADAS",
                 "FAJOLCA",
-                "1978120000120",
                 "IPOJUCA",
-                "Privada",
-                "Privada",
-                "55590000",
-                "Centro",
-                "(81) 3551 1221",
-                "www.fajolca.edu.br",
-                "fajolca@fajolca.edu.br",
-                null
+                "Centro"
             ),
             1384 to University(
                 "FACULDADE SANTA HELENA",
                 "FSH",
-                "2417543000134",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50610120",
-                "Madalena",
-                "(81) 37976060",
-                "www.fsh.edu.br",
-                "fsh@fsh.edu.br",
-                null
+                "Madalena"
             ),
             1454 to University(
                 "FACULDADE SALESIANA DO NORDESTE",
                 "FASNE",
-                "10819035000100",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50070070",
-                "Boa Vista",
-                "(81) 21295900",
-                "www.fasne.edu.br",
-                "srosembaum@yahoo.com.br",
-                null
+                "Boa Vista"
             ),
             1582 to University(
                 "FACULDADE DECISÃO",
                 "FADE",
-                "3174138000103",
                 "PAULISTA",
-                "Privada",
-                "Privada",
-                "53437000",
-                "Janga",
-                "(81) 3434 4018/4482",
-                "www.fade.edu.br",
-                "fade@fade.edu.br",
-                null
+                "Janga"
             ),
             1674 to University(
                 "INSTITUTO SALESIANO DE FILOSOFIA",
                 "INSAF",
-                "530372000120",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50830000",
-                "Prado",
-                "(81) 21294000",
-                "www.insaf.com.br",
-                "secretaria.insaf@salesianosrec.org.br",
-                null
+                "Prado"
             ),
             1675 to University(
                 "FACULDADE METROPOLITANA DA GRANDE RECIFE",
                 "UNESJ",
-                "2662317000119",
                 "JABOATAO DOS GUARARAPES",
-                "Privada",
-                "Privada",
-                "54325000",
-                "Piedade",
-                "(81) 2128 0500",
-                "www.metropolitana.edu.br",
-                "metropolitana@metropolitana.edu.br",
-                null
+                "Piedade"
             ),
             1676 to University(
                 "FACULDADE SÃO MIGUEL",
                 "FACULDADE SÃO MIGUEL",
-                "2883040000154",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50070070",
-                "Boa Vista",
-                "(81) 2128 2555",
-                "www.faculdadesaomiguel.com.br",
-                "atendimento@faculdadesaomiguel.com",
-                null
+                "Boa Vista"
             ),
             1697 to University(
                 "FACULDADE ESCRITOR OSMAN DA COSTA LINS",
                 "FACOL",
-                "3391726000190",
                 "VITORIA DE SANTO ANTAO",
-                "Privada",
-                "Privada",
-                "55612650",
-                "Universitario",
-                "(81) 3523-0103",
-                "www.facol.net",
-                "facol@facol.net",
-                null
+                "Universitario"
             ),
             1706 to University(
                 "FACULDADE DE INFORMÁTICA DO RECIFE",
                 "FACIR",
-                "11870359000136",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53130540",
-                "Casa Caiada",
-                "(81) 34950504",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Casa Caiada"
             ),
             1707 to University(
                 "FACULDADE DE CIÊNCIAS CONTÁBEIS DE RECIFE",
                 "FACCOR",
-                "11870359000136",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53130540",
-                "Casa Caiada",
-                "(81) 34950504",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Casa Caiada"
             ),
             1708 to University(
                 "INSTITUTO PERNAMBUCANO DE ENSINO SUPERIOR",
                 "IPESU",
-                "11870359000136",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50670000",
-                "Iputinga",
-                "(81) 34530051",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Iputinga"
             ),
             1709 to University(
                 "FACULDADE INTEGRADA DE PERNAMBUCO",
                 "FACIPE",
-                "3844218000110",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50610280",
-                "Madalena",
-                "(81) 3073 8877",
-                "www.facipe.edu.br",
-                "facipe@facipe.edu.br",
-                null
+                "Madalena"
             ),
             1749 to University(
                 "FACULDADE LUSO-BRASILEIRA",
                 "FALUB",
-                "4224338000188",
                 "CARPINA",
-                "Privada",
-                "Privada",
-                "55819903",
-                "Santa Cruz",
-                "(81) 3621 0668",
-                "www.falub.edu.br",
-                "maurifalub@crape.com.br",
-                null
+                "Santa Cruz"
             ),
             1771 to University(
                 "FACULDADE SANTA MARIA",
                 "FSM",
-                "3533780000123",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "51020210",
-                "Boa Viagem",
-                "(081) 3465 5133",
-                "www.fsm.com.br",
-                "fsm@fsm.com.br",
-                null
+                "Boa Viagem"
             ),
             1775 to University(
                 "FACULDADE DO VALE DO IPOJUCA",
                 "FAVIP",
-                "2738361000165",
                 "CARUARU",
-                "Privada",
-                "Privada",
-                "55012640",
-                "Mauricio de Nassau",
-                "(81) 37228080",
-                "www.favip.edu.br",
-                "favip@favip.edu.br",
-                null
+                "Mauricio de Nassau"
             ),
             1803 to University(
                 "FACULDADE DE TECNOLOGIA E CIÊNCIAS DE PERNAMBUCO",
                 "FATEC",
-                "2030121000101",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50711150",
-                "Cordeiro",
-                "(81) 3445 5055",
-                "www.fatecpe.com.br",
-                "",
-                null
+                "Cordeiro"
             ),
             1805 to University(
                 "FACULDADE DOS GUARARAPES",
                 "FG",
-                "41229501000121",
                 "JABOATAO DOS GUARARAPES",
-                "Privada",
-                "Privada",
-                "54400160",
-                "Piedade",
-                "(81) 3461-5530",
-                "www.faculdadeguararapes.edu.br",
-                "direcaogeral@faculdadeguararapes.edu.br",
-                null
+                "Piedade"
             ),
             1881 to University(
                 "FACULDADE DA ESCADA",
                 "FAESC",
-                "3373369000138",
                 "ESCADA",
-                "Privada",
-                "Privada",
-                "55500000",
-                "Centro",
-                "(81) 3534 5153/(81) 35342034",
-                "www.faesc.com",
-                "nilbemoreira.faesc@hotmail.com",
-                null
+                "Centro"
             ),
             1894 to University(
                 "FACULDADE EUROPÉIA DE ADMINISTRAÇÃO E MARKETING",
                 "FEPAM",
-                "3111461000120",
                 "JABOATAO DOS GUARARAPES",
-                "Privada",
-                "Privada",
-                "54400080",
-                "Piedade",
-                "(81) 3461 4008",
-                "www.faculdadefepam.com.br",
-                "risonetepessoa@faculdadefepam.com.br",
-                null
+                "Piedade"
             ),
             1944 to University(
                 "FACULDADE DE TECNOLOGIA IBRATEC",
                 "UNIBRATEC",
-                "70177159000161",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "51150002",
-                "Imbiribeira",
-                "(81) 3339 0998",
-                "www.unibratec.edu.br",
-                "silvana.toscano@unibratec.edu.br",
-                null
+                "Imbiribeira"
             ),
             1992 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE PIEDADE",
                 "IESP",
-                "11870359000136",
                 "JABOATAO DOS GUARARAPES",
-                "Privada",
-                "Privada",
-                "54410390",
-                "Piedade",
-                "(81) 3361 1941",
-                "www.fape-pe.edu.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Piedade"
             ),
             2012 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE PESQUEIRA",
                 "ISEP",
-                "3970508000100",
                 "PESQUEIRA",
-                "Privada",
-                "Privada",
-                "55200000",
-                "Centro",
-                "(87) 3835-1211",
-                "www.isepnet.com.br",
-                "isepnet@hotmail.com",
-                null
+                "Centro"
             ),
             2019 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE SALGUEIRO",
                 "ISES",
-                "4011709000143",
                 "SALGUEIRO",
-                "Privada",
-                "Privada",
-                "56000000",
-                "Divino Espírito Santo",
-                "(87) 3871-0752",
-                "www.iseseduca.com.br",
-                "educaises@zipmail.com.br",
-                null
+                "Divino Espírito Santo"
             ),
             2033 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE FLORESTA",
                 "ISEF",
-                "3960043000107",
                 "FLORESTA",
-                "Privada",
-                "Privada",
-                "56400000",
-                "Centro",
-                "(87) 3877 1509 e 3877 1630",
-                "",
-                "isef.floresta@hotmail.com",
-                null
+                "Centro"
             ),
             2242 to University(
                 "FACULDADE DO RECIFE",
                 "FAREC",
-                "6099229000101",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50070070",
-                "Boa Viagem",
-                "(81) 3231-1299",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Boa Viagem"
             ),
             2409 to University(
                 "FACULDADE ASCES",
                 "ASCES",
-                "9993940000101",
                 "CARUARU",
-                "Privada",
-                "Privada",
-                "55016901",
-                "Universitário",
-                "(081) 2103 2000",
-                "www.asces.edu.br",
-                "asces@asces.edu.br",
-                null
+                "Universitário"
             ),
             2566 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE OLINDA",
                 "IESO",
-                "11870359000136",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53130540",
-                "Casa Caiada",
-                "(81) 3495-0504",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Casa Caiada"
             ),
             2656 to University(
                 "FACULDADE SANTA CATARINA",
                 "FASC",
-                "15156557000193",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "52051380",
-                "Casa Amarela",
-                "(81) 3334 1160",
-                "www.faculdadesantacatarina.com.br",
-                "fasc@faculdadesantacatarina.com.br",
-                null
+                "Casa Amarela"
             ),
             2723 to University(
                 "FACULDADE MARISTA",
                 "FMR",
-                "10847382000147",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "52071410",
-                "Apipucos",
-                "(81) 4009 7777",
-                "www.faculdademarista.com.br",
-                "fmr@marista.edu.br",
-                null
+                "Apipucos"
             ),
             2835 to University(
                 "FACULDADE MAURÍCIO DE NASSAU",
                 "FMN",
-                "4986320000113",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "52011210",
-                "Graças",
-                "(81) 3413-4640",
-                "www.mauricionassau.edu.br",
-                "emec@sereducacional.com",
-                null
+                "Graças"
             ),
             3146 to University(
                 "FACULDADE DE ODONTOLOGIA DO RECIFE",
                 "FOR",
-                "11526498000147",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50100280",
-                "Santo Amaro",
-                "(81) 3221 3325 e 3423 7553",
-                "www.for.edu.br",
-                "coodgradfor@for.edu.br / secretaria@for.edu.br",
-                null
+                "Santo Amaro"
             ),
             3148 to University(
                 "FACULDADE ANCHIETA DO RECIFE",
                 "FAR",
-                "2533247000107",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "51021330",
-                "Boa Viagem",
-                "(81) 3328 1481",
-                "www.faculdadeanchietape.com.br",
-                "aldodeluque@hotmail.com",
-                null
+                "Boa Viagem"
             ),
             3376 to University(
                 "FACULDADE DE TEOLOGIA INTEGRADA",
                 "FATIN",
-                "4528095000171",
                 "IGARASSU",
-                "Privada",
-                "Privada",
-                "53640900",
-                "Igarassu",
-                "(81) 8791 8647  (81)3543 3259",
-                "www.fatin.com.br",
-                "faculdadefatin@hotmail.com",
-                null
+                "Igarassu"
             ),
             3515 to University(
                 "FACULDADES INTEGRADAS DA VITÓRIA DE SANTO ANTÃO",
                 "FAINTVISA",
-                "1448515000111",
                 "VITORIA DE SANTO ANTAO",
-                "Privada",
-                "Privada",
-                "55600000",
-                "Caja",
-                "(81) 3523 1020 R- 30",
-                "www.faintvisa.com.br",
-                "faintvisa@faintvisa.com.br",
-                null
+                "Caja"
             ),
             3568 to University(
                 "FACULDADE DE DESENVOLVIMENTO E INTEGRAÇÃO REGIONAL",
                 "FADIRE",
-                "5774725000150",
                 "SANTA CRUZ DO CAPIBARIBE",
-                "Privada",
-                "Privada",
-                "55190000",
-                "Nova Santa Cruz",
-                "(81) 3731 6181",
-                "www.fadire.edu.br",
-                "leonidas@fadire.edu.br",
-                null
+                "Nova Santa Cruz"
             ),
             3584 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO SANTA CRUZ",
                 "ISED",
-                "5744399000139",
                 "SANTA CRUZ DO CAPIBARIBE",
-                "Privada",
-                "Privada",
-                "55190000",
-                "Centro",
-                "(81) 3731 4364",
-                "www.cesac.edu.br",
-                "cesac.facruz@ig.com.br",
-                null
+                "Centro"
             ),
             3585 to University(
                 "FACULDADE SANTA CRUZ",
                 "FACRUZ",
-                "5744399000139",
                 "SANTA CRUZ DO CAPIBARIBE",
-                "Privada",
-                "Privada",
-                "55190000",
-                "Centro",
-                "(81) 3731 4364",
-                "www.facruz.edu.br",
-                "cesac.facruz@ig.com.br",
-                null
+                "Centro"
             ),
             3615 to University(
                 "FACULDADE PERNAMBUCANA DE SAÚDE",
                 "FPS",
-                "5834842000162",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "51200060",
-                "Imbiribeira",
-                "8130357777",
-                "www.fps.edu.br",
-                "salvi.angela@fps.edu.br",
-                null
+                "Imbiribeira"
             ),
             3617 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS E EXATAS DO SERTÃO DO SÃO FRANCISCO",
                 "FACESF",
-                "9801291000191",
                 "BELEM DE SAO FRANCISCO",
-                "Privada",
-                "Privada",
-                "56440000",
-                "Centro",
-                "(87)3876 1460",
-                "www.facesf.com.br",
-                "facesf@hotmail.com",
-                null
+                "Centro"
             ),
             3631 to University(
                 "FACULDADE DAMAS DA INSTRUÇÃO CRISTÃ",
                 "FADIC",
-                "10847762000181",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "52050000",
-                "Bairro das Graças",
-                "(81)3426-5026",
-                "www.faculdadedamas.edu.br",
-                "dicmav@hotmail.com",
-                null
+                "Bairro das Graças"
             ),
             3881 to University(
                 "FACULDADE DE INTEGRAÇÃO DO SERTÃO",
                 "FIS",
-                "6090271000161",
                 "SERRA TALHADA",
-                "Privada",
-                "Privada",
-                "56909205",
-                "Tancredo Neves",
-                "(87) 3831-1472",
-                "www.fis.edu.br",
-                "sesst@fis.edu.br",
-                null
+                "Tancredo Neves"
             ),
             3984 to University(
                 "FUNDAÇÃO UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO",
                 "UNIVASF",
-                "5440725000114",
                 "PETROLINA",
-                "Pública",
-                "Federal",
-                "56304917",
-                "Centro",
-                "(87) 2101 6830",
-                "http://www.univasf.edu.br",
-                "reitoria@univasf.edu.br / proen@univasf.edu.br / luiz.mariano@univasf.edu.br",
-                null
+                "Centro"
             ),
             3996 to University(
                 "FACULDADE SENAC PERNAMBUCO",
                 "SENACPE",
-                "3485324000155",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50050540",
-                "Boa Vista",
-                "(81)34136655",
-                "www.pe.senac.br",
-                "faculdade@pe.senac.br",
-                null
+                "Boa Vista"
             ),
             4064 to University(
                 "FACULDADE DE TECNOLOGIA FAMA",
                 "FAMA",
-                "10568061000103",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50720635",
-                "Bongi",
-                "(81) 30810596",
-                "www.escolademarketing.com.br",
-                "coordenacao@escolademarketing.com.br",
-                null
+                "Bongi"
             ),
             4118 to University(
                 "FACULDADE JOAQUIM NABUCO - PAULISTA",
                 "FJN",
-                "4986320000113",
                 "PAULISTA",
-                "Privada",
-                "Privada",
-                "53401440",
-                "Centro",
-                "(81) 2121-5999",
-                "www.joaquimnabuco.edu.br",
-                "emec@sereducacional.com",
-                null
+                "Centro"
             ),
             4153 to University(
                 "FACULDADE JOAQUIM NABUCO RECIFE",
                 "FJN",
-                "4986320000113",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50005200",
-                "Boa Vista",
-                "(81) 2121-5999",
-                "www.joaquimnabuco.edu.br/",
-                "emec@sereducacional.com",
-                null
+                "Boa Vista"
             ),
             4356 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS DOS PALMARES",
                 "FACIP",
-                "8653818000115",
                 "PALMARES",
-                "Pública",
-                "Municipal",
-                "55540000",
-                "Engenho São Manoel",
-                "(81) 3661 1876",
-                "www.aemasul.com",
-                "facip_educ@hotmail.com",
-                null
+                "Engenho São Manoel"
             ),
             4398 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE GOIANA",
                 "I.S.E.G.",
-                "11408812000197",
                 "GOIANA",
-                "Pública",
-                "Municipal",
-                "55900000",
-                "CENTRO",
-                "(81) 3626-0517",
-                "www.ffpg.com.br",
-                "ffpg@uol.com.br",
-                null
+                "CENTRO"
             ),
             4417 to University(
                 "FACULDADE DE ENFERMAGEM DE BELO JARDIM",
                 "FAEB",
-                "11464153000106",
                 "BELO JARDIM",
-                "Pública",
-                "Municipal",
-                "55150000",
-                "Zona  Rural",
-                "(81) 3726 1929",
-                "www.aeb.edu.br",
-                "irissilva1965@hotmail.com",
-                null
+                "Zona  Rural"
             ),
             4420 to University(
                 "FACULDADES INTEGRADAS BARROS MELO",
                 "FIBAM",
-                "9726365000172",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53300240",
-                "Jardim Brasil II",
-                "(81) 2128 9797",
-                "www.barrosmelo.edu.br",
-                "aeso@aeso.br",
-                null
+                "Jardim Brasil II"
             ),
             4700 to University(
                 "FACULDADE NOVA ROMA",
                 "FNR",
-                "6302344000131",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50830260",
-                "Prado",
-                "(81)21288000",
-                "http://www.faculdadenovaroma.com.br",
-                "leonardo@cbpe.com.br",
-                null
+                "Prado"
             ),
             4702 to University(
                 "FACULDADE DE TECNOLOGIA GESTÃO & MARKETING",
                 "IBGM / FGM",
-                "7397220000140",
                 "RECIFE",
-                "Privada",
-                "Privada",
-                "50050340",
-                "Boa Vista",
-                "(81) 3231-7771",
-                "www.ibgm.org",
-                "laercioguerra.melo@gmail.com",
-                null
+                "Boa Vista"
             ),
             4742 to University(
                 "FACULDADE SANTA EMÍLIA",
                 "",
-                "6044991000190",
                 "OLINDA",
-                "Privada",
-                "Privada",
-                "53060280",
-                "Jardim Atlântico",
-                "(81)3431.4433",
-                "www.fasefaculdade.edu.br",
-                "leonidas@fasefaculdade.edu.br",
-                null
+                "Jardim Atlântico"
             ),
             4858 to University(
                 "ESCOLA SUPERIOR DE SAÚDE DE ARCOVERDE",
                 "ESSA",
-                "11462454000109",
                 "ARCOVERDE",
-                "Pública",
-                "Municipal",
-                "56500000",
-                "São Cristóvão",
-                "(87) 3821- 3247",
-                "www.aesa-cesa.br",
-                "direcao-essa@hotmail.com",
-                null
+                "São Cristóvão"
             ),
             5044 to University(
                 "FACULDADE DE DIREITO DE GARANHUNS",
                 "FDG",
-                "11224920000100",
                 "GARANHUNS",
-                "Pública",
-                "Municipal",
-                "55295380",
-                "São José",
-                "(87) 3761 1596",
-                "www.aesga.edu.br",
-                "avai.aesga@hotmail.com / izaura_matos@hotmail.com",
-                null
+                "São José"
             ),
             5305 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS E HUMANAS DE GARANHUNS",
                 "FAHUG",
-                "11224920000100",
                 "GARANHUNS",
-                "Pública",
-                "Municipal",
-                "55290000",
-                "São José",
-                "",
-                "www.aesga.edu.br",
-                "avai_aesga@hotmail.com.br",
-                null
+                "São José"
             ),
             5664 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS DE ARARIPINA - FACISA",
                 "FACISA",
-                "11469541000180",
                 "ARARIPINA",
-                "Pública",
-                "Municipal",
-                "56280000",
-                "Vila Santa Maria",
-                "",
-                "www.siga.portalaeda@hotmail.com",
-                "facisa@hotmail.com",
-                null
+                "Vila Santa Maria"
             ),
             10588 to University(
                 "FACULDADE LÍDER",
                 "FAL",
-                "7508313000102",
                 "SAO LOURENCO DA MATA",
-                "Privada",
-                "Privada",
-                "54735420",
-                "Centro",
-                "81-3525-4757",
-                "www.fal-pe.edu.br",
-                "fal@fal-pe.edu.br",
-                null
+                "Centro"
             ),
             15669 to University(
                 "FACULDADE DE CIÊNCIAS EXATAS DE GARANHUNS",
                 "FACEG",
-                "11224920000100",
                 "GARANHUNS",
-                "Pública",
-                "Municipal",
-                "55295380",
-                "Heliópolis",
-                "(87) 3761.1596",
-                "www.aesga.edu.br",
-                "engenhariacivil@aesga.edu.br",
-                null
+                "Heliópolis"
             ),
             1809 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE PERNAMBUCO",
                 "IFPE",
-                "394445018817",
                 "RECIFE",
-                "Pública",
-                "Federal",
-                "50740540",
-                "Curado",
-                "(81) 2125 1600",
-                "www.ifpe.edu.br",
-                "gabinete@reitoria.ifpe.edu.br",
-                null
+                "Curado"
             ),
             3161 to University(
                 "Instituto Federal de Educação Ciência e Tecnologia do Sertão Pernambucano",
                 "",
-                "394445018817",
                 "PETROLINA",
-                "Pública",
-                "Federal",
-                "56300000",
-                "Centro",
-                "(87) 2101-2350/(87)2101-2388",
-                "http://www.ifsertao-pe.edu.br/",
-                "rildo.diniz@ifsertao-pe.edu.br",
-                null
+                "Centro"
             )
         )
     }

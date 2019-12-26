@@ -8,352 +8,152 @@ class RioGrandeDoNorte {
             724 to University(
                 "FACULDADE DE CIÊNCIAS CULTURA E EXTENSÃO DO RIO GRANDE DO NORTE",
                 "FACEX",
-                "8241911000112",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59080020",
-                "Capim Macio",
-                "(84) 3235 1415",
-                "www.facex.com.br",
-                "secretaria@facex.com.br",
-                null
+                "Capim Macio"
             ),
             1082 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO RIO GRANDE DO NORTE",
                 "IFRN",
-                "10877412000168",
                 "NATAL",
-                "Pública",
-                "Federal",
-                "59015000",
-                "Tirol",
-                "(84) 4005 0752. 40050750",
-                "http://www.ifrn.edu.br/",
-                "gabinete.reitoria@ifrn.edu.br",
-                null
+                "Tirol"
             ),
             71 to University(
                 "UNIVERSIDADE DO ESTADO DO RIO GRANDE DO NORTE",
                 "UERN",
-                "8258295000102",
                 "MOSSORO",
-                "Pública",
-                "Estadual",
-                "59610210",
-                "CENTRO",
-                "(84) 3315 2139 / (84)3315-2148",
-                "www.uern.br",
-                "reitoria@uern.br / secreitoria@uern.br",
-                null
+                "CENTRO"
             ),
             570 to University(
                 "UNIVERSIDADE FEDERAL DO RIO GRANDE DO NORTE",
                 "UFRN",
-                "24365710000183",
                 "NATAL",
-                "Pública",
-                "Federal",
-                "59078970",
-                "Lagoa Nova",
-                "(84) 3215 3119",
-                "www.ufrn.br",
-                "reitora@reitoria.ufrn.br,gabinete@reitoria.ufrn.br;",
-                null
+                "Lagoa Nova"
             ),
             589 to University(
                 "UNIVERSIDADE FEDERAL RURAL DO SEMI-ÁRIDO",
                 "UFERSA",
-                "394445018817",
                 "MOSSORO",
-                "Pública",
-                "Federal",
-                "59625900",
-                "Presidente Costa e Silva",
-                "(84) 3317 8226",
-                "www.ufersa.edu.br",
-                "reitor@ufersa.edu.br",
-                null
+                "Presidente Costa e Silva"
             ),
             718 to University(
                 "UNIVERSIDADE POTIGUAR",
                 "UNP",
-                "8480071000140",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59054180",
-                "DIX-SEPT Rosado",
-                "(84) 3215 1366",
-                "www.unp.br",
-                "reitoria@unp.br",
-                null
+                "DIX-SEPT Rosado"
             ),
             1208 to University(
                 "FACULDADE DE NATAL",
                 "FAL",
-                "24527368000170",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59064740",
-                "Candelária",
-                "(84) 3615 8000",
-                "www.falnatal.com.br",
-                "madson@falnatal.com.br / falnatalrn@gmail.com",
-                null
+                "Candelária"
             ),
             1264 to University(
                 "FACULDADE NATALENSE PARA O DESENVOLVIMENTO DO RIO GRANDE DO NORTE",
                 "FARN",
-                "8340515000142",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59014540",
-                "Tirol",
-                "(84) 3215 2917",
-                "http://www.farn.br",
-                "farn@farn.br",
-                null
+                "Tirol"
             ),
             1680 to University(
                 "FACULDADE DE CIÊNCIAS E TECNOLOGIA MATER CHRISTI",
                 "MATER CHRISTI",
-                "24585671000120",
                 "MOSSORO",
-                "Privada",
-                "Privada",
-                "59619140",
-                "Santo Antonio",
-                "(84) 3422-0550 / 3422-0500",
-                "www.materchristi.edu.br",
-                "faculdade@materchristi.edu.br",
-                null
+                "Santo Antonio"
             ),
             1866 to University(
                 "FACULDADE DE CIÊNCIAS EMPRESARIAIS E ESTUDOS COSTEIROS DE NATAL",
                 "FACEN",
-                "3830505000171",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59063200",
-                "Lagoa Nova",
-                "84 3206 4013",
-                "www.facen.edu.br",
-                "diretoriageral@ipep.edu.br / facen.dir@ipep.edu.br",
-                null
+                "Lagoa Nova"
             ),
             2246 to University(
                 "FACULDADE UNIÃO AMERICANA",
                 "UNIÃO AMERICANA",
-                "4917412000141",
                 "PARNAMIRIM",
-                "Privada",
-                "Privada",
-                "59150000",
-                "Nova Parnamirim",
-                "(84) 3608 2030",
-                "www.uniaoamericana.edu.br",
-                "direcao@uniaoamericana.edu.br",
-                null
+                "Nova Parnamirim"
             ),
             2460 to University(
                 "Faculdade Estácio de Natal",
                 "FCC",
-                "2608755000107",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59030350",
-                "Alecrim",
-                "(84) 3198 1602",
-                "www.estacio.br",
-                "cgfccrn@gmail.com / caio.vieira@estacio.br / evandro.minchoni@estacio.br",
-                null
+                "Alecrim"
             ),
             2514 to University(
                 "INSTITUTO NATALENSE DE EDUCAÇÃO SUPERIOR",
                 "INAES",
-                "3830505000171",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59054120",
-                "Lagoa Seca",
-                "84 3206 4013",
-                "",
-                "inaes@ipeprn.edu.br / facen.dir@ipeprn.edu.br / secretariageral@ipep.edu.br / diretoriageral@ipep.edu.br",
-                null
+                "Lagoa Seca"
             ),
             2908 to University(
                 "FACULDADE NATALENSE DE ENSINO E CULTURA",
                 "FANEC",
-                "11888849000160",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59063200",
-                "Lagoa Nova",
-                "(84) 3234 3551",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Lagoa Nova"
             ),
             3360 to University(
                 "INSTITUTO DE EDUCAÇÃO SUPERIOR PRESIDENTE KENNEDY - CENTRO DE FORMAÇÃO DE PROFISSIONAIS DE EDUCAÇÃO",
                 "IFESP",
-                "8241804000194",
                 "NATAL",
-                "Pública",
-                "Estadual",
-                "59062500",
-                "Lagoa Nova",
-                "(84)3 232 6231 / (84) 232 6233 / 232 6242 / (84)3 232 6238",
-                "www.kennedy.rn.gov.br",
-                "ifesp@rn.gov.br",
-                null
+                "Lagoa Nova"
             ),
             3431 to University(
                 "FACULDADE DO SERIDÓ",
                 "FAS",
-                "5439863000183",
                 "CURRAIS NOVOS",
-                "Privada",
-                "Privada",
-                "59380000",
-                "Manoel Salustino",
-                "(84)34123377",
-                "www.faculdadedoserido.com.br",
-                "faculdadedoserido@yahoo.com.br",
-                null
+                "Manoel Salustino"
             ),
             3625 to University(
                 "FACULDADE CATÓLICA NOSSA SENHORA DAS VITÓRIAS",
                 "FCNSV",
-                "5833836000190",
                 "ACU",
-                "Privada",
-                "Privada",
-                "59650000",
-                "Centro",
-                "(84) 3331 2815",
-                "www.fcproneves.edu.br/assu",
-                "faculdadecatolicansv@gmail.com",
-                null
+                "Centro"
             ),
             3644 to University(
                 "FACULDADE CATÓLICA SANTA TERESINHA",
                 "FCST",
-                "5845288000119",
                 "CAICO",
-                "Privada",
-                "Privada",
-                "59300000",
-                "Centro",
-                "(84) 34172316",
-                "www.fcproneves.edu.br",
-                "diracad.st@fcproneves.edu.br",
-                null
+                "Centro"
             ),
             3784 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DO RIO GRANDE DO NORTE",
                 "IESRN",
-                "6099229000101",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59077000",
-                "Lagoa Nova",
-                "(84) 3234-3551",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Lagoa Nova"
             ),
             3853 to University(
                 "FACULDADE MAURÍCIO DE NASSAU DE NATAL",
                 "FMN NATAL",
-                "6083327000150",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59080400",
-                "Capim Macio",
-                "(84) 3344-7800",
-                "www.mauriciodenassau.edu.br",
-                "emec@sereducacional.com",
-                null
+                "Capim Macio"
             ),
             4431 to University(
                 "FACULDADE DE ENFERMAGEM NOVA ESPERANÇA DE MOSSORÓ - FACENE/RN",
                 "FACENE/RN",
-                "2949141000180",
                 "MOSSORO",
-                "Privada",
-                "Privada",
-                "59628000",
-                "Alto de São Manoel",
-                "84-33120143",
-                "www.facenemossoro.com.br",
-                "facene@facene.com.br",
-                null
+                "Alto de São Manoel"
             ),
             4566 to University(
                 "FACULDADE DE EXCELÊNCIA EDUCACIONAL DO RIO GRANDE DO NORTE",
                 "SUDERN",
-                "7494877000125",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59082270",
-                "Capim Macio",
-                "(84) 4008-0356 / (84) 4008-0354",
-                "www.fatern.edu.br",
-                "fatern@digizap.com.br / cgfatern@gmail.com",
-                null
+                "Capim Macio"
             ),
             4847 to University(
                 "FACULDADE DIOCESANA DE MOSSORÓ",
                 "",
-                "7729838000160",
                 "MOSSORO",
-                "Privada",
-                "Privada",
-                "59611120",
-                "Santo Antônio",
-                "",
-                "",
-                "cdsl@cdsl.com.br",
-                null
+                "Santo Antônio"
             ),
             11841 to University(
                 "FACULDADE EVOLUÇÃO ALTO OESTE POTIGUAR",
                 "FACEP",
-                "8286517000109",
                 "PAU DOS FERROS",
-                "Privada",
-                "Privada",
-                "59900000",
-                "JOÃO XXIII",
-                "84-33512552",
-                "",
-                "angelaraulino@msn.com",
-                null
+                "JOÃO XXIII"
             ),
             15428 to University(
                 "FACULDADE DOM HEITOR SALES",
                 "-",
-                "947539000152",
                 "NATAL",
-                "Privada",
-                "Privada",
-                "59025280",
-                "Cidade Alta",
-                "846152827",
-                "",
-                "itepan@veloxmail.com.br",
-                null
+                "Cidade Alta"
             )
         )
     }

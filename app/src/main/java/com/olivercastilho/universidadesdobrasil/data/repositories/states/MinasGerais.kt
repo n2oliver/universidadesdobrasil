@@ -8,4972 +8,2132 @@ class MinasGerais {
             6 to University(
                 "UNIVERSIDADE FEDERAL DE OURO PRETO",
                 "UFOP",
-                "23070659000110",
                 "OURO PRETO",
-                "Pública",
-                "Federal",
-                "35400000",
-                "Centro",
-                "(31)3559-1218",
-                "www.ufop.br",
-                "reitoria@ufop.br",
-                null
+                "Centro"
             ),
             8 to University(
                 "UNIVERSIDADE FEDERAL DE VIÇOSA",
                 "UFV",
-                "25944455000196",
                 "VICOSA",
-                "Pública",
-                "Federal",
-                "36570000",
-                "Campus Universitário",
-                "(31)  3899 2101",
-                "www.ufv.br",
-                "reitoria@ufv.br / proplan@ufv.br",
-                null
+                "Campus Universitário"
             ),
             17 to University(
                 "UNIVERSIDADE FEDERAL DE UBERLÂNDIA",
                 "UFU",
-                "25648387000118",
                 "UBERLANDIA",
-                "Pública",
-                "Federal",
-                "38408144",
-                "Santa Mônica",
-                "(34)3239-4812",
-                "www.ufu.br",
-                "reitoria@ufu.br",
-                null
+                "Santa Mônica"
             ),
             27 to University(
                 "UNIVERSIDADE VALE DO RIO VERDE",
                 "UNINCOR",
-                "25872854000199",
                 "TRES CORACOES",
-                "Privada",
-                "Privada",
-                "37410000",
-                "Chácara das Rosas",
-                "(35) 3239-1136",
-                "www.unincor.br",
-                "reitoria@unincor.edu.br",
-                null
+                "Chácara das Rosas"
             ),
             30 to University(
                 "UNIVERSIDADE JOSÉ DO ROSÁRIO VELLANO",
                 "UNIFENAS",
-                "17878554000199",
                 "ALFENAS",
-                "Privada",
-                "Privada",
-                "37130000",
-                "Campus Universitário",
-                "(35)32993257",
-                "www.unifenas.br",
-                "unifenas@unifenas.br",
-                null
+                "Campus Universitário"
             ),
             31 to University(
                 "CENTRO DE EDUCAÇÃO TÉCNICA DA UTRAMIG",
                 "UTRAMIG",
-                "17319831000123",
                 "BELO HORIZONTE",
-                "Pública",
-                "Estadual",
-                "30130009",
-                "CRUZEIRO",
-                "",
-                "www.utramig.mg.gov.br",
-                "cet.utramig@yahoo.com.br",
-                null
+                "CRUZEIRO"
             ),
             99 to University(
                 "FACULDADE DE DIREITO DE CONSELHEIRO LAFAIETE",
                 "FDCL",
-                "19722313000181",
                 "CONSELHEIRO LAFAIETE",
-                "Privada",
-                "Privada",
-                "36400000",
-                "Carijós",
-                "(31) 3769-1919",
-                "www.fdcl.edu.br",
-                "chrysthiane.pi@fdcl.edu.br / fdcl@fdcl.edu.br",
-                null
+                "Carijós"
             ),
             107 to University(
                 "UNIVERSIDADE FEDERAL DE SÃO JOÃO DEL REI",
                 "UFSJ",
-                "21186804000105",
                 "SAO JOAO DEL REI",
-                "Pública",
-                "Federal",
-                "36307352",
-                "Centro",
-                "(32) 3379 2340/(32) 3379 2344",
-                "http://www.ufsj.edu.br/",
-                "reitoria@ufsj.edu.br",
-                null
+                "Centro"
             ),
             126 to University(
                 "INSTITUTO NACIONAL DE TELECOMUNICAÇÕES",
                 "INATEL",
-                "24492886000104",
                 "SANTA RITA DO SAPUCAI",
-                "Privada",
-                "Privada",
-                "37540000",
-                "Centro",
-                "(35) 3471 9200/(35) 3471 9309",
-                "www.inatel.br",
-                "pesquisador.institucional@inatel.br",
-                null
+                "Centro"
             ),
             139 to University(
                 "FACULDADE DE CIÊNCIAS ECONÔMICAS DO TRIÂNGULO MINEIRO",
                 "FCETM",
-                "19062231000158",
                 "UBERABA",
-                "Privada",
-                "Privada",
-                "38050600",
-                "Universitário",
-                "(34) 3331 5555",
-                "www.fcetm.br",
-                "fcetm@fcetm.br",
-                null
+                "Universitário"
             ),
             141 to University(
                 "FACULDADE DE DIREITO DE VARGINHA - FADIVA",
                 "FADIVA",
-                "25866138000107",
                 "VARGINHA",
-                "Privada",
-                "Privada",
-                "37010500",
-                "VILA PINTO",
-                "(35) 3221-1900",
-                "www.fadiva.edu.br",
-                "secretaria@fadiva.edu.br",
-                null
+                "VILA PINTO"
             ),
             142 to University(
                 "CENTRO UNIVERSITÁRIO DO TRIÂNGULO",
                 "UNITRI",
-                "28638393000182",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38411106",
-                "Gávea",
-                "(34) 4009-9053",
-                "www.unitri.edu.br",
-                "cpa@unitri.edu.br",
-                null
+                "Gávea"
             ),
             143 to University(
                 "UNIVERSIDADE DE UBERABA",
                 "UNIUBE",
-                "25452301000187",
                 "UBERABA",
-                "Privada",
-                "Privada",
-                "38055550",
-                "Campus Universitário",
-                "(34) 3319 8800",
-                "http://www.uniube.br",
-                "uniube@uniube.br",
-                null
+                "Campus Universitário"
             ),
             171 to University(
                 "FACULDADE DE DIREITO DO SUL DE MINAS",
                 "FDSM",
-                "23955214000117",
                 "POUSO ALEGRE",
-                "Privada",
-                "Privada",
-                "37550000",
-                "Centro",
-                "(35)3449 8104",
-                "www.fdsm.edu.br",
-                "coordenacao@fdsm.edu.br",
-                null
+                "Centro"
             ),
             214 to University(
                 "FACULDADE DE ENGENHARIA DE MINAS GERAIS - FEAMIG",
                 "FEAMIG",
-                "17326299000171",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30510120",
-                "Gameleira",
-                "(31) 3372 3703",
-                "www.feamig.br",
-                "coordenacaopedagogica@feamig.br",
-                null
+                "Gameleira"
             ),
             216 to University(
                 "CENTRO UNIVERSITÁRIO METODISTA IZABELA HENDRIX",
                 "IMIH",
-                "17217191000140",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30160012",
-                "Funcionários",
-                "(31) 3244-7269",
-                "www.metodistademinas.edu.br",
-                "paula.silva@metodistademinas.edu.br",
-                null
+                "Funcionários"
             ),
             284 to University(
                 "FACULDADE DE MEDICINA DE ITAJUBÁ",
                 "FMIT",
-                "21040696000150",
                 "ITAJUBA",
-                "Privada",
-                "Privada",
-                "37502138",
-                "SÃO VICENTE",
-                "(35) 3629.8700/3629.8708",
-                "www.aisi.edu.br",
-                "secretaria@aisi.edu.br",
-                null
+                "SÃO VICENTE"
             ),
             288 to University(
                 "FACULDADE DE DIREITO DO VALE DO RIO DOCE",
                 "FADIVALE",
-                "20620449000160",
                 "GOVERNADOR VALADARES",
-                "Privada",
-                "Privada",
-                "35010090",
-                "Centro",
-                "(33) 3271 2004 R- 221",
-                "www.fadivale.edu.br",
-                "cpd@fadivale.edu.br / gelekaa@hotmail.com / direcao@fadivale.edu.br",
-                null
+                "Centro"
             ),
             307 to University(
                 "FACULDADE DE MEDICINA DE BARBACENA",
                 "FAME",
-                "19559012000189",
                 "BARBACENA",
-                "Privada",
-                "Privada",
-                "36202336",
-                "São Sebastião",
-                "(32)3339-2950",
-                "www.funjob.edu.br",
-                "fame@funjob.edu.br",
-                null
+                "São Sebastião"
             ),
             308 to University(
                 "UNIVERSIDADE PRESIDENTE ANTÔNIO CARLOS",
                 "UNIPAC",
-                "17080078000166",
                 "BARBACENA",
-                "Privada",
-                "Privada",
-                "36200000",
-                "Colônia  Rodrigo Silva",
-                "(31) 34225044",
-                "",
-                "kesciacarvalho@yahoo.com.br",
-                null
+                "Colônia  Rodrigo Silva"
             ),
             336 to University(
                 "FACULDADE MACHADO SOBRINHO",
                 "FMS",
-                "21576822000195",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36030140",
-                "Cruzeiro do Sul",
-                "(32) 3234 1436",
-                "www.machadosobrinho.com.br",
-                "secfac@machadosobrinho.com.br",
-                null
+                "Cruzeiro do Sul"
             ),
             337 to University(
                 "CENTRO DE ENSINO SUPERIOR DE JUIZ DE FORA",
                 "CES/JF",
-                "17178195000167",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36016000",
-                "Centro",
-                "(32) 2102-7789",
-                "www.cesjf.br",
-                "bethsac@cesjf.br /  hermano@cesjf.br",
-                null
+                "Centro"
             ),
             338 to University(
                 "PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS",
                 "PUC MINAS",
-                "17178195000167",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30535901",
-                "Coração Eucarístico",
-                "(31) 3319 4444",
-                "www.pucminas.br",
-                "prograd@pucminas.br / coordgpa@pucminas.br / progradavalproc@pucminas.br",
-                null
+                "Coração Eucarístico"
             ),
             343 to University(
                 "CENTRO UNIVERSITÁRIO NEWTON PAIVA",
                 "NEWTON PAIVA",
-                "16521155000103",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30494230",
-                "Escoril",
-                "(31) 35162638/3516-2348",
-                "www.newtonpaiva.br",
-                "glaucia.nipar@newtonpaiva.br",
-                null
+                "Escoril"
             ),
             344 to University(
                 "CENTRO UNIVERSITÁRIO UNA",
                 "UNA",
-                "5648257000178",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30350340",
-                "Estoril",
-                "(31) 3379-1240",
-                "www.una.br",
-                "reitoria@una.br",
-                null
+                "Estoril"
             ),
             345 to University(
                 "ESCOLA DE ENGENHARIA KENNEDY",
                 "EEK",
-                "17314261000189",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31535040",
-                "Visconde do Rio Branco",
-                "(31) 3408 2350",
-                "",
-                "michellesoebras@yahoo.com.br /  elainesoebras@yahoo.com.br / dpjbh@faculdadepromove.br",
-                null
+                "Visconde do Rio Branco"
             ),
             349 to University(
                 "CENTRO UNIVERSITÁRIO DE BELO HORIZONTE",
                 "UNI-BH",
-                "8446503000105",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30455610",
-                "Estoril",
-                "(31)3319-9252",
-                "www.unibh.br",
-                "reitoria@unibh.br",
-                null
+                "Estoril"
             ),
             351 to University(
                 "FACULDADE DE CIÊNCIAS MÉDICAS DE MINAS GERAIS",
                 "FCMMG",
-                "17178203000175",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130110",
-                "Centro",
-                "(31) 3248.7100",
-                "www.feluma.org.br",
-                "fcmmg@fcmmg.br",
-                null
+                "Centro"
             ),
             364 to University(
                 "FACULDADE DE CIÊNCIAS CONTÁBEIS DE PONTE NOVA",
                 "FACE",
-                "23806847000163",
                 "PONTE NOVA",
-                "Privada",
-                "Privada",
-                "35430039",
-                "Sumaré",
-                "(31) 3817 2010",
-                "www.facco.edu.br",
-                "lenydepinho@yahoo.com.br",
-                null
+                "Sumaré"
             ),
             367 to University(
                 "UNIVERSIDADE ESTADUAL DE MONTES CLAROS",
                 "UNIMONTES",
-                "22675359000100",
                 "MONTES CLAROS",
-                "Pública",
-                "Estadual",
-                "39401089",
-                "Vila Mauricéia",
-                "(38) 3229 8000",
-                "http://www.unimontes.br",
-                "reitor@unimontes.br",
-                null
+                "Vila Mauricéia"
             ),
             435 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS SANTA MARCELINA",
                 "FAFISM",
-                "60742855000110",
                 "MURIAE",
-                "Privada",
-                "Privada",
-                "36880000",
-                "Centro",
-                "(32)37211026",
-                "http://www.fafism.com.br",
-                "fafism@fafism.com.br",
-                null
+                "Centro"
             ),
             507 to University(
                 "FACULDADE TRIÂNGULO MINEIRO",
                 "FTM",
-                "17819731000166",
                 "ITUIUTABA",
-                "Privada",
-                "Privada",
-                "38302134",
-                "Universitário",
-                "(34) 3269 8200",
-                "www.ftm.edu.br",
-                "ftm@ftm.edu.br",
-                null
+                "Universitário"
             ),
             508 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DO SUL DE MINAS - FACESM",
                 "FACESM",
-                "17860164000191",
                 "ITAJUBA",
-                "Privada",
-                "Privada",
-                "37504066",
-                "São Judas Tadeu",
-                "(35) 3629 5700",
-                "http://www.facesm.br",
-                "facesm@facesm.br",
-                null
+                "São Judas Tadeu"
             ),
             510 to University(
                 "ESCOLA DE ENFERMAGEM WENCESLAU BRAZ",
                 "EEWB",
-                "21033980000107",
                 "ITAJUBA",
-                "Privada",
-                "Privada",
-                "37501059",
-                "Centro",
-                "(35) 3622 0930",
-                "http://www.eewb.br",
-                "eewb@eewb.br",
-                null
+                "Centro"
             ),
             513 to University(
                 "UNIVERSIDADE VALE DO RIO DOCE",
                 "UNIVALE",
-                "20611810000191",
                 "GOVERNADOR VALADARES",
-                "Privada",
-                "Privada",
-                "35030390",
-                "Vila Bretas",
-                "(33) 3279 5200",
-                "www.univale.br",
-                "reitoria@univale.br / fpf@univale.br / denisecoelho@univale.br / dla@univale.br",
-                null
+                "Vila Bretas"
             ),
             544 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS DE ITABIRA",
                 "FACHI",
-                "73610818000108",
                 "ITABIRA",
-                "Privada",
-                "Privada",
-                "35900972",
-                "MAJOR LAGE DE CIMA",
-                "(031)3839-3684",
-                "www.funcesi.br",
-                "cln@funcesi.br / yana.magalhaes@funcesi.br / micheline.couto@funcesi.br",
-                null
+                "MAJOR LAGE DE CIMA"
             ),
             545 to University(
                 "FACULDADE DE CIÊNCIAS ADMINISTRATIVAS E CONTÁBEIS DE ITABIRA",
                 "FACCI",
-                "73610818000108",
                 "ITABIRA",
-                "Privada",
-                "Privada",
-                "35900972",
-                "MAJOR LAGE DE CIMA",
-                "(31)3839-3684",
-                "www.funcesi.br",
-                "cln@funcesi.br / yana.magalhaes@funcesi.br / micheline.couto@funcesi.br",
-                null
+                "MAJOR LAGE DE CIMA"
             ),
             575 to University(
                 "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
                 "UFMG",
-                "17217985000104",
                 "BELO HORIZONTE",
-                "Pública",
-                "Federal",
-                "31270901",
-                "Pampulha",
-                "(31) 3409 4124",
-                "http://www.ufmg.br",
-                "reitor@ufmg.br / info@dai.ufmg.br",
-                null
+                "Pampulha"
             ),
             576 to University(
                 "UNIVERSIDADE FEDERAL DE JUIZ DE FORA",
                 "UFJF",
-                "394445018817",
                 "JUIZ DE FORA",
-                "Pública",
-                "Federal",
-                "36036900",
-                "Martelos",
-                "(32) 2102-3905 / (32)2102-3903",
-                "www.ufjf.br",
-                "pesquisador.institucional@ufjf.edu.br",
-                null
+                "Martelos"
             ),
             592 to University(
                 "UNIVERSIDADE FEDERAL DE LAVRAS",
                 "UFLA",
-                "22078679000174",
                 "LAVRAS",
-                "Pública",
-                "Federal",
-                "37200000",
-                "Campus Universitário",
-                "(35) 3829-1546",
-                "www.ufla.br",
-                "dias@proplag.ufla.br / proplag@proplag.ufla.br",
-                null
+                "Campus Universitário"
             ),
             594 to University(
                 "CENTRO FEDERAL DE EDUCAÇÃO TECNOLÓGICA DE MINAS GERAIS",
                 "CEFET/MG",
-                "394445018817",
                 "BELO HORIZONTE",
-                "Pública",
-                "Federal",
-                "30480000",
-                "Nova Suiça",
-                "(31) 3319 7006",
-                "www.cefetmg.br",
-                "gabinete@adm.cefetmg.br / ivetepinheiro@deii.cefetmg.br",
-                null
+                "Nova Suiça"
             ),
             595 to University(
                 "UNIVERSIDADE FEDERAL DE ALFENAS",
                 "UNIFAL-MG",
-                "17879859000115",
                 "ALFENAS",
-                "Pública",
-                "Federal",
-                "37130000",
-                "CENTRO",
-                "(35)32991062",
-                "www.unifal-mg.edu.br",
-                "reitoria@unifal-mg.edu.br",
-                null
+                "CENTRO"
             ),
             596 to University(
                 "UNIVERSIDADE FEDERAL DOS VALES DO JEQUITINHONHA E MUCURI",
                 "UFVJM",
-                "16888315000157",
                 "DIAMANTINA",
-                "Pública",
-                "Federal",
-                "39100000",
-                "Centro",
-                "(38) 3532 6039 e/ou 3532-6032",
-                "www.ufvjm.edu.br",
-                "reitoria@ufvjm.edu.br /  pi@ufvjm.edu.br",
-                null
+                "Centro"
             ),
             597 to University(
                 "UNIVERSIDADE FEDERAL DO TRIÂNGULO MINEIRO",
                 "UFTM",
-                "394445018817",
                 "UBERABA",
-                "Pública",
-                "Federal",
-                "38025180",
-                "Abadia",
-                "(34) 3318-5004",
-                "www.uftm.edu.br",
-                "gabinete@reitoria.uftm.edu.br",
-                null
+                "Abadia"
             ),
             598 to University(
                 "UNIVERSIDADE FEDERAL DE ITAJUBÁ - UNIFEI",
                 "UNIFEI",
-                "21040001000130",
                 "ITAJUBA",
-                "Pública",
-                "Federal",
-                "37500903",
-                "Pinheirinho",
-                "(35)36291108/(35)36291107",
-                "www.unifei.edu.br",
-                "reitoria@unifei.edu.br",
-                null
+                "Pinheirinho"
             ),
             615 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS PROFESSORA NAIR FORTES ABU-MERHY",
                 "FAFI - PRONAFOR",
-                "17708520000156",
                 "ALEM PARAIBA",
-                "Pública",
-                "Municipal",
-                "36660000",
-                "SAÚDE",
-                "(32) 3462 7030",
-                "fafipronafor.com",
-                "fundacaoap@ig.com.br",
-                null
+                "SAÚDE"
             ),
             627 to University(
                 "FACULDADE CENECISTA DE VARGINHA",
                 "FACECA",
-                "33621384000119",
                 "VARGINHA",
-                "Privada",
-                "Privada",
-                "37006020",
-                "Vila Bueno",
-                "(35) 3690 8900",
-                "www.faceca.br",
-                "secretaria@faceca.br / ensinosuperior@cnec.br",
-                null
+                "Vila Bueno"
             ),
             638 to University(
                 "FACULDADE DE DIREITO MILTON CAMPOS",
                 "FDMC",
-                "16694697000188",
                 "NOVA LIMA",
-                "Privada",
-                "Privada",
-                "34000000",
-                "Vila Serra",
-                "(31) 3289 1934",
-                "diretoria.mcampos.br",
-                "secretaria@mcampos.br",
-                null
+                "Vila Serra"
             ),
             648 to University(
                 "FACULDADES ASSOCIADAS DE UBERABA - FAZU",
                 "FAZU",
-                "18599472000178",
                 "UBERABA",
-                "Privada",
-                "Privada",
-                "38061500",
-                "TUTUNAS",
-                "(34) 3318 4188",
-                "www.fazu.br",
-                "fazu@fazu.br",
-                null
+                "TUTUNAS"
             ),
             651 to University(
                 "FACULDADE DE ADMINISTRAÇÃO DE GOVERNADOR VALADARES",
                 "FAGV",
-                "16959199000110",
                 "GOVERNADOR VALADARES",
-                "Privada",
-                "Privada",
-                "35030250",
-                "Vila Bretas",
-                "(33) 3212-6777",
-                "www.fagv.com.br",
-                "fagv@fagv.com.br",
-                null
+                "Vila Bretas"
             ),
             680 to University(
                 "FACULDADES INTEGRADAS DE PEDRO LEOPOLDO",
                 "FIPEL",
-                "23455561000180",
                 "PEDRO LEOPOLDO",
-                "Privada",
-                "Privada",
-                "33600000",
-                "Dr. Lund",
-                "(31) 36861461",
-                "www.fpl.edu.br",
-                "secretaria@fpl.edu.br",
-                null
+                "Dr. Lund"
             ),
             682 to University(
                 "FACULDADE DO NOROESTE DE MINAS",
                 "FINOM",
-                "703090000187",
                 "PARACATU",
-                "Privada",
-                "Privada",
-                "38600000",
-                "Fazendinha",
-                "(38) 3311-2000",
-                "www.finom.edu.br",
-                "finom@finom.edu.br",
-                null
+                "Fazendinha"
             ),
             728 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS DE CURVELO",
                 "FACIC",
-                "22669915000127",
                 "CURVELO",
-                "Privada",
-                "Privada",
-                "35790000",
-                "Jockey Clube",
-                "(38) 3722 2600",
-                "",
-                "michellesoebras@yahoo.com.br / tania.raquel.muniz@hotmail.com",
-                null
+                "Jockey Clube"
             ),
             752 to University(
                 "FACULDADE DE PARÁ DE MINAS",
                 "FAPAM",
-                "20923264000124",
                 "PARA DE MINAS",
-                "Privada",
-                "Privada",
-                "35660398",
-                "São Geraldo",
-                "(37) 3236 1308",
-                "www.fapam.edu.br",
-                "secretaria.fapam@nwm.com.br",
-                null
+                "São Geraldo"
             ),
             809 to University(
                 "FACULDADE DE DIREITO E CIÊNCIAS SOCIAIS DO LESTE DE MINAS - FADILESTE",
                 "FADILESTE",
-                "20844494000106",
                 "REDUTO",
-                "Privada",
-                "Privada",
-                "36920000",
-                "Centro",
-                "(33) 3378 4000",
-                "http://www.fadileste.edu.br",
-                "secretaria@fadileste.edu.br",
-                null
+                "Centro"
             ),
             825 to University(
                 "FACULDADE PRESBITERIANA GAMMON",
                 "FAGAMMON",
-                "22070643000144",
                 "LAVRAS",
-                "Privada",
-                "Privada",
-                "37200000",
-                "Centro",
-                "(35) 3694 2150",
-                "www.fagammon.edu.br",
-                "unigammon@gammon.br",
-                null
+                "Centro"
             ),
             828 to University(
                 "FACULDADE DE SÃO LOURENÇO",
                 "FASAMA",
-                "67172676000133",
                 "SAO LOURENCO",
-                "Privada",
-                "Privada",
-                "37470000",
-                "Federal",
-                "(35) 3332 3355",
-                "www.faculdadesaolourenco.com.br",
-                "secretaria@faculdadesaolourenco.com.br",
-                null
+                "Federal"
             ),
             832 to University(
                 "FACULDADE DE CIÊNCIAS ADMINISTRATIVAS DE CURVELO",
                 "FACIAC",
-                "20078531000104",
                 "CURVELO",
-                "Privada",
-                "Privada",
-                "35790000",
-                "Centro",
-                "(38)3721 3945",
-                "http://www.fac.br",
-                "fac@fac.br",
-                null
+                "Centro"
             ),
             849 to University(
                 "FACULDADE JESUÍTA DE FILOSOFIA E TEOLOGIA",
                 "FAJE",
-                "17211202000185",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31720300",
-                "Planalto",
-                "(31) 3115 7000 e 3115 7004",
-                "www.faculdadejesuita.edu.br",
-                "faje@faculdadejesuita.edu.br",
-                null
+                "Planalto"
             ),
             878 to University(
                 "CENTRO UNIVERSITÁRIO DO LESTE DE MINAS GERAIS",
                 "UNILESTEMG",
-                "331801000130",
                 "CORONEL FABRICIANO",
-                "Privada",
-                "Privada",
-                "35170056",
-                "Universitário",
-                "(31) 3842 6166",
-                "www.unilestemg.br",
-                "ses@unilestemg.br",
-                null
+                "Universitário"
             ),
             890 to University(
                 "ESCOLA DE GOVERNO PROFESSOR PAULO NEVES DE CARVALHO",
                 "EG",
-                "17464652000180",
                 "BELO HORIZONTE",
-                "Pública",
-                "Estadual",
-                "31270810",
-                "PAMPULHA",
-                "(31) 3448 9713",
-                "www.eg.fjp.mg.gov.br",
-                "eg.fjp@fjp.mg.gov.br",
-                null
+                "PAMPULHA"
             ),
             891 to University(
                 "FACULDADE ANHANGUERA DE BELO HORIZONTE",
                 "",
-                "5808792000149",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31270010",
-                "São Francisco",
-                "(31) 34467788",
-                "www.unianhanguera.edu.br",
-                "daex.aesa@aesapar.com / mantenedora@aesapar.com",
-                null
+                "São Francisco"
             ),
             945 to University(
                 "INSTITUTO DE CIÊNCIAS SOCIAIS E HUMANAS",
                 "INCISOH",
-                "22669915000127",
                 "JANUARIA",
-                "Privada",
-                "Privada",
-                "39480000",
-                "Centro",
-                "38 3621 1403",
-                "",
-                "michellesoebras@yahoo.com.br / tania.raquel.muniz@hotmail.com",
-                null
+                "Centro"
             ),
             989 to University(
                 "ESCOLA SUPERIOR EM MEIO AMBIENTE",
                 "ESMA",
-                "887172000129",
                 "IGUATAMA",
-                "Privada",
-                "Privada",
-                "38910000",
-                "BELA VISTA",
-                "",
-                "www.esma.edu.br",
-                "esma@esma.edu.br",
-                null
+                "BELA VISTA"
             ),
             990 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DE CONGONHAS",
                 "FAFIC",
-                "19559012000189",
                 "CONGONHAS",
-                "Privada",
-                "Privada",
-                "36415000",
-                "Praia",
-                "(31) 3731- 4165/1541",
-                "www.unipac.br",
-                "fafic@unipac.br / secretariafafic@unipac.br",
-                null
+                "Praia"
             ),
             1019 to University(
                 "FACULDADE DE CIÊNCIAS E TECNOLOGIA DE UNAÍ - FACTU",
                 "FACTU",
-                "150991000199",
                 "UNAI",
-                "Privada",
-                "Privada",
-                "38610000",
-                "Centro",
-                "(38) 3676 6222",
-                "www.factu.br",
-                "factu@factu.br",
-                null
+                "Centro"
             ),
             1036 to University(
                 "UNIVERSIDADE DO ESTADO DE MINAS GERAIS",
                 "UEMG",
-                "65172579000115",
                 "BELO HORIZONTE",
-                "Pública",
-                "Estadual",
-                "30160042",
-                "Lourdes",
-                "(31) 3330-1500",
-                "www.uemg.br",
-                "uemg@uemg.br",
-                null
+                "Lourdes"
             ),
             1068 to University(
                 "FACULDADE ALDETE MARIA ALVES",
                 "FAMA",
-                "99845000186",
                 "ITURAMA",
-                "Privada",
-                "Privada",
-                "38280000",
-                "Centro",
-                "(34) 3411 9700",
-                "www.facfama.edu.br",
-                "dirfama@yahoo.com.br / randallstabile@hotmail.com / dirfama@yahoo.com.br / evadiasfreitas@hotmail.com",
-                null
+                "Centro"
             ),
             1070 to University(
                 "INSTITUTO DE ENSINO SUPERIOR CENECISTA",
                 "INESC",
-                "33621384000119",
                 "UNAI",
-                "Privada",
-                "Privada",
-                "38610000",
-                "Centro",
-                "(38) 3677 4747",
-                "www.inesc.br",
-                "secretaria@inesc.br / inescunai@uol.com.br / danielpalma@inesc.br / ensinosuperior@cnec.br",
-                null
+                "Centro"
             ),
             1128 to University(
                 "UNIVERSIDADE DE ITAÚNA",
                 "UI",
-                "21256425000136",
                 "ITAUNA",
-                "Privada",
-                "Privada",
-                "35680142",
-                "Campus Verde",
-                "37 3249-3003",
-                "www.uit.br",
-                "uit@uit.br",
-                null
+                "Campus Verde"
             ),
             1139 to University(
                 "FACULDADE DE ESTUDOS ADMINISTRATIVOS DE MINAS GERAIS - FEAD-MG",
                 "FEAD - MG",
-                "1203822000132",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30140100",
-                "Funcionários",
-                "(31) 4009 0900 (31) 4009 0930",
-                "www.fead.br",
-                "joseroberto@fead.br /  fead@fead.br / analuisa@fead.br",
-                null
+                "Funcionários"
             ),
             1174 to University(
                 "FACULDADE DE SABARÁ",
                 "SOECS",
-                "2182338000137",
                 "SABARA",
-                "Privada",
-                "Privada",
-                "34555000",
-                "Caieira",
-                "(31)  3241 2891",
-                "www.faculdadedesabara.edu.br",
-                "soecs@faculdadedesabara.edu.br",
-                null
+                "Caieira"
             ),
             1201 to University(
                 "FACULDADE DE ADMINISTRAÇÃO MILTON CAMPOS",
                 "FAMC",
-                "16694697000188",
                 "NOVA LIMA",
-                "Privada",
-                "Privada",
-                "34000000",
-                "Vila da Serra",
-                "(31) 3289 1900",
-                "www.mcampos.br",
-                "diretoriaadm@mcampos.br",
-                null
+                "Vila da Serra"
             ),
             1202 to University(
                 "FACULDADE SANTA RITA",
                 "FASAR",
-                "2048276000175",
                 "CONSELHEIRO LAFAIETE",
-                "Privada",
-                "Privada",
-                "36400000",
-                "Rodovia",
-                "(31) 3062 2016",
-                "http://www.fasar.com.br",
-                "paz@fasar.com.br",
-                null
+                "Rodovia"
             ),
             1252 to University(
                 "FACULDADE PROMOVE DE MINAS GERAIS",
                 "PROMOVE",
-                "22669915000127",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130180",
-                "CENTRO",
-                "(31)21032103",
-                "www.faculdadepromove.br",
-                "stuart@faculdadepromove.br / dpjbh@faculdadepromove.br",
-                null
+                "CENTRO"
             ),
             1253 to University(
                 "FACULDADE METODISTA GRANBERY",
                 "FMG",
-                "21576590000175",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36010530",
-                "Granbery",
-                "(32) 21011868",
-                "www.granbery.edu.br",
-                "faculdade@granbery.edu.br",
-                null
+                "Granbery"
             ),
             1254 to University(
                 "FACULDADE DE ADMINISTRAÇÃO DE ITABIRITO",
                 "FAI",
-                "19559012000189",
                 "ITABIRITO",
-                "Privada",
-                "Privada",
-                "35450000",
-                "Matozinhos",
-                "(31) 3561-7775",
-                "www.unipac.br",
-                "faculdadedeitabirito@yahoo.com.br / diretoriaitabirito@unipac.br",
-                null
+                "Matozinhos"
             ),
             1314 to University(
                 "INSTITUTO DE ENSINO SUPERIOR JOÃO ALFREDO DE ANDRADE",
                 "IJAA",
-                "2079920000172",
                 "JUATUBA",
-                "Privada",
-                "Privada",
-                "35675000",
-                "CENTRO",
-                "(31) 3535 8142",
-                "www.jandrade.edu.br",
-                "secretaria@jandrade.edu.br",
-                null
+                "CENTRO"
             ),
             1319 to University(
                 "FACULDADE TECSOMA",
                 "FATEC",
-                "2460636000141",
                 "PARACATU",
-                "Privada",
-                "Privada",
-                "38600000",
-                "Vila Alvorada",
-                "(38) 3311.5800",
-                "www.tecsoma.br",
-                "direcaogeral@tecsoma.br",
-                null
+                "Vila Alvorada"
             ),
             1330 to University(
                 "FACULDADE COTEMIG",
                 "COTEMIG",
-                "17496696000191",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30430430",
-                "Barroca",
-                "(31)33713051",
-                "www.faculdadecotemig.br",
-                "moema@cotemig.com.br / mauricio@cotemig.com.br",
-                null
+                "Barroca"
             ),
             1346 to University(
                 "FACULDADE BATISTA DE MINAS GERAIS",
                 "FBMG",
-                "17217670000167",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31110150",
-                "Floresta",
-                "(31) 3429 7250 e 3429 7261",
-                "www.sistemabatista.edu.br",
-                "direcaofac@sistemabatista.edu.br",
-                null
+                "Floresta"
             ),
             1362 to University(
                 "FACULDADE UBAENSE OZANAM COELHO",
                 "FAGOC",
-                "2270109000174",
                 "UBA",
-                "Privada",
-                "Privada",
-                "36500000",
-                "Seminário",
-                "32 3539-5600",
-                "www.fagoc.br",
-                "marcelo@fagoc.br",
-                null
+                "Seminário"
             ),
             1450 to University(
                 "CENTRO UNIVERSITÁRIO DO CERRADO-PATROCÍNIO",
                 "UNICERP",
-                "17839812000128",
                 "PATROCINIO",
-                "Privada",
-                "Privada",
-                "38740000",
-                "Chácara das Rosas",
-                "(34) 3839 3737",
-                "www.unicerp.edu.br",
-                "reitoria@unicerp.edu.br /  diretoria@unicerp.edu.br",
-                null
+                "Chácara das Rosas"
             ),
             1459 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS",
                 "FUCAMP",
-                "2345421000180",
                 "MONTE CARMELO",
-                "Privada",
-                "Privada",
-                "38500000",
-                "Jardim Zenith II",
-                "(34) 3842 5272",
-                "www.fucamp.edu.br",
-                "fucamp@fucamp.com.br",
-                null
+                "Jardim Zenith II"
             ),
             1484 to University(
                 "FACULDADE IBMEC",
                 "IBMEC",
-                "4298309000160",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130130",
-                "Funcionários",
-                "(31) 3247 5757",
-                "www.ibmec.br",
-                "valquiria.dumere@veris.edu.br / santusambs@ibmecmg.br",
-                null
+                "Funcionários"
             ),
             1492 to University(
                 "FACULDADE PITÁGORAS DE UBERLÂNDIA",
                 "PIT UBERLÂNDIA",
-                "38733648000140",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38411133",
-                "Morada da Colina",
-                "(34)3292 1900",
-                "www.faculdadepitagoras.com.br",
-                "ddi@kroton.com.br",
-                null
+                "Morada da Colina"
             ),
             1509 to University(
                 "FACULDADE ESTÁCIO DE SÁ DE BELO HORIZONTE",
                 "FESBH",
-                "34075739000184",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30150220",
-                "Floresta",
-                "(31) 32985200",
-                "www.bh.estacio.br",
-                "cgfesbh@gmail.com / maria.duch@estacio.br / marcia.aparecida@estacio.br",
-                null
+                "Floresta"
             ),
             1557 to University(
                 "UNIVERSIDADE FUMEC",
                 "FUMEC",
-                "17253253000170",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130080",
-                "Cruzeiro",
-                "(31)32695250",
-                "www.fumec.br",
-                "reitoria@fumec.br",
-                null
+                "Cruzeiro"
             ),
             1558 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE JOÃO MONLEVADE",
                 "IES/FUNCEC",
-                "16817579000110",
                 "JOAO MONLEVADE",
-                "Privada",
-                "Privada",
-                "35930408",
-                "VILA TANQUE",
-                "31 3852.4000",
-                "www.funcec.br",
-                "funcec@funcec.br / iesfuncec@funcec.br",
-                null
+                "VILA TANQUE"
             ),
             1568 to University(
                 "FACULDADES INTEGRADAS DE CARATINGA",
                 "FIC",
-                "19322494000159",
                 "CARATINGA",
-                "Privada",
-                "Privada",
-                "35300037",
-                "Centro",
-                "(33)3322 6322 / 3322 6321",
-                "www.ficmg.edu.br",
-                "diretoria@doctum.com.br / morgana@doctum.edu.br / heloisa@doctum.edu.br",
-                null
+                "Centro"
             ),
             1575 to University(
                 "CENTRO UNIVERSITÁRIO DO PLANALTO DE ARAXÁ",
                 "UNIARAXÁ",
-                "17806696000140",
                 "ARAXA",
-                "Privada",
-                "Privada",
-                "38180084",
-                "SÃO GERALDO",
-                "(34)3669 2000",
-                "www.uniaraxa.edu.br",
-                "reitoria@uniaraxa.edu.br / raquel@uniaraxa.edu.br",
-                null
+                "SÃO GERALDO"
             ),
             1581 to University(
                 "FACULDADE DA CIDADE DE SANTA LUZIA",
                 "FACSAL",
-                "2967672000104",
                 "SANTA LUZIA",
-                "Privada",
-                "Privada",
-                "33040260",
-                "Distrito Industrial III",
-                "(31) 3079 9000",
-                "www.facsal.br",
-                "facsal@facsal.br",
-                null
+                "Distrito Industrial III"
             ),
             1586 to University(
                 "UNIVERSIDADE DO VALE DO SAPUCAÍ",
                 "UNIVÁS",
-                "23951916000122",
                 "POUSO ALEGRE",
-                "Privada",
-                "Privada",
-                "3755000",
-                "Centro",
-                "(35) 3449-2300",
-                "www.univas.edu.br",
-                "reitoria@univas.edu.br",
-                null
+                "Centro"
             ),
             1598 to University(
                 "FACULDADE POLITÉCNICA DE UBERLÂNDIA",
                 "FPU",
-                "3387092000100",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38411186",
-                "Jardim Karaíba",
-                "(34) 3233-1500",
-                "www.facpoli.edu.br",
-                "eduardo@facpoli.edu.br / rosangela@facpoli.edu.br",
-                null
+                "Jardim Karaíba"
             ),
             1599 to University(
                 "INSTITUTO DE ENSINO SUPERIOR PRESIDENTE TANCREDO DE ALMEIDA NEVES",
                 "IPTAN",
-                "3219494000198",
                 "SAO JOAO DEL REI",
-                "Privada",
-                "Privada",
-                "36301182",
-                "Fábricas",
-                "(32) 3379 2725",
-                "www.iptan.edu.br",
-                "iptan@iptan.edu.br",
-                null
+                "Fábricas"
             ),
             1600 to University(
                 "INSTITUTO DE CIÊNCIAS DA SAÚDE",
                 "ICS",
-                "25205162000197",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39404006",
-                "JK",
-                "(38)2101-9268",
-                "",
-                "michellesoebras@yahoo.com.br / tania.raquel.muniz@hotmail.com / ruy.muniz@funorte.com.br",
-                null
+                "JK"
             ),
             1601 to University(
                 "FACULDADE CIDADE DE COROMANDEL",
                 "FCC",
-                "3327571000123",
                 "COROMANDEL",
-                "Privada",
-                "Privada",
-                "38550000",
-                "Brasil Novo",
-                "(34) 3841 3405",
-                "www.fcc.edu.br",
-                "secretaria@fcc.edu.br",
-                null
+                "Brasil Novo"
             ),
             1655 to University(
                 "FACULDADE CENECISTA DE SETE LAGOAS",
                 "FCSL",
-                "33621384000119",
                 "SETE LAGOAS",
-                "Privada",
-                "Privada",
-                "35700377",
-                "Jardim Arizona",
-                "(31) 3779 2270",
-                "www.fcsl.edu.br",
-                "secretaria@fcsl.edu.br / ensinosuperior@cnec.br",
-                null
+                "Jardim Arizona"
             ),
             1664 to University(
                 "FACULDADE DA SAÚDE E ECOLOGIA HUMANA",
                 "FASEH",
-                "2493951000175",
                 "VESPASIANO",
-                "Privada",
-                "Privada",
-                "33200000",
-                "Jardim Alterosa",
-                "(31) 21382900",
-                "www.faseh.edu.br",
-                "faseh@faseh.edu.br",
-                null
+                "Jardim Alterosa"
             ),
             1665 to University(
                 "FACULDADE KENNEDY",
                 "FK",
-                "21856984000187",
                 "JOAO MONLEVADE",
-                "Privada",
-                "Privada",
-                "35930032",
-                "Nossa Senhora da Conceição",
-                "(31) 3851 3030",
-                "www.kennedyjm.edu.br",
-                "kennedy@robynet.com.br",
-                null
+                "Nossa Senhora da Conceição"
             ),
             1666 to University(
                 "FACULDADE NOVOS HORIZONTES",
                 "NOVOS HORIZONTES",
-                "3516376000141",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30180121",
-                "Santo Agostinho",
-                "(31) 3293 7010",
-                "www.unihorizontes.br",
-                "sec-diretoria@unihorizontes.br / diretoriageral@unihorizontes.br / tueli.tavares@unihorizontes.br",
-                null
+                "Santo Agostinho"
             ),
             1668 to University(
                 "FACULDADE DE NEGÓCIOS DE BELO HORIZONTE",
                 "",
-                "3393655000165",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30180080",
-                "Barro Preto",
-                "(31)32955006",
-                "www.unianhanguera.edu.br",
-                "mantenedora@aesapar.com / daex.aesa@aesapar.com",
-                null
+                "Barro Preto"
             ),
             1669 to University(
                 "INSTITUTO METROPOLITANO DE ENSINO SUPERIOR",
                 "IMES",
-                "1757902000130",
                 "IPATINGA",
-                "Privada",
-                "Privada",
-                "35164314",
-                "Veneza I",
-                "(31) 2109 0900",
-                "www.famevaco.br",
-                "famevaco@famevaco.br",
-                null
+                "Veneza I"
             ),
             1670 to University(
                 "FACULDADE ASA DE BRUMADINHO",
                 "IECEMB - FAB",
-                "3522326000177",
                 "BRUMADINHO",
-                "Privada",
-                "Privada",
-                "35460000",
-                ".",
-                "(31)3571-9300",
-                "www.faculdadeasa.com.br",
-                "secretaria@faculdadeasa.com.br",
-                null
+                "."
             ),
             1695 to University(
                 "FACULDADE DE EDUCAÇÃO DE BOM DESPACHO",
                 "FACEB",
-                "3099921000141",
                 "BOM DESPACHO",
-                "Privada",
-                "Privada",
-                "35600000",
-                "Zona Rural",
-                "(37) 35219550",
-                "",
-                "secretariaacademica@unipacbomdespacho.com.br",
-                null
+                "Zona Rural"
             ),
             1700 to University(
                 "FACULDADE PROMOVE DE SETE LAGOAS",
                 "FSLMG",
-                "22669915000127",
                 "SETE LAGOAS",
-                "Privada",
-                "Privada",
-                "35700000",
-                "Centro",
-                "(31) 3779-2700",
-                "www.promovesetelagoas.com.br",
-                "nayara@faculdadepromove.br / michellesoebras@yahoo.com.br",
-                null
+                "Centro"
             ),
             1721 to University(
                 "FACULDADE DE VIÇOSA",
                 "FDV",
-                "3372571000145",
                 "VICOSA",
-                "Privada",
-                "Privada",
-                "36570000",
-                "4º e 5º andares",
-                "Centro",
-                "www.fdvmg.edu.br",
-                "fdv@fdvmg.edu.br",
-                null
+                "4º e 5º andares"
             ),
             1786 to University(
                 "INSTITUTO MACHADENSE DE ENSINO SUPERIOR",
                 "IMES",
-                "2467871000145",
                 "MACHADO",
-                "Privada",
-                "Privada",
-                "37750000",
-                "Distrito Industrial",
-                "(35) 3295-9800",
-                "www.fumesc.com.br",
-                "secretaria@fumesc.com.br / rosangela@fumesc.com.br",
-                null
+                "Distrito Industrial"
             ),
             1818 to University(
                 "FACULDADE PITÁGORAS DE BELO HORIZONTE",
                 "FPAS",
-                "3239470000109",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30180100",
-                "Centro",
-                "(31) 2126.0807",
-                "www.faculdadepitagoras.com.br",
-                "ddi@kroton.com.br",
-                null
+                "Centro"
             ),
             1824 to University(
                 "FACULDADE DE CIÊNCIAS CONTÁBEIS DE ITABIRITO",
                 "FACCI",
-                "3647480000175",
                 "ITABIRITO",
-                "Privada",
-                "Privada",
-                "35450000",
-                "Matozinhos",
-                "(31) 3561-7775",
-                "",
-                "brunomelilloa@yahoo.com.br",
-                null
+                "Matozinhos"
             ),
             1825 to University(
                 "FACULDADE DE ESTUDOS SUPERIORES DE MINAS GERAIS",
                 "FEAD",
-                "1203822000132",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30140100",
-                "Funcionários",
-                "(31) 4009 0900",
-                "www.fead.br",
-                "fead@fead.br /  joseroberto@fead.br / analuisa@fead.br",
-                null
+                "Funcionários"
             ),
             1837 to University(
                 "ESCOLA DE ESTUDOS SUPERIORES DE VIÇOSA",
                 "ESUV",
-                "3254707000112",
                 "VICOSA",
-                "Privada",
-                "Privada",
-                "36570000",
-                "Liberdade",
-                "(31) 3892 6767",
-                "www.esuv.com.br",
-                "diretoria@esuv.com.br",
-                null
+                "Liberdade"
             ),
             1843 to University(
                 "FACULDADE DE ADMINISTRAÇÃO DE CAMPO BELO",
                 "FACAMP",
-                "3683973000160",
                 "CAMPO BELO",
-                "Privada",
-                "Privada",
-                "37270000",
-                "Arnaldos",
-                "(35) 3832 7855",
-                "www.cemes.edu.br",
-                "cemes@stratus.com.br",
-                null
+                "Arnaldos"
             ),
             1860 to University(
                 "FACULDADE DE CIÊNCIAS GERENCIAIS PADRE ARNALDO JANSSEN",
                 "FAJANSSEN",
-                "21562368000113",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30140020",
-                "Funcionários",
-                "(31) 3524-5150 / 3524-5001",
-                "www.faculdadearnaldo.edu.br",
-                "joaoporto@faculdadearnaldo.edu.br",
-                null
+                "Funcionários"
             ),
             1863 to University(
                 "FACULDADE DE MANTENA",
                 "FAMA",
-                "2156387000103",
                 "MANTENA",
-                "Privada",
-                "Privada",
-                "35290000",
-                "Centro",
-                "(33) 3241- 2147",
-                "www.famamg.edu.br",
-                "direcao@famamg.edu.br",
-                null
+                "Centro"
             ),
             1867 to University(
                 "FACULDADE DE CIÊNCIAS GERENCIAIS DE SANTOS DUMONT",
                 "FACIG",
-                "684397000188",
                 "SANTOS DUMONT",
-                "Privada",
-                "Privada",
-                "36240000",
-                "Centro",
-                "",
-                "www.fsd.edu.com.br",
-                "comex@cabangu.com.br",
-                null
+                "Centro"
             ),
             1868 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE SANTOS DUMONT",
                 "ISESD",
-                "684397000188",
                 "SANTOS DUMONT",
-                "Privada",
-                "Privada",
-                "36240000",
-                "Centro",
-                "(32) 3251 3817",
-                "www.fsd.edu.br",
-                "fsd@fsd.edu.br",
-                null
+                "Centro"
             ),
             1869 to University(
                 "CENTRO UNIVERSITÁRIO DE ITAJUBÁ",
                 "UNIVERSITAS",
-                "21041264000163",
                 "ITAJUBA",
-                "Privada",
-                "Privada",
-                "37501002",
-                "Varginha",
-                "(35)36298400",
-                "www.fepi.br",
-                "reitoria@fepi.br / madisson@fepi.br / erwinmadisson@gmail.com",
-                null
+                "Varginha"
             ),
             1901 to University(
                 "FACULDADE CATÓLICA DE UBERLÂNDIA",
                 "CATÓLICA",
-                "3554153000179",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38400386",
-                "Osvaldo Resende",
-                "(34) 32360336",
-                "www.catolicaonline.com.br",
-                "secretariageral@catolicaonline.com.br",
-                null
+                "Osvaldo Resende"
             ),
             1909 to University(
                 "FACULDADE PEREIRA DE FREITAS",
                 "FPF",
-                "21028311000139",
                 "IPATINGA",
-                "Privada",
-                "Privada",
-                "35162110",
-                "Iguaçu",
-                "3138216186",
-                "www.pereiradefreitas.com.br",
-                "secretaria@pereiradefreitas.com.br",
-                null
+                "Iguaçu"
             ),
             1913 to University(
                 "FACULDADE DE MINAS",
                 "FAMINAS",
-                "3466623000142",
                 "MURIAE",
-                "Privada",
-                "Privada",
-                "36880000",
-                "Universitário",
-                "(32) 3729 7500",
-                "www.faminas.edu.br",
-                "roberta@faminas.edu.br / eduardo@faminas.edu.br / secretaria@faminas.edu.br / barbieri@faminas.edu.br",
-                null
+                "Universitário"
             ),
             1919 to University(
                 "FACULDADE DE CIÊNCIAS EXATAS E TECNOLÓGICAS SANTO AGOSTINHO - FACET",
                 "FACET",
-                "3735981000103",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39404006",
-                "JK",
-                "(38) 3690-3600",
-                "www.santoagostinho.edu.br",
-                "facet@santoagostinho.edu.br",
-                null
+                "JK"
             ),
             1923 to University(
                 "FACULDADE DE DIREITO PADRE ARNALDO JANSSEN",
                 "FAJANSSEN",
-                "21562368000113",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30140020",
-                "Funcionários",
-                "(31) 3524-5150 / 3524-5001",
-                "www.faculdadearnaldo.edu.br",
-                "joaoporto@faculdadearnaldo.edu.br",
-                null
+                "Funcionários"
             ),
             1925 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS SANTO AGOSTINHO",
                 "FACISA",
-                "3735981000103",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39404006",
-                "JK",
-                "(38) 3224-7900",
-                "www.santoagostinho.edu.br",
-                "facisa@santoagostinho.edu.br",
-                null
+                "JK"
             ),
             1926 to University(
                 "FACULDADE DE ADMINISTRAÇÃO DE CATAGUASES",
                 "UNIPACAT",
-                "19559012000189",
                 "CATAGUASES",
-                "Privada",
-                "Privada",
-                "36770070",
-                "Centro",
-                "32-34212759",
-                "www.unipac.br",
-                "unipacat@gmail.com / gutoreis@uai.com.br / carlosaugusto@unipac.br",
-                null
+                "Centro"
             ),
             1940 to University(
                 "FACULDADE DE NOVA SERRANA",
                 "FANS",
-                "4149536000124",
                 "NOVA SERRANA",
-                "Privada",
-                "Privada",
-                "35519000",
-                "PK GUMERCINDA MARTINS",
-                "",
-                "",
-                "fanserrana@ns2004.com.br",
-                null
+                "PK GUMERCINDA MARTINS"
             ),
             1977 to University(
                 "CENTRO DE ESTUDOS SUPERIORES APRENDIZ",
                 "CESA",
-                "3517381000179",
                 "BARBACENA",
-                "Privada",
-                "Privada",
-                "36200068",
-                "Centro",
-                "(32) 3333 0860",
-                "www.aprendiz.edu.br",
-                "aprendiz@barbacena.com.br",
-                null
+                "Centro"
             ),
             1984 to University(
                 "FACULDADE DE CIÊNCIAS GERENCIAIS DE MANHUAÇU",
                 "FACIG",
-                "3752343000109",
                 "MANHUACU",
-                "Privada",
-                "Privada",
-                "36900000",
-                "Coqueiro",
-                "(33) 3331 7000",
-                "www.facig.edu.br",
-                "facig@uai.com.br / ritakmartins@hotmail.com / anandy@uai.com.br",
-                null
+                "Coqueiro"
             ),
             1986 to University(
                 "FACULDADE ESTÁCIO DE SÁ DE JUIZ DE FORA",
                 "FESJF",
-                "34075739000184",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36030900",
-                "Cruzeiro do Sul",
-                "(32) 3249-3600",
-                "www.jf.estacio.br",
-                "administracao.jf@estacio.br / cgfesjf@gmail.com",
-                null
+                "Cruzeiro do Sul"
             ),
             1998 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO ELVIRA DAYRELL",
                 "ISEED",
-                "4470607000196",
                 "VIRGINOPOLIS",
-                "Privada",
-                "Privada",
-                "39730000",
-                "Centro",
-                "(33) 3416 2650",
-                "www.iseed.edu.br",
-                "soed.soed@terra.com.br",
-                null
+                "Centro"
             ),
             2014 to University(
                 "FACULDADE SETELAGOANA DE CIÊNCIAS GERENCIAIS",
                 "FASCIG",
-                "22669915000127",
                 "SETE LAGOAS",
-                "Privada",
-                "Privada",
-                "35702134",
-                "Jardim Universitário",
-                "(31) 3774 9991",
-                "",
-                "nayara@faculdadepromove.br / dpj.fascig@soebras.com.br",
-                null
+                "Jardim Universitário"
             ),
             2015 to University(
                 "INSTITUTO SANTO TOMÁS DE AQUINO",
                 "ISTA",
-                "33583592000170",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30535640",
-                "Minas Brasil",
-                "(31) 3419-2800",
-                "www.ista.edu.br",
-                "ista@ista.edu.br",
-                null
+                "Minas Brasil"
             ),
             2040 to University(
                 "FACULDADE DO FUTURO",
                 "FAF",
-                "4808030000180",
                 "MANHUACU",
-                "Privada",
-                "Privada",
-                "36900000",
-                "Coqueiro",
-                "(33)3331 1214",
-                "www.faculdadedofuturo.edu.br",
-                "flavio@faculdadedofuturo.edu.br",
-                null
+                "Coqueiro"
             ),
             2041 to University(
                 "FACULDADE SUDAMÉRICA",
                 "SUDAMÉRICA",
-                "3528324000195",
                 "CATAGUASES",
-                "Privada",
-                "Privada",
-                "36773082",
-                "Bandeirantes",
-                "(32) 3422 7879 / (32) 3421-4706",
-                "www.sudamerica.edu.br",
-                "contato@sudamerica.edu.br",
-                null
+                "Bandeirantes"
             ),
             2096 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS E GERENCIAIS DE MANHUAÇU",
                 "FACULDADES DOCTUM",
-                "3470966000180",
                 "MANHUACU",
-                "Privada",
-                "Privada",
-                "36900000",
-                "Bairro Coqueiro",
-                "(33) 3332 4138",
-                "www.doctum.edu.br",
-                "diretoria@doctum.edu.br /  morgana@doctum.edu.br /  heloisa@dictum.edu.br",
-                null
+                "Bairro Coqueiro"
             ),
             2124 to University(
                 "FACULDADE CALAFIORI",
                 "CALAFIORI",
-                "3486286000155",
                 "SAO SEBASTIAO DO PARAISO",
-                "Privada",
-                "Privada",
-                "37950000",
-                "Cidade Jardim Industrial",
-                "(35) 3558 6261",
-                "www.faculdadecalafiori.edu.br",
-                "angelita-sta@hotmail.com",
-                null
+                "Cidade Jardim Industrial"
             ),
             2145 to University(
                 "FACULDADE INFÓRIUM DE TECNOLOGIA",
                 "FIT",
-                "10739240000166",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30350540",
-                "Santa Lúcia",
-                "(31) 2103 2129",
-                "www.inforium.com.br",
-                "mauricio@inforium.com.br",
-                null
+                "Santa Lúcia"
             ),
             2151 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO BERLAAR",
                 "IBERLAAR",
-                "16554008000130",
                 "PATROCINIO",
-                "Privada",
-                "Privada",
-                "38740000",
-                "Centro",
-                "34 38313150",
-                "www.institutoberlaar.com.br",
-                "diretoria@institutoberlaar.com.br",
-                null
+                "Centro"
             ),
             2171 to University(
                 "INSTITUTO BELO HORIZONTE DE ENSINO SUPERIOR",
                 "IBHES",
-                "6099229000101",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30310160",
-                "Cruzeiro",
-                "(31) 3223-1313",
-                "http://www.ibhes.edu.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Cruzeiro"
             ),
             2200 to University(
                 "FACULDADE VALE DO GORUTUBA",
                 "FAVAG",
-                "4463988000186",
                 "NOVA PORTEIRINHA",
-                "Privada",
-                "Privada",
-                "39525000",
-                "Centro",
-                "(38) 3834- 1027 e 3834-1522",
-                "www.favag.edu.br",
-                "vanilsonalmeida@favag.com.br",
-                null
+                "Centro"
             ),
             2220 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS DE JUIZ DE FORA",
                 "FACULDADES DOCTUM",
-                "3470966000180",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36010021",
-                "Centro",
-                "(32) 3215-4162/ (33) 3322-6321",
-                "www.doctum.edu.br",
-                "diretoria@doctum.edu.br /  morgana@dcotum.edu.br / heloisa@doctum.edu.br",
-                null
+                "Centro"
             ),
             2229 to University(
                 "FACULDADE VICTOR HUGO",
                 "FVH",
-                "4902015000104",
                 "SAO LOURENCO",
-                "Privada",
-                "Privada",
-                "37470000",
-                "Centro",
-                "(35) 3332 2700",
-                "www.victorhugo.edu.br",
-                "secretaria@victorhugo.edu.br",
-                null
+                "Centro"
             ),
             2233 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DE BELO HORIZONTE",
                 "FACISABH",
-                "73581118000124",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31210010",
-                "Lagoinha",
-                "(31) 3446-2117",
-                "www.facisa.com.br",
-                "facisa@facisa.com.br",
-                null
+                "Lagoinha"
             ),
             2241 to University(
                 "FACULDADE DO SUDESTE MINEIRO",
                 "FACSUM",
-                "6099229000101",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36016311",
-                "Centro",
-                "(32) 3212-6610",
-                "www.unilist.com.br/facsum",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Centro"
             ),
             2270 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DE EXTREMA",
                 "FAEX",
-                "3769327000110",
                 "EXTREMA",
-                "Privada",
-                "Privada",
-                "37640000",
-                "Vila Rica",
-                "(35) 3435 3988",
-                "www.faex.edu.br",
-                "secretaria@faex.edu.br",
-                null
+                "Vila Rica"
             ),
             2271 to University(
                 "FACULDADE PITÁGORAS DE IPATINGA",
                 "FPI",
-                "3239470000109",
                 "IPATINGA",
-                "Privada",
-                "Privada",
-                "35160036",
-                "Horto",
-                "(31) 2136.2000 e (31) 2126.0789 (Karina)",
-                "faculdadepitagoras.com.br",
-                "ddi@kroton.com.br",
-                null
+                "Horto"
             ),
             2275 to University(
                 "FACULDADE DE DIREITO SANTO AGOSTINHO",
                 "FADISA",
-                "3735981000103",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39404006",
-                "Cidade Nova",
-                "(38) 3690 3600",
-                "www.santoagostinho.edu.br",
-                "fadisa@santoagostinho.edu.br",
-                null
+                "Cidade Nova"
             ),
             2311 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS PROFESSOR ALBERTO DEODATO",
                 "FCJPAD",
-                "22669915000127",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31535040",
-                "Visconde do Rio Branco",
-                "(31) 3408 2363",
-                "",
-                "elainesoebras@yahoo.com.br /  michellesoebras@yahoo.com.br / dpjbh@faculdadepromove.br",
-                null
+                "Visconde do Rio Branco"
             ),
             2423 to University(
                 "FACULDADE DE CIÊNCIA E TECNOLOGIA DE MONTES CLAROS",
                 "FACIT",
-                "18143164000133",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39400215",
-                "Centro",
-                "(38)21045777",
-                "www.facit.edu.br",
-                "femc@femc.edu.br",
-                null
+                "Centro"
             ),
             2428 to University(
                 "FACULDADE DE CIÊNCIAS E TECNOLOGIAS DE CAMPOS GERAIS",
                 "FACICA",
-                "2640054000147",
                 "CAMPOS GERAIS",
-                "Privada",
-                "Privada",
-                "37160000",
-                "Centro",
-                "(35) 3853 1914",
-                "www.facica.edu.br",
-                "facica@facica.edu.br",
-                null
+                "Centro"
             ),
             2440 to University(
                 "FACULDADE CIDADE DE JOÃO PINHEIRO",
                 "FCJP",
-                "3289019000198",
                 "JOAO PINHEIRO",
-                "Privada",
-                "Privada",
-                "38770000",
-                "Santa Cruz II",
-                "(38) 3561 3900",
-                "www.fcjp.edu.br",
-                "direcao.projetos@fcjp.edu.br",
-                null
+                "Santa Cruz II"
             ),
             2443 to University(
                 "FACULDADE PROMOVE DE JANAÚBA",
                 "",
-                "22669915000127",
                 "JANAUBA",
-                "Privada",
-                "Privada",
-                "39440000",
-                "Centro",
-                "(38)3821-1070",
-                "",
-                "michellesoebras@yahoo.com.br / tania.raquel.muniz@hotmail.com",
-                null
+                "Centro"
             ),
             2450 to University(
                 "FACULDADE DE DIREITO PROMOVE",
                 "PROMOVE",
-                "22669915000127",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130180",
-                "Centro",
-                "(31) 21032111",
-                "www.faculdadepromove.br",
-                "cpa@faculdadepromove.br / stuart@faculdadepromove.br",
-                null
+                "Centro"
             ),
             2475 to University(
                 "FACULDADE ARQUIDIOCESANA DE MARIANA",
                 "FAM",
-                "22390686000107",
                 "MARIANA",
-                "Privada",
-                "Privada",
-                "35420000",
-                "",
-                "Chácara",
-                "www.famariana.edu.br",
-                "fam.mariana@gmail.com",
-                null
+                ""
             ),
             2477 to University(
                 "FACULDADE DE ADMINISTRAÇÃO DE MARIANA",
                 "FAMA",
-                "4217577000100",
                 "MARIANA",
-                "Privada",
-                "Privada",
-                "35420000",
-                "Centro",
-                "(31) 3558 - 2673",
-                "www.femar.edu.br",
-                "josejarbasramosfilho@gmail.com",
-                null
+                "Centro"
             ),
             2504 to University(
                 "FACULDADE DIVINÓPOLIS",
                 "FACED",
-                "20151478000120",
                 "DIVINOPOLIS",
-                "Privada",
-                "Privada",
-                "35500048",
-                "Centro",
-                "(37) 35122000   (37)35122024",
-                "www.faced.br",
-                "assessoriaacademica@faced.br",
-                null
+                "Centro"
             ),
             2505 to University(
                 "FACULDADE DE ARTE E DESIGN",
                 "FAD",
-                "20151478000120",
                 "DIVINOPOLIS",
-                "Privada",
-                "Privada",
-                "35500048",
-                "Centro",
-                "(37) 3512.2000  - (37) 3512-2024",
-                "www.faced.br",
-                "assessoriaacademica@faced.br",
-                null
+                "Centro"
             ),
             2508 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO SANTO AGOSTINHO",
                 "ISA",
-                "3735981000103",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39400000",
-                "JK",
-                "(38) 3690.3603",
-                "www.santoagostinho.edu.br",
-                "isa@santoagostinho.edu.br",
-                null
+                "JK"
             ),
             2552 to University(
                 "INSTITUTO SUPERIOR DE CIÊNCIAS DA SAÚDE",
                 "INCISA",
-                "3204242000195",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30450250",
-                "Estoril",
-                "(31) 3297 7960",
-                "www.incisaimam.com.br",
-                "dac@incisaimam.com.br",
-                null
+                "Estoril"
             ),
             2579 to University(
                 "FACULDADE ATENAS",
                 "",
-                "1428030000166",
                 "PARACATU",
-                "Privada",
-                "Privada",
-                "38600000",
-                "Lavrado",
-                "38-3672-3737",
-                "www.atenas.edu.br",
-                "faculdade@atenas.edu.br",
-                null
+                "Lavrado"
             ),
             2619 to University(
                 "FACULDADE DE DIREITO DE ITABIRA",
                 "FDI",
-                "2503742000165",
                 "ITABIRA",
-                "Privada",
-                "Privada",
-                "35900597",
-                "Campestre",
-                "(31) 30674000",
-                "www.censi.edu.br",
-                "assessoriacensi@gmail.com",
-                null
+                "Campestre"
             ),
             2636 to University(
                 "FACULDADE DINÂMICA DO VALE DO PIRANGA",
                 "FADIP",
-                "5126777000110",
                 "PONTE NOVA",
-                "Privada",
-                "Privada",
-                "35430000",
-                "Paraíso",
-                "(31) 3817-2010",
-                "www.faculdadedinamica.com.br",
-                "joseclaudio@faculdadedinamica.com.br",
-                null
+                "Paraíso"
             ),
             2703 to University(
                 "FACULDADE SENAC MINAS",
                 "FSM",
-                "3447242000116",
                 "CONTAGEM",
-                "Privada",
-                "Privada",
-                "32310400",
-                "Jardim Eldorado",
-                "(31)3048-9821 / (31) 3048-9800",
-                "www.mg.senac.br/faculdade",
-                "faculdade.janete@mg.senac.br / faculdade.raquel@mg.senac.br",
-                null
+                "Jardim Eldorado"
             ),
             2736 to University(
                 "INSTITUTO TECNOLÓGICO DE CARATINGA",
                 "ITC",
-                "3470966000180",
                 "CARATINGA",
-                "Privada",
-                "Privada",
-                "35300036",
-                "Centro",
-                "(33) 3322 6321/ 3322 6322/ 9912 9787",
-                "www.doctum.edu.br",
-                "diretoria@doctum.edu.br /  morgana@doctum.edu.br / heloisa@doctum.edu.br",
-                null
+                "Centro"
             ),
             2763 to University(
                 "FACULDADE DE CIÊNCIAS GERENCIAIS DE SÃO GOTARDO",
                 "CESG",
-                "3745000000109",
                 "SAO GOTARDO",
-                "Privada",
-                "Privada",
-                "38800000",
-                "Boa Esperança",
-                "(34) 3671 3862",
-                "www.cesg.edu.br",
-                "livro_dae@hotmail.com",
-                null
+                "Boa Esperança"
             ),
             2810 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO ANÍSIO TEIXEIRA",
                 "ISEAT",
-                "16789398000127",
                 "IBIRITE",
-                "Pública",
-                "Estadual",
-                "32400000",
-                "Vila Rosário",
-                "(31)3521-9501",
-                "www.fha.mg.gov.br",
-                "densino@fha.mg.gov.br",
-                null
+                "Vila Rosário"
             ),
             2843 to University(
                 "FACULDADE DE CIÊNCIAS MÉDICAS E DA SAÚDE DE JUIZ DE FORA",
                 "FCMS/JF",
-                "5079440000108",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36033005",
-                "Salvaterra",
-                "(32) 2101-5000",
-                "www.suprema.edu.br",
-                "analice@suprema.edu.br / djalmaricardo@suprema.edu.br",
-                null
+                "Salvaterra"
             ),
             2849 to University(
                 "ESCOLA SUPERIOR DOM HELDER CÂMARA",
                 "ESDHC",
-                "2475083000109",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30150250",
-                "SANTA EFIGÊNIA",
-                "31 21258800",
-                "www.domhelder.edu.br",
-                "paulostumpf@yahoo.com.br",
-                null
+                "SANTA EFIGÊNIA"
             ),
             2885 to University(
                 "FACULDADE SÃO CAMILO",
                 "FASC-MG",
-                "58250689000192",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30150100",
-                "Floresta",
-                "(31) 3308-6820",
-                "www.saocamilo-mg.br",
-                "avaliacaoinstitucional@saocamilo-mg.br /  patricia@saocamilo.br / rca@saocamilo.br",
-                null
+                "Floresta"
             ),
             2910 to University(
                 "FACULDADE VERDE NORTE",
                 "FAVENORTE",
-                "4124091000128",
                 "MATO VERDE",
-                "Privada",
-                "Privada",
-                "39527000",
-                "Alto São João",
-                "(38) 38131007",
-                "www.favenorte.com.br",
-                "favenorte@yahoo.com.br",
-                null
+                "Alto São João"
             ),
             2915 to University(
                 "FACULDADE CIDADE DE PATOS DE MINAS",
                 "FPM",
-                "3238898000129",
                 "PATOS DE MINAS",
-                "Privada",
-                "Privada",
-                "38700000",
-                "Centro",
-                "(34) 3818 2300",
-                "www.faculdadepatosdeminas.com",
-                "direcao.projetos@faculdadepatosdeminas.com",
-                null
+                "Centro"
             ),
             2927 to University(
                 "FACULDADE DEL REY",
                 "FDR",
-                "5248417000191",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31250070",
-                "Bairro Floresta",
-                "(31) 34498400",
-                "www.faculdadedelrey.com.br",
-                "faculdadedelrey@faculdadedelrey.com.br / antonioda.motta@gmail.com / nelson.rogeri@gmail.com",
-                null
+                "Bairro Floresta"
             ),
             2935 to University(
                 "FACULDADE DE TALENTOS HUMANOS",
                 "FACTHUS",
-                "5102134000137",
                 "UBERABA",
-                "Privada",
-                "Privada",
-                "38040240",
-                "Vila São Cristóvão",
-                "(34) 3311 9800",
-                "www.facthus.edu.br",
-                "facthus@facthus.edu.br",
-                null
+                "Vila São Cristóvão"
             ),
             3117 to University(
                 "FACULDADE DE SAÚDE E DESENVOLVIMENTO HUMANO SANTO AGOSTINHO",
                 "FS",
-                "3735981000103",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39404006",
-                "JK",
-                "(38) 3690 3600",
-                "www.santoagostinho.edu.br",
-                "fs@santoagostinho.edu.br",
-                null
+                "JK"
             ),
             3149 to University(
                 "FACULDADE PITÁGORAS DE DIVINÓPOLIS - FPD",
                 "FPD",
-                "38733648000140",
                 "DIVINOPOLIS",
-                "Privada",
-                "Privada",
-                "35500286",
-                "Do Carmo",
-                "(37) 3229  4800",
-                "www.kroton.com.br/fadom",
-                "ddi@kroton.com.br",
-                null
+                "Do Carmo"
             ),
             3173 to University(
                 "FACULDADE DE TECNOLOGIA DO COMÉRCIO",
                 "FATEC-COMERCIO",
-                "17179359000170",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130180",
-                "Funcionários",
-                "(31) 32491839",
-                "www.fateccomercio.edu.br",
-                "sergio.marchetti@fateccomercio.edu.br",
-                null
+                "Funcionários"
             ),
             3187 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO CORAÇÃO DE JESUS",
                 "ISECJ",
-                "25267154000175",
                 "TRES PONTAS",
-                "Privada",
-                "Privada",
-                "37190000",
-                "Catumbi",
-                "(35) 3265 6163",
-                "",
-                "ECJOBJETIVO@TRESPONTAS.COM.BR",
-                null
+                "Catumbi"
             ),
             3194 to University(
                 "FACULDADE DE MINAS BH",
                 "FAMINAS-BH",
-                "3466623000223",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31760000",
-                "Laranjeiras",
-                "(31)21263100",
-                "faminasbh.edu.br",
-                "diretoria@faminasbh.edu.br  /  rejane@faminasbh.edu.br / secretaria@faminasbh.edu.br",
-                null
+                "Laranjeiras"
             ),
             3205 to University(
                 "FACULDADE DE CIÊNCIAS BIOLÓGICAS E DA SAÚDE",
                 "FACISA",
-                "5131076000170",
                 "VICOSA",
-                "Privada",
-                "Privada",
-                "36570000",
-                "Silvestre",
-                "(31) 3899 8000",
-                "http://www.univicosa.com.br",
-                "univicosa@univicosa.com.br",
-                null
+                "Silvestre"
             ),
             3367 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE OLIVEIRA",
                 "ISEOL",
-                "3446931000106",
                 "OLIVEIRA",
-                "Privada",
-                "Privada",
-                "35540000",
-                "Centro",
-                "(37) 33314075",
-                "www.feol.com.br",
-                "feolfeol@yahoo.com.br",
-                null
+                "Centro"
             ),
             3368 to University(
                 "CENTRO UNIVERSITÁRIO DO SUL DE MINAS",
                 "UNIS-MG",
-                "21420856000196",
                 "VARGINHA",
-                "Privada",
-                "Privada",
-                "37010540",
-                "Vila Pinto",
-                "(35)32195000",
-                "",
-                "reitor@unis.edu.br / marcia@unis.edu.br / alne@unis.edu.br / p.institucional@unis.edu.br",
-                null
+                "Vila Pinto"
             ),
             3371 to University(
                 "CENTRO UNIVERSITÁRIO DE PATOS DE MINAS",
                 "UNIPAM",
-                "23354848000114",
                 "PATOS DE MINAS",
-                "Privada",
-                "Privada",
-                "38702054",
-                "Caiçaras",
-                "3438230300",
-                "www.unipam.edu.br",
-                "assessoria.educacional@unipam.edu.br",
-                null
+                "Caiçaras"
             ),
             3372 to University(
                 "CENTRO UNIVERSITÁRIO DE LAVRAS",
                 "UNILAVRAS",
-                "22075444000129",
                 "LAVRAS",
-                "Privada",
-                "Privada",
-                "37200000",
-                "Centenário",
-                "(35)36948136 e/ou (35)36948134",
-                "www.unilavras.edu.br",
-                "reitoria@unilavras.edu.br / christiane@unilavras.edu.br / proen@unilavras.edu.br",
-                null
+                "Centenário"
             ),
             3430 to University(
                 "FACULDADE DE MARKETING E NEGÓCIOS",
                 "UNIESSA",
-                "5608448000106",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38411126",
-                "Morada da Colina",
-                "(034) 3254 1213",
-                "www.uniessa.com.br",
-                "supervisaoacademica@uniessa.com.br",
-                null
+                "Morada da Colina"
             ),
             3434 to University(
                 "FACULDADE DE SAÚDE IBITURUNA",
                 "FASI",
-                "5540626000104",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39400089",
-                "Ibituruna",
-                "(38) 3690 6600",
-                "http://www.fasi.edu.br",
-                "michellesoebras@yahoo.com.br / tania.raquel.muniz@hotmail.com",
-                null
+                "Ibituruna"
             ),
             3448 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO IBITURUNA",
                 "ISEIB",
-                "7435771000150",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39401063",
-                "Melo",
-                "(38) 3222-9444",
-                "www.iseib.com.br",
-                "antonia@iseib.edu.br / direcaogeral@iseib.edu.br",
-                null
+                "Melo"
             ),
             3459 to University(
                 "INSTITUTO DE ENSINO SUPERIOR E PESQUISA",
                 "INESP",
-                "20150439000108",
                 "DIVINOPOLIS",
-                "Privada",
-                "Privada",
-                "35501170",
-                "Jardim Belvedere",
-                "(37) 3229-3500",
-                "www.funedi.edu.br",
-                "coordgeralinesp@funedi.edu.br / siedsup@funedi.edu.br",
-                null
+                "Jardim Belvedere"
             ),
             3460 to University(
                 "INSTITUTO SUPERIOR DE ENSINO E PESQUISA DE ITUIUTABA",
                 "ISEPI",
-                "21332812000104",
                 "ITUIUTABA",
-                "Privada",
-                "Privada",
-                "38302192",
-                "Campus Universitario",
-                "34 3271 9903",
-                "ituiutaba.uemg.br",
-                "ensinofeit@gmail.com",
-                null
+                "Campus Universitario"
             ),
             3461 to University(
                 "FACULDADE DE FILOSOFIA DE PASSOS",
                 "FAFIPA",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900106",
-                "Belo Horizonte",
-                "(35)3529 6068",
-                "",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3462 to University(
                 "FACULDADE DE ENFERMAGEM DE PASSOS",
                 "FAENPA",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900106",
-                "Belo Horizonte",
-                "(35)3529-8068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3463 to University(
                 "FACULDADE DE DIREITO DE PASSOS",
                 "FADIPA",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900000",
-                "BELO HORIZONTE",
-                "(35) 3529 8068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "BELO HORIZONTE"
             ),
             3464 to University(
                 "FACULDADE DE ENGENHARIA DE PASSOS",
                 "FEP",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900106",
-                "Belo Horizonte",
-                "(35) 3529 6068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3465 to University(
                 "FACULDADE DE INFORMÁTICA DE PASSOS",
                 "FIP",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900130",
-                "Belo Horizonte",
-                "0xx35 35298068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3466 to University(
                 "FACULDADE DE SERVIÇO SOCIAL DE PASSOS",
                 "FASESP",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900100",
-                "Belo Horizonte",
-                "(35) 3529 6068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3467 to University(
                 "FACULDADE DE NUTRIÇÃO DA FUNDAÇÃO DE ENSINO SUPERIOR DE PASSOS",
                 "FANUTRI",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900106",
-                "Belo Horizonte",
-                "(35) 3529 8068",
-                "",
-                "matilde.andrade@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3469 to University(
                 "FACULDADE DE ADMINISTRAÇÃO DE PASSOS",
                 "FAP",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37901508",
-                "Belo Horizonte",
-                "(35)3529-8068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3470 to University(
                 "FACULDADE EDUCAÇÃO FÍSICA DE PASSOS",
                 "FADEF",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900106",
-                "Belo Horizonte",
-                "(35) 3529 8068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3471 to University(
                 "FACULDADE DE MODA DE PASSOS",
                 "FAMOPA",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37900106",
-                "Belo Horizonte",
-                "(35)3529-8068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             3476 to University(
                 "FACULDADE DE FILOSOFIA E LETRAS DE DIAMANTINA",
                 "FAFIDIA",
-                "20083036000193",
                 "DIAMANTINA",
-                "Privada",
-                "Privada",
-                "39100000",
-                "Centro",
-                "",
-                "www.fevale.edu.br",
-                "diretoria.fafidia@fevale.edu.br",
-                null
+                "Centro"
             ),
             3477 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS NOSSA SENHORA DE SION",
                 "FAFI/SION",
-                "18678813000109",
                 "CAMPANHA",
-                "Privada",
-                "Privada",
-                "37400000",
-                "Centro",
-                "(35) 3261 2020",
-                "www.paivadevilhena.edu.br",
-                "fpv@paivadevilhena.com.br",
-                null
+                "Centro"
             ),
             3478 to University(
                 "FACULDADE DE CIÊNCIAS EXATAS E HUMANAS DA CAMPANHA",
                 "FCCP",
-                "18678813000109",
                 "CAMPANHA",
-                "Privada",
-                "Privada",
-                "37400000",
-                "Centro",
-                "(35) 3261 2020",
-                "www.paivadevilhena.edu.br",
-                "fpv@paivadevilhena.com.br",
-                null
+                "Centro"
             ),
             3480 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS DE DIAMANTINA",
                 "FCJ",
-                "20083036000193",
                 "DIAMANTINA",
-                "Privada",
-                "Privada",
-                "39100000",
-                "Centro",
-                "",
-                "www.fevale.edu.br",
-                "diretoria.fcj@fevale.edu.br",
-                null
+                "Centro"
             ),
             3482 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE DIVINÓPOLIS",
                 "ISED",
-                "20150439000108",
                 "DIVINOPOLIS",
-                "Privada",
-                "Privada",
-                "35501170",
-                "Jardim Belvedere",
-                "(37)3229-3500",
-                "www.divinopolis.uemg.br",
-                "ised@funedi.edu.br / siedsup@funedi.edu.br",
-                null
+                "Jardim Belvedere"
             ),
             3483 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE CLÁUDIO",
                 "ISEC",
-                "20150439000108",
                 "CLAUDIO",
-                "Privada",
-                "Privada",
-                "35530000",
-                "Cachoeirinha",
-                "",
-                "www.divinopolis.uemg.br",
-                "isec@funedi.edu.br / siedsup@funedi.edu.br",
-                null
+                "Cachoeirinha"
             ),
             3485 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DO ALTO SÃO FRANCISCO",
                 "ISAF",
-                "20150439000108",
                 "ABAETE",
-                "Privada",
-                "Privada",
-                "35620000",
-                "Amazonas",
-                "",
-                "www.divinopolis.uemg.br",
-                "isaf@funedi.edu.br / siedsup@funedi.edu.br",
-                null
+                "Amazonas"
             ),
             3486 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE ITUIUTABA",
                 "ISEDI",
-                "21332812000104",
                 "ITUIUTABA",
-                "Privada",
-                "Privada",
-                "38302192",
-                "Campus Universitario",
-                "34 3271 9903",
-                "Ituiutaba.uemg.br",
-                "feit.uemg.itba@gmail.com",
-                null
+                "Campus Universitario"
             ),
             3488 to University(
                 "Centro de Ensino Superior de Conselheiro Lafaiete",
                 "CES-CL",
-                "19722313000181",
                 "CONSELHEIRO LAFAIETE",
-                "Privada",
-                "Privada",
-                "36400000",
-                "Carijós",
-                "",
-                "www.ces-cl.edu.br",
-                "ces@ces-cl.edu.br",
-                null
+                "Carijós"
             ),
             3514 to University(
                 "FACULDADE DE CIÊNCIAS GERENCIAIS ALVES FORTES",
                 "FACE - ALFOR",
-                "17708520000156",
                 "ALEM PARAIBA",
-                "Pública",
-                "Municipal",
-                "36660000",
-                "São Luiz",
-                "(32) 3462-2149",
-                "",
-                "fundacaoap@ig.com.br",
-                null
+                "São Luiz"
             ),
             3516 to University(
                 "FACULDADE DE CIÊNCIAS DA SAÚDE ARCHIMEDES THEODORO",
                 "FAC - SAUDE ARTHE",
-                "17708520000156",
                 "ALEM PARAIBA",
-                "Pública",
-                "Municipal",
-                "36660000",
-                "VILA  LAROCA",
-                "(32) 3462 2999",
-                "www.feap.edu.br",
-                "fundacaoap@ig.com.br",
-                null
+                "VILA  LAROCA"
             ),
             3522 to University(
                 "FACULDADE CATÓLICA DE POUSO ALEGRE",
                 "FACAPA",
-                "5579079000170",
                 "POUSO ALEGRE",
-                "Privada",
-                "Privada",
-                "37550000",
-                "São Carlos",
-                "(35) 3421 1820",
-                "www.facapa.edu.br",
-                "secretaria@facapa.edu.br",
-                null
+                "São Carlos"
             ),
             3530 to University(
                 "FACULDADE DE NANUQUE",
                 "FANAN",
-                "2095534000174",
                 "NANUQUE",
-                "Privada",
-                "Privada",
-                "39860000",
-                "Israel Pinheiro",
-                "(33)3621 5100",
-                "www.fanan.edu.br",
-                "fanan@fanan.edu.br",
-                null
+                "Israel Pinheiro"
             ),
             3542 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE MINAS GERAIS",
                 "IESMIG",
-                "5724962000107",
                 "SABINOPOLIS",
-                "Privada",
-                "Privada",
-                "39750000",
-                "Estudantil",
-                "(33) 3423 1017",
-                "www.iesmig.com.br",
-                "uessaltdaa@hotmail.com",
-                null
+                "Estudantil"
             ),
             3657 to University(
                 "FACULDADE DE COMPUTAÇÃO DE MONTES CLAROS",
                 "FACOMP",
-                "5850453000120",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39400091",
-                "Centro",
-                "(38) 3221 2319",
-                "www.facomp.edu.br",
-                "luizcps@hotmail.com",
-                null
+                "Centro"
             ),
             3690 to University(
                 "FACULDADE PEDRO II",
                 "FAPE2",
-                "17257411000160",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30710530",
-                "Carlos Prates",
-                "(31) 3411-1214",
-                "www.fape2.edu.br",
-                "direcaogeral@fape2.edu.br",
-                null
+                "Carlos Prates"
             ),
             3716 to University(
                 "FACULDADE CIÊNCIAS DA VIDA",
                 "FCV",
-                "3688792000127",
                 "SETE LAGOAS",
-                "Privada",
-                "Privada",
-                "35700314",
-                "Canaan",
-                "(31) 37765150",
-                "www.cienciasdavida.com.br",
-                "contato@cienciasdavida.com.br",
-                null
+                "Canaan"
             ),
             3754 to University(
                 "FACULDADES INTEGRADAS ADVENTISTAS DE MINAS GERAIS",
                 "FADMINAS",
-                "73686370000106",
                 "LAVRAS",
-                "Privada",
-                "Privada",
-                "37200000",
-                "Keneddy",
-                "(35) 3829-3600/(35) 3829-3900",
-                "www.fadminas.org.br",
-                "faculdade@fadminas.org.br",
-                null
+                "Keneddy"
             ),
             3756 to University(
                 "FACULDADE DE ALMENARA",
                 "ALFA",
-                "5598350000115",
                 "ALMENARA",
-                "Privada",
-                "Privada",
-                "39900000",
-                "São Pedro",
-                "(33) 3721 1098",
-                "www.faculdadealfa.com.br",
-                "alfa.caldeira@yahoo.com.br",
-                null
+                "São Pedro"
             ),
             3786 to University(
                 "FACULDADE DE ENSINO DE MINAS GERAIS",
                 "FACEMG",
-                "1711282000106",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31110110",
-                "Floresta",
-                "(31) 3226-2549",
-                "http://www.unilist.com.br/facemg/",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Floresta"
             ),
             3788 to University(
                 "FACULDADE JUIZ DE FORA",
                 "FJF",
-                "1711282000106",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "35016311",
-                "Centro",
-                "(32) 3212 6610",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Centro"
             ),
             3793 to University(
                 "FACULDADE FRUTAL",
                 "FAF",
-                "6054269000137",
                 "FRUTAL",
-                "Privada",
-                "Privada",
-                "38200000",
-                "Jardim Laranjeiras",
-                "(34)34238566",
-                "www.sofes.edu.br",
-                "randallstabile@hotmail.com",
-                null
+                "Jardim Laranjeiras"
             ),
             3794 to University(
                 "FACULDADE DE TECNOLOGIA DE MINAS GERAIS",
                 "FATEMG",
-                "3632095000154",
                 "IPATINGA",
-                "Privada",
-                "Privada",
-                "35160257",
-                "Imbaúbas",
-                "(31) 3822 6788",
-                "www.fatemg.edu.br",
-                "secretaria@fatemg.edu.br",
-                null
+                "Imbaúbas"
             ),
             3823 to University(
                 "INSTITUTO DE EDUCAÇÃO SUPERIOR DE POUSO ALEGRE",
                 "FAPA",
-                "18671388000118",
                 "POUSO ALEGRE",
-                "Privada",
-                "Privada",
-                "37550000",
-                "Centro",
-                "(35)3441-1617",
-                "www.asmecpa.com.br",
-                "asmec@asmec.br / heber@asmec.br",
-                null
+                "Centro"
             ),
             3839 to University(
                 "FACULDADE DE TECNOLOGIA NOVO RUMO",
                 "",
-                "2085764000152",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130140",
-                "Funcionários",
-                "(31)32262858",
-                "www.faculdadenovorumo.com.br",
-                "coordenacaosup@novorumo.com.br",
-                null
+                "Funcionários"
             ),
             3875 to University(
                 "CENTRO UNIVERSITÁRIO DA FUNDAÇÃO EDUCACIONAL GUAXUPÉ",
                 "UNIFEG",
-                "20773214000108",
                 "GUAXUPE",
-                "Privada",
-                "Privada",
-                "37800000",
-                "CENTRO",
-                "(35) 3551 5267",
-                "www.unifeg.edu.br",
-                "minus@unifeg.edu.br / secretaria@unifeg.edu.br",
-                null
+                "CENTRO"
             ),
             3951 to University(
                 "FACULDADE DE TECNOLOGIA LUIZ ADELAR SCHEUER",
                 "FATEC- JF",
-                "3773700000107",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36091970",
-                "",
-                "Distrito Industrial  II",
-                "www.senaimg.com.br/fatecjf",
-                "vjamaral@fiemg.com.br",
-                null
+                ""
             ),
             3954 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS E GERENCIAIS DE OLIVEIRA",
                 "FACIJUGO",
-                "3446931000106",
                 "OLIVEIRA",
-                "Privada",
-                "Privada",
-                "35540000",
-                "Centro",
-                "(37) 3331-1719",
-                "www.feol.com.br",
-                "feolfeol@yahoo.com.br",
-                null
+                "Centro"
             ),
             3955 to University(
                 "FACULDADES INTEGRADAS DE CATAGUASES",
                 "FIC",
-                "21420856000196",
                 "CATAGUASES",
-                "Privada",
-                "Privada",
-                "36773084",
-                "Menezes",
-                "(32)34213109",
-                "www.unis.edu.br",
-                "p.institucional@unis.edu.br / valmir@unis.edu.br",
-                null
+                "Menezes"
             ),
             3963 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO CARLOS CHAGAS",
                 "ISECC",
-                "17708520000156",
                 "JUIZ DE FORA",
-                "Pública",
-                "Municipal",
-                "36052560",
-                "Ladeira",
-                "64 36365241",
-                "www.faja.com.br",
-                "faja@faja.com.br",
-                null
+                "Ladeira"
             ),
             3966 to University(
                 "CENTRO UNIVERSITÁRIO DE CARATINGA",
                 "UNEC",
-                "19325547000195",
                 "CARATINGA",
-                "Privada",
-                "Privada",
-                "35300047",
-                "Centro",
-                "(33) 3329 4500",
-                "www.unec.edu.br",
-                "ra.mec@funec.br",
-                null
+                "Centro"
             ),
             3972 to University(
                 "CENTRO SUPERIOR DE ENSINO E PESQUISA DE MACHADO",
                 "CESEP",
-                "17907031000123",
                 "MACHADO",
-                "Privada",
-                "Privada",
-                "37750000",
-                "Centro",
-                "(35) 3295-9501",
-                "www.fem.com.br",
-                "secretaria@fem.com.br",
-                null
+                "Centro"
             ),
             3975 to University(
                 "FACULDADE SÃO FRANCISCO DE PIUMHI",
                 "FASPI",
-                "4394372000109",
                 "PIUMHI",
-                "Privada",
-                "Privada",
-                "37925000",
-                "Centro",
-                "(37) 3371 5022",
-                "www.ceasf.com.br",
-                "secadireito@gmail.com.br",
-                null
+                "Centro"
             ),
             3983 to University(
                 "CENTRO UNIVERSITÁRIO DE FORMIGA",
                 "UNIFORMG",
-                "20501128000146",
                 "FORMIGA",
-                "Privada",
-                "Privada",
-                "35570000",
-                "Água Vermelha",
-                "(37) 3329 1400 / (37)3329-1455",
-                "www.uniformg.edu.br",
-                "uniformg@uniformg.edu.br",
-                null
+                "Água Vermelha"
             ),
             4053 to University(
                 "CENTRO DE EDUCAÇÃO SUPERIOR BARNABITA",
                 "CESB",
-                "17204652000140",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30110039",
-                "São Pedro",
-                "(31) 3263-9000",
-                "www.fapem.edu.br",
-                "faculdade@padremachado.edu.br",
-                null
+                "São Pedro"
             ),
             4079 to University(
                 "FACULDADE TECNOLÓGICA INAP",
                 "FAT- INAP",
-                "25465253000161",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130060",
-                "Funcionários",
-                "(31)3304-6666",
-                "www.faculdadeinap.edu.br",
-                "faculdade@inap.com.br",
-                null
+                "Funcionários"
             ),
             4166 to University(
                 "CENTRO DE ENSINO SUPERIOR DE UBERABA",
                 "CESUBE",
-                "25448424000144",
                 "UBERABA",
-                "Privada",
-                "Privada",
-                "38066005",
-                "Univerdecidade",
-                "",
-                "www.cesube.edu.br",
-                "andreavirtudes@cesube.edu.br",
-                null
+                "Univerdecidade"
             ),
             4200 to University(
                 "FACULDADE DE COMUNICAÇÃO SOCIAL DE PASSOS",
                 "FACOMP",
-                "23273204000100",
                 "PASSOS",
-                "Privada",
-                "Privada",
-                "37901508",
-                "Belo Horizonte",
-                "(35) 3529 8068",
-                "www.fespmg.edu.br",
-                "projetos@fespmg.edu.br",
-                null
+                "Belo Horizonte"
             ),
             4204 to University(
                 "FACULDADE DE TECNOLOGIA INED - UNIDADE IPATINGA",
                 "FATEC IPATINGA",
-                "6322773000170",
                 "IPATINGA",
-                "Privada",
-                "Privada",
-                "35160036",
-                "Centro",
-                "(31) 21361010",
-                "www.fatecipatinga.com.br",
-                "kabaquin@assedipa.com.br",
-                null
+                "Centro"
             ),
             4218 to University(
                 "FACULDADE DE DIREITO DE PEDRO LEOPOLDO",
                 "FADIPEL",
-                "23455561000180",
                 "PEDRO LEOPOLDO",
-                "Privada",
-                "Privada",
-                "33600000",
-                "Doutor Lund",
-                "",
-                "www.unipel.edu.br",
-                "direito@unipel.edu.br",
-                null
+                "Doutor Lund"
             ),
             4219 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO PROFESSORA NAIR FORTES ABU-MERHY",
                 "ISEFOR",
-                "17708520000156",
                 "ALEM PARAIBA",
-                "Pública",
-                "Municipal",
-                "36660000",
-                "SAO JOSÉ",
-                "(32) 3462 7243",
-                "www.feap.edu.br",
-                "fundacaoap@ig.com.br",
-                null
+                "SAO JOSÉ"
             ),
             4222 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DE MATIAS BARBOSA",
                 "ISEMB",
-                "17708520000156",
                 "MATIAS BARBOSA",
-                "Pública",
-                "Municipal",
-                "36120000",
-                "Centro",
-                "",
-                "www.feap.alemparaiba.com.br",
-                "isemb-feap@ig.com.br",
-                null
+                "Centro"
             ),
             4251 to University(
                 "FACULDADE DE TECNOLOGIA INED - UNIDADE LAGOA DA PAMPULHA",
                 "FATEC/PITÁGORAS",
-                "5478567000191",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130000",
-                "Centro",
-                "(31) 2126.0807 (31)2126.0830",
-                "",
-                "ddi@kroton.com.br",
-                null
+                "Centro"
             ),
             4256 to University(
                 "FACULDADES INTEGRADAS PITÁGORAS",
                 "FIP-MOC",
-                "3273660000134",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39401347",
-                "Ibituruna",
-                "(038)32147100",
-                "www.fip-moc.edu.br",
-                "secretaria@fip-moc.edu.br / moc@educsup.org /  janildakarin@gmail.com / fipmoc@gmail.com.br",
-                null
+                "Ibituruna"
             ),
             4289 to University(
                 "FACULDADE DO VALE ELVIRA DAYRELL - FAVED",
                 "FAVED",
-                "4470607000196",
                 "VIRGINOPOLIS",
-                "Privada",
-                "Privada",
-                "39730000",
-                "Centro",
-                "(33) 3416 2121",
-                "www.iseed.edu.br",
-                "Soed.soed@terra.com.br",
-                null
+                "Centro"
             ),
             4329 to University(
                 "FACULDADE DO CENTRO EDUCACIONAL MINEIRO - FACEM",
                 "FACEM-BH",
-                "7341163000187",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30830000",
-                "Alípio de Melo",
-                "(31)3474.3702",
-                "www.facembh.com.br",
-                "rubia@facembh.com.br",
-                null
+                "Alípio de Melo"
             ),
             4362 to University(
                 "FACULDADE PITÁGORAS DE BETIM",
                 "PITÁGORAS-BETIM",
-                "3239470000109",
                 "BETIM",
-                "Privada",
-                "Privada",
-                "32553140",
-                "Betim",
-                "(31) 2126-0812",
-                "",
-                "aecio@pitagoras.com.br",
-                null
+                "Betim"
             ),
             4421 to University(
                 "FACULDADE DE TECNOLOGIA SENAI BELO HORIZONTE",
                 "FATEC SENAI BH",
-                "3773700000107",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30130007",
-                "Funcionários",
-                "(31) 3226 4044",
-                "www.senaimg.com.br/fatecbh",
-                "iara.linhares@fiemg.com.br",
-                null
+                "Funcionários"
             ),
             4446 to University(
                 "FACULDADE CIDADE DE GUANHÃES - FACIG",
                 "FACIG",
-                "7336817000184",
                 "GUANHAES",
-                "Privada",
-                "Privada",
-                "39740000",
-                "Nova União",
-                "(33) 3421 4837",
-                "www.portalfacig.com.br",
-                "facig@portalfacig.com.br",
-                null
+                "Nova União"
             ),
             4722 to University(
                 "FACULDADES INTEGRADAS VIANNA JÚNIOR",
                 "FIVJ",
-                "21591052000150",
                 "JUIZ DE FORA",
-                "Privada",
-                "Privada",
-                "36036000",
-                "Centro",
-                "(32) 3239 2940",
-                "www.viannajr.edu.br",
-                "assdirec@viannajr.edu.br / secgeral@viannajr.edu.br / davera@acessa.com",
-                null
+                "Centro"
             ),
             4725 to University(
                 "FACULDADE DE TECNOLOGIA EGÍDIO JOSÉ DA SILVA",
                 "FATEGIDIO",
-                "4626210000140",
                 "TEOFILO OTONI",
-                "Privada",
-                "Privada",
-                "39801118",
-                "Grão Pará",
-                "(33) 3522 6030 / 3521 1256",
-                "",
-                "etejsto@hotmail.com",
-                null
+                "Grão Pará"
             ),
             4740 to University(
                 "FACULDADE DE PATROCINIO",
                 "IESP",
-                "7736823000129",
                 "PATROCINIO",
-                "Privada",
-                "Privada",
-                "38740000",
-                "Distrito Industrial",
-                "34 3831 1258",
-                "www.faculdadeiesp.com.br",
-                "rbernardi@faculdadeiesp.com.br",
-                null
+                "Distrito Industrial"
             ),
             4766 to University(
                 "FACULDADE UNA DE CONTAGEM",
                 "FUNAC",
-                "5648257000178",
                 "CONTAGEM",
-                "Privada",
-                "Privada",
-                "30140000",
-                "Beatriz",
-                "(31) 3391 6305",
-                "",
-                "everton.reis@una.br",
-                null
+                "Beatriz"
             ),
             4773 to University(
                 "FACULDADE BI MINAS",
                 "FACULDADE IBS",
-                "203629000139",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30380000",
-                "Cidade Jardim",
-                "(31)3296-3232 ramal 196",
-                "www.ibs.edu.br",
-                "bernadete.bernardes@ibs.edu.br",
-                null
+                "Cidade Jardim"
             ),
             4777 to University(
                 "FACULDADE KENNEDY DE BELO HORIZONTE",
                 "FKBH",
-                "22669915000127",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "31535040",
-                "Rio Branco",
-                " Distrito Venda Nova",
-                "",
-                "direcao@soebras.com.br        dpj.fkbh@soebras.com.br         elainesoebras@yahoo.com.br         dpjbh@faculdadepromove.b",
-                null
+                "Rio Branco"
             ),
             4780 to University(
                 "FACISA-UNAI FACULDADE DE CIÊNCIAS DA SAÚDE DE UNAÍ",
                 "FACISA-UNAI",
-                "22669915000127",
                 "UNAI",
-                "Privada",
-                "Privada",
-                "38610000",
-                "Centro",
-                "38 3677-6030",
-                "",
-                "michellesoebras@yahoo.com.br",
-                null
+                "Centro"
             ),
             4821 to University(
                 "FACULDADE DE CIÊNCIAS GERENCIAIS E EMPREENDEDORISMO - FACIGE",
                 "FACIGE",
-                "7435771000150",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39401063",
-                "Melo",
-                "(38)3222-9444",
-                "www.iseib.edu.br",
-                "direcaogeral@iseib.edu.br / antonia@iseib.edu.br",
-                null
+                "Melo"
             ),
             4846 to University(
                 "FACULDADE VÉRTICE",
                 "VÉRTICE",
-                "3981113000103",
                 "MATIPO",
-                "Privada",
-                "Privada",
-                "35357000",
-                "Retiro",
-                "(31)8422-9956",
-                "www.faculdadevertice.com.br",
-                "lfsleutjes@hotmail.com",
-                null
+                "Retiro"
             ),
             4863 to University(
                 "FACULDADE PITÁGORAS DE POÇOS DE CALDAS",
                 "",
-                "3239470000109",
                 "POCOS DE CALDAS",
-                "Privada",
-                "Privada",
-                "37701386",
-                "Jardim do Ginásio",
-                "(35) 3722.2836",
-                "faculdadepitagoras.com.br",
-                "ddi@kroton.com.br",
-                null
+                "Jardim do Ginásio"
             ),
             4910 to University(
                 "FACULDADE DO TRABALHO",
                 "FATRA",
-                "4053555000152",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38400124",
-                "Osvaldo Rezende",
-                "34 3229 4004",
-                "",
-                "",
-                null
+                "Osvaldo Rezende"
             ),
             4962 to University(
                 "CENTRO UNIVERSITÁRIO DE SETE LAGOAS",
                 "UNIFEMM",
-                "25002155000198",
                 "SETE LAGOAS",
-                "Privada",
-                "Privada",
-                "35701242",
-                "Santo Antônio",
-                "(31) 2106 2106",
-                "www.unifemm.edu.br",
-                "secretariageral@unifemm.edu.br",
-                null
+                "Santo Antônio"
             ),
             5066 to University(
                 "FACULDADE DE TECNOLOGIA INED - UNIDADE CONTAGEM",
                 "",
-                "5478567000191",
                 "CONTAGEM",
-                "Privada",
-                "Privada",
-                "32310970",
-                "Eldorado",
-                "(31)32329000",
-                "",
-                "ddi@kroton.com.br",
-                null
+                "Eldorado"
             ),
             5243 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS DE SANTOS DUMONT",
                 "FCJSD",
-                "684397000188",
                 "SANTOS DUMONT",
-                "Privada",
-                "Privada",
-                "36240000",
-                "Centro",
-                "",
-                "www.fsd.edu.br",
-                "fsd@cabangu.com.br",
-                null
+                "Centro"
             ),
             5276 to University(
                 "FACULDADE DE DIREITO DE CARANGOLA",
                 "FDC",
-                "17703133000127",
                 "CARANGOLA",
-                "Privada",
-                "Privada",
-                "36800000",
-                "Santa Emília",
-                "(32) 3322 6321",
-                "www.carangola.br/funcec",
-                "morgana@doctum.edu.br / heloisa@doctum.edu.br / diretoria@doctum.edu.br",
-                null
+                "Santa Emília"
             ),
             5313 to University(
                 "FACULDADES UNIFICADAS DOCTUM DE CATAGUASES",
                 "FACULDADES DOCTUM",
-                "3470966000180",
                 "CATAGUASES",
-                "Privada",
-                "Privada",
-                "36770000",
-                "Vila Tereza",
-                "(32)3422-7005",
-                "www.doctum.edu.br",
-                "diretoria@doctum.edu.br / morgana@doctum.edu.br / heloisa@doctum.edu.br",
-                null
+                "Vila Tereza"
             ),
             5316 to University(
                 "FACULDADES UNIFICADAS DOCTUM DE LEOPOLDINA",
                 "FACULDADES DOCTUM",
-                "3470966000180",
                 "LEOPOLDINA",
-                "Privada",
-                "Privada",
-                "36700000",
-                "Centro",
-                "(33)3321 7560",
-                "www.doctum.com.br",
-                "diretoria@doctum.com.br / morgana@doctum.edu.br / heloisa@doctum.edu.br",
-                null
+                "Centro"
             ),
             5369 to University(
                 "FACULDADES INTEGRADAS ASMEC",
                 "ASMEC",
-                "67172676000133",
                 "OURO FINO",
-                "Privada",
-                "Privada",
-                "37570000",
-                "Jardim dos Ipês",
-                "(35)3441-1617",
-                "www.asmec.br",
-                "asmec@asmec.br",
-                null
+                "Jardim dos Ipês"
             ),
             5370 to University(
                 "FACULDADES UNIFICADAS DOCTUM DE TEÓFILO OTONI",
                 "FACULDADES DOCTUM",
-                "3470966000180",
                 "TEOFILO OTONI",
-                "Privada",
-                "Privada",
-                "39800000",
-                "São Jacinto",
-                "(33)3322 6321/ 3322 6322/ 9912 9787",
-                "www.doctum.edu.br",
-                "diretoria@doctum.edu.br / morgana@doctum.edu.br / heloisa@doctum.edu.br",
-                null
+                "São Jacinto"
             ),
             5394 to University(
                 "INSTITUTO DE ENSINO SUPERIOR INTEGRADO-IESI",
                 "FENORD",
-                "25118712000130",
                 "TEOFILO OTONI",
-                "Privada",
-                "Privada",
-                "39800151",
-                "Grão Pará",
-                "(33)3522 2745",
-                "www.fenord.com.br",
-                "gustavo@fenord.com.br",
-                null
+                "Grão Pará"
             ),
             5430 to University(
                 "FACULDADE DE TECNOLOGIA DE MINAS GERAIS - FATEMIG",
                 "",
-                "23455561000180",
                 "PEDRO LEOPOLDO",
-                "Privada",
-                "Privada",
-                "33600000",
-                "Santo Antônio da Barra",
-                "",
-                "www.unipel.edu.br",
-                "secretaria@unipel.edu.br",
-                null
+                "Santo Antônio da Barra"
             ),
             5537 to University(
                 "FACULDADES VALE DO CARANGOLA - FAVALE",
                 "FAVALE",
-                "17725656000174",
                 "CARANGOLA",
-                "Privada",
-                "Privada",
-                "36800000",
-                "Santa Emília",
-                "(32) 3741 1969",
-                "www.carangola.br",
-                "cfafile@carangola.br",
-                null
+                "Santa Emília"
             ),
             5592 to University(
                 "FACULDADES INTEGRADAS DO NORTE DE MINAS - FUNORTE",
                 "FUNORTE",
-                "22669915000127",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39400000",
-                "Centro",
-                "(38)21019268",
-                "www.funorte.com.br",
-                "michellesoebras@yahoo.com.br / tania.raquel.muniz@hotmail.com",
-                null
+                "Centro"
             ),
             5599 to University(
                 "LIBERTAS - FACULDADES INTEGRADAS",
                 "LIBERTAS",
-                "24903999000147",
                 "SAO SEBASTIAO DO PARAISO",
-                "Privada",
-                "Privada",
-                "37950000",
-                "Lagoinha",
-                "(35)3531-1998",
-                "www.fecom.edu.br",
-                "ceduc2008@hotmail.com",
-                null
+                "Lagoinha"
             ),
             10059 to University(
                 "FACULDADE DE TECNOLOGIA DE ENSINO SUPERIOR - FATEC",
                 "CENTES",
-                "3201833000109",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39401347",
-                "Ibituruna",
-                "(38)32122085 / (38)84010474",
-                "http://www.fatec-moc.edu.br",
-                "moc@educsup.org / cida@fip-moc.edu.br / madalenafatec@gmail.com / francis@fip-moc.edu.br",
-                null
+                "Ibituruna"
             ),
             11428 to University(
                 "FACULDADE DE TECNOLOGIA ALTO MÉDIO SÃO FRANCISCO",
                 "FAC FUNAM",
-                "20533295000179",
                 "PIRAPORA",
-                "Privada",
-                "Privada",
-                "39270000",
-                "Cícero Passos",
-                "(38)37439393",
-                "www.funam.com.br",
-                "fac.diretoria@funam.com.br",
-                null
+                "Cícero Passos"
             ),
             11751 to University(
                 "FACULDADE DE TECNOLOGIA INED - UNIDADE BETIM",
                 "FATECBETIM",
-                "5478567000191",
                 "BETIM",
-                "Privada",
-                "Privada",
-                "32510000",
-                "Angola",
-                "(31) 2126.0725",
-                "-",
-                "ddi@kroton.com.br",
-                null
+                "Angola"
             ),
             11860 to University(
                 "INSTITUTO NACIONAL DE ENSINO SUPERIOR E PÓS-GRADUAÇÃO PADRE GERVÁSIO",
                 "INAPÓS",
-                "832682000107",
                 "POUSO ALEGRE",
-                "Privada",
-                "Privada",
-                "37550000",
-                "Centro",
-                "(35)34215953",
-                "www.inapos.edu.br",
-                "inapos@inapos.edu.br",
-                null
+                "Centro"
             ),
             12005 to University(
                 "FACULDADE DE TECNOLOGIA INED - UNIDADE VENDA NOVA",
                 "",
-                "5478567000191",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "0",
-                "Venda Nova",
-                "(31) 2126.0807",
-                "",
-                "ddi@kroton.com.br",
-                null
+                "Venda Nova"
             ),
             12189 to University(
                 "FACULDADE PRISMA",
                 "FAP",
-                "314653000145",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39400104",
-                "Centro",
-                "(38)32291900",
-                "www.redeprisma.com.br",
-                "supervisao.fap@prisma.edu.br",
-                null
+                "Centro"
             ),
             12620 to University(
                 "FACULDADE DE TECNOLOGIA DE SETE LAGOAS",
                 "FASSETE",
-                "1282149000173",
                 "SETE LAGOAS",
-                "Privada",
-                "Privada",
-                "35700170",
-                "Chácara do Paiva",
-                "(31)37733268",
-                "",
-                "doriscamargo@ciodonto.edu.br / doris@ciodonto.edu.br / suporteacademico@ciodonto.edu.br",
-                null
+                "Chácara do Paiva"
             ),
             13300 to University(
                 "FACULDADE ADJETIVO CETEP",
                 "ADJETIVO-CETEP",
-                "5238442000194",
                 "MARIANA",
-                "Privada",
-                "Privada",
-                "35420000",
-                "CENTRO",
-                "(31)35574104",
-                "www.adjetivocetep.combr",
-                "adjetivocetep@adjetivocetep.com.br",
-                null
+                "CENTRO"
             ),
             13663 to University(
                 "FACULDADE ISEIB DE BETIM",
                 "FISBE",
-                "10286758000191",
                 "BETIM",
-                "Privada",
-                "Privada",
-                "32632090",
-                "Inga",
-                "(31) 3261 2707",
-                "www.iseib.com.br",
-                "direcaogeral@iseib.edu.br",
-                null
+                "Inga"
             ),
             13684 to University(
                 "FACULDADE PITÁGORAS DE CONTAGEM",
                 "PIT Contagem",
-                "3239470000109",
                 "CONTAGEM",
-                "Privada",
-                "Privada",
-                "32010120",
-                "Eldorado",
-                "(31) 2126.0807",
-                "www.faculdadepitagoras.com.br",
-                "ddi@kroton.com.br",
-                null
+                "Eldorado"
             ),
             13743 to University(
                 "FACULDADE PITÁGORAS DE GOVERNADOR VALADARES",
                 "PIT GV",
-                "3239470000109",
                 "GOVERNADOR VALADARES",
-                "Privada",
-                "Privada",
-                "35020500",
-                "Centro",
-                "(31) 2126.0789",
-                "",
-                "ddi@kroton.com.br",
-                null
+                "Centro"
             ),
             13809 to University(
                 "FACULDADE SANTO AGOSTINHO DE SETE LAGOAS",
                 "FASASETE",
-                "3735981000103",
                 "SETE LAGOAS",
-                "Privada",
-                "Privada",
-                "35700068",
-                "Mangabeiras",
-                "(31)37745050",
-                "www.santoagostinho.edu.br",
-                "lucas@fasa.edu.br",
-                null
+                "Mangabeiras"
             ),
             14005 to University(
                 "INSTITUTO SUPERIOR DE CIÊNCIAS HUMANAS E SOCIAIS APLICADAS DE ABAETÉ",
                 "ISAB",
-                "20150439000108",
                 "ABAETE",
-                "Privada",
-                "Privada",
-                "35620000",
-                "Amazonas",
-                "(37)3541-2172",
-                "www.funedi.edu.br",
-                "isab@funedi.edu.br",
-                null
+                "Amazonas"
             ),
             14028 to University(
                 "Faculdade Presidente Antônio Carlos de Betim",
                 "FUNEC Betim",
-                "17080078000166",
                 "BETIM",
-                "Privada",
-                "Privada",
-                "32510260",
-                "Centro",
-                "31-35315574",
-                "www.unipacbetim.com.br",
-                "joaopaulo@unipacbetim.com.br",
-                null
+                "Centro"
             ),
             14029 to University(
                 "Faculdade Presidente Antônio Carlos de Aimorés",
                 "FUNEC Aimorés",
-                "17080078000166",
                 "AIMORES",
-                "Privada",
-                "Privada",
-                "35200000",
-                "Centro",
-                "33-32674888",
-                "",
-                "unipacaimores@gmail.com",
-                null
+                "Centro"
             ),
             14032 to University(
                 "Faculdade Presidente Antônio Carlos de Belo Horizonte",
                 "FUNEC Belo Horizonte",
-                "17080078000166",
                 "BELO HORIZONTE",
-                "Privada",
-                "Privada",
-                "30110064",
-                "Barro Preto",
-                "31-25525700",
-                "",
-                "unipacbh@yahoo.com.br",
-                null
+                "Barro Preto"
             ),
             14090 to University(
                 "FACULDADE BETIM",
                 "FABE",
-                "21420856000196",
                 "BETIM",
-                "Privada",
-                "Privada",
-                "32553120",
-                "Marajoara",
-                "(31) 35440404",
-                "",
-                "alne@unis.edu.br / evans@unis.edu.br / p.institucional@unis.edu.br",
-                null
+                "Marajoara"
             ),
             14098 to University(
                 "Faculdade Presidente Antônio Carlos de Almenara",
                 "FUNEC Almenara",
-                "17080078000166",
                 "ALMENARA",
-                "Privada",
-                "Privada",
-                "39900000",
-                "São Francisco",
-                "(33)3721-2985",
-                "",
-                "unipacalmenara@yahoo.com.br",
-                null
+                "São Francisco"
             ),
             14101 to University(
                 "Faculdade Presidente Antônio Carlos de Baependi",
                 "FUNEES Baependi",
-                "17080078000166",
                 "BAEPENDI",
-                "Privada",
-                "Privada",
-                "37443000",
-                "Centro",
-                "(35)3343-1299",
-                "",
-                "unipacbae@hotmail.com",
-                null
+                "Centro"
             ),
             14115 to University(
                 "Faculdade Presidente Antônio Carlos de Ponte Nova",
                 "FUNEES Ponte Nova",
-                "17080078000166",
                 "PONTE NOVA",
-                "Privada",
-                "Privada",
-                "35430225",
-                "Palmeiras",
-                "(31) 3817-1712",
-                "www.unipacedu.com.br",
-                "pontenova@unipac.br",
-                null
+                "Palmeiras"
             ),
             14118 to University(
                 "Faculdade Presidente Antônio Carlos de Raul Soares",
                 "FUNEES Raul Soares",
-                "17080078000166",
                 "RAUL SOARES",
-                "Privada",
-                "Privada",
-                "35350000",
-                "Santana",
-                "(33)3351-2322",
-                "www.unipacraulsoares.blogspot.com",
-                "unipac_rs@yahoo.com.br",
-                null
+                "Santana"
             ),
             14119 to University(
                 "Faculdade Presidente Antônio Carlos de São Francisco",
                 "FUNEES São Francisco",
-                "17080078000166",
                 "SAO FRANCISCO",
-                "Privada",
-                "Privada",
-                "39300000",
-                "Jardim Graziela",
-                "(38)3631-1046",
-                "",
-                "unipacsf@yahoo.com.br",
-                null
+                "Jardim Graziela"
             ),
             14121 to University(
                 "Faculdade Presidente Antônio Carlos de São João Nepomuceno",
                 "FUNEES SJN",
-                "17080078000166",
                 "SAO JOAO NEPOMUCENO",
-                "Privada",
-                "Privada",
-                "36680000",
-                "Centro",
-                "(32)3261-2369",
-                "",
-                "unipac.sjn@gmail.com",
-                null
+                "Centro"
             ),
             14126 to University(
                 "Faculdade Presidente Antônio Carlos de São Lourenço",
                 "FUNEES São Lourenço",
-                "17080078000166",
                 "SAO LOURENCO",
-                "Privada",
-                "Privada",
-                "37470000",
-                "Centro",
-                "(35)3331-4107",
-                "www.unipac.br",
-                "s.lo.unipac@hotmail.com",
-                null
+                "Centro"
             ),
             14127 to University(
                 "Faculdade Presidente Antônio Carlos de Campo Belo",
                 "FUNEES Campo Belo",
-                "17080078000166",
                 "CAMPO BELO",
-                "Privada",
-                "Privada",
-                "37270000",
-                "Arnaldos",
-                "(35) 3832-7855",
-                "",
-                "sec@stratus.com.br",
-                null
+                "Arnaldos"
             ),
             14128 to University(
                 "Faculdade Presidente Antônio Carlos de Vazante",
                 "FEES Vazante",
-                "17080078000166",
                 "VAZANTE",
-                "Privada",
-                "Privada",
-                "38780000",
-                "Novo Horizonte",
-                "(34)3813-0424",
-                "",
-                "secretariavazante@yahoo.com.br",
-                null
+                "Novo Horizonte"
             ),
             14129 to University(
                 "Faculdade Presidente Antônio Carlos de Curvelo",
                 "FUNEES Curvelo",
-                "17080078000166",
                 "CURVELO",
-                "Privada",
-                "Privada",
-                "35790000",
-                "Centro",
-                "(38) 3721-3939",
-                "",
-                "unipaccurvelo@yahoo.com.br",
-                null
+                "Centro"
             ),
             14130 to University(
                 "Faculdade Presidente Antônio Carlos de Várzea da Palma",
                 "FEES Várzea da Palma",
-                "17080078000166",
                 "VARZEA DA PALMA",
-                "Privada",
-                "Privada",
-                "39260000",
-                "Progresso",
-                "(38)3731-2266",
-                "",
-                "unipacvzp09@bol.com.br",
-                null
+                "Progresso"
             ),
             14132 to University(
                 "Faculdade Presidente Antônio Carlos de Itanhandu",
                 "FUNEES Itanhandu",
-                "17080078000166",
                 "ITANHANDU",
-                "Privada",
-                "Privada",
-                "37646000",
-                "Centro",
-                "(35) 3361-1349",
-                "",
-                "unipacitanhandu@yahoo.com.br",
-                null
+                "Centro"
             ),
             14133 to University(
                 "Faculdade Presidente Antônio Carlos de Lambari",
                 "FUNEES Lambari",
-                "17080078000166",
                 "LAMBARI",
-                "Privada",
-                "Privada",
-                "37480000",
-                "Centro",
-                "(35) 3271-4097",
-                "",
-                "lambariunipac@gmail.com",
-                null
+                "Centro"
             ),
             14147 to University(
                 "Faculdade Presidente Antônio Carlos de Barão de Cocais",
                 "",
-                "17080078000166",
                 "BARAO DE COCAIS",
-                "Privada",
-                "Privada",
-                "35970000",
-                "Bairro Lagoa",
-                "(31)3837-3552",
-                "",
-                "unipacbc@yahoo.com.br",
-                null
+                "Bairro Lagoa"
             ),
             14148 to University(
                 "Faculdade Presidente Antônio Carlos de Mariana",
                 "FUNEC Mariana",
-                "17080078000166",
                 "MARIANA",
-                "Privada",
-                "Privada",
-                "35420000",
-                "São Cristovão",
-                "(31)3557-2933",
-                "unipacedu.com.br",
-                "unipacmariana@yahoo.com.br",
-                null
+                "São Cristovão"
             ),
             14149 to University(
                 "Faculdade Presidente Antônio Carlos de Bocaiúva",
                 "FUNEES Bocaiúva",
-                "17080078000166",
                 "BOCAIUVA",
-                "Privada",
-                "Privada",
-                "39390000",
-                "Centro",
-                "(38)3251-1194",
-                "www.unipacbocaiuva.com.br",
-                "unipacbocaiuva@gmail.com.br",
-                null
+                "Centro"
             ),
             14150 to University(
                 "Faculdade Presidente Antônio Carlos de Montes Claros",
                 "FUNEC Montes Claros",
-                "17080078000166",
                 "MONTES CLAROS",
-                "Privada",
-                "Privada",
-                "39400041",
-                "Centro",
-                "(38)3222-4038",
-                "www.unipacmontesclaros.com.br",
-                "unipacmoc@gmail.com",
-                null
+                "Centro"
             ),
             14151 to University(
                 "Faculdade Presidente Antônio Carlos de Nova Lima",
                 "FUNEC Nova Lima",
-                "17080078000166",
                 "NOVA LIMA",
-                "Privada",
-                "Privada",
-                "34000000",
-                "Centro",
-                "(31)3542-6079",
-                "www.novalima.com.br",
-                "novalima@unipac.br",
-                null
+                "Centro"
             ),
             14153 to University(
                 "Faculdade Presidente Antônio Carlos de Porteirinha",
                 "FUNEES Porteirinha",
-                "17080078000166",
                 "PORTEIRINHA",
-                "Privada",
-                "Privada",
-                "39520000",
-                "Vila Serranópolis",
-                "(38)3831-1900",
-                "",
-                "unipacporteirinha@yahoo.com.br",
-                null
+                "Vila Serranópolis"
             ),
             14155 to University(
                 "Faculdade Presidente Antônio Carlos de Sabará",
                 "FUNEES Sabará",
-                "17080078000166",
                 "SABARA",
-                "Privada",
-                "Privada",
-                "34565230",
-                "Roça Grande",
-                "(31)3672-7739",
-                "www.unipac.br",
-                "liliangrossi@gmail.com",
-                null
+                "Roça Grande"
             ),
             14156 to University(
                 "Faculdade Presidente Antônio Carlos de Teófilo Otoni",
                 "FUNEES Teófilo Otoni",
-                "17080078000166",
                 "TEOFILO OTONI",
-                "Privada",
-                "Privada",
-                "39803087",
-                "Doutor Laerte Laender",
-                "(33)3523-6170",
-                "www.unipacto.com.br",
-                "secretariaunipacto@gmail.com",
-                null
+                "Doutor Laerte Laender"
             ),
             14157 to University(
                 "Faculdade de Educação e Estudos Sociais de Uberlândia",
                 "FUNEES Uberlândia",
-                "17080078000166",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38400328",
-                "Osvaldo Rezende",
-                "(34)3210-8227",
-                "www.unipaciefom.com.br",
-                "feesu@uber.com.br",
-                null
+                "Osvaldo Rezende"
             ),
             14160 to University(
                 "Faculdade Presidente Antônio Carlos de Carmópolis",
                 "FUNEES C. de Minas",
-                "17080078000166",
                 "CARMOPOLIS DE MINAS",
-                "Privada",
-                "Privada",
-                "35534000",
-                "Centro",
-                "(37)9922-8207",
-                "",
-                "unipaccarmopolis@yahoo.com.br",
-                null
+                "Centro"
             ),
             14161 to University(
                 "Faculdade Presidente Antônio Carlos de Contagem",
                 "FACEC Contagem",
-                "17080078000166",
                 "CONTAGEM",
-                "Privada",
-                "Privada",
-                "32260100",
-                "Inconfidentes",
-                "(31)2564-5524",
-                "www.unipaccontagem.com.br",
-                "unipaccontagem@unipaccontagem.com.br",
-                null
+                "Inconfidentes"
             ),
             14162 to University(
                 "Faculdade Presidente Antônio Carlos de Governador Valadares",
                 "FAU G. Valadares",
-                "17080078000166",
                 "GOVERNADOR VALADARES",
-                "Privada",
-                "Privada",
-                "35032620",
-                "Vila Bretãs",
-                "(33)3212-6700",
-                "www.unipacgv.com.br",
-                "rogerioprimo@unipac.br",
-                null
+                "Vila Bretãs"
             ),
             14163 to University(
                 "Faculdade de Educação e Estudos Sociais de Governador Valadares",
                 "FUNEES G. Valadares",
-                "17080078000166",
                 "GOVERNADOR VALADARES",
-                "Privada",
-                "Privada",
-                "35010161",
-                "Centro",
-                "(33)3278-5777",
-                "",
-                "unipacgv@wkve.com.br",
-                null
+                "Centro"
             ),
             14165 to University(
                 "FACULDADE TRÊS PONTAS",
                 "FATEP",
-                "21420856000196",
                 "TRES PONTAS",
-                "Privada",
-                "Privada",
-                "37190000",
-                "Centro",
-                "35 3266 2020",
-                "www.unis.edu.br",
-                "joaovictor@unis.edu.br / p.institucional@unis.edu.br / alne@unis.edu.br",
-                null
+                "Centro"
             ),
             14166 to University(
                 "Faculdade Presidente Antônio Carlos de Itabira",
                 "FUNEES Itabira",
-                "17080078000166",
                 "ITABIRA",
-                "Privada",
-                "Privada",
-                "35900597",
-                "Campestre",
-                "(31)3067-4040",
-                "",
-                "unipacitabira@gmail.com",
-                null
+                "Campestre"
             ),
             14169 to University(
                 "Faculdade Presidente Antônio Carlos de Itambacuri",
                 "FUNEES Itambacuri",
-                "17080078000166",
                 "ITAMBACURI",
-                "Privada",
-                "Privada",
-                "39830000",
-                "Centro",
-                "(33)3511-2173",
-                "",
-                "unipac.ity@hotmail.com",
-                null
+                "Centro"
             ),
             14171 to University(
                 "Faculdade Presidente Antõnio Carlos de Perdões",
                 "FUNEES Perdões",
-                "17080078000166",
                 "PERDOES",
-                "Privada",
-                "Privada",
-                "37260000",
-                "Jardim das Flores",
-                "(35) 3864-7270",
-                "",
-                "unipacperdoes@yahoo.com.br",
-                null
+                "Jardim das Flores"
             ),
             14173 to University(
                 "Faculdade Presidente Antônio Carlos de Ribeirão das Neves",
                 "FUNEES R. das Neves",
-                "17080078000166",
                 "RIBEIRAO DAS NEVES",
-                "Privada",
-                "Privada",
-                "33800000",
-                "Distrito Industrial João de Almeida",
-                "(31)3507-9100",
-                "",
-                "unipacneves@yahoo.com.br",
-                null
+                "Distrito Industrial João de Almeida"
             ),
             14183 to University(
                 "Faculdade Presidente Antônio Carlos de São João Del Rei",
                 "FUNEES SJDR",
-                "17080078000166",
                 "SAO JOAO DEL REI",
-                "Privada",
-                "Privada",
-                "36301182",
-                "Fábricas",
-                "(32)3372-2897",
-                "",
-                "secretaria@unipac.edu.br",
-                null
+                "Fábricas"
             ),
             14201 to University(
                 "Instituto Superior de Ciências Agrárias",
                 "ISAP",
-                "20150439000108",
                 "PITANGUI",
-                "Privada",
-                "Privada",
-                "35650000",
-                "Zona Rural",
-                "(37) 3271-4004",
-                "www.funedi.edu.br",
-                "isap@funedi.edu.br",
-                null
+                "Zona Rural"
             ),
             14204 to University(
                 "Faculdade Presidente Antônio Carlos de Arcos",
                 "FUNEES Arcos",
-                "17080078000166",
                 "ARCOS",
-                "Privada",
-                "Privada",
-                "35558000",
-                "Santo Antônio",
-                "(37) 3351-4630/3351-2248",
-                "www.unipac.br",
-                "arcos@unipac.br",
-                null
+                "Santo Antônio"
             ),
             14206 to University(
                 "Faculdade Presidente Antônio Carlos de Elói Mendes",
                 "FUNEES",
-                "17080078000166",
                 "ELOI MENDES",
-                "Privada",
-                "Privada",
-                "37110000",
-                "Centro",
-                "(35) 3690-2137",
-                "www.unipac.br",
-                "unipaceloi@uaipontal.com.br",
-                null
+                "Centro"
             ),
             14209 to University(
                 "Faculdade Presidente Antônio Carlos de Lagoa Santa",
                 "FUNEES",
-                "17080078000166",
                 "LAGOA SANTA",
-                "Privada",
-                "Privada",
-                "33400000",
-                "Centro",
-                "(31) 3681-1420",
-                "www.unipac.br",
-                "lagoasanta@unipac.br",
-                null
+                "Centro"
             ),
             14216 to University(
                 "Faculdade Presidente Antônio Carlos de Divino",
                 "FUNEES",
-                "17080078000166",
                 "DIVINO",
-                "Privada",
-                "Privada",
-                "36820000",
-                "Givisiez",
-                "(32) 3743-1276",
-                "",
-                "divino@unipac.br",
-                null
+                "Givisiez"
             ),
             14222 to University(
                 "Faculdade Presidente Antônio Carlos de Senhora dos Remédios",
                 "FUNEES",
-                "17080078000166",
                 "SENHORA DOS REMEDIOS",
-                "Privada",
-                "Privada",
-                "36265000",
-                "Centro",
-                "(32) 3343-1263",
-                "www.unipac.br",
-                "senhoradosremedios@unipac.br",
-                null
+                "Centro"
             ),
             14223 to University(
                 "Faculdade Presidente Antônio Carlos de Central de Minas",
                 "FUNEES",
-                "17080078000166",
                 "CENTRAL DE MINAS",
-                "Privada",
-                "Privada",
-                "35260000",
-                "Centro",
-                "(33)3243-0233",
-                "",
-                "centraldeminas@unipac.br",
-                null
+                "Centro"
             ),
             14225 to University(
                 "Faculdade Presidente Antônio Carlos de Felixlândia",
                 "FUNEES",
-                "17080078000166",
                 "FELIXLANDIA",
-                "Privada",
-                "Privada",
-                "35740000",
-                "Alto Social",
-                "(38) 3753-1605",
-                "",
-                "felixlandia@unipac.br",
-                null
+                "Alto Social"
             ),
             14231 to University(
                 "Faculdade Presidente Antônio Carlos de Uruana de Minas",
                 "FUNEES",
-                "17080078000166",
                 "URUANA DE MINAS",
-                "Privada",
-                "Privada",
-                "38630000",
-                "Centro",
-                "(38) 3678-9193",
-                "",
-                "uruanademinas@unipac.br",
-                null
+                "Centro"
             ),
             14236 to University(
                 "FACULDADE DE CIÊNCIAS GERENCIAIS",
                 "FACIG",
-                "20150439000108",
                 "CLAUDIO",
-                "Privada",
-                "Privada",
-                "35530000",
-                "Anel Rodoviário",
-                "(37) 3381-3926",
-                "www.funedi.edu.br",
-                "facig@funedi.edu.br",
-                null
+                "Anel Rodoviário"
             ),
             14242 to University(
                 "Faculdade Presidente Antônio Carlos de Timóteo",
                 "FECT",
-                "17080078000166",
                 "TIMOTEO",
-                "Privada",
-                "Privada",
-                "35180442",
-                "Serenata",
-                "(31) 3849 9150",
-                "",
-                "diretoriatimoteo@unipacvaledoaco.com.br",
-                null
+                "Serenata"
             ),
             14243 to University(
                 "Faculdade Presidente Antônio Carlos de Itabirito",
                 "",
-                "17080078000166",
                 "ITABIRITO",
-                "Privada",
-                "Privada",
-                "35450000",
-                "Matozinhos",
-                "31-3561.7775",
-                "WWW.ITABIRITO.UNIPAC.BR",
-                "diretoriaitabirito@unipac.br",
-                null
+                "Matozinhos"
             ),
             14246 to University(
                 "Faculdade Presidente Antônio Carlos de Uberaba",
                 "",
-                "17080078000166",
                 "UBERABA",
-                "Privada",
-                "Privada",
-                "38010400",
-                "Centro",
-                "(34) 3321-5670",
-                "www.unipacuberaba.edu.br",
-                "diretoriaacademica@unipacuberaba.edu.br",
-                null
+                "Centro"
             ),
             14247 to University(
                 "Faculdade Presidente Antônio Carlos de Tupaciguara",
                 "",
-                "17080078000166",
                 "TUPACIGUARA",
-                "Privada",
-                "Privada",
-                "38430000",
-                "Bom Sucesso",
-                "(34) 3271-6086",
-                "",
-                "marangonipereira@yahoo.com.br",
-                null
+                "Bom Sucesso"
             ),
             14248 to University(
                 "Faculdade Presidente Antônio Carlos de Uberlândia",
                 "",
-                "17080078000166",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38400160",
-                "Fundinho",
-                "(34) 3291-2100",
-                "",
-                "raquel_gracauberlandia2@yahoo.com.br",
-                null
+                "Fundinho"
             ),
             14249 to University(
                 "Faculdade Presidente Antônio Carlos de Congonhas",
                 "",
-                "17080078000166",
                 "CONGONHAS",
-                "Privada",
-                "Privada",
-                "36415000",
-                "Praia",
-                "(31)37311541",
-                "",
-                "monicaaraujo@unipac.br",
-                null
+                "Praia"
             ),
             14258 to University(
                 "INSTITUTO SUPERIOR DE ENSINO E PESQUISA DE CAMBUÍ",
                 "ISEPEC",
-                "23951916000122",
                 "CAMBUI",
-                "Privada",
-                "Privada",
-                "37600000",
-                "Centro",
-                "(35)34313339",
-                "www.isepec.com.br",
-                "giselemenezes@isepec.edu.br",
-                null
+                "Centro"
             ),
             14263 to University(
                 "Faculdade Presidente Antônio Carlos de Itajubá",
                 "",
-                "17080078000166",
                 "ITAJUBA",
-                "Privada",
-                "Privada",
-                "37501042",
-                "Varginha",
-                "35-36239746",
-                "",
-                "proreitoriadeensino@gmail.com",
-                null
+                "Varginha"
             ),
             14313 to University(
                 "NOVA FACULDADE",
                 "NF",
-                "9524663000180",
                 "CONTAGEM",
-                "Privada",
-                "Privada",
-                "32217970",
-                "Cidade Industrial",
-                "(31)32730798",
-                "www.novafaculdade.com.br",
-                "renatacastro@novafaculdade.com.br",
-                null
+                "Cidade Industrial"
             ),
             15357 to University(
                 "Faculdade Presidente Antônio Carlos de Ubá",
                 "",
-                "17080078000166",
                 "UBA",
-                "Privada",
-                "Privada",
-                "36500000",
-                "Boa Vista",
-                "(31)34219186",
-                "www.unipac.br",
-                "kesciacarvalho@unipac.br",
-                null
+                "Boa Vista"
             ),
             15450 to University(
                 "Faculdade Presidente Antônio Carlos de Ipatinga",
                 "",
-                "17080078000166",
                 "IPATINGA",
-                "Privada",
-                "Privada",
-                "35164779",
-                "Bethânia",
-                "",
-                "",
-                "kesciacarvalho@unipac.br / kesciacarvalho@yahoo.com.br",
-                null
+                "Bethânia"
             ),
             15451 to University(
                 "Faculdade de Direito de Ipatinga",
                 "FADIPA",
-                "17080078000166",
                 "IPATINGA",
-                "Privada",
-                "Privada",
-                "35164226",
-                "Jardim Panorama",
-                "(31)38228808",
-                "",
-                "kesciacarvalho@unipac.br / kesciacarvalho@yahoo.com.br",
-                null
+                "Jardim Panorama"
             ),
             15452 to University(
                 "Faculdade Presidente Antônio Carlos de Bom Despacho",
                 "",
-                "17080078000166",
                 "BOM DESPACHO",
-                "Privada",
-                "Privada",
-                "35600000",
-                "Zona Rural",
-                "(31) 34219186",
-                "www.unipacbomdespacho.com.br",
-                "kesciacarvalho@unipac.br / kesciacarvalho@yahoo.com.br",
-                null
+                "Zona Rural"
             ),
             15453 to University(
                 "Faculdade Presidente Antônio Carlos de Conselheiro Lafaiete",
                 "",
-                "17080078000166",
                 "CONSELHEIRO LAFAIETE",
-                "Privada",
-                "Privada",
-                "36400000",
-                "Gigante",
-                "",
-                "www.unipaclafaiete.edu.br",
-                "kesciacarvalho@unipac.br / kesciacarvalho@yahoo.com.br",
-                null
+                "Gigante"
             ),
             15467 to University(
                 "Faculdade Presidente Antônio Carlos de Visconde do Rio Branco",
                 "",
-                "17080078000166",
                 "VISCONDE DO RIO BRANCO",
-                "Privada",
-                "Privada",
-                "36520000",
-                "Jardim Alice",
-                "",
-                "",
-                "kesciacarvalho@unipac.br / kesciacarvalho@yahoo.com.br",
-                null
+                "Jardim Alice"
             ),
             15468 to University(
                 "Faculdade Presidente Antônio Carlos de Leopoldina",
                 "",
-                "17080078000166",
                 "LEOPOLDINA",
-                "Privada",
-                "Privada",
-                "36700000",
-                "Chácara Dona Euzébia",
-                "",
-                "",
-                "kesciacarvalho@unipac.br / kesciacarvalho@yahoo.com.br",
-                null
+                "Chácara Dona Euzébia"
             ),
             166 to University(
                 "FAI - CENTRO DE ENSINO SUPERIOR EM GESTÃO TECNOLOGIA E EDUCAÇÃO",
                 "",
-                "24492860000158",
                 "SANTA RITA DO SAPUCAI",
-                "Privada",
-                "Privada",
-                "37540000",
-                "Jardim Santo Antonio",
-                "(35) 3473 3036",
-                "www.fai-mg.br",
-                "fai@fai-mg.br",
-                null
+                "Jardim Santo Antonio"
             ),
             302 to University(
                 "FACULDADE DE CIÊNCIAS ECONÔMICAS ADMINISTRATIVAS E CONTÁBEIS DE DIVINÓPOLIS",
                 "FACED",
-                "20151478000120",
                 "DIVINOPOLIS",
-                "Privada",
-                "Privada",
-                "35500048",
-                "Centro",
-                "(37)3512-2000    3512-2024",
-                "www.faced.br",
-                "assessoriaacademica@faced.br",
-                null
+                "Centro"
             ),
             727 to University(
                 "FACULDADE DE FILOSOFIA CIÊNCIAS E LETRAS DO ALTO SÃO FRANCISCO",
                 "FASF",
-                "18301267000184",
                 "LUZ",
-                "Privada",
-                "Privada",
-                "35595000",
-                "Monsenhor Parreiras",
-                "(37) 3421 9006",
-                "http//www.fasf.edu.br",
-                "institucional@fasf.edu.br",
-                null
+                "Monsenhor Parreiras"
             ),
             1468 to University(
                 "ESCOLA SUPERIOR DE ADMINISTRAÇÃO MARKETING E COMUNICAÇÃO DE UBERLÂNDIA",
                 "ESAMC DE UBERLÂNDIA",
-                "3158213000134",
                 "UBERLANDIA",
-                "Privada",
-                "Privada",
-                "38400448",
-                "Martins",
-                "(34) 3291-2828",
-                "www.esamc.br",
-                "adrianonovaes@esamc.br / secretaria.udi@esamc.br / ri@esamc.br",
-                null
+                "Martins"
             ),
             3165 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA  DO TRIÂNGULO MINEIRO",
                 "",
-                "10695891000100",
                 "UBERABA",
-                "Pública",
-                "Federal",
-                "38064900",
-                "Mercês",
-                "(34)3326-1100",
-                "www.iftm.edu.br",
-                "reitor@iftm.edu.br / pi.reitoria@iftm.edu.br / marciadefreitas@gmail.com",
-                null
+                "Mercês"
             ),
             3188 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO NORTE DE MINAS GERAIS",
                 "IFNMG",
-                "10727655000110",
                 "MONTES CLAROS",
-                "Pública",
-                "Federal",
-                "39400112",
-                "Centro",
-                "(038) 3201-3050",
-                "www.ifnmg.edu.br",
-                "gabinete@ifnmg.edu.br",
-                null
+                "Centro"
             ),
             3189 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE MINAS GERAIS",
                 "IFMG",
-                "394445018817",
                 "BELO HORIZONTE",
-                "Pública",
-                "Federal",
-                "30575180",
-                "Buritis",
-                "(31)25135104",
-                "www.ifmg.edu.br",
-                "gabinete@ifmg.edu.br",
-                null
+                "Buritis"
             ),
             3279 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO SUDESTE DE MINAS GERAIS",
                 "IFSEMG",
-                "10723648000140",
                 "JUIZ DE FORA",
-                "Pública",
-                "Federal",
-                "36080001",
-                "Fábrica",
-                "(32) 3257 4148",
-                "www.ifsudestemg.edu.br",
-                "mario.sergio@ifsudestemg.edu.br",
-                null
+                "Fábrica"
             ),
             4358 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO SUL DE MINAS GERAIS",
                 "IF SUL DE MINAS",
-                "10648539000105",
                 "POUSO ALEGRE",
-                "Pública",
-                "Federal",
-                "37550000",
-                "Medicina",
-                "(35)3449-6150",
-                "www.ifsuldeminas.edu.br",
-                "reitoria@ifsuldeminas.edu.br",
-                null
+                "Medicina"
             )
         )
     }

@@ -9,730 +9,314 @@ class Ceara {
             95 to University(
                 "UNIVERSIDADE ESTADUAL DO VALE DO ACARAÚ",
                 "UVA",
-                "7821622000120",
                 "SOBRAL",
-                "Pública",
-                "Estadual",
-                "62040370",
-                "BETÁNIA",
-                "(88) 3677-4229 / (88) 3677-4223",
-                "www.uvanet.br",
-                "reitoria@uvanet.br",
-                null
+                "BETÁNIA"
             ),
             555 to University(
                 "UNIVERSIDADE DE FORTALEZA",
                 "UNIFOR",
-                "7373434000186",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60811905",
-                "Edson Queiroz",
-                "(85) 34773104",
-                "www.unifor.br",
-                "reitoria@unifor.br / patriciac@unifor.br",
-                null
+                "Edson Queiroz"
             ),
             583 to University(
                 "UNIVERSIDADE FEDERAL DO CEARÁ",
                 "UFC",
-                "7272636000131",
                 "FORTALEZA",
-                "Pública",
-                "Federal",
-                "60020181",
-                "Benfica",
-                "(85) 3366 7301/(85) 3366 7302",
-                "www.ufc.br",
-                "greitor@ufc.br / prplufc@ufc.br / dpdc@ufc.br",
-                null
+                "Benfica"
             ),
             746 to University(
                 "UNIVERSIDADE REGIONAL DO CARIRI",
                 "URCA",
-                "73642415000132",
                 "CRATO",
-                "Pública",
-                "Estadual",
-                "63105000",
-                "Pimenta",
-                "8831021213",
-                "www.urca.br",
-                "j.caval@hotmail.com",
-                null
+                "Pimenta"
             ),
             837 to University(
                 "FACULDADE DE CIÊNCIAS HUMANAS DE FORTALEZA",
                 "FCHFOR",
-                "11744984000131",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60110001",
-                "CENTRO",
-                "(85) 3226.6446",
-                "www.unice.br",
-                "unice@unice.br / processos.mec@unice.br / renato@unice.br",
-                null
+                "CENTRO"
             ),
             838 to University(
                 "FACULDADE DE CIÊNCIAS TECNOLÓGICAS DE FORTALEZA",
                 "FCTFOR",
-                "11744984000131",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60110001",
-                "Aldeota",
-                "(85) 3226 6446",
-                "",
-                "unice@unice.br",
-                null
+                "Aldeota"
             ),
             1059 to University(
                 "FACULDADE LOURENÇO FILHO",
                 "FLF",
-                "7603190000180",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60025062",
-                "Centro",
-                "(85) 40096060",
-                "",
-                "roberta@flf.edu.br",
-                null
+                "Centro"
             ),
             1107 to University(
                 "Faculdade Estácio do Ceará - Estácio FIC",
                 "FIC",
-                "2608755000107",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60135270",
-                "Aldeota",
-                "(85) 3456-4165",
-                "www.estacio.br",
-                "cgficce@gmail.com / ana.chaves@estacio.br / jaqueline.gomes@estacio.br",
-                null
+                "Aldeota"
             ),
             1191 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE FORTALEZA",
                 "IESF",
-                "1225652000197",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60110001",
-                "Centro",
-                "(85) 3226 6446",
-                "www.unice.br",
-                "unice@unice.br / processos.mec@unice.br",
-                null
+                "Centro"
             ),
             1350 to University(
                 "FACULDADE DO VALE DO JAGUARIBE",
                 "FVJ",
-                "138864000174",
                 "ARACATI",
-                "Privada",
-                "Privada",
-                "62800000",
-                "PEDREGAL",
-                "(88) 3421 9750",
-                "www.fvj.br",
-                "jeziellins@fvj.br",
-                null
+                "PEDREGAL"
             ),
             1501 to University(
                 "FACULDADE LATINO AMERICANA DE EDUCAÇÃO",
                 "FLATED",
-                "2254398000118",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60110001",
-                "Aldeota",
-                "(85) 3454 1299",
-                "www.flated.edu.br",
-                "flaedu03@terra.com.br",
-                null
+                "Aldeota"
             ),
             1547 to University(
                 "FACULDADE DE MEDICINA ESTÁCIO DE JUAZEIRO DO NORTE",
                 "FMJ",
-                "2608755000107",
                 "JUAZEIRO DO NORTE",
-                "Privada",
-                "Privada",
-                "63040360",
-                "Planalto",
-                "(88)3572-7800",
-                "www.fmj-ce.edu.br",
-                "angela.ginbo@estacio.br / cgfmjce@gmail.com",
-                null
+                "Planalto"
             ),
             1556 to University(
                 "FACULDADE SETE DE SETEMBRO",
                 "FA7",
-                "7240328000124",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60811020",
-                "Eng. Luciano Cavalcante",
-                "(85) 4006-7600",
-                "http://www.fa7.edu.br",
-                "ednilton@7setembro.com.br",
-                null
+                "Eng. Luciano Cavalcante"
             ),
             1647 to University(
                 "FACULDADE DE ENSINO E CULTURA DO CEARÁ",
                 "FAECE",
-                "3729627000176",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60813620",
-                "Água Fria",
-                "(85) 4009 3400",
-                "http://www.iesc.edu.br/",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Água Fria"
             ),
             1658 to University(
                 "FACULDADE INTEGRADA DA GRANDE FORTALEZA",
                 "FGF",
-                "2843943000101",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60822676",
-                "Cidade dos Funcionários",
-                "(85) 3299-9900",
-                "www.fgf.edu.br",
-                "fgf@fgf.edu.br",
-                null
+                "Cidade dos Funcionários"
             ),
             1735 to University(
                 "FACULDADE DE CIÊNCIAS APLICADAS DOUTOR LEÃO SAMPAIO",
                 "FLS",
-                "2391959000120",
                 "JUAZEIRO DO NORTE",
-                "Privada",
-                "Privada",
-                "63041040",
-                "Triângulo",
-                "(88) 2101 1000",
-                "www.leaosampaio.edu.br",
-                "jaimeromero@leaosampaio.edu.br",
-                null
+                "Triângulo"
             ),
             1772 to University(
                 "FACULDADE NORDESTE",
                 "FANOR",
-                "3681572000171",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60191195",
-                "Dunas",
-                "(85) 3052 4848",
-                "http://www.fanor.edu.br",
-                "lfilho@fanor.edu.br / cleopoldino@fanor.edu.br / vpplan@devrybrasil.com.br",
-                null
+                "Dunas"
             ),
             1819 to University(
                 "FACULDADE FARIAS BRITO",
                 "FFB",
-                "74000738000195",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60175230",
-                "Varjota",
-                "(85) 3486 9013/(85) 34869090",
-                "www.ffb.edu.br",
-                "daa@ffb.edu.br / diretorffb@ffb.edu.br",
-                null
+                "Varjota"
             ),
             1895 to University(
                 "FACULDADE CHRISTUS",
                 "CHRISTUS",
-                "4102843000150",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60135460",
-                "Dionísio Torres",
-                "(85) 3461 2020",
-                "www.fchristus.com.br",
-                "fc@fchristus.com.br",
-                null
+                "Dionísio Torres"
             ),
             1978 to University(
                 "FACULDADE METROPOLITANA DA GRANDE FORTALEZA",
                 "FAMETRO",
-                "3884793000147",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60010260",
-                "Centro",
-                "(85) 32066400",
-                "www.fametro.com.br",
-                "fametro@fametro.com.br",
-                null
+                "Centro"
             ),
             2043 to University(
                 "FACULDADE VALE DO SALGADO",
                 "FVS",
-                "3338261000104",
                 "ICO",
-                "Privada",
-                "Privada",
-                "63430000",
-                "Centro",
-                "(088) 3561 2760",
-                "www.fvs.edu.br",
-                "jaimeromero@leaosampaio.edu.br",
-                null
+                "Centro"
             ),
             2098 to University(
                 "FACULDADE KURIOS",
                 "FAK",
-                "3581388000150",
                 "MARANGUAPE",
-                "Privada",
-                "Privada",
-                "61940000",
-                "Centro",
-                "(85) 33410562",
-                "",
-                "mariana_amaralterra@yahoo.com.br / faculdadekurios@hotmail.com",
-                null
+                "Centro"
             ),
             2111 to University(
                 "INSTITUTO SUPERIOR DE TEOLOGIA APLICADA",
                 "INTA",
-                "3365403000122",
                 "SOBRAL",
-                "Privada",
-                "Privada",
-                "62011230",
-                "Dom Expedito",
-                "(88) 3614-3232",
-                "www.inta.edu.br",
-                "inta2@zipmail.com.br",
-                null
+                "Dom Expedito"
             ),
             2135 to University(
                 "FACULDADE CATÓLICA RAINHA DO SERTÃO",
                 "FCRS",
-                "7721749000177",
                 "QUIXADA",
-                "Privada",
-                "Privada",
-                "63900000",
-                "Combate",
-                "(88) 3412 6700",
-                "www.fcrs.edu.br",
-                "catolica@fcrs.edu.br",
-                null
+                "Combate"
             ),
             2180 to University(
                 "RATIO - FACULDADE TEOLÓGICA E FILOSÓFICA",
                 "RATIO",
-                "3529230000130",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60055171",
-                "Joaquim Távora",
-                "(85) 3021 5553",
-                "www.ratio.edu.br",
-                "secacademica@ratio.edu.br /  prof.faraujo@gmail.com / djasaid@uol.com.br / orlandoadvocacia@hotmail.com",
-                null
+                "Joaquim Távora"
             ),
             2240 to University(
                 "FACULDADE DE FORTALEZA",
                 "FAFOR",
-                "6099229000101",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60813620",
-                "Água Fria",
-                "85-4009-3419",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Água Fria"
             ),
             2256 to University(
                 "FACULDADE STELLA MARIS",
                 "FSM",
-                "5213713000157",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60165090",
-                "Meireles",
-                "(85) 32154100",
-                "www.stellamaris.edu.br",
-                "sbezerra@secrel.com.br / josuesbarreto@hotmail.com",
-                null
+                "Meireles"
             ),
             2410 to University(
                 "FACULDADE CEARENSE",
                 "FAC",
-                "4918904000151",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60425680",
-                "Damas",
-                "(85) 34539007",
-                "www.faculdadescearenses.edu.br",
-                "candriola@faculdadescearenses.edu.br",
-                null
+                "Damas"
             ),
             2466 to University(
                 "FACUDADE IEDUCARE - FIED",
                 "FIED",
-                "4984718000110",
                 "TIANGUA",
-                "Privada",
-                "Privada",
-                "62320000",
-                "Centro",
-                "",
-                "",
-                "ateneu-es@ig.com.br",
-                null
+                "Centro"
             ),
             2485 to University(
                 "FACULDADE CATÓLICA DE FORTALEZA",
                 "FCF",
-                "7471600000187",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60001970",
-                "Centro",
-                "(85) 34532150",
-                "www.catolicadefortaleza.edu.br",
-                "catolicafort@fortalnet.com.br",
-                null
+                "Centro"
             ),
             2497 to University(
                 "FACULDADE ATENEU",
                 "FATE",
-                "41548546000169",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60871170",
-                "Messejana",
-                "(85) 3474-5151",
-                "www.fate.edu.br",
-                "cfb@fortalnet.com.br",
-                null
+                "Messejana"
             ),
             2593 to University(
                 "FACULDADE DE JUAZEIRO DO NORTE",
                 "FJN",
-                "12484705000291",
                 "JUAZEIRO DO NORTE",
-                "Privada",
-                "Privada",
-                "63010210",
-                "São Miguel",
-                "(88) 21012777/(88) 8802-0096",
-                "www.fjn.edu.br",
-                "fjn@fjn.edu.br",
-                null
+                "São Miguel"
             ),
             2722 to University(
                 "FACULDADE CATÓLICA DO CEARÁ",
                 "FCC",
-                "10847382000147",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60035110",
-                "Centro",
-                "(85) 4009 6266 (85) (85) 4009 6251",
-                "www.catolicaceara.edu.br",
-                "msuassuna@marista.edu.br",
-                null
+                "Centro"
             ),
             2783 to University(
                 "FACULDADE DE TECNOLOGIA DO NORDESTE",
                 "FATENE",
-                "4676403000106",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60426110",
-                "Damas",
-                "(85) 32992829",
-                "www.fatene.edu.br",
-                "diretoria@fatene.edu.br",
-                null
+                "Damas"
             ),
             3299 to University(
                 "FACULDADE DE TECNOLOGIA INFORMÁTICA",
                 "FATI",
-                "4670278000127",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60110001",
-                "Aldeota",
-                "(31) 32491839",
-                "www.fateccomercio.edu.br",
-                "secretaria@fateccomercio.edu.br",
-                null
+                "Aldeota"
             ),
             3388 to University(
                 "FACULDADE PARAÍSO DO CEARÁ",
                 "FAP",
-                "4242942000137",
                 "JUAZEIRO DO NORTE",
-                "Privada",
-                "Privada",
-                "63020080",
-                "São Miguel",
-                "(88) 3512 3299",
-                "www.fapce.com.br",
-                "fap@fapce.com.br / joaoluisadv@yahoo.com.br / cariscallou@yahoo.com.br",
-                null
+                "São Miguel"
             ),
             3680 to University(
                 "FACULDADE DE TECNOLOGIA DARCY RIBEIRO",
                 "FTDR",
-                "5546402000100",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60140060",
-                "Centro",
-                "(85)3535-1555 /",
-                "www.ftdr.com.br",
-                "ftdr@ftdr.com.br",
-                null
+                "Centro"
             ),
             3862 to University(
                 "FACULDADE LUCIANO FEIJÃO",
                 "FLF",
-                "9533217000131",
                 "SOBRAL",
-                "Privada",
-                "Privada",
-                "62010290",
-                "Centro",
-                "(88) 3112-1001",
-                "www.flucianofeijao.com.br",
-                "flf@lucianofeijao.com.br",
-                null
+                "Centro"
             ),
             4037 to University(
                 "FACULDADE DE TECNOLOGIA INTENSIVA",
                 "FATECI",
-                "1224108000120",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60050070",
-                "Centro",
-                "(85) 3533 7050",
-                "www.fateci.com.br",
-                "clauder@fateci.com.br",
-                null
+                "Centro"
             ),
             4367 to University(
                 "FACULDADE TERRA NORDESTE",
                 "FATENE",
-                "4676403000106",
                 "CAUCAIA",
-                "Privada",
-                "Privada",
-                "61600000",
-                "Soledade",
-                "(85)3299-2829",
-                "www.fatene.edu.br",
-                "fatene@fatene.edu.br",
-                null
+                "Soledade"
             ),
             4746 to University(
                 "FACULDADE CATÓLICA DO CARIRI",
                 "",
-                "7177769000129",
                 "CRATO",
-                "Privada",
-                "Privada",
-                "63105000",
-                "Pimenta",
-                "(88)35869050",
-                "www.catolicadocariri.edu.br",
-                "marcondestorquato@hotmail.com",
-                null
+                "Pimenta"
             ),
             4784 to University(
                 "FACULDADE DE TECNOLOGIA CDL DE FORTALEZA",
                 "",
-                "7293038000149",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60060120",
-                "Centro",
-                "(85)3433-3006",
-                "www.faculdadecdl.edu.br",
-                "faculdadecdl@faculdadecl.edu.br",
-                null
+                "Centro"
             ),
             4791 to University(
                 "FACULDADE DE TECNOLOGIA CENTEC - CARIRI",
                 "CENTEC",
-                "3021597000149",
                 "JUAZEIRO DO NORTE",
-                "Privada",
-                "Privada",
-                "63040000",
-                "Triângulo",
-                "88 35664052",
-                "www.centec.org.br",
-                "fatec_cariri@centec.org.br",
-                null
+                "Triângulo"
             ),
             4823 to University(
                 "FACULDADE DE TECNOLOGIA EVOLUÇÃO",
                 "FECET",
-                "10520245000101",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60135101",
-                "Centro",
-                "(85)3308-1010 / (85)3308-1000 / (85)3308-1000 / (85)3308-1000",
-                "http://www.faculdadeevolucao.edu.br",
-                "paulocavalcanti@evolucao.com.br",
-                null
+                "Centro"
             ),
             4992 to University(
                 "FACULDADE DE TECNOLOGIA CENTEC - SERTÃO CENTRAL",
                 "FTC SERTÃO CENTRAL",
-                "3021597000149",
                 "QUIXERAMOBIM",
-                "Privada",
-                "Privada",
-                "63800000",
-                "Distrito Industrial",
-                "88 34411320",
-                "www.centec.org.br",
-                "fatec_sertaocentral@centec.org.br",
-                null
+                "Distrito Industrial"
             ),
             10016 to University(
                 "FACULDADE OBOÉ - FACO",
                 "FACO",
-                "5213713000157",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60150170",
-                "Aldeota",
-                "(85)32154100",
-                "www.faculdadeoboe.edu.br",
-                "sergio@faculdadeoboe.edu.br / josuesbarreto@hotmail.com",
-                null
+                "Aldeota"
             ),
             13106 to University(
                 "FACULDADE DE TECNOLOGIA LOURENÇO FILHO",
                 "FATEC - FLF",
-                "7603190000180",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60720001",
-                "Parangaba",
-                "(85) 40092525",
-                "",
-                "robertafilgueiras@hotmail.com",
-                null
+                "Parangaba"
             ),
             13417 to University(
                 "FACULDADE PRINCESA DO OESTE",
                 "FPO",
-                "9490478000111",
                 "CRATEUS",
-                "Privada",
-                "Privada",
-                "63700000",
-                "São Vicente",
-                "(88)3691.0436 / 3691.0279",
-                "www.fpocrateus.com",
-                "fpo@fpocrateus.com",
-                null
+                "São Vicente"
             ),
             13657 to University(
                 "FACULDADE DE TECNOLOGIA ATENEU",
                 "",
-                "41303231000151",
                 "SAO GONCALO DO AMARANTE",
-                "Privada",
-                "Privada",
-                "62674000",
-                "Centro",
-                "(85) 34745155",
-                "",
-                "cfb@fortalnet.com.br",
-                null
+                "Centro"
             ),
             15497 to University(
                 "UNIVERSIDADE DA INTEGRAÇÃO INTERNACIONAL DA LUSOFONIA AFRO-BRASILEIRA",
                 "UNILAB",
-                "394445018817",
                 "REDENCAO",
-                "Pública",
-                "Federal",
-                "62790000",
-                "Centro",
-                "(85) 88925888",
-                "www.unilab.edu.br",
-                "gabinete@unilab.edu.br",
-                null
+                "Centro"
             ),
             16453 to University(
                 "Faculdade de Tecnologia Apoena",
                 "FTA",
-                "3670574000165",
                 "FORTALEZA",
-                "Privada",
-                "Privada",
-                "60040081",
-                "FARIAS BRITO",
-                "(85) 32649695",
-                "www.conquisteseufuturo.com.br",
-                "pi@apoenaeducacao.com.br",
-                null
+                "FARIAS BRITO"
             ),
             1807 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA BAIANO",
                 "IFCE",
-                "10744098000145",
                 "FORTALEZA",
-                "Pública",
-                "Federal",
-                "60040531",
-                "Benfica",
-                "(85) 33073666",
-                "www.ifce.edu.br",
-                "reitoria@ifce.edu.br",
-                null
+                "Benfica"
             )
         )
     }

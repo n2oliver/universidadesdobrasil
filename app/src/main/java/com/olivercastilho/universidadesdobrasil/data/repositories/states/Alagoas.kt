@@ -8,366 +8,158 @@ class Alagoas {
             32 to University(
                 "UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS - UNCISAL",
                 "UNCISAL",
-                "12517793000108",
                 "MACEIO",
-                "Pública",
-                "Estadual",
-                "57010300",
-                "Trapiche da Barra",
-                "(82) 33156705 / (82) 33156702",
-                "www.uncisal.edu.br",
-                "reitoria@uncisal.edu.br",
-                null
+                "Trapiche da Barra"
             ),
             88 to University(
                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DE PENEDO",
                 "FFPP",
-                "12432605000130",
                 "PENEDO",
-                "Privada",
-                "Privada",
-                "57200000",
-                "Centro",
-                "(82)3551 2780/2161",
-                "www.frm.edu.br/penedo",
-                "sec.frm.penedo@hotmail.com",
-                null
+                "Centro"
             ),
             577 to University(
                 "UNIVERSIDADE FEDERAL DE ALAGOAS",
                 "UFAL",
-                "24464109000148",
                 "MACEIO",
-                "Pública",
-                "Federal",
-                "57072970",
-                "TABULEIRO DO MARTINS",
-                "(82) 3214 1006",
-                "www.ufal.edu.br",
-                "gr@reitoria.ufal.br",
-                null
+                "TABULEIRO DO MARTINS"
             ),
             621 to University(
                 "CENTRO DE ESTUDOS SUPERIORES DE MACEIÓ",
                 "CESMAC",
-                "12207742000171",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57051160",
-                "Farol",
-                "(82)3215.5205",
-                "www.fejal.com.br",
-                "joaosampaio@fejal.com.br",
-                null
+                "Farol"
             ),
             908 to University(
                 "FACULDADE ALAGOANA DE ADMINISTRAÇÃO",
                 "FAA",
-                "11918109000129",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57035550",
-                "Jatiuca",
-                "(82) 304 5200",
-                "",
-                "marcioacbarro@yahoo.com.br",
-                null
+                "Jatiuca"
             ),
             1051 to University(
                 "FACULDADE DE CIÊNCIAS CONTÁBEIS - MACEIÓ",
                 "SEUNE",
-                "1280666000103",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57051190",
-                "FAROL",
-                "(82) 3336 2640",
-                "www.seune.edu.br",
-                "seune@seune.edu.br",
-                null
+                "FAROL"
             ),
             1298 to University(
                 "Faculdade Estácio de Alagoas - Estácio FAL",
                 "FAL",
-                "2608755000107",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57035560",
-                "Jatiúca",
-                "(82) 3214 6800",
-                "",
-                "fal@fal.br / cgfalal@gmail.com",
-                null
+                "Jatiúca"
             ),
             1504 to University(
                 "FACULDADE MAURÍCIO DE NASSAU DE MACEIÓ",
                 "",
-                "7991012000174",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57035230",
-                "Ponta Verde",
-                "(82) 3036-2299",
-                "www.mauriciodenassau.edu.br",
-                "emec@sereducacional.com",
-                null
+                "Ponta Verde"
             ),
             1637 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS E SOCIAIS DE MACEIÓ",
                 "FAMA",
-                "3475871000150",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57020020",
-                "Centro",
-                "(82) 3336 9700",
-                "",
-                "luit@uol.com.br / dir.academica@fama-al.com.br",
-                null
+                "Centro"
             ),
             1956 to University(
                 "INSTITUTO BATISTA DE ENSINO SUPERIOR DE ALAGOAS",
                 "IBESA",
-                "12320966000195",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57021090",
-                "Farol",
-                "(82) 3215-2744",
-                "www.ibesa.com.br",
-                "laercioguerra.melo@gmail.com",
-                null
+                "Farol"
             ),
             1965 to University(
                 "FACULDADE DE TECNOLOGIA DE ALAGOAS",
                 "FAT/AL",
-                "1073457000199",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57045150",
-                "Serraria",
-                "(82) 3328 7000.32147700",
-                "www.fat-al.edu.br",
-                "maceju@uol.com.br",
-                null
+                "Serraria"
             ),
             2042 to University(
                 "FACULDADE FIGUEIREDO COSTA",
                 "FIC",
-                "2751616000120",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57022150",
-                "Jaraguá",
-                "(82) 3326 8069",
-                "www.unifal.edu.br",
-                "fic@unifal.edu.br",
-                null
+                "Jaraguá"
             ),
             2075 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE ALAGOAS",
                 "IESA",
-                "11918109000129",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57035360",
-                "Jatiúca",
-                "(82) 3304 5200",
-                "www.ficunifal.com.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Jatiúca"
             ),
             2156 to University(
                 "FACULDADE SÃO TOMÁS DE AQUINO",
                 "FACESTA",
-                "4209589000193",
                 "PALMEIRA DOS INDIOS",
-                "Privada",
-                "Privada",
-                "57600060",
-                "São Francisco",
-                "(82) 3421 1060",
-                "http://www.facesta.com.br/",
-                "facesta@bol.com.br",
-                null
+                "São Francisco"
             ),
             2244 to University(
                 "FACULDADE DA CIDADE DE MACEIÓ",
                 "FACIMA",
-                "6099229000101",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57051090",
-                "Farol",
-                "(82) 3223-0033",
-                "http://www.facima.edu.br/ ",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Farol"
             ),
             2557 to University(
                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DE PENEDO",
                 "FCSAP",
-                "12432605000130",
                 "PENEDO",
-                "Privada",
-                "Privada",
-                "57200000",
-                "Centro",
-                "(82) 3551/2694/2161/2780",
-                "www.frm.edu.br",
-                "sec.frm.penedo@hotmail.com",
-                null
+                "Centro"
             ),
             2642 to University(
                 "FACULDADE SÃO VICENTE",
                 "FASVIPA",
-                "12514949000199",
                 "PAO DE ACUCAR",
-                "Privada",
-                "Privada",
-                "57400000",
-                "Centro",
-                "(82) 3624  1862",
-                "www.fasvipa.com.br",
-                "fasvipa@hotmail.com",
-                null
+                "Centro"
             ),
             3004 to University(
                 "INSTITUTO DE ENSINO SUPERIOR SANTA CECÍLIA",
                 "IESC",
-                "5244212000138",
                 "ARAPIRACA",
-                "Privada",
-                "Privada",
-                "57312500",
-                "Alto do Cruzeiro",
-                "(82) 3530 3168",
-                "www.isesc.edu.br",
-                "daa@isesc.edu.br",
-                null
+                "Alto do Cruzeiro"
             ),
             3182 to University(
                 "CENTRO DE ENSINO SUPERIOR ARCANJO MIKAEL DE ARAPIRACA",
                 "CESAMA",
-                "5949154000148",
                 "ARAPIRACA",
-                "Privada",
-                "Privada",
-                "57300020",
-                "Brasília",
-                "(82)3530 1462/ 99831386",
-                "www.cesama.com",
-                "cesama.cesama@bol.com.br",
-                null
+                "Brasília"
             ),
             4146 to University(
                 "FACULDADE DE CIÊNCIAS JURÍDICAS DE ALAGOAS",
                 "FCJAL",
-                "12432605000130",
                 "PENEDO",
-                "Privada",
-                "Privada",
-                "57200000",
-                "Centro",
-                "(82)3551/2694/2161/2780",
-                "www.frm.edu.br",
-                "sec.frm.penedo@hotmail.com",
-                null
+                "Centro"
             ),
             4530 to University(
                 "FACULDADE INTEGRADA TIRADENTES",
                 "FITS",
-                "13013263000187",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57031530",
-                "Cruz das Almas",
-                "(82) 33113120",
-                "www.fits.edu.br",
-                "dario_arcanjo@fits.edu.br",
-                null
+                "Cruz das Almas"
             ),
             4714 to University(
                 "FACULDADE ALTERNATIVA DE ENSINO SUPERIOR DO AGRESTE - FAESA",
                 "",
-                "7664688000153",
                 "ARAPIRACA",
-                "Privada",
-                "Privada",
-                "57306230",
-                "Eldorado",
-                "(82)3530-4250",
-                "",
-                "soesa@ibest.com.br",
-                null
+                "Eldorado"
             ),
             5228 to University(
                 "FACULDADE RAIMUNDO MARINHO",
                 "FRM",
-                "12432605000130",
                 "MACEIO",
-                "Privada",
-                "Privada",
-                "57037060",
-                "Ponta Verde",
-                "82 33259574",
-                "www.frm.edu.br",
-                "contato@frm.edu.br",
-                null
+                "Ponta Verde"
             ),
             5242 to University(
                 "UNIVERSIDADE ESTADUAL DE ALAGOAS - UNEAL",
                 "UNEAL",
-                "2436870000133",
                 "ARAPIRACA",
-                "Pública",
-                "Estadual",
-                "57312000",
-                "Alto Cruzeiro",
-                "(82)3521-3019",
-                "www.uneal.edu.br",
-                "gabinete@uneal.edu.br",
-                null
+                "Alto Cruzeiro"
             ),
             10020 to University(
                 "INSTITUTO LOGOS DE EDUCAÇÃO SUPERIOR",
                 "ILES",
-                "5668700000172",
                 "SAO JOSE DA TAPERA",
-                "Privada",
-                "Privada",
-                "57445000",
-                "centro",
-                "(82) 3622 1361 (61)78119218",
-                "",
-                "instituto.logos@yahoo.com.br",
-                null
+                "centro"
             ),
             3160 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE ALAGOAS",
                 "IFAL",
-                "10825373000155",
                 "MACEIO",
-                "Pública",
-                "Federal",
-                "57020510",
-                "Centro",
-                "(82) 2126-7012",
-                "www.ifal.edu.br",
-                "secgab@cefet-al.br",
-                null
+                "Centro"
             )
         )
     }

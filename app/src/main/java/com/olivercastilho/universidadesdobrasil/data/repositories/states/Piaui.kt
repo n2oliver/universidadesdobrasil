@@ -8,520 +8,224 @@ class Piaui {
             916 to University(
                 "FACULDADE DE CIÊNCIAS SAÚDE EXATAS E JURÍDICAS DE TERESINA FACULDADE ",
                 "CEUT",
-                "34982124000131",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64046700",
-                "São João",
-                "(86) 4009 4300 (86) 3232 1222",
-                "www.ceut.com.br",
-                "fatimaportela@ceut.com.br / linarosa@ceut.com.br / honoriobona@ceut.com.br",
-                null
+                "São João"
             ),
             5 to University(
                 "UNIVERSIDADE FEDERAL DO PIAUÍ",
                 "UFPI",
-                "6517387000134",
                 "TERESINA",
-                "Pública",
-                "Federal",
-                "64049550",
-                "Ininga",
-                "(86) 3215 5620",
-                "http://www.ufpi.br",
-                "diretoria.avaliacao@ufpi.edu.br / adm.sup@ufpi.edu.br",
-                null
+                "Ininga"
             ),
             749 to University(
                 "CENTRO DE ENSINO SUPERIOR DO VALE DO PARNAÍBA",
                 "CESVALE",
-                "5804208000187",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64000010",
-                "Centro",
-                "(86) 3232 5079",
-                "www.cesvale.com.br",
-                "cesvale@cesvale.com.br",
-                null
+                "Centro"
             ),
             756 to University(
                 "UNIVERSIDADE ESTADUAL DO PIAUÍ",
                 "UESPI",
-                "7471758000157",
                 "TERESINA",
-                "Pública",
-                "Estadual",
-                "64002150",
-                "PIRAJÁ",
-                "(86) 32137855 /(86)3213-8080",
-                "www.uespi.br",
-                "censo@uespi.br",
-                null
+                "PIRAJÁ"
             ),
             846 to University(
                 "FACULDADE DE ADMINISTRAÇÃO DE TERESINA",
                 "FAT",
-                "11648433000174",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64046470",
-                "São Cristovão",
-                "(86) 3232 2500",
-                "www.aespi.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "São Cristovão"
             ),
             847 to University(
                 "FACULDADE PIAUIENSE DE PROCESSAMENTO DE DADOS",
                 "FPPD",
-                "11648433000174",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64046470",
-                "São Cristovão",
-                "(86) 3232 2500",
-                "www.aespi.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "São Cristovão"
             ),
             1131 to University(
                 "FACULDADE SANTO AGOSTINHO",
                 "FSA",
-                "34965491000127",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64019625",
-                "Sao Pedro",
-                "(86)3215-8700",
-                "www.fsanet.com.br",
-                "reccursos@fsanet.com.br",
-                null
+                "Sao Pedro"
             ),
             1360 to University(
                 "FACULDADE SÃO GABRIEL",
                 "FSG",
-                "12175436000109",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64078735",
-                "Alto da Ressurreição",
-                "(86) 3233 8400",
-                "www.novaunesc.com.br",
-                "rita@novaunesc.com.br",
-                null
+                "Alto da Ressurreição"
             ),
             1401 to University(
                 "FACULDADE ADELMAR ROSADO",
                 "FAR",
-                "2274580000130",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64000600",
-                "Cabral",
-                "(86)21062606",
-                "www.portalfar.edu.br",
-                "diretor.far@portalfar.edu.br",
-                null
+                "Cabral"
             ),
             1441 to University(
                 "FACULDADE DE TECNOLOGIA DO PIAUÍ",
                 "FATEPI",
-                "1993025000104",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64002510",
-                "Primavera",
-                "(86) 2107 2200",
-                "www.fatepi.com.br",
-                "fatepi.edu@gmail.com",
-                null
+                "Primavera"
             ),
             1513 to University(
                 "INSTITUTO DE CIÊNCIAS JURÍDICAS E SOCIAIS PROFESSOR CAMILLO FILHO",
                 "ICF",
-                "3207910000138",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64049220",
-                "Jóquei Clube",
-                "(86) 31228800 (86) 31228816",
-                "www.icf.edu.br",
-                "icf@icf.edu.br",
-                null
+                "Jóquei Clube"
             ),
             1552 to University(
                 "FACULDADE PIAUIENSE",
                 "FAP",
-                "3190773000176",
                 "PARNAIBA",
-                "Privada",
-                "Privada",
-                "64202260",
-                "Floriópolis",
-                "(086) 3323 4148",
-                "www.fapparnaiba.com.br",
-                "dgeral@fapparnaiba.com.br",
-                null
+                "Floriópolis"
             ),
             1609 to University(
                 "FACULDADE DOS CERRADOS PIAUIENSES",
                 "FCP",
-                "3222611000172",
                 "CORRENTE",
-                "Privada",
-                "Privada",
-                "64980000",
-                "Aeroporto",
-                "(89) 3573-1500",
-                "www.fcpi.com.br",
-                "faculdadedocerrado@hotmail.com",
-                null
+                "Aeroporto"
             ),
             1610 to University(
                 "FACULDADE DAS ATIVIDADES EMPRESARIAIS DE TERESINA",
                 "FAETE",
-                "5822655000169",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64057355",
-                "Vale Quem Tem",
-                "(86) 3214-9500",
-                "www.faete.edu.br",
-                "info@faete.edu.br",
-                null
+                "Vale Quem Tem"
             ),
             1656 to University(
                 "INSTITUTO DE ENSINO SUPERIOR DE TERESINA",
                 "IEST",
-                "11648433000174",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64046470",
-                "São Cristóvão",
-                "(86) 3233 6666",
-                "www.aespi.br",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "São Cristóvão"
             ),
             1677 to University(
                 "FACULDADE DE ENSINO SUPERIOR DO PIAUÍ",
                 "FAESPI",
-                "11616778000146",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64002510",
-                "Primavera",
-                "(86) 2107-2200",
-                "www.faespi.com.br",
-                "faespi.edu@gmail.com",
-                null
+                "Primavera"
             ),
             1683 to University(
                 "FACULDADE PIAUIENSE",
                 "FAP",
-                "3371400000100",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64049240",
-                "Joquei Clube",
-                "(86) 3133-2616",
-                "www.portalfap.com.br",
-                "",
-                null
+                "Joquei Clube"
             ),
             1712 to University(
                 "FACULDADE DE CIÊNCIAS E TECNOLOGIA DE TERESINA",
                 "FACET",
-                "2450160000168",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64000180",
-                "Centro/Norte",
-                "86 8843-8153/86- 8843-8117",
-                "",
-                "barros.mara@uol.com.br",
-                null
+                "Centro/Norte"
             ),
             1734 to University(
                 "FACULDADE INTEGRAL DIFERENCIAL",
                 "FACID",
-                "854664000118",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64051210",
-                "Horto Florestal",
-                "(86) 3216 7925",
-                "www.facid.com.br",
-                "diretoriafacid@facid.com.br",
-                null
+                "Horto Florestal"
             ),
             2150 to University(
                 "FACULDADE DO PIAUÍ",
                 "FAPI",
-                "6099229000101",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64048210",
-                "Fátima",
-                "(86) 3234-3055",
-                "",
-                "marcioacbarros@yahoo.com.br",
-                null
+                "Fátima"
             ),
             2384 to University(
                 "FACULDADE INTEGRADA DO BRASIL",
                 "FAIBRA",
-                "4134072000425",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64000110",
-                "Centro Sul",
-                "85 8721 5023",
-                "www.faibra.edu.br",
-                "faibra@faibra.edu.br / vera@faibra.edu.br / jonas@faibra.edu.br",
-                null
+                "Centro Sul"
             ),
             2413 to University(
                 "FACULDADE DE ENSINO SUPERIOR DE FLORIANO",
                 "FAESF",
-                "4899971000176",
                 "FLORIANO",
-                "Privada",
-                "Privada",
-                "64800000",
-                "Manguinha",
-                "(89) 3521- 1495 / 3521 - 2831",
-                "www.faesfpi.com.br",
-                "direcao_academica@faesfpi.com.br",
-                null
+                "Manguinha"
             ),
             2521 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO DO SUL DO PIAUÍ",
                 "ISESPI",
-                "4950393000155",
                 "CANTO DO BURITI",
-                "Privada",
-                "Privada",
-                "64890000",
-                "Centro",
-                "(89)  3531 1152 /(89) 99738670",
-                "www.isespi.com.br",
-                "faculdadeisespi@yahoo.com.br",
-                null
+                "Centro"
             ),
             2677 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO SÃO JUDAS TADEU",
                 "ISESJT",
-                "5078685000102",
                 "FLORIANO",
-                "Privada",
-                "Privada",
-                "64800000",
-                "Centro",
-                "(89) 3522 2444",
-                "www.isesjtfloriano.com.br",
-                "isesjt@yahoo.com.br",
-                null
+                "Centro"
             ),
             2827 to University(
                 "FACULDADE EVANGÉLICA DO PIAUI",
                 "FAEPI",
-                "3873844000135",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64018285",
-                "Pio XII",
-                "(86)32181329",
-                "www.faepi.com.br",
-                "pi@faepi.com.br",
-                null
+                "Pio XII"
             ),
             2832 to University(
                 "INSTITUTO SUPERIOR DE EDUCAÇÃO PROGRAMUS",
                 "ISEPRO",
-                "5206856000131",
                 "AGUA BRANCA",
-                "Privada",
-                "Privada",
-                "64460000",
-                "Centro",
-                "(86)32821175",
-                "www.isepro.com.br",
-                "isepro@isepro.com.br / moysescoimbra@isepro.com.br",
-                null
+                "Centro"
             ),
             3042 to University(
                 "CHRISTUS FACULDADE DO PIAUÍ",
                 "CHRISFAPI",
-                "5100681000183",
                 "PIRIPIRI",
-                "Privada",
-                "Privada",
-                "64260000",
-                "Fonte dos Matos",
-                "(86)  3276 2981",
-                "www.chrisfapi.com.br",
-                "chrisfapi@hotmail.com",
-                null
+                "Fonte dos Matos"
             ),
             3215 to University(
                 "FACULDADE ENTRE RIOS DO PIAUÍ",
                 "FAERPI",
-                "4496749000122",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64046480",
-                "São João",
-                "(86) 30818242",
-                "www.faerpi.com.br",
-                "faerpi@faerpi.com.br;contato@pomini.org, faibra@faibra.edu.br",
-                null
+                "São João"
             ),
             3337 to University(
                 "FACULDADE DE TECNOLOGIA DE TERESINA",
                 "FACULDADE CET",
-                "2565348000151",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64001070",
-                "Centro",
-                "(86)3221-0079",
-                "www.cet.edu.br",
-                "cet@cet.edu.br",
-                null
+                "Centro"
             ),
             3930 to University(
                 "INSTITUTO DE EDUCAÇÃO SUPERIOR RAIMUNDO SÁ",
                 "IESRSA",
-                "7483266000181",
                 "PICOS",
-                "Privada",
-                "Privada",
-                "64600000",
-                "Altamira",
-                "(89) 34216032 ou  34215-7000 ou 94059609",
-                "www.faculdadersa.com.br",
-                "iesrsa@faculdadersa.com.br /  rmdu@hotmail.com",
-                null
+                "Altamira"
             ),
             3995 to University(
                 "FACULDADE EVANGÉLICA CRISTO REI",
                 "FECR",
-                "23625205000168",
                 "JAICOS",
-                "Privada",
-                "Privada",
-                "64575000",
-                "Serranopólis",
-                "(89) 3457 1305",
-                "www.fecr.com.br",
-                "fecr@fecr.com.br / joaoeloy@fecr.com.br",
-                null
+                "Serranopólis"
             ),
             4108 to University(
                 "INSTITUTO CATÓLICO DE ESTUDOS SUPERIORES DO PIAUÍ",
                 "ICESPI",
-                "6174632000158",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64001970",
-                "Km 8",
-                "",
-                "",
-                "icespi@hotmail.com",
-                null
+                "Km 8"
             ),
             4197 to University(
                 "FACULDADE ALIANÇA",
                 "FACE",
-                "7228846000122",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64001260",
-                "Centro",
-                "(86) 31941818",
-                "www.faculdadealianca.com.br",
-                "institucional@faculdadealianca.com.br",
-                null
+                "Centro"
             ),
             4945 to University(
                 "FACULDADE INTERNACIONAL DO DELTA",
                 "INTA",
-                "7996466000138",
                 "PARNAIBA",
-                "Privada",
-                "Privada",
-                "64200370",
-                "Centro",
-                "(86)3322.5062",
-                "www.intafid.com.br",
-                "moseshaendel@hotmail.com",
-                null
+                "Centro"
             ),
             5008 to University(
                 "FACULDADE DO MÉDIO PARNAÍBA",
                 "",
-                "7218082000194",
                 "SAO PEDRO DO PIAUI",
-                "Privada",
-                "Privada",
-                "64430000",
-                "Centro",
-                "(86)3221 - 0537",
-                "www.famep-pi.com.br",
-                "faculdadefamep@yahoo.com.br",
-                null
+                "Centro"
             ),
             1563 to University(
                 "FACULDADE DE SAÚDE CIÊNCIAS HUMANAS E TECNOLÓGICAS DO PIAUÍ",
                 "NOVAFAPI",
-                "3126508000129",
                 "TERESINA",
-                "Privada",
-                "Privada",
-                "64073505",
-                "Uruguai",
-                "(86) 21060700",
-                "www.novafapi.com.br",
-                "novafapi@novafapi.com.br",
-                null
+                "Uruguai"
             ),
             1820 to University(
                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO PIAUÍ",
                 "IFPI",
-                "10806496000149",
                 "TERESINA",
-                "Pública",
-                "Federal",
-                "64000040",
-                "Centro",
-                "(86) 3215 5224",
-                "www.ifpi.edu.br",
-                "reitoria@ifpi.edu.br",
-                null
+                "Centro"
             )
         )
     }

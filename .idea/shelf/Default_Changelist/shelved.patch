@@ -1,0 +1,1884 @@
+Index: app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml
+===================================================================
+--- app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
+@@ -1,5 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+-</adaptive-icon>
+\ No newline at end of file
+Index: app/src/main/res/drawable/ic_launcher_background.xml
+===================================================================
+--- app/src/main/res/drawable/ic_launcher_background.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/drawable/ic_launcher_background.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
+@@ -1,170 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <path
+-        android:fillColor="#008577"
+-        android:pathData="M0,0h108v108h-108z" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M9,0L9,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,0L19,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M29,0L29,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M39,0L39,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M49,0L49,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M59,0L59,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M69,0L69,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M79,0L79,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M89,0L89,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M99,0L99,108"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,9L108,9"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,19L108,19"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,29L108,29"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,39L108,39"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,49L108,49"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,59L108,59"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,69L108,69"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,79L108,79"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,89L108,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M0,99L108,99"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,29L89,29"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,39L89,39"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,49L89,49"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,59L89,59"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,69L89,69"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M19,79L89,79"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M29,19L29,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M39,19L39,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M49,19L49,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M59,19L59,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M69,19L69,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-    <path
+-        android:fillColor="#00000000"
+-        android:pathData="M79,19L79,89"
+-        android:strokeWidth="0.8"
+-        android:strokeColor="#33FFFFFF" />
+-</vector>
+Index: app/src/main/res/drawable-v24/ic_launcher_foreground.xml
+===================================================================
+--- app/src/main/res/drawable-v24/ic_launcher_foreground.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/drawable-v24/ic_launcher_foreground.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
+@@ -1,34 +0,0 @@
+-<vector xmlns:android="http://schemas.android.com/apk/res/android"
+-    xmlns:aapt="http://schemas.android.com/aapt"
+-    android:width="108dp"
+-    android:height="108dp"
+-    android:viewportWidth="108"
+-    android:viewportHeight="108">
+-    <path
+-        android:fillType="evenOdd"
+-        android:pathData="M32,64C32,64 38.39,52.99 44.13,50.95C51.37,48.37 70.14,49.57 70.14,49.57L108.26,87.69L108,109.01L75.97,107.97L32,64Z"
+-        android:strokeWidth="1"
+-        android:strokeColor="#00000000">
+-        <aapt:attr name="android:fillColor">
+-            <gradient
+-                android:endX="78.5885"
+-                android:endY="90.9159"
+-                android:startX="48.7653"
+-                android:startY="61.0927"
+-                android:type="linear">
+-                <item
+-                    android:color="#44000000"
+-                    android:offset="0.0" />
+-                <item
+-                    android:color="#00000000"
+-                    android:offset="1.0" />
+-            </gradient>
+-        </aapt:attr>
+-    </path>
+-    <path
+-        android:fillColor="#FFFFFF"
+-        android:fillType="nonZero"
+-        android:pathData="M66.94,46.02L66.94,46.02C72.44,50.07 76,56.61 76,64L32,64C32,56.61 35.56,50.11 40.98,46.06L36.18,41.19C35.45,40.45 35.45,39.3 36.18,38.56C36.91,37.81 38.05,37.81 38.78,38.56L44.25,44.05C47.18,42.57 50.48,41.71 54,41.71C57.48,41.71 60.78,42.57 63.68,44.05L69.11,38.56C69.84,37.81 70.98,37.81 71.71,38.56C72.44,39.3 72.44,40.45 71.71,41.19L66.94,46.02ZM62.94,56.92C64.08,56.92 65,56.01 65,54.88C65,53.76 64.08,52.85 62.94,52.85C61.8,52.85 60.88,53.76 60.88,54.88C60.88,56.01 61.8,56.92 62.94,56.92ZM45.06,56.92C46.2,56.92 47.13,56.01 47.13,54.88C47.13,53.76 46.2,52.85 45.06,52.85C43.92,52.85 43,53.76 43,54.88C43,56.01 43.92,56.92 45.06,56.92Z"
+-        android:strokeWidth="1"
+-        android:strokeColor="#00000000" />
+-</vector>
+Index: app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml
+===================================================================
+--- app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
+@@ -1,5 +0,0 @@
+-<?xml version="1.0" encoding="utf-8"?>
+-<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+-    <background android:drawable="@drawable/ic_launcher_background" />
+-    <foreground android:drawable="@drawable/ic_launcher_foreground" />
+-</adaptive-icon>
+\ No newline at end of file
+Index: app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Alagoas.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.olivercastilho.universidadesdobrasil.data.repositories.states\r\n\r\nimport com.olivercastilho.universidadesdobrasil.data.models.University\r\n\r\nclass Alagoas {\r\n    companion object {\r\n        val universities = mapOf(\r\n            32 to University(\r\n                \"UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS - UNCISAL\",\r\n                \"UNCISAL\",\r\n                \"12517793000108\",\r\n                \"MACEIO\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"57010300\",\r\n                \"Trapiche da Barra\",\r\n                \"(82) 33156705 / (82) 33156702\",\r\n                \"www.uncisal.edu.br\",\r\n                \"reitoria@uncisal.edu.br\",\r\n                null\r\n            ),\r\n            88 to University(\r\n                \"FACULDADE DE FORMAÇÃO DE PROFESSORES DE PENEDO\",\r\n                \"FFPP\",\r\n                \"12432605000130\",\r\n                \"PENEDO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57200000\",\r\n                \"Centro\",\r\n                \"(82)3551 2780/2161\",\r\n                \"www.frm.edu.br/penedo\",\r\n                \"sec.frm.penedo@hotmail.com\",\r\n                null\r\n            ),\r\n            577 to University(\r\n                \"UNIVERSIDADE FEDERAL DE ALAGOAS\",\r\n                \"UFAL\",\r\n                \"24464109000148\",\r\n                \"MACEIO\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"57072970\",\r\n                \"TABULEIRO DO MARTINS\",\r\n                \"(82) 3214 1006\",\r\n                \"www.ufal.edu.br\",\r\n                \"gr@reitoria.ufal.br\",\r\n                null\r\n            ),\r\n            621 to University(\r\n                \"CENTRO DE ESTUDOS SUPERIORES DE MACEIÓ\",\r\n                \"CESMAC\",\r\n                \"12207742000171\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57051160\",\r\n                \"Farol\",\r\n                \"(82)3215.5205\",\r\n                \"www.fejal.com.br\",\r\n                \"joaosampaio@fejal.com.br\",\r\n                null\r\n            ),\r\n            908 to University(\r\n                \"FACULDADE ALAGOANA DE ADMINISTRAÇÃO\",\r\n                \"FAA\",\r\n                \"11918109000129\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57035550\",\r\n                \"Jatiuca\",\r\n                \"(82) 304 5200\",\r\n                \"\",\r\n                \"marcioacbarro@yahoo.com.br\",\r\n                null\r\n            ),\r\n            1051 to University(\r\n                \"FACULDADE DE CIÊNCIAS CONTÁBEIS - MACEIÓ\",\r\n                \"SEUNE\",\r\n                \"1280666000103\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57051190\",\r\n                \"FAROL\",\r\n                \"(82) 3336 2640\",\r\n                \"www.seune.edu.br\",\r\n                \"seune@seune.edu.br\",\r\n                null\r\n            ),\r\n            1298 to University(\r\n                \"Faculdade Estácio de Alagoas - Estácio FAL\",\r\n                \"FAL\",\r\n                \"2608755000107\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57035560\",\r\n                \"Jatiúca\",\r\n                \"(82) 3214 6800\",\r\n                \"\",\r\n                \"fal@fal.br / cgfalal@gmail.com\",\r\n                null\r\n            ),\r\n            1504 to University(\r\n                \"FACULDADE MAURÍCIO DE NASSAU DE MACEIÓ\",\r\n                \"\",\r\n                \"7991012000174\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57035230\",\r\n                \"Ponta Verde\",\r\n                \"(82) 3036-2299\",\r\n                \"www.mauriciodenassau.edu.br\",\r\n                \"emec@sereducacional.com\",\r\n                null\r\n            ),\r\n            1637 to University(\r\n                \"FACULDADE DE CIÊNCIAS JURÍDICAS E SOCIAIS DE MACEIÓ\",\r\n                \"FAMA\",\r\n                \"3475871000150\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57020020\",\r\n                \"Centro\",\r\n                \"(82) 3336 9700\",\r\n                \"\",\r\n                \"luit@uol.com.br / dir.academica@fama-al.com.br\",\r\n                null\r\n            ),\r\n            1956 to University(\r\n                \"INSTITUTO BATISTA DE ENSINO SUPERIOR DE ALAGOAS\",\r\n                \"IBESA\",\r\n                \"12320966000195\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57021090\",\r\n                \"Farol\",\r\n                \"(82) 3215-2744\",\r\n                \"www.ibesa.com.br\",\r\n                \"laercioguerra.melo@gmail.com\",\r\n                null\r\n            ),\r\n            1965 to University(\r\n                \"FACULDADE DE TECNOLOGIA DE ALAGOAS\",\r\n                \"FAT/AL\",\r\n                \"1073457000199\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57045150\",\r\n                \"Serraria\",\r\n                \"(82) 3328 7000.32147700\",\r\n                \"www.fat-al.edu.br\",\r\n                \"maceju@uol.com.br\",\r\n                null\r\n            ),\r\n            2042 to University(\r\n                \"FACULDADE FIGUEIREDO COSTA\",\r\n                \"FIC\",\r\n                \"2751616000120\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57022150\",\r\n                \"Jaraguá\",\r\n                \"(82) 3326 8069\",\r\n                \"www.unifal.edu.br\",\r\n                \"fic@unifal.edu.br\",\r\n                null\r\n            ),\r\n            2075 to University(\r\n                \"INSTITUTO DE ENSINO SUPERIOR DE ALAGOAS\",\r\n                \"IESA\",\r\n                \"11918109000129\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57035360\",\r\n                \"Jatiúca\",\r\n                \"(82) 3304 5200\",\r\n                \"www.ficunifal.com.br\",\r\n                \"marcioacbarros@yahoo.com.br\",\r\n                null\r\n            ),\r\n            2156 to University(\r\n                \"FACULDADE SÃO TOMÁS DE AQUINO\",\r\n                \"FACESTA\",\r\n                \"4209589000193\",\r\n                \"PALMEIRA DOS INDIOS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57600060\",\r\n                \"São Francisco\",\r\n                \"(82) 3421 1060\",\r\n                \"http://www.facesta.com.br/\",\r\n                \"facesta@bol.com.br\",\r\n                null\r\n            ),\r\n            2244 to University(\r\n                \"FACULDADE DA CIDADE DE MACEIÓ\",\r\n                \"FACIMA\",\r\n                \"6099229000101\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57051090\",\r\n                \"Farol\",\r\n                \"(82) 3223-0033\",\r\n                \"http://www.facima.edu.br/ \",\r\n                \"marcioacbarros@yahoo.com.br\",\r\n                null\r\n            ),\r\n            2557 to University(\r\n                \"FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DE PENEDO\",\r\n                \"FCSAP\",\r\n                \"12432605000130\",\r\n                \"PENEDO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57200000\",\r\n                \"Centro\",\r\n                \"(82) 3551/2694/2161/2780\",\r\n                \"www.frm.edu.br\",\r\n                \"sec.frm.penedo@hotmail.com\",\r\n                null\r\n            ),\r\n            2642 to University(\r\n                \"FACULDADE SÃO VICENTE\",\r\n                \"FASVIPA\",\r\n                \"12514949000199\",\r\n                \"PAO DE ACUCAR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57400000\",\r\n                \"Centro\",\r\n                \"(82) 3624  1862\",\r\n                \"www.fasvipa.com.br\",\r\n                \"fasvipa@hotmail.com\",\r\n                null\r\n            ),\r\n            3004 to University(\r\n                \"INSTITUTO DE ENSINO SUPERIOR SANTA CECÍLIA\",\r\n                \"IESC\",\r\n                \"5244212000138\",\r\n                \"ARAPIRACA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57312500\",\r\n                \"Alto do Cruzeiro\",\r\n                \"(82) 3530 3168\",\r\n                \"www.isesc.edu.br\",\r\n                \"daa@isesc.edu.br\",\r\n                null\r\n            ),\r\n            3182 to University(\r\n                \"CENTRO DE ENSINO SUPERIOR ARCANJO MIKAEL DE ARAPIRACA\",\r\n                \"CESAMA\",\r\n                \"5949154000148\",\r\n                \"ARAPIRACA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57300020\",\r\n                \"Brasília\",\r\n                \"(82)3530 1462/ 99831386\",\r\n                \"www.cesama.com\",\r\n                \"cesama.cesama@bol.com.br\",\r\n                null\r\n            ),\r\n            4146 to University(\r\n                \"FACULDADE DE CIÊNCIAS JURÍDICAS DE ALAGOAS\",\r\n                \"FCJAL\",\r\n                \"12432605000130\",\r\n                \"PENEDO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57200000\",\r\n                \"Centro\",\r\n                \"(82)3551/2694/2161/2780\",\r\n                \"www.frm.edu.br\",\r\n                \"sec.frm.penedo@hotmail.com\",\r\n                null\r\n            ),\r\n            4530 to University(\r\n                \"FACULDADE INTEGRADA TIRADENTES\",\r\n                \"FITS\",\r\n                \"13013263000187\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57031530\",\r\n                \"Cruz das Almas\",\r\n                \"(82) 33113120\",\r\n                \"www.fits.edu.br\",\r\n                \"dario_arcanjo@fits.edu.br\",\r\n                null\r\n            ),\r\n            4714 to University(\r\n                \"FACULDADE ALTERNATIVA DE ENSINO SUPERIOR DO AGRESTE - FAESA\",\r\n                \"\",\r\n                \"7664688000153\",\r\n                \"ARAPIRACA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57306230\",\r\n                \"Eldorado\",\r\n                \"(82)3530-4250\",\r\n                \"\",\r\n                \"soesa@ibest.com.br\",\r\n                null\r\n            ),\r\n            5228 to University(\r\n                \"FACULDADE RAIMUNDO MARINHO\",\r\n                \"FRM\",\r\n                \"12432605000130\",\r\n                \"MACEIO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57037060\",\r\n                \"Ponta Verde\",\r\n                \"82 33259574\",\r\n                \"www.frm.edu.br\",\r\n                \"contato@frm.edu.br\",\r\n                null\r\n            ),\r\n            5242 to University(\r\n                \"UNIVERSIDADE ESTADUAL DE ALAGOAS - UNEAL\",\r\n                \"UNEAL\",\r\n                \"2436870000133\",\r\n                \"ARAPIRACA\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"57312000\",\r\n                \"Alto Cruzeiro\",\r\n                \"(82)3521-3019\",\r\n                \"www.uneal.edu.br\",\r\n                \"gabinete@uneal.edu.br\",\r\n                null\r\n            ),\r\n            10020 to University(\r\n                \"INSTITUTO LOGOS DE EDUCAÇÃO SUPERIOR\",\r\n                \"ILES\",\r\n                \"5668700000172\",\r\n                \"SAO JOSE DA TAPERA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"57445000\",\r\n                \"centro\",\r\n                \"(82) 3622 1361 (61)78119218\",\r\n                \"\",\r\n                \"instituto.logos@yahoo.com.br\",\r\n                null\r\n            ),\r\n            3160 to University(\r\n                \"INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE ALAGOAS\",\r\n                \"IFAL\",\r\n                \"10825373000155\",\r\n                \"MACEIO\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"57020510\",\r\n                \"Centro\",\r\n                \"(82) 2126-7012\",\r\n                \"www.ifal.edu.br\",\r\n                \"secgab@cefet-al.br\",\r\n                null\r\n            )\r\n        )\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Alagoas.kt	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Alagoas.kt	(date 1577338570232)
+@@ -8,366 +8,158 @@
+             32 to University(
+                 "UNIVERSIDADE ESTADUAL DE CIÊNCIAS DA SAÚDE DE ALAGOAS - UNCISAL",
+                 "UNCISAL",
+-                "12517793000108",
+                 "MACEIO",
+-                "Pública",
+-                "Estadual",
+-                "57010300",
+-                "Trapiche da Barra",
+-                "(82) 33156705 / (82) 33156702",
+-                "www.uncisal.edu.br",
+-                "reitoria@uncisal.edu.br",
+-                null
++                "Trapiche da Barra"
+             ),
+             88 to University(
+                 "FACULDADE DE FORMAÇÃO DE PROFESSORES DE PENEDO",
+                 "FFPP",
+-                "12432605000130",
+                 "PENEDO",
+-                "Privada",
+-                "Privada",
+-                "57200000",
+-                "Centro",
+-                "(82)3551 2780/2161",
+-                "www.frm.edu.br/penedo",
+-                "sec.frm.penedo@hotmail.com",
+-                null
++                "Centro"
+             ),
+             577 to University(
+                 "UNIVERSIDADE FEDERAL DE ALAGOAS",
+                 "UFAL",
+-                "24464109000148",
+                 "MACEIO",
+-                "Pública",
+-                "Federal",
+-                "57072970",
+-                "TABULEIRO DO MARTINS",
+-                "(82) 3214 1006",
+-                "www.ufal.edu.br",
+-                "gr@reitoria.ufal.br",
+-                null
++                "TABULEIRO DO MARTINS"
+             ),
+             621 to University(
+                 "CENTRO DE ESTUDOS SUPERIORES DE MACEIÓ",
+                 "CESMAC",
+-                "12207742000171",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57051160",
+-                "Farol",
+-                "(82)3215.5205",
+-                "www.fejal.com.br",
+-                "joaosampaio@fejal.com.br",
+-                null
++                "Farol"
+             ),
+             908 to University(
+                 "FACULDADE ALAGOANA DE ADMINISTRAÇÃO",
+                 "FAA",
+-                "11918109000129",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57035550",
+-                "Jatiuca",
+-                "(82) 304 5200",
+-                "",
+-                "marcioacbarro@yahoo.com.br",
+-                null
++                "Jatiuca"
+             ),
+             1051 to University(
+                 "FACULDADE DE CIÊNCIAS CONTÁBEIS - MACEIÓ",
+                 "SEUNE",
+-                "1280666000103",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57051190",
+-                "FAROL",
+-                "(82) 3336 2640",
+-                "www.seune.edu.br",
+-                "seune@seune.edu.br",
+-                null
++                "FAROL"
+             ),
+             1298 to University(
+                 "Faculdade Estácio de Alagoas - Estácio FAL",
+                 "FAL",
+-                "2608755000107",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57035560",
+-                "Jatiúca",
+-                "(82) 3214 6800",
+-                "",
+-                "fal@fal.br / cgfalal@gmail.com",
+-                null
++                "Jatiúca"
+             ),
+             1504 to University(
+                 "FACULDADE MAURÍCIO DE NASSAU DE MACEIÓ",
+                 "",
+-                "7991012000174",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57035230",
+-                "Ponta Verde",
+-                "(82) 3036-2299",
+-                "www.mauriciodenassau.edu.br",
+-                "emec@sereducacional.com",
+-                null
++                "Ponta Verde"
+             ),
+             1637 to University(
+                 "FACULDADE DE CIÊNCIAS JURÍDICAS E SOCIAIS DE MACEIÓ",
+                 "FAMA",
+-                "3475871000150",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57020020",
+-                "Centro",
+-                "(82) 3336 9700",
+-                "",
+-                "luit@uol.com.br / dir.academica@fama-al.com.br",
+-                null
++                "Centro"
+             ),
+             1956 to University(
+                 "INSTITUTO BATISTA DE ENSINO SUPERIOR DE ALAGOAS",
+                 "IBESA",
+-                "12320966000195",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57021090",
+-                "Farol",
+-                "(82) 3215-2744",
+-                "www.ibesa.com.br",
+-                "laercioguerra.melo@gmail.com",
+-                null
++                "Farol"
+             ),
+             1965 to University(
+                 "FACULDADE DE TECNOLOGIA DE ALAGOAS",
+                 "FAT/AL",
+-                "1073457000199",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57045150",
+-                "Serraria",
+-                "(82) 3328 7000.32147700",
+-                "www.fat-al.edu.br",
+-                "maceju@uol.com.br",
+-                null
++                "Serraria"
+             ),
+             2042 to University(
+                 "FACULDADE FIGUEIREDO COSTA",
+                 "FIC",
+-                "2751616000120",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57022150",
+-                "Jaraguá",
+-                "(82) 3326 8069",
+-                "www.unifal.edu.br",
+-                "fic@unifal.edu.br",
+-                null
++                "Jaraguá"
+             ),
+             2075 to University(
+                 "INSTITUTO DE ENSINO SUPERIOR DE ALAGOAS",
+                 "IESA",
+-                "11918109000129",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57035360",
+-                "Jatiúca",
+-                "(82) 3304 5200",
+-                "www.ficunifal.com.br",
+-                "marcioacbarros@yahoo.com.br",
+-                null
++                "Jatiúca"
+             ),
+             2156 to University(
+                 "FACULDADE SÃO TOMÁS DE AQUINO",
+                 "FACESTA",
+-                "4209589000193",
+                 "PALMEIRA DOS INDIOS",
+-                "Privada",
+-                "Privada",
+-                "57600060",
+-                "São Francisco",
+-                "(82) 3421 1060",
+-                "http://www.facesta.com.br/",
+-                "facesta@bol.com.br",
+-                null
++                "São Francisco"
+             ),
+             2244 to University(
+                 "FACULDADE DA CIDADE DE MACEIÓ",
+                 "FACIMA",
+-                "6099229000101",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57051090",
+-                "Farol",
+-                "(82) 3223-0033",
+-                "http://www.facima.edu.br/ ",
+-                "marcioacbarros@yahoo.com.br",
+-                null
++                "Farol"
+             ),
+             2557 to University(
+                 "FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS DE PENEDO",
+                 "FCSAP",
+-                "12432605000130",
+                 "PENEDO",
+-                "Privada",
+-                "Privada",
+-                "57200000",
+-                "Centro",
+-                "(82) 3551/2694/2161/2780",
+-                "www.frm.edu.br",
+-                "sec.frm.penedo@hotmail.com",
+-                null
++                "Centro"
+             ),
+             2642 to University(
+                 "FACULDADE SÃO VICENTE",
+                 "FASVIPA",
+-                "12514949000199",
+                 "PAO DE ACUCAR",
+-                "Privada",
+-                "Privada",
+-                "57400000",
+-                "Centro",
+-                "(82) 3624  1862",
+-                "www.fasvipa.com.br",
+-                "fasvipa@hotmail.com",
+-                null
++                "Centro"
+             ),
+             3004 to University(
+                 "INSTITUTO DE ENSINO SUPERIOR SANTA CECÍLIA",
+                 "IESC",
+-                "5244212000138",
+                 "ARAPIRACA",
+-                "Privada",
+-                "Privada",
+-                "57312500",
+-                "Alto do Cruzeiro",
+-                "(82) 3530 3168",
+-                "www.isesc.edu.br",
+-                "daa@isesc.edu.br",
+-                null
++                "Alto do Cruzeiro"
+             ),
+             3182 to University(
+                 "CENTRO DE ENSINO SUPERIOR ARCANJO MIKAEL DE ARAPIRACA",
+                 "CESAMA",
+-                "5949154000148",
+                 "ARAPIRACA",
+-                "Privada",
+-                "Privada",
+-                "57300020",
+-                "Brasília",
+-                "(82)3530 1462/ 99831386",
+-                "www.cesama.com",
+-                "cesama.cesama@bol.com.br",
+-                null
++                "Brasília"
+             ),
+             4146 to University(
+                 "FACULDADE DE CIÊNCIAS JURÍDICAS DE ALAGOAS",
+                 "FCJAL",
+-                "12432605000130",
+                 "PENEDO",
+-                "Privada",
+-                "Privada",
+-                "57200000",
+-                "Centro",
+-                "(82)3551/2694/2161/2780",
+-                "www.frm.edu.br",
+-                "sec.frm.penedo@hotmail.com",
+-                null
++                "Centro"
+             ),
+             4530 to University(
+                 "FACULDADE INTEGRADA TIRADENTES",
+                 "FITS",
+-                "13013263000187",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57031530",
+-                "Cruz das Almas",
+-                "(82) 33113120",
+-                "www.fits.edu.br",
+-                "dario_arcanjo@fits.edu.br",
+-                null
++                "Cruz das Almas"
+             ),
+             4714 to University(
+                 "FACULDADE ALTERNATIVA DE ENSINO SUPERIOR DO AGRESTE - FAESA",
+                 "",
+-                "7664688000153",
+                 "ARAPIRACA",
+-                "Privada",
+-                "Privada",
+-                "57306230",
+-                "Eldorado",
+-                "(82)3530-4250",
+-                "",
+-                "soesa@ibest.com.br",
+-                null
++                "Eldorado"
+             ),
+             5228 to University(
+                 "FACULDADE RAIMUNDO MARINHO",
+                 "FRM",
+-                "12432605000130",
+                 "MACEIO",
+-                "Privada",
+-                "Privada",
+-                "57037060",
+-                "Ponta Verde",
+-                "82 33259574",
+-                "www.frm.edu.br",
+-                "contato@frm.edu.br",
+-                null
++                "Ponta Verde"
+             ),
+             5242 to University(
+                 "UNIVERSIDADE ESTADUAL DE ALAGOAS - UNEAL",
+                 "UNEAL",
+-                "2436870000133",
+                 "ARAPIRACA",
+-                "Pública",
+-                "Estadual",
+-                "57312000",
+-                "Alto Cruzeiro",
+-                "(82)3521-3019",
+-                "www.uneal.edu.br",
+-                "gabinete@uneal.edu.br",
+-                null
++                "Alto Cruzeiro"
+             ),
+             10020 to University(
+                 "INSTITUTO LOGOS DE EDUCAÇÃO SUPERIOR",
+                 "ILES",
+-                "5668700000172",
+                 "SAO JOSE DA TAPERA",
+-                "Privada",
+-                "Privada",
+-                "57445000",
+-                "centro",
+-                "(82) 3622 1361 (61)78119218",
+-                "",
+-                "instituto.logos@yahoo.com.br",
+-                null
++                "centro"
+             ),
+             3160 to University(
+                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DE ALAGOAS",
+                 "IFAL",
+-                "10825373000155",
+                 "MACEIO",
+-                "Pública",
+-                "Federal",
+-                "57020510",
+-                "Centro",
+-                "(82) 2126-7012",
+-                "www.ifal.edu.br",
+-                "secgab@cefet-al.br",
+-                null
++                "Centro"
+             )
+         )
+     }
+Index: app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Amazonas.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.olivercastilho.universidadesdobrasil.data.repositories.states\r\n\r\nimport com.olivercastilho.universidadesdobrasil.data.models.University\r\n\r\nclass Amazonas {\r\n    companion object {\r\n        val universities = mapOf(\r\n            4 to University(\r\n                \"UNIVERSIDADE FEDERAL DO AMAZONAS\",\r\n                \"UFAM\",\r\n                \"4378626000197\",\r\n                \"MANAUS\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"69077000\",\r\n                \"Coroado II\",\r\n                \"(92) 3305-4513\",\r\n                \"www.ufam.edu.br\",\r\n                \"gabinete@ufam.edu.br\",\r\n                null\r\n            ),\r\n            452 to University(\r\n                \"CENTRO UNIVERSITÁRIO LUTERANO DE MANAUS\",\r\n                \"CEULM/ULBRA\",\r\n                \"88332580000165\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69077730\",\r\n                \"JAPIIM\",\r\n                \"(92) 3616 9800\",\r\n                \"www.ulbra-mao.br\",\r\n                \"legisnorma.manaus@ulbra.br / valdinei@ulbra.br / ines.oliveira@ulbra.br\",\r\n                null\r\n            ),\r\n            668 to University(\r\n                \"CENTRO UNIVERSITÁRIO DE ENSINO SUPERIOR DO AMAZONAS\",\r\n                \"CIESA\",\r\n                \"4278057000108\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69058818\",\r\n                \"Flores\",\r\n                \"(92) 3643 4200\",\r\n                \"www.ciesa.br\",\r\n                \"ciesa@ciesa.br / reitor@ciesa.br\",\r\n                null\r\n            ),\r\n            669 to University(\r\n                \"UNIVERSIDADE NILTON LINS\",\r\n                \"UNINILTONLINS\",\r\n                \"4803904000106\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69058040\",\r\n                \"Parque Laranjeiras\",\r\n                \"(92) 3643 2000\",\r\n                \"www.niltonlins.br\",\r\n                \"uniniltonlins@niltonlins.br / csantana@niltonlins.br\",\r\n                null\r\n            ),\r\n            1049 to University(\r\n                \"INSTITUTO DE ENSINO SUPERIOR FUCAPI\",\r\n                \"CESF\",\r\n                \"4153540000166\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69075351\",\r\n                \"Distrito Industrial\",\r\n                \"(92)21273066\",\r\n                \"www.fucapi.br\",\r\n                \"faculdade.fucapi@fucapi.br\",\r\n                null\r\n            ),\r\n            1381 to University(\r\n                \"FACULDADE MARTHA FALCÃO\",\r\n                \"FMF\",\r\n                \"2153389000130\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69057090\",\r\n                \"Adrianópolis\",\r\n                \"(92) 2121 0900\",\r\n                \"www.infs.com.br\",\r\n                \"secfmf@infs.com.br / claudio@infs.com.br / helena@infs.com.br / leticia@infs.com.br\",\r\n                null\r\n            ),\r\n            1422 to University(\r\n                \"CENTRO UNIVERSITÁRIO DO NORTE\",\r\n                \"UNINORTE\",\r\n                \"63692180000130\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69020030\",\r\n                \"Centro\",\r\n                \"(92) 32125345\",\r\n                \"http://www.uninorte.com.br\",\r\n                \"kelly.souza@uninorte.com.br\",\r\n                null\r\n            ),\r\n            1436 to University(\r\n                \"ESCOLA SUPERIOR BATISTA DO AMAZONAS\",\r\n                \"ESBAM\",\r\n                \"3410604000102\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69057510\",\r\n                \"Adrianopolis\",\r\n                \"(92)33051800\",\r\n                \"www.esbam.edu.br\",\r\n                \"esbam@esbam.edu.br / direcaogeral@esbam.edu.br\",\r\n                null\r\n            ),\r\n            1592 to University(\r\n                \"FACULDADE DE ODONTOLOGIA DE MANAUS\",\r\n                \"FOM\",\r\n                \"1192563000191\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69020011\",\r\n                \"Centro\",\r\n                \"(92) 30875659\",\r\n                \"www.fom.edu.br\",\r\n                \"f.o.m@uol.com.br\",\r\n                null\r\n            ),\r\n            1638 to University(\r\n                \"FACULDADE DO AMAZONAS\",\r\n                \"IAES\",\r\n                \"6043492000189\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69005307\",\r\n                \"Nossa Senhora das Graças\",\r\n                \"(92) 35846068\",\r\n                \"www.iaes.com.br\",\r\n                \"faculdadedoamazonas@gmail.com\",\r\n                null\r\n            ),\r\n            1906 to University(\r\n                \"INSTITUTO DE ENSINO SUPERIOR MATERDEI\",\r\n                \"IES-MATERDEI\",\r\n                \"1640902000155\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69010170\",\r\n                \"Centro\",\r\n                \"(92) 210 10 800\",\r\n                \"www.iesmaterdei.com.br\",\r\n                \"iesmaterdei@iesmaterdei.com.br\",\r\n                null\r\n            ),\r\n            2147 to University(\r\n                \"FACULDADE METROPOLITANA DE MANAUS\",\r\n                \"FAMETRO\",\r\n                \"3817341000142\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69050000\",\r\n                \"Chapada\",\r\n                \"(92) 21211000\",\r\n                \"www.fametro.edu.br\",\r\n                \"leandroseffair@uol.com.br / cinaracardoso@hotmail.com /  mcseffair@uol.com.br\",\r\n                null\r\n            ),\r\n            2186 to University(\r\n                \"FACULDADE SALESIANA DOM BOSCO\",\r\n                \"FSDB\",\r\n                \"4373163000170\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69010090\",\r\n                \"Centro\",\r\n                \"(92)2125 4690 21254639\",\r\n                \"http://www.fsdb.edu.br\",\r\n                \"cesar@fsdb.edu.br / sandra@fsdb.edu.br\",\r\n                null\r\n            ),\r\n            2436 to University(\r\n                \"FACULDADE TÁHIRIH\",\r\n                \"FT\",\r\n                \"5555099000101\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69084598\",\r\n                \"São José IV\",\r\n                \"(92) 3249 9500 / 3249 9503\",\r\n                \"www.adcam.org.br\",\r\n                \"adcam@adcam.org.br / secfaculdade@adcam.org.br\",\r\n                null\r\n            ),\r\n            2676 to University(\r\n                \"FACULDADE LA SALLE\",\r\n                \"UNILASALLE\",\r\n                \"92741990000137\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69040040\",\r\n                \"Dom Pedro\",\r\n                \"(92) 3655 1202\",\r\n                \"www.unilasalle.edu.br/manaus\",\r\n                \"jussara@lasalle.g12.br\",\r\n                null\r\n            ),\r\n            3172 to University(\r\n                \"UNIVERSIDADE DO ESTADO DO AMAZONAS\",\r\n                \"UEA\",\r\n                \"4280196000176\",\r\n                \"MANAUS\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"69005010\",\r\n                \"Flores\",\r\n                \"(92) 3214-5774\",\r\n                \"www.uea.edu.br\",\r\n                \"gabinetechefia@uea.edu.br / ebrocki@uea.edu.br\",\r\n                null\r\n            ),\r\n            4277 to University(\r\n                \"FACULDADE LITERATUS\",\r\n                \"FAL\",\r\n                \"3754112000126\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69050001\",\r\n                \"Chapada\",\r\n                \"(92) 32128900\",\r\n                \"www.literatus.edu.br\",\r\n                \"direcao.graduacao@literatus.edu.br\",\r\n                null\r\n            ),\r\n            1812 to University(\r\n                \"INSTITUTO FEDERAL DO AMAZONAS\",\r\n                \"IFAM\",\r\n                \"394445018817\",\r\n                \"MANAUS\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"69020120\",\r\n                \"CENTRO\",\r\n                \"(92) 3621-6715\",\r\n                \"ifam.edu.br\",\r\n                \"gabinete@ifam.edu.br /  deg_proen@ifam.edu.br\",\r\n                null\r\n            ),\r\n            3397 to University(\r\n                \"FACULDADE BOAS NOVAS DE CIÊNCIAS TEOLÓGICAS SOCIAIS E BIOTECNOLÓGICAS\",\r\n                \"FBNCTSB\",\r\n                \"84541689000151\",\r\n                \"MANAUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69077000\",\r\n                \"Japiim\",\r\n                \"(92)  32372214\",\r\n                \"www.faculdadeboasnovas.edu.br\",\r\n                \"mariajose@faculdadeboasnovas.edu.br\",\r\n                null\r\n            )\r\n        )\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Amazonas.kt	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Amazonas.kt	(date 1577338569833)
+@@ -8,268 +8,116 @@
+             4 to University(
+                 "UNIVERSIDADE FEDERAL DO AMAZONAS",
+                 "UFAM",
+-                "4378626000197",
+                 "MANAUS",
+-                "Pública",
+-                "Federal",
+-                "69077000",
+-                "Coroado II",
+-                "(92) 3305-4513",
+-                "www.ufam.edu.br",
+-                "gabinete@ufam.edu.br",
+-                null
++                "Coroado II"
+             ),
+             452 to University(
+                 "CENTRO UNIVERSITÁRIO LUTERANO DE MANAUS",
+                 "CEULM/ULBRA",
+-                "88332580000165",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69077730",
+-                "JAPIIM",
+-                "(92) 3616 9800",
+-                "www.ulbra-mao.br",
+-                "legisnorma.manaus@ulbra.br / valdinei@ulbra.br / ines.oliveira@ulbra.br",
+-                null
++                "JAPIIM"
+             ),
+             668 to University(
+                 "CENTRO UNIVERSITÁRIO DE ENSINO SUPERIOR DO AMAZONAS",
+                 "CIESA",
+-                "4278057000108",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69058818",
+-                "Flores",
+-                "(92) 3643 4200",
+-                "www.ciesa.br",
+-                "ciesa@ciesa.br / reitor@ciesa.br",
+-                null
++                "Flores"
+             ),
+             669 to University(
+                 "UNIVERSIDADE NILTON LINS",
+                 "UNINILTONLINS",
+-                "4803904000106",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69058040",
+-                "Parque Laranjeiras",
+-                "(92) 3643 2000",
+-                "www.niltonlins.br",
+-                "uniniltonlins@niltonlins.br / csantana@niltonlins.br",
+-                null
++                "Parque Laranjeiras"
+             ),
+             1049 to University(
+                 "INSTITUTO DE ENSINO SUPERIOR FUCAPI",
+                 "CESF",
+-                "4153540000166",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69075351",
+-                "Distrito Industrial",
+-                "(92)21273066",
+-                "www.fucapi.br",
+-                "faculdade.fucapi@fucapi.br",
+-                null
++                "Distrito Industrial"
+             ),
+             1381 to University(
+                 "FACULDADE MARTHA FALCÃO",
+                 "FMF",
+-                "2153389000130",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69057090",
+-                "Adrianópolis",
+-                "(92) 2121 0900",
+-                "www.infs.com.br",
+-                "secfmf@infs.com.br / claudio@infs.com.br / helena@infs.com.br / leticia@infs.com.br",
+-                null
++                "Adrianópolis"
+             ),
+             1422 to University(
+                 "CENTRO UNIVERSITÁRIO DO NORTE",
+                 "UNINORTE",
+-                "63692180000130",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69020030",
+-                "Centro",
+-                "(92) 32125345",
+-                "http://www.uninorte.com.br",
+-                "kelly.souza@uninorte.com.br",
+-                null
++                "Centro"
+             ),
+             1436 to University(
+                 "ESCOLA SUPERIOR BATISTA DO AMAZONAS",
+                 "ESBAM",
+-                "3410604000102",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69057510",
+-                "Adrianopolis",
+-                "(92)33051800",
+-                "www.esbam.edu.br",
+-                "esbam@esbam.edu.br / direcaogeral@esbam.edu.br",
+-                null
++                "Adrianopolis"
+             ),
+             1592 to University(
+                 "FACULDADE DE ODONTOLOGIA DE MANAUS",
+                 "FOM",
+-                "1192563000191",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69020011",
+-                "Centro",
+-                "(92) 30875659",
+-                "www.fom.edu.br",
+-                "f.o.m@uol.com.br",
+-                null
++                "Centro"
+             ),
+             1638 to University(
+                 "FACULDADE DO AMAZONAS",
+                 "IAES",
+-                "6043492000189",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69005307",
+-                "Nossa Senhora das Graças",
+-                "(92) 35846068",
+-                "www.iaes.com.br",
+-                "faculdadedoamazonas@gmail.com",
+-                null
++                "Nossa Senhora das Graças"
+             ),
+             1906 to University(
+                 "INSTITUTO DE ENSINO SUPERIOR MATERDEI",
+                 "IES-MATERDEI",
+-                "1640902000155",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69010170",
+-                "Centro",
+-                "(92) 210 10 800",
+-                "www.iesmaterdei.com.br",
+-                "iesmaterdei@iesmaterdei.com.br",
+-                null
++                "Centro"
+             ),
+             2147 to University(
+                 "FACULDADE METROPOLITANA DE MANAUS",
+                 "FAMETRO",
+-                "3817341000142",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69050000",
+-                "Chapada",
+-                "(92) 21211000",
+-                "www.fametro.edu.br",
+-                "leandroseffair@uol.com.br / cinaracardoso@hotmail.com /  mcseffair@uol.com.br",
+-                null
++                "Chapada"
+             ),
+             2186 to University(
+                 "FACULDADE SALESIANA DOM BOSCO",
+                 "FSDB",
+-                "4373163000170",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69010090",
+-                "Centro",
+-                "(92)2125 4690 21254639",
+-                "http://www.fsdb.edu.br",
+-                "cesar@fsdb.edu.br / sandra@fsdb.edu.br",
+-                null
++                "Centro"
+             ),
+             2436 to University(
+                 "FACULDADE TÁHIRIH",
+                 "FT",
+-                "5555099000101",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69084598",
+-                "São José IV",
+-                "(92) 3249 9500 / 3249 9503",
+-                "www.adcam.org.br",
+-                "adcam@adcam.org.br / secfaculdade@adcam.org.br",
+-                null
++                "São José IV"
+             ),
+             2676 to University(
+                 "FACULDADE LA SALLE",
+                 "UNILASALLE",
+-                "92741990000137",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69040040",
+-                "Dom Pedro",
+-                "(92) 3655 1202",
+-                "www.unilasalle.edu.br/manaus",
+-                "jussara@lasalle.g12.br",
+-                null
++                "Dom Pedro"
+             ),
+             3172 to University(
+                 "UNIVERSIDADE DO ESTADO DO AMAZONAS",
+                 "UEA",
+-                "4280196000176",
+                 "MANAUS",
+-                "Pública",
+-                "Estadual",
+-                "69005010",
+-                "Flores",
+-                "(92) 3214-5774",
+-                "www.uea.edu.br",
+-                "gabinetechefia@uea.edu.br / ebrocki@uea.edu.br",
+-                null
++                "Flores"
+             ),
+             4277 to University(
+                 "FACULDADE LITERATUS",
+                 "FAL",
+-                "3754112000126",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69050001",
+-                "Chapada",
+-                "(92) 32128900",
+-                "www.literatus.edu.br",
+-                "direcao.graduacao@literatus.edu.br",
+-                null
++                "Chapada"
+             ),
+             1812 to University(
+                 "INSTITUTO FEDERAL DO AMAZONAS",
+                 "IFAM",
+-                "394445018817",
+                 "MANAUS",
+-                "Pública",
+-                "Federal",
+-                "69020120",
+-                "CENTRO",
+-                "(92) 3621-6715",
+-                "ifam.edu.br",
+-                "gabinete@ifam.edu.br /  deg_proen@ifam.edu.br",
+-                null
++                "CENTRO"
+             ),
+             3397 to University(
+                 "FACULDADE BOAS NOVAS DE CIÊNCIAS TEOLÓGICAS SOCIAIS E BIOTECNOLÓGICAS",
+                 "FBNCTSB",
+-                "84541689000151",
+                 "MANAUS",
+-                "Privada",
+-                "Privada",
+-                "69077000",
+-                "Japiim",
+-                "(92)  32372214",
+-                "www.faculdadeboasnovas.edu.br",
+-                "mariajose@faculdadeboasnovas.edu.br",
+-                null
++                "Japiim"
+             )
+         )
+     }
+Index: app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Bahia.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.olivercastilho.universidadesdobrasil.data.repositories.states\r\n\r\nimport com.olivercastilho.universidadesdobrasil.data.models.University\r\n\r\nclass Bahia {\r\n    companion object {\r\n        val universities = mapOf(\r\n            40 to University(\r\n                \"UNIVERSIDADE DO ESTADO DA BAHIA\",\r\n                \"UNEB\",\r\n                \"14485841000140\",\r\n                \"SALVADOR\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"41195001\",\r\n                \"Cabula\",\r\n                \"(71) 3117-2354 (71) 3117-2734\",\r\n                \"www.uneb.br\",\r\n                \"lvalentim@uneb.br\",\r\n                null\r\n            ),\r\n            152 to University(\r\n                \"FACULDADE DE CIÊNCIAS CONTÁBEIS\",\r\n                \"FACIC\",\r\n                \"15239981000100\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40070200\",\r\n                \"Barris\",\r\n                \"(71) 2108 8585\",\r\n                \"www.cairu.br\",\r\n                \"contabeis@fvc.br\",\r\n                null\r\n            ),\r\n            385 to University(\r\n                \"UNIVERSIDADE SALVADOR\",\r\n                \"UNIFACS\",\r\n                \"13526884000164\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41820021\",\r\n                \"Caminho das Árvores\",\r\n                \"(71) 3271-8163/8102\",\r\n                \"www.unifacs.br\",\r\n                \"rozalia.bonfim@unifacs.br / daniella.alves@unifacs.br\",\r\n                null\r\n            ),\r\n            396 to University(\r\n                \"FACULDADE RUY BARBOSA\",\r\n                \"FRBA\",\r\n                \"13477369000131\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41720200\",\r\n                \"Imbuí\",\r\n                \"(71) 32051757\",\r\n                \"www.frb.edu.br\",\r\n                \"mmota@frb.edu.br / vpplan@devrybrasil.com.br / rsilva@frb.edu.br / sborges@frb.edu.br\",\r\n                null\r\n            ),\r\n            399 to University(\r\n                \"ESCOLA DE ENGENHARIA DE AGRIMENSURA\",\r\n                \"EEA\",\r\n                \"15104201000106\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40227909\",\r\n                \"Brotas\",\r\n                \"(71) 3452 2533\",\r\n                \"www.eeemba.br\",\r\n                \"euridez@hotmail.com\",\r\n                null\r\n            ),\r\n            519 to University(\r\n                \"UNIVERSIDADE CATÓLICA DO SALVADOR\",\r\n                \"UCSAL\",\r\n                \"13970322000105\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40040220\",\r\n                \"Nazaré\",\r\n                \"(71) 3324 7500\",\r\n                \"www.ucsal.br\",\r\n                \"reitoria@ucsal.br\",\r\n                null\r\n            ),\r\n            534 to University(\r\n                \"ESCOLA BAHIANA DE MEDICINA E SAÚDE PÚBLICA\",\r\n                \"EBMSP\",\r\n                \"13927934000115\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40000000\",\r\n                \"Cabula\",\r\n                \"(71) 2101-1900\",\r\n                \"www.bahiana.edu.br\",\r\n                \"geisaarlete@bahiana.edu.br / nelma@bahiana.edu.br / geisaarlete@hotmail.com\",\r\n                null\r\n            ),\r\n            578 to University(\r\n                \"UNIVERSIDADE FEDERAL DA BAHIA\",\r\n                \"UFBA\",\r\n                \"15180714000104\",\r\n                \"SALVADOR\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"40110060\",\r\n                \"CANELA\",\r\n                \"(71) 3283-7000\",\r\n                \"www.portal.ufba.br\",\r\n                \"gabinete@ufba.br / jseixas@ufba.br\",\r\n                null\r\n            ),\r\n            666 to University(\r\n                \"UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA\",\r\n                \"UEFS\",\r\n                \"14045546000173\",\r\n                \"FEIRA DE SANTANA\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"44036900\",\r\n                \"Novo Horizonte\",\r\n                \"75 3161 8031\",\r\n                \"www.uefs.br\",\r\n                \"prograd.uefs@gmail.com\",\r\n                null\r\n            ),\r\n            688 to University(\r\n                \"UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA\",\r\n                \"UESB\",\r\n                \"13069489000108\",\r\n                \"VITORIA DA CONQUISTA\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"45083900\",\r\n                \"Zona Rural\",\r\n                \"(77) 4324 8728\",\r\n                \"www.uesb.br\",\r\n                \"gauesb@gmail.com\",\r\n                null\r\n            ),\r\n            801 to University(\r\n                \"FACULDADE MONTENEGRO\",\r\n                \"FAM\",\r\n                \"14359764000182\",\r\n                \"IBICARAI\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45745000\",\r\n                \"CENTRO\",\r\n                \"(73) 3242 1225/3242-2006\",\r\n                \"faculdadesmontenegro.edu.br\",\r\n                \"faculdademontenegro@yahoo.com.br\",\r\n                null\r\n            ),\r\n            977 to University(\r\n                \"FACULDADE SÃO CAMILO\",\r\n                \"\",\r\n                \"58250689000192\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41900000\",\r\n                \"Amaralina\",\r\n                \"(71) 32053552 / 32053578\",\r\n                \"www.saocamilo-ba.br\",\r\n                \"veronica@saocamilo-ba.br / patricia@saocamilo.br / secretaria@saocamilo-ba.br / rca@saocamilo.br\",\r\n                null\r\n            ),\r\n            1053 to University(\r\n                \"FACULDADE DE TECNOLOGIA E CIÊNCIAS DE FEIRA DE SANTANA\",\r\n                \"FTC\",\r\n                \"4670333000189\",\r\n                \"FEIRA DE SANTANA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44043590\",\r\n                \"SIM\",\r\n                \"(75) 3602 7031\",\r\n                \"www.ftc.br\",\r\n                \"hsilva.fsa@ftc.br / avalia@ftc.br\",\r\n                null\r\n            ),\r\n            1055 to University(\r\n                \"FACULDADE MAURÍCIO DE NASSAU DE SALVADOR\",\r\n                \"FMN SALVADOR\",\r\n                \"32697294000149\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41680440\",\r\n                \"Patamares\",\r\n                \"(71) 3505-4500\",\r\n                \"www.mauriciodenassau.edu.br\",\r\n                \"emec@sereducacional.com\",\r\n                null\r\n            ),\r\n            1058 to University(\r\n                \"Centro Universitário Estácio da Bahia - Estácio FIB\",\r\n                \"FIB\",\r\n                \"2608755000107\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41770130\",\r\n                \"Jardim Atalaia\",\r\n                \"(71) 2107 8100\",\r\n                \"www.fib.br\",\r\n                \"ouvidoria@fib.br / cgcenunivfib@gmail.com\",\r\n                null\r\n            ),\r\n            1123 to University(\r\n                \"INSTITUTO DE EDUCAÇÃO SUPERIOR UNYAHNA DE SALVADOR\",\r\n                \"IESUS\",\r\n                \"1221872000142\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41680440\",\r\n                \"Patamares\",\r\n                \"(71) 3367 8400/(71) 3367 8425\",\r\n                \"www.unyahna.br\",\r\n                \"iesus@unyahna.br / academica@unyahna.br\",\r\n                null\r\n            ),\r\n            1124 to University(\r\n                \"INSTITUTO DE EDUCAÇÃO SUPERIOR UNYAHNA DE BARREIRAS\",\r\n                \"IESUB\",\r\n                \"1221872000142\",\r\n                \"BARREIRAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"47805336\",\r\n                \"Centro\",\r\n                \"(77) 3614 1000\",\r\n                \"\",\r\n                \"unyahna@bar.unyahna.br\",\r\n                null\r\n            ),\r\n            1170 to University(\r\n                \"FACULDADE METROPOLITANA DE CAMAÇARI\",\r\n                \"FAMEC\",\r\n                \"1203528000120\",\r\n                \"CAMACARI\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42800110\",\r\n                \"Centro\",\r\n                \"(71) 2101 3250\",\r\n                \"www.famec.edu.br\",\r\n                \"famecnet@uol.com.br\",\r\n                null\r\n            ),\r\n            1185 to University(\r\n                \"CENTRO UNIVERSITÁRIO JORGE AMADO\",\r\n                \"UNIJORGE\",\r\n                \"1120386000138\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41820725\",\r\n                \"Paralela\",\r\n                \"(71) 3206 8002\",\r\n                \"http://www.unijorge.edu.br\",\r\n                \"lidia.rocha@unijorge.edu.br\",\r\n                null\r\n            ),\r\n            1227 to University(\r\n                \"FACULDADE SÃO FRANCISCO DE BARREIRAS - FASB\",\r\n                \"FASB\",\r\n                \"42752675000137\",\r\n                \"BARREIRAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"47805270\",\r\n                \"Boa Sorte\",\r\n                \"(77) 3613-8800\",\r\n                \"www.fasb.edu.br\",\r\n                \"peda.direcao@fasb.edu.br\",\r\n                null\r\n            ),\r\n            1302 to University(\r\n                \"FACULDADE BATISTA BRASILEIRA\",\r\n                \"FBB\",\r\n                \"74333097000190\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41850050\",\r\n                \"Itaigara\",\r\n                \"(71) 3505 3434\",\r\n                \"www.fbb.br\",\r\n                \"secretariaadm@fbb.br /  atilajr@fbb.br / ckto@terra.com.br / marliw@fbb.br\",\r\n                null\r\n            ),\r\n            1318 to University(\r\n                \"FACULDADE JUVÊNCIO TERRA\",\r\n                \"FJT\",\r\n                \"63182539000129\",\r\n                \"VITORIA DA CONQUISTA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45020750\",\r\n                \"Centro\",\r\n                \"(77) 3425 1696\",\r\n                \"www.juvencioterra.edu.br\",\r\n                \"administrativo@juvencioterra.edu.br\",\r\n                null\r\n            ),\r\n            1363 to University(\r\n                \"FACULDADE VISCONDE DE CAIRÚ\",\r\n                \"FAVIC\",\r\n                \"15239981000100\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40070200\",\r\n                \"BARRIS\",\r\n                \"(71) 2108 8503\",\r\n                \"www.cairu.br\",\r\n                \"presidencia@cairu.br\",\r\n                null\r\n            ),\r\n            1364 to University(\r\n                \"FACULDADE DE TECNOLOGIA E CIÊNCIAS DE VITÓRIA DA CONQUISTA\",\r\n                \"FTC\",\r\n                \"4670333000189\",\r\n                \"VITORIA DA CONQUISTA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45020510\",\r\n                \"Exposição\",\r\n                \"(77) 3422-8800\",\r\n                \"www.ftc.br\",\r\n                \"pesquisadorinstitucional.vic@ftc.br / avalia@ftc.br / smagalhaes.vic@ftc.br / cpa.vic@ftc.br\",\r\n                null\r\n            ),\r\n            1394 to University(\r\n                \"FACULDADE CASTRO ALVES\",\r\n                \"FCA\",\r\n                \"2854823000100\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41820090\",\r\n                \"Pituba\",\r\n                \"(71) 32052200\",\r\n                \"www.castroalves.br\",\r\n                \"jairfilho@castroalves.br\",\r\n                null\r\n            ),\r\n            1410 to University(\r\n                \"ÁREA1 - FACULDADE DE CIÊNCIA E TECNOLOGIA\",\r\n                \"ÁREA1\",\r\n                \"2250176000127\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41720200\",\r\n                \"Imbuí\",\r\n                \"(71) 21063916\",\r\n                \"www.area1.edu.br\",\r\n                \"ighignone@area1.edu.br / prodrigues@area1.edu.br / mgarcia@devrybrasil.com.br / tgoncalves@area1.edu.br\",\r\n                null\r\n            ),\r\n            1411 to University(\r\n                \"FACULDADE DOIS DE JULHO\",\r\n                \"F2J\",\r\n                \"15106495000105\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40100000\",\r\n                \"Garcia\",\r\n                \"(71) 3114-3400\",\r\n                \"\",\r\n                \"faculdade@f2j.edu.br\",\r\n                null\r\n            ),\r\n            1455 to University(\r\n                \"FACULDADE SANTÍSSIMO SACRAMENTO\",\r\n                \"FSSS\",\r\n                \"34146282000151\",\r\n                \"ALAGOINHAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48005020\",\r\n                \"Centro\",\r\n                \"(75)31823182\",\r\n                \"www.fsssacramento.br\",\r\n                \"joilson.borges@hotmail.com.br\",\r\n                null\r\n            ),\r\n            1461 to University(\r\n                \"FACULDADE DE TECNOLOGIA E CIÊNCIAS\",\r\n                \"FTC SALVADOR\",\r\n                \"4670333000189\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41703101\",\r\n                \"Paralela\",\r\n                \"(71) 3281 8135\",\r\n                \"www.ftc.br\",\r\n                \"dirgrad.ssa@gmail.com / rlramos@ftc.br / avalia@ftc.br / cpa.ssa@ftc.br\",\r\n                null\r\n            ),\r\n            1524 to University(\r\n                \"FACULDADES INTEGRADAS OLGA METTIG\",\r\n                \"FAMETTIG\",\r\n                \"15174840000148\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40040400\",\r\n                \"Nazaré\",\r\n                \"(71) 21081500\",\r\n                \"www.famettig.br\",\r\n                \"diretoria@famettig.br\",\r\n                null\r\n            ),\r\n            1565 to University(\r\n                \"FACULDADE UNIME DE CIÊNCIAS JURÍDICAS\",\r\n                \"FCJ\",\r\n                \"2959800000160\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Centro\",\r\n                \"(71) 3378 8151\",\r\n                \"\",\r\n                \"ddi@kroton.com.br\",\r\n                null\r\n            ),\r\n            1571 to University(\r\n                \"FACULDADE UNIME DE CIÊNCIAS SOCIAIS\",\r\n                \"FCS\",\r\n                \"2959800000160\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Centro\",\r\n                \"(071) 3378 8900\",\r\n                \"\",\r\n                \"ddi@kroton.com.br\",\r\n                null\r\n            ),\r\n            1572 to University(\r\n                \"FACULDADE DE CIÊNCIAS SOCIAIS APLICADAS\",\r\n                \"FACISA\",\r\n                \"2611487000174\",\r\n                \"ITAMARAJU\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45836000\",\r\n                \"Santo Antonio do Monte\",\r\n                \"(73) 3294.3690\",\r\n                \"www.cesesb.edu.br\",\r\n                \"direcaofacisa@yahoo.com.br\",\r\n                null\r\n            ),\r\n            1639 to University(\r\n                \"FACULDADE HÉLIO ROCHA\",\r\n                \"FHR\",\r\n                \"3466601000182\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41820035\",\r\n                \"Pituba\",\r\n                \"(71) 2101-5000\",\r\n                \"www.heliorocha.com.br\",\r\n                \"cambuiana@gmail.com\",\r\n                null\r\n            ),\r\n            1640 to University(\r\n                \"FACULDADE DE CIÊNCIAS HUMANAS E SOCIAIS\",\r\n                \"FACULDADE AGES\",\r\n                \"3732265000172\",\r\n                \"PARIPIRANGA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48430000\",\r\n                \"Centro\",\r\n                \"(75) 3279 2210\",\r\n                \"www.faculdadeages.com.br\",\r\n                \"ageswilson@faculdadeages.com.br\",\r\n                null\r\n            ),\r\n            1641 to University(\r\n                \"FACULDADE SOCIAL DA BAHIA\",\r\n                \"FSBA\",\r\n                \"33164450000179\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40170110\",\r\n                \"Ondina\",\r\n                \"(71)40092840\",\r\n                \"www.fsba.edu.br\",\r\n                \"elma@faculdadesocial.edu.br\",\r\n                null\r\n            ),\r\n            1642 to University(\r\n                \"FACULDADE DE TECNOLOGIA E CIÊNCIAS DE ITABUNA\",\r\n                \"FTC\",\r\n                \"4670333000189\",\r\n                \"ITABUNA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45600080\",\r\n                \"Centro\",\r\n                \"(73) 3214 2418\",\r\n                \"\",\r\n                \"clobo@ftc.br /  avalia@ftc.br\",\r\n                null\r\n            ),\r\n            1643 to University(\r\n                \"FACULDADE ANÍSIO TEIXEIRA DE FEIRA DE SANTANA\",\r\n                \"FAT\",\r\n                \"1149432000121\",\r\n                \"FEIRA DE SANTANA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44032620\",\r\n                \"Ponto Central\",\r\n                \"(75) 3616-9466\",\r\n                \"www.fat.edu.br\",\r\n                \"fat@fat.edu.br\",\r\n                null\r\n            ),\r\n            1644 to University(\r\n                \"FACULDADE UNIME DE EDUCAÇÃO E COMUNICAÇÃO\",\r\n                \"FEC\",\r\n                \"2959800000160\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Centro\",\r\n                \"(71) 3378 8151\",\r\n                \"\",\r\n                \"ddi@kroton.com.br\",\r\n                null\r\n            ),\r\n            1645 to University(\r\n                \"FACULDADE DE TECNOLOGIA E CIÊNCIAS DE JEQUIÉ\",\r\n                \"FTC\",\r\n                \"4670333000189\",\r\n                \"JEQUIE\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45204010\",\r\n                \"São Judas Tadeu\",\r\n                \"(73) 3527-8100\",\r\n                \"www.ftc.br\",\r\n                \"malmeida.jeq@ftc.br / avalia@ftc.br\",\r\n                null\r\n            ),\r\n            1715 to University(\r\n                \"FACULDADE DO SUL DA BAHIA\",\r\n                \"FASB\",\r\n                \"3760257000130\",\r\n                \"TEIXEIRA DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45997004\",\r\n                \"Bela Vista\",\r\n                \"(73) 30117000\",\r\n                \"www.ffassis.edu.br\",\r\n                \"sec@ffassis.edu.br\",\r\n                null\r\n            ),\r\n            1718 to University(\r\n                \"FACULDADE NOBRE DE FEIRA DE SANTANA\",\r\n                \"FAN\",\r\n                \"14487128000136\",\r\n                \"FEIRA DE SANTANA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44025250\",\r\n                \"Kalilândia\",\r\n                \"(75) 2102-9100\",\r\n                \"\",\r\n                \"marianadiretoriafan@gmail.com\",\r\n                null\r\n            ),\r\n            1758 to University(\r\n                \"FACULDADE INDEPENDENTE DO NORDESTE\",\r\n                \"FAINOR\",\r\n                \"3262477000133\",\r\n                \"VITORIA DA CONQUISTA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45000000\",\r\n                \"Candeias\",\r\n                \"(77) 3161-1000\",\r\n                \"www.fainor.com.br\",\r\n                \"pi.fainor@gmail.com\",\r\n                null\r\n            ),\r\n            1790 to University(\r\n                \"INSTITUTO SUPERIOR DE EDUCAÇÃO DO SUL DA BAHIA\",\r\n                \"ISESB\",\r\n                \"3760257000130\",\r\n                \"TEIXEIRA DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45997050\",\r\n                \"Bela Vista\",\r\n                \"(73) 30117000\",\r\n                \"\",\r\n                \"sec@ffassis.edu.br\",\r\n                null\r\n            ),\r\n            1858 to University(\r\n                \"FACULDADE INTEGRADA EUCLIDES FERNANDES\",\r\n                \"FAJ\",\r\n                \"13892773000171\",\r\n                \"JEQUIE\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45203030\",\r\n                \"Centro\",\r\n                \"(73) 3525 0058\",\r\n                \"www.fief.com.br\",\r\n                \"ceteje@uol.com.br / informatica@fijba.com.br\",\r\n                null\r\n            ),\r\n            1883 to University(\r\n                \"FACULDADE DE CIÊNCIAS AGRÁRIAS E DA SAÚDE\",\r\n                \"FAS\",\r\n                \"2959800000160\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Centro\",\r\n                \"(71) 3378 8151\",\r\n                \"\",\r\n                \"ddi@kroton.com.br\",\r\n                null\r\n            ),\r\n            1891 to University(\r\n                \"Faculdade Sartre COC\",\r\n                \"FACOC SALVADOR\",\r\n                \"4176272000106\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41815070\",\r\n                \"Itaigara\",\r\n                \"(71) 3358 1688\",\r\n                \"www.faculdadesartrecoc.com.br\",\r\n                \"aloysio@sartrecoc.com.br / karina.bizerra@sartrecoc.com.br / eliana.anjos@coc.com.br\",\r\n                null\r\n            ),\r\n            1893 to University(\r\n                \"ESCOLA DE NEGÓCIOS DO ESTADO DA BAHIA - ENEB\",\r\n                \"ENEB\",\r\n                \"4006586000152\",\r\n                \"FEIRA DE SANTANA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44025030\",\r\n                \"Centro\",\r\n                \"(75) 3221 5253\",\r\n                \"www.eneb.edu.br\",\r\n                \"eneb@eneb.edu.br /  cjp.unirb@gmail.com\",\r\n                null\r\n            ),\r\n            1910 to University(\r\n                \"FACULDADE BAIANA DE CIÊNCIAS\",\r\n                \"FABAC\",\r\n                \"4073841000180\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Centro\",\r\n                \"(71) 3505-4599\",\r\n                \"www.fabac.edu.br\",\r\n                \"emec@sereducacional.com\",\r\n                null\r\n            ),\r\n            1937 to University(\r\n                \"FACULDADE EVANGÉLICA DE SALVADOR\",\r\n                \"FACESA\",\r\n                \"13530753000150\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41850000\",\r\n                \"Pituba\",\r\n                \"(71) 3333 5446\",\r\n                \"\",\r\n                \"diretoria@facesa.edu.br\",\r\n                null\r\n            ),\r\n            2001 to University(\r\n                \"SEMINÁRIO ADVENTISTA LATINO-AMERICANO DE TEOLOGIA\",\r\n                \"SALT\",\r\n                \"1104932000147\",\r\n                \"CACHOEIRA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44300000\",\r\n                \"Povoado de Capoeiruçu\",\r\n                \"(75) 3425-8035\",\r\n                \"www.iaene.br/salt\",\r\n                \"salt@iaene.br\",\r\n                null\r\n            ),\r\n            2023 to University(\r\n                \"FACULDADE DE GUANAMBI\",\r\n                \"\",\r\n                \"4097860000146\",\r\n                \"GUANAMBI\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"46430000\",\r\n                \"Centro\",\r\n                \"(77) 3451-8400\",\r\n                \"www.portalfg.com.br\",\r\n                \"felipe@portalfg.com.br\",\r\n                null\r\n            ),\r\n            2037 to University(\r\n                \"FACULDADE UNIME DE CIÊNCIAS EXATAS E TECNOLÓGICAS\",\r\n                \"FCT\",\r\n                \"2959800000160\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"centro\",\r\n                \"71 3378 8151\",\r\n                \"\",\r\n                \"ddi@kroton.com.br\",\r\n                null\r\n            ),\r\n            2067 to University(\r\n                \"FACULDADE DE CIÊNCIAS EMPRESARIAIS\",\r\n                \"FACEMP\",\r\n                \"4696652000163\",\r\n                \"SANTO ANTONIO DE JESUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44571024\",\r\n                \"Centro\",\r\n                \"(75) 3631 3180\",\r\n                \"www.facemp.edu.br\",\r\n                \"lhlmartini@uol.com.br\",\r\n                null\r\n            ),\r\n            2076 to University(\r\n                \"FACULDADE REGIONAL DA BAHIA\",\r\n                \"FARB\",\r\n                \"4043610000123\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41680430\",\r\n                \"Patamares\",\r\n                \"(071) 3368 8348\",\r\n                \"www.unirb.edu.br\",\r\n                \"unirb@unirb.edu.br / cjp@unirb.edu.br\",\r\n                null\r\n            ),\r\n            2085 to University(\r\n                \"INSTITUTO BAIANO DE ENSINO SUPERIOR\",\r\n                \"IBES\",\r\n                \"6099229000101\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41815290\",\r\n                \"Itaigara\",\r\n                \"(071) 3496-4050\",\r\n                \"\",\r\n                \"marcioacbarros@yahoo.com.br\",\r\n                null\r\n            ),\r\n            2140 to University(\r\n                \"INSTITUTO SUPERIOR DE EDUCAÇÃO NOSSA SENHORA DE LOURDES\",\r\n                \"FNSL\",\r\n                \"7910782000145\",\r\n                \"PORTO SEGURO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45810000\",\r\n                \"Centro\",\r\n                \"(73) 3268-4174\",\r\n                \"www.fnsl.com./site\",\r\n                \"is-senhora@bol.com.br\",\r\n                null\r\n            ),\r\n            2163 to University(\r\n                \"INSTITUTO SUPERIOR DE EDUCAÇÃO EUGÊNIO GOMES\",\r\n                \"ISEGO\",\r\n                \"1347902000161\",\r\n                \"IPIRA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44600000\",\r\n                \"Campus Universitário\",\r\n                \"\",\r\n                \"www.fundal.org.br\",\r\n                \"fundal@fundal.org.br\",\r\n                null\r\n            ),\r\n            2222 to University(\r\n                \"FACULDADE SETE DE SETEMBRO\",\r\n                \"FASETE\",\r\n                \"3866544000129\",\r\n                \"PAULO AFONSO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48601180\",\r\n                \"Centro\",\r\n                \"(75) 35010777\",\r\n                \"www.fasete.edu.br\",\r\n                \"secretariafasete@gmail.com\",\r\n                null\r\n            ),\r\n            2317 to University(\r\n                \"FACULDADE DO DESCOBRIMENTO\",\r\n                \"FACDESCO\",\r\n                \"2600848000187\",\r\n                \"SANTA CRUZ CABRALIA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45807000\",\r\n                \"Coroa Vermelha\",\r\n                \"(73) 672 1641 (71) 245-4470\",\r\n                \"www.facdesco.edu.br\",\r\n                \"diretoria@facdesco.edu.br\",\r\n                null\r\n            ),\r\n            2402 to University(\r\n                \"FACULDADE CIDADE DO SALVADOR\",\r\n                \"FCS\",\r\n                \"4670333000189\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40015140\",\r\n                \"Comércio\",\r\n                \"(71) 3254 6000 / (71) 3254 6008\",\r\n                \"cpa@faculdadedacidade.edu.br\",\r\n                \"avalia@ftc.br\",\r\n                null\r\n            ),\r\n            2437 to University(\r\n                \"FACULDADE PITÁGORAS DE TEIXEIRA DE FREITAS\",\r\n                \"PIT TEIXEIRA\",\r\n                \"38733648000140\",\r\n                \"TEIXEIRA DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45996220\",\r\n                \"Bela Vista\",\r\n                \"(73) 3011.8300\",\r\n                \"www.faculdadepitagoras.com.br\",\r\n                \"ddi@kroton.com.br / isadoraf@kroton.com.br\",\r\n                null\r\n            ),\r\n            2444 to University(\r\n                \"FACULDADE JOÃO CALVINO\",\r\n                \"FJC\",\r\n                \"4714398000189\",\r\n                \"BARREIRAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"47806180\",\r\n                \"Morada Nobre\",\r\n                \"(77) 3613 1514\",\r\n                \"www.cetai.com.br\",\r\n                \"cetai@cetai.com.br\",\r\n                null\r\n            ),\r\n            2470 to University(\r\n                \"INSTITUTO SALVADOR DE ENSINO E CULTURA\",\r\n                \"ISEC\",\r\n                \"1711282000106\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41810011\",\r\n                \"Pituba\",\r\n                \"(71) 3496 4150\",\r\n                \"\",\r\n                \"marcioacbarros@yahoo.com.br\",\r\n                null\r\n            ),\r\n            2474 to University(\r\n                \"FACULDADE MARIA MILZA\",\r\n                \"FAMAM\",\r\n                \"543858000100\",\r\n                \"CRUZ DAS ALMAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44380000\",\r\n                \"Centro\",\r\n                \"(75)33127000\",\r\n                \"www.famam.com.br\",\r\n                \"adm@mariamilza.com.br\",\r\n                null\r\n            ),\r\n            2499 to University(\r\n                \"FACULDADE APOIO\",\r\n                \"FA\",\r\n                \"4953427000165\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Vilas do Atlântico\",\r\n                \"(71) 3379-3357\",\r\n                \"www.faculdadeapoio.com.br\",\r\n                \"coordenacao@unifass.com.br\",\r\n                null\r\n            ),\r\n            2500 to University(\r\n                \"FACULDADE EINSTEIN\",\r\n                \"\",\r\n                \"4953429000154\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41150060\",\r\n                \"Stella Maris\",\r\n                \"(71) 3326-2972\",\r\n                \"www.facei.edu.br\",\r\n                \"facei@facei.edu.br\",\r\n                null\r\n            ),\r\n            2560 to University(\r\n                \"FACULDADE DE ENSINO SUPERIOR DA CIDADE DE FEIRA DE SANTANA\",\r\n                \"FAESF/UNEF\",\r\n                \"3401083000119\",\r\n                \"FEIRA DE SANTANA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44052000\",\r\n                \"Capuchinhos\",\r\n                \"75 2101-5656\",\r\n                \"www.unef.edu.br\",\r\n                \"financeiro@unef.edu.br /  thiago@unef.edu.br / anacelina@unef.edu.br\",\r\n                null\r\n            ),\r\n            2568 to University(\r\n                \"FACULDADE ZACARIAS DE GÓES\",\r\n                \"FAZAG\",\r\n                \"4032307000125\",\r\n                \"VALENCA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45400000\",\r\n                \"Jardim Grimaldi\",\r\n                \"(75) 3641 5000/(75) 3641 2120/(75) 3641 2177\",\r\n                \"www.fazag.edu.br\",\r\n                \"vitorino.coor@fazag.com.br / vivavi2008@hotmail.com\",\r\n                null\r\n            ),\r\n            2570 to University(\r\n                \"FACULDADE DE CIÊNCIAS EDUCACIONAIS\",\r\n                \"FACE\",\r\n                \"4017220000189\",\r\n                \"VALENCA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45400000\",\r\n                \"Graça\",\r\n                \"(75) 3641-6898/(75) 3641-6899\",\r\n                \"\",\r\n                \"assessoria@facebahia.com / ckto@terra.com.br\",\r\n                null\r\n            ),\r\n            2581 to University(\r\n                \"FACULDADE SÃO SALVADOR\",\r\n                \"FSS\",\r\n                \"3871465000106\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40015060\",\r\n                \"Comércio\",\r\n                \"(71)2101-2300/2101-2313/3329-9238\",\r\n                \"www.saosalvador.edu.br\",\r\n                \"gmartins@saosalvador.edu.br\",\r\n                null\r\n            ),\r\n            2598 to University(\r\n                \"FACULDADE PENSAR\",\r\n                \"FP\",\r\n                \"4981028000108\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41830200\",\r\n                \"Pituba\",\r\n                \"\",\r\n                \"\",\r\n                \"jvcs.jvcs@gmail.com\",\r\n                null\r\n            ),\r\n            2632 to University(\r\n                \"FACULDADES INTEGRADAS DO EXTREMO SUL DA BAHIA\",\r\n                \"UNISULBAHIA\",\r\n                \"2754493000180\",\r\n                \"EUNAPOLIS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45820000\",\r\n                \"Eunápolis/Porto Segu\",\r\n                \"Zona Rural\",\r\n                \"www.unesulbahia.com\",\r\n                \"unece@unece.br /  andrescalzer1@hotmail.com\",\r\n                null\r\n            ),\r\n            2753 to University(\r\n                \"FACULDADE DE CIÊNCIAS EDUCACIONAIS CAPIM GROSSO\",\r\n                \"FACE\",\r\n                \"5170328000170\",\r\n                \"CAPIM GROSSO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44695000\",\r\n                \"Loteamento Pousada das Mangueiras\",\r\n                \"(74)36511543\",\r\n                \"www.faculdadecapimgrosso.com.br\",\r\n                \"fabes@faculdadecapimgrosso.com.br / nete@facebahia.com / ckto@terra.com.br\",\r\n                null\r\n            ),\r\n            2761 to University(\r\n                \"FACULDADE DO SERTÃO\",\r\n                \"UESSBA\",\r\n                \"3250536000153\",\r\n                \"IRECE\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44900000\",\r\n                \"Morada do Sol\",\r\n                \"(74) 3641 3245\",\r\n                \"www.uessba.com.br\",\r\n                \"uessba10@gmail.com / uessbaacademica@gmail.com\",\r\n                null\r\n            ),\r\n            2771 to University(\r\n                \"CENTRO DE ENSINO SUPERIOR DE ILHÉUS\",\r\n                \"CESUPI\",\r\n                \"4245712000121\",\r\n                \"ILHEUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45650000\",\r\n                \"Jardim Atlantico II\",\r\n                \"(73) 2101-1700\",\r\n                \"www.faculdadedeilheus.com.br\",\r\n                \"milanesi@faculdadedeilheus.com.br\",\r\n                null\r\n            ),\r\n            2912 to University(\r\n                \"FACULDADE DE CIÊNCIA E TECNOLOGIA ALBERT EINSTEIN\",\r\n                \"FACTAE\",\r\n                \"5218786000131\",\r\n                \"CRUZ DAS ALMAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44380000\",\r\n                \"Centro\",\r\n                \"(75) 3621 9232\",\r\n                \"www.factae.edu.br\",\r\n                \"factae@factae.edu.br\",\r\n                null\r\n            ),\r\n            2944 to University(\r\n                \"FACULDADE DO SUL\",\r\n                \"FACSUL\",\r\n                \"5103128000102\",\r\n                \"ITABUNA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45000013\",\r\n                \"Lomanto\",\r\n                \"(73) 2102 3033\",\r\n                \"www.facsul-ba.edu.br\",\r\n                \"ddi@kroton.com.br / ursulaa@kroton.com.br\",\r\n                null\r\n            ),\r\n            2969 to University(\r\n                \"INSTITUTO SUPERIOR DE EDUCAÇÃO OCIDENTE\",\r\n                \"OCIDEMNTE\",\r\n                \"1389776000108\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41600010\",\r\n                \" lote 16\",\r\n                \"Itapoan\",\r\n                \"www.iseo.com.br\",\r\n                \"fernanda.iseo@gmail.com / iseo.assessoria@gmail.com\",\r\n                null\r\n            ),\r\n            3034 to University(\r\n                \"FACULDADE DELTA\",\r\n                \"FACDELTA\",\r\n                \"3395289000183\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41720020\",\r\n                \"Imbuí\",\r\n                \"(31) 2126 0830\",\r\n                \"\",\r\n                \"ddi@kroton.com.br\",\r\n                null\r\n            ),\r\n            3216 to University(\r\n                \"FACULDADE DE CIÊNCIAS DA BAHIA - FACIBA\",\r\n                \"FACIBA\",\r\n                \"1623850000109\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40050002\",\r\n                \"Nazaré\",\r\n                \"(71) 33210251\",\r\n                \"www.faciba.com.br\",\r\n                \"faciba@faciba.com.br / afonsomiranda@faciba.com.br / celiamelo@faciba.com.br\",\r\n                null\r\n            ),\r\n            3230 to University(\r\n                \"FACULDADE LUIZ EDUARDO MAGALHÃES\",\r\n                \"FILEM\",\r\n                \"5369688000103\",\r\n                \"LUIS EDUARDO MAGALHAES\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"47850000\",\r\n                \"Jardim Primavera\",\r\n                \"(77) 3628 4446\",\r\n                \"www.filem.edu.br\",\r\n                \"patriciaccf@terra.com.br\",\r\n                null\r\n            ),\r\n            3268 to University(\r\n                \"FACULDADE MADRE THAIS\",\r\n                \"FMT\",\r\n                \"5402067000176\",\r\n                \"ILHEUS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45650000\",\r\n                \"Alto da Piedade\",\r\n                \"(73)3222-2230\",\r\n                \"www.faculdademadrethais.com.br\",\r\n                \"fmt@faculdademadrethais.com.br\",\r\n                null\r\n            ),\r\n            3270 to University(\r\n                \"FACULDADE SÃO BENTO DA BAHIA\",\r\n                \"\",\r\n                \"15233729000185\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40130001\",\r\n                \"Centro\",\r\n                \"(71) 3322 4746\",\r\n                \"www.saobento.org\",\r\n                \"barbarafigueredo@saobento.org / faculdade@saobento.org\",\r\n                null\r\n            ),\r\n            3285 to University(\r\n                \"FACULDADE SANTO ANTONIO\",\r\n                \"FSA\",\r\n                \"5423928000100\",\r\n                \"ALAGOINHAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48005015\",\r\n                \"Centro\",\r\n                \"(75) 3421 4733\",\r\n                \"fsaa.edu.br\",\r\n                \"salles@saosalvador.edu.br / gmartins9@hotmail.com\",\r\n                null\r\n            ),\r\n            3365 to University(\r\n                \"FACULDADE SÃO FRANCISCO DE JUAZEIRO\",\r\n                \"FASJ\",\r\n                \"42752675000137\",\r\n                \"JUAZEIRO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48903050\",\r\n                \"Santo Antônio\",\r\n                \"(74) 3611 7672\",\r\n                \"www.fasj.edu.br\",\r\n                \"marden@fasb.edu.br / diana@fasj.edu.br\",\r\n                null\r\n            ),\r\n            3377 to University(\r\n                \"FACULDADE MONTESSORIANO DE SALVADOR\",\r\n                \"FAMA\",\r\n                \"7808396000147\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41706110\",\r\n                \"Boca do Rio\",\r\n                \"(71) 3371 5643\",\r\n                \"www.montessoriano.com.br\",\r\n                \"fama@montessoriano.com.br\",\r\n                null\r\n            ),\r\n            3588 to University(\r\n                \"FACULDADE DOM PEDRO II\",\r\n                \"FDPII\",\r\n                \"5817107000140\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40010020\",\r\n                \"\",\r\n                \"(71) 3243-7272\",\r\n                \"\",\r\n                \"nelson.pdn@gmail.com /  ckto@terra.com.br / alaide@fozdobrasil.com / valmir@dompedrosegundo.edu.br\",\r\n                null\r\n            ),\r\n            3609 to University(\r\n                \"FACULDADES INTEGRADAS IPITANGA\",\r\n                \"UNIBAHIA\",\r\n                \"1197885000123\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Pitangueiras\",\r\n                \"(71) 2202 3600\",\r\n                \"www.unibahia.br\",\r\n                \"assessoria@unibahia.edu.br\",\r\n                null\r\n            ),\r\n            3669 to University(\r\n                \"FACULDADE DOM LUIS DE ORLEANS E BRAGANÇA\",\r\n                \"FARRP\",\r\n                \"9652671000101\",\r\n                \"RIBEIRA DO POMBAL\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48400000\",\r\n                \"Pombalzinho\",\r\n                \"(75)3276.1731 e (71)9141.9614\",\r\n                \"www.farrp.edu.br\",\r\n                \"valmir@dompedrosegundo.edu.br / ckto@terra.com.br\",\r\n                null\r\n            ),\r\n            3774 to University(\r\n                \"FACULDADE SÃO TOMAZ DE AQUINO\",\r\n                \"FSTA\",\r\n                \"5993920000171\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41940060\",\r\n                \"Rio Vermelho\",\r\n                \"(71) 2104 3333\",\r\n                \"\",\r\n                \"secretaria@tomazdeaquino.edu.br\",\r\n                null\r\n            ),\r\n            3826 to University(\r\n                \"FACULDADE VASCO DA GAMA\",\r\n                \"FVG\",\r\n                \"3789762000107\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40240090\",\r\n                \"Vasco da Gama\",\r\n                \"(71) 32611658\",\r\n                \"RUTH VIEIRA\",\r\n                \"lhaba14@hotmail.com / ckto@terra.com.br\",\r\n                null\r\n            ),\r\n            3847 to University(\r\n                \"FACULDADE BAIANA DE DIREITO E GESTÃO\",\r\n                \"\",\r\n                \"8346085000176\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41900031\",\r\n                \"Amaralina\",\r\n                \"(71) 3205-7700\",\r\n                \"www.faculdadebaianadedireito.com.br\",\r\n                \"carolina@faculdadebaianadedireito.com.br / guilherme@portalmultipla.com.br\",\r\n                null\r\n            ),\r\n            3864 to University(\r\n                \"FACULDADE REGIONAL DE ALAGOINHAS\",\r\n                \"FARAL\",\r\n                \"4043610000123\",\r\n                \"ALAGOINHAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48030490\",\r\n                \"Alagoinhas Velha\",\r\n                \"(71) 3368 8348\",\r\n                \"\",\r\n                \"cjp@unirb.edu.br\",\r\n                null\r\n            ),\r\n            3921 to University(\r\n                \"FACULDADE ARNALDO HORÁCIO FERREIRA\",\r\n                \"FAAHF\",\r\n                \"6163776000109\",\r\n                \"LUIS EDUARDO MAGALHAES\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"47850000\",\r\n                \"Mimoso do Oeste\",\r\n                \"(77) 3628 9900\",\r\n                \"www.faahf.edu.br\",\r\n                \"angelica@josewalter.adv.br / secretariaacademica@faahf.edu.br\",\r\n                null\r\n            ),\r\n            3962 to University(\r\n                \"FACULDADE DE TECNOLOGIA SENAI CIMATEC\",\r\n                \"SENAI CIMATEC\",\r\n                \"3795071000116\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41650010\",\r\n                \"Piatã\",\r\n                \"(71) 34629580 / 34628517\",\r\n                \"http://www.fieb.org.br/senai/graduacao/\",\r\n                \"tarso-nogueira@uol.com.br\",\r\n                null\r\n            ),\r\n            4005 to University(\r\n                \"FACULDADE CENECISTA DE SENHOR DO BONFIM\",\r\n                \"FACESB\",\r\n                \"33621384000119\",\r\n                \"SENHOR DO BONFIM\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48970000\",\r\n                \"Centro\",\r\n                \"(74) 3541-4011\",\r\n                \"www.facesb.com.br\",\r\n                \"faculdadecenecistasb@hotmail.com\",\r\n                null\r\n            ),\r\n            4295 to University(\r\n                \"FACULDADE DE TECNOLOGIA SENAI CETIND\",\r\n                \"\",\r\n                \"3795071000116\",\r\n                \"LAURO DE FREITAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"42700000\",\r\n                \"Aracuí\",\r\n                \"71-32878201\",\r\n                \"www.fieb.org.br/senai/graduacao\",\r\n                \"alessander@fieb.org.br\",\r\n                null\r\n            ),\r\n            4460 to University(\r\n                \"FACULDADE DOM PEDRO II DE TECNOLOGIA\",\r\n                \"FAB\",\r\n                \"5817107000140\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"40411366\",\r\n                \"Calçada\",\r\n                \"(71) 33124000\",\r\n                \"www.fab.edu.br\",\r\n                \"diretoria.geral@fab.edu.br / ckto@terra.com.br\",\r\n                null\r\n            ),\r\n            4503 to University(\r\n                \"UNIVERSIDADE FEDERAL DO RECÔNCAVO DA BAHIA\",\r\n                \"UFRB\",\r\n                \"7777800000162\",\r\n                \"CRUZ DAS ALMAS\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"44380000\",\r\n                \"Centro\",\r\n                \"(75) 3621 2350\",\r\n                \"www.ufrb.edu.br\",\r\n                \"gabinete@ufrb.edu.br / prograd@ufrb.edu.br\",\r\n                null\r\n            ),\r\n            4531 to University(\r\n                \"FACULDADE ADVENTISTA DA BAHIA\",\r\n                \"FADBA\",\r\n                \"7114699000160\",\r\n                \"CACHOEIRA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44300000\",\r\n                \"Capueiruçu\",\r\n                \"(75)3425-8014\",\r\n                \"www.adventista.edu.br\",\r\n                \"delma.ferreira1@gmail.com\",\r\n                null\r\n            ),\r\n            4538 to University(\r\n                \"FACULDADE PARQUE\",\r\n                \"FAP\",\r\n                \"13426838000193\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41100000\",\r\n                \"Cabula\",\r\n                \"(71) 3230 5565\",\r\n                \"faculdadeparque@educsup.org\",\r\n                \"marcelosacramento@colegioparque.com.br\",\r\n                null\r\n            ),\r\n            4739 to University(\r\n                \"FACULDADE PRESBITERIANA AUGUSTO GALVÃO\",\r\n                \"FAPAG\",\r\n                \"13803044000100\",\r\n                \"CAMPO FORMOSO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44790000\",\r\n                \"Centro\",\r\n                \"74 36451226\",\r\n                \"www.augustogalvao.com.br\",\r\n                \"pauloterranova@yahoo.com.br\",\r\n                null\r\n            ),\r\n            4747 to University(\r\n                \"FACULDADE REGIONAL DE RIACHÃO DO JACUÍPE\",\r\n                \"FARJ\",\r\n                \"7803573000100\",\r\n                \"RIACHAO DO JACUIPE\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44640000\",\r\n                \"Barra\",\r\n                \"(74) 36511845\",\r\n                \"www.farj-edu.com\",\r\n                \"amosmozan@hotmail.com\",\r\n                null\r\n            ),\r\n            4899 to University(\r\n                \"FACULDADE DE CIÊNCIAS MÉDICAS DA BAHIA\",\r\n                \"CIENCIAS MEDICAS\",\r\n                \"7936707000153\",\r\n                \"SANTA CRUZ CABRALIA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45807000\",\r\n                \"Coroa Vermelha\",\r\n                \"(73)3672-1594\",\r\n                \"www.faculdadecabralia.edu.br\",\r\n                \"bruno_mf@yahoo.com.br / clarissa@fadipa.br / jesus@fadipa.br\",\r\n                null\r\n            ),\r\n            4959 to University(\r\n                \"FACULDADE PITÁGORAS DE FEIRA DE SANTANA\",\r\n                \"\",\r\n                \"7659308000192\",\r\n                \"FEIRA DE SANTANA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"44052030\",\r\n                \"Capuchinhos\",\r\n                \"\",\r\n                \"\",\r\n                \"aecio@pitagoras.com.br\",\r\n                null\r\n            ),\r\n            10058 to University(\r\n                \"FACULDADE DE TECNOLOGIA DE VALENÇA\",\r\n                \"FACTIVA\",\r\n                \"4017220000189\",\r\n                \"VALENCA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45400000\",\r\n                \"Graça\",\r\n                \"(75) 36416898\",\r\n                \"\",\r\n                \"contato@facebahia.com\",\r\n                null\r\n            ),\r\n            11951 to University(\r\n                \"FACULDADE DO SERTÃO BAIANO\",\r\n                \"FASBE\",\r\n                \"5560863000137\",\r\n                \"MONTE SANTO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"48800000\",\r\n                \"Centro\",\r\n                \"(75)32751022\",\r\n                \"www.fasbe.com.br\",\r\n                \"direcaofasbe@gmail.com\",\r\n                null\r\n            ),\r\n            599 to University(\r\n                \"INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DA BAHIA\",\r\n                \"IFBA\",\r\n                \"10764307000112\",\r\n                \"SALVADOR\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"40301015\",\r\n                \"Barbalho\",\r\n                \"(71)2102-0415\",\r\n                \"www.ifba.edu.br\",\r\n                \"gabinete@ifba.edu.br\",\r\n                null\r\n            ),\r\n            1782 to University(\r\n                \"FACULDADE DE ARTES CIÊNCIAS E TECNOLOGIAS\",\r\n                \"FACET\",\r\n                \"1626968000190\",\r\n                \"SALVADOR\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"41820040\",\r\n                \"Pituba\",\r\n                \"(71) 3248.1274/3347.5656\",\r\n                \"www.facetba.com.br\",\r\n                \"celma@facetba.com.br\",\r\n                null\r\n            ),\r\n            2572 to University(\r\n                \"FACULDADE REGIONAL DE FILOSOFIA CIÊNCIAS E LETRAS DE CANDEIAS\",\r\n                \"FAC\",\r\n                \"4327941000195\",\r\n                \"CANDEIAS\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"43813300\",\r\n                \"Fazenda Caroba\",\r\n                \"Caroba\",\r\n                \"\",\r\n                \"naa.iescfac@yahoo.com.br /  iescfac@yahoo.com.br\",\r\n                null\r\n            ),\r\n            5473 to University(\r\n                \"FACULDADE DE CIÊNCIA TECNOLOGIA E EDUCAÇÃO\",\r\n                \"FACITE\",\r\n                \"5255415000120\",\r\n                \"SANTA MARIA DA VITORIA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"47640000\",\r\n                \"Loteamento do Parque de Exposição\",\r\n                \"\",\r\n                \"www.faciteise.edu.br\",\r\n                \"facinst25@yahoo.com.br / gilvanetenp@hotmail.com\",\r\n                null\r\n            ),\r\n            12749 to University(\r\n                \"FACULDADES UNIDAS DE PESQUISA CIÊNCIAS E SAÚDE LTDA\",\r\n                \"FAPEC\",\r\n                \"543858000100\",\r\n                \"JEQUIE\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"45203330\",\r\n                \"São Luis\",\r\n                \"73-35261770\",\r\n                \"www.faculdadefapec.com.br\",\r\n                \"adm@mariamilza.com.br\",\r\n                null\r\n            ),\r\n            14509 to University(\r\n                \"INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA BAIANO\",\r\n                \"IFBAIANO\",\r\n                \"10724903000179\",\r\n                \"SALVADOR\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"41720052\",\r\n                \"Imbuí\",\r\n                \"(71) 3186-0013\",\r\n                \"http://www.ifbaiano.edu.br\",\r\n                \"moura@ifbaiano.edu.br\",\r\n                null\r\n            ),\r\n            29 to University(\r\n                \"UNIVERSIDADE ESTADUAL DO CEARÁ\",\r\n                \"UECE\",\r\n                \"7885809000197\",\r\n                \"FORTALEZA\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"60740000\",\r\n                \"Serrinha\",\r\n                \"(85) 3101 9610\",\r\n                \"www.uece.br\",\r\n                \"reitor@uece.br / ueceprograd@gmail.com\",\r\n                null\r\n            )\r\n        )\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Bahia.kt	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Bahia.kt	(date 1577338570443)
+@@ -8,352 +8,152 @@
+             40 to University(
+                 "UNIVERSIDADE DO ESTADO DA BAHIA",
+                 "UNEB",
+-                "14485841000140",
+                 "SALVADOR",
+-                "Pública",
+-                "Estadual",
+-                "41195001",
+-                "Cabula",
+-                "(71) 3117-2354 (71) 3117-2734",
+-                "www.uneb.br",
+-                "lvalentim@uneb.br",
+-                null
++                "Cabula"
+             ),
+             152 to University(
+                 "FACULDADE DE CIÊNCIAS CONTÁBEIS",
+                 "FACIC",
+-                "15239981000100",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "40070200",
+-                "Barris",
+-                "(71) 2108 8585",
+-                "www.cairu.br",
+-                "contabeis@fvc.br",
+-                null
++                "Barris"
+             ),
+             385 to University(
+                 "UNIVERSIDADE SALVADOR",
+                 "UNIFACS",
+-                "13526884000164",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41820021",
+-                "Caminho das Árvores",
+-                "(71) 3271-8163/8102",
+-                "www.unifacs.br",
+-                "rozalia.bonfim@unifacs.br / daniella.alves@unifacs.br",
+-                null
++                "Caminho das Árvores"
+             ),
+             396 to University(
+                 "FACULDADE RUY BARBOSA",
+                 "FRBA",
+-                "13477369000131",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41720200",
+-                "Imbuí",
+-                "(71) 32051757",
+-                "www.frb.edu.br",
+-                "mmota@frb.edu.br / vpplan@devrybrasil.com.br / rsilva@frb.edu.br / sborges@frb.edu.br",
+-                null
++                "Imbuí"
+             ),
+             399 to University(
+                 "ESCOLA DE ENGENHARIA DE AGRIMENSURA",
+                 "EEA",
+-                "15104201000106",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "40227909",
+-                "Brotas",
+-                "(71) 3452 2533",
+-                "www.eeemba.br",
+-                "euridez@hotmail.com",
+-                null
++                "Brotas"
+             ),
+             519 to University(
+                 "UNIVERSIDADE CATÓLICA DO SALVADOR",
+                 "UCSAL",
+-                "13970322000105",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "40040220",
+-                "Nazaré",
+-                "(71) 3324 7500",
+-                "www.ucsal.br",
+-                "reitoria@ucsal.br",
+-                null
++                "Nazaré"
+             ),
+             534 to University(
+                 "ESCOLA BAHIANA DE MEDICINA E SAÚDE PÚBLICA",
+                 "EBMSP",
+-                "13927934000115",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "40000000",
+-                "Cabula",
+-                "(71) 2101-1900",
+-                "www.bahiana.edu.br",
+-                "geisaarlete@bahiana.edu.br / nelma@bahiana.edu.br / geisaarlete@hotmail.com",
+-                null
++                "Cabula"
+             ),
+             578 to University(
+                 "UNIVERSIDADE FEDERAL DA BAHIA",
+                 "UFBA",
+-                "15180714000104",
+                 "SALVADOR",
+-                "Pública",
+-                "Federal",
+-                "40110060",
+-                "CANELA",
+-                "(71) 3283-7000",
+-                "www.portal.ufba.br",
+-                "gabinete@ufba.br / jseixas@ufba.br",
+-                null
++                "CANELA"
+             ),
+             666 to University(
+                 "UNIVERSIDADE ESTADUAL DE FEIRA DE SANTANA",
+                 "UEFS",
+-                "14045546000173",
+                 "FEIRA DE SANTANA",
+-                "Pública",
+-                "Estadual",
+-                "44036900",
+-                "Novo Horizonte",
+-                "75 3161 8031",
+-                "www.uefs.br",
+-                "prograd.uefs@gmail.com",
+-                null
++                "Novo Horizonte"
+             ),
+             688 to University(
+                 "UNIVERSIDADE ESTADUAL DO SUDOESTE DA BAHIA",
+                 "UESB",
+-                "13069489000108",
+                 "VITORIA DA CONQUISTA",
+-                "Pública",
+-                "Estadual",
+-                "45083900",
+-                "Zona Rural",
+-                "(77) 4324 8728",
+-                "www.uesb.br",
+-                "gauesb@gmail.com",
+-                null
++                "Zona Rural"
+             ),
+             801 to University(
+                 "FACULDADE MONTENEGRO",
+                 "FAM",
+-                "14359764000182",
+                 "IBICARAI",
+-                "Privada",
+-                "Privada",
+-                "45745000",
+-                "CENTRO",
+-                "(73) 3242 1225/3242-2006",
+-                "faculdadesmontenegro.edu.br",
+-                "faculdademontenegro@yahoo.com.br",
+-                null
++                "CENTRO"
+             ),
+             977 to University(
+                 "FACULDADE SÃO CAMILO",
+                 "",
+-                "58250689000192",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41900000",
+-                "Amaralina",
+-                "(71) 32053552 / 32053578",
+-                "www.saocamilo-ba.br",
+-                "veronica@saocamilo-ba.br / patricia@saocamilo.br / secretaria@saocamilo-ba.br / rca@saocamilo.br",
+-                null
++                "Amaralina"
+             ),
+             1053 to University(
+                 "FACULDADE DE TECNOLOGIA E CIÊNCIAS DE FEIRA DE SANTANA",
+                 "FTC",
+-                "4670333000189",
+                 "FEIRA DE SANTANA",
+-                "Privada",
+-                "Privada",
+-                "44043590",
+-                "SIM",
+-                "(75) 3602 7031",
+-                "www.ftc.br",
+-                "hsilva.fsa@ftc.br / avalia@ftc.br",
+-                null
++                "SIM"
+             ),
+             1055 to University(
+                 "FACULDADE MAURÍCIO DE NASSAU DE SALVADOR",
+                 "FMN SALVADOR",
+-                "32697294000149",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41680440",
+-                "Patamares",
+-                "(71) 3505-4500",
+-                "www.mauriciodenassau.edu.br",
+-                "emec@sereducacional.com",
+-                null
++                "Patamares"
+             ),
+             1058 to University(
+                 "Centro Universitário Estácio da Bahia - Estácio FIB",
+                 "FIB",
+-                "2608755000107",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41770130",
+-                "Jardim Atalaia",
+-                "(71) 2107 8100",
+-                "www.fib.br",
+-                "ouvidoria@fib.br / cgcenunivfib@gmail.com",
+-                null
++                "Jardim Atalaia"
+             ),
+             1123 to University(
+                 "INSTITUTO DE EDUCAÇÃO SUPERIOR UNYAHNA DE SALVADOR",
+                 "IESUS",
+-                "1221872000142",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41680440",
+-                "Patamares",
+-                "(71) 3367 8400/(71) 3367 8425",
+-                "www.unyahna.br",
+-                "iesus@unyahna.br / academica@unyahna.br",
+-                null
++                "Patamares"
+             ),
+             1124 to University(
+                 "INSTITUTO DE EDUCAÇÃO SUPERIOR UNYAHNA DE BARREIRAS",
+                 "IESUB",
+-                "1221872000142",
+                 "BARREIRAS",
+-                "Privada",
+-                "Privada",
+-                "47805336",
+-                "Centro",
+-                "(77) 3614 1000",
+-                "",
+-                "unyahna@bar.unyahna.br",
+-                null
++                "Centro"
+             ),
+             1170 to University(
+                 "FACULDADE METROPOLITANA DE CAMAÇARI",
+                 "FAMEC",
+-                "1203528000120",
+                 "CAMACARI",
+-                "Privada",
+-                "Privada",
+-                "42800110",
+-                "Centro",
+-                "(71) 2101 3250",
+-                "www.famec.edu.br",
+-                "famecnet@uol.com.br",
+-                null
++                "Centro"
+             ),
+             1185 to University(
+                 "CENTRO UNIVERSITÁRIO JORGE AMADO",
+                 "UNIJORGE",
+-                "1120386000138",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41820725",
+-                "Paralela",
+-                "(71) 3206 8002",
+-                "http://www.unijorge.edu.br",
+-                "lidia.rocha@unijorge.edu.br",
+-                null
++                "Paralela"
+             ),
+             1227 to University(
+                 "FACULDADE SÃO FRANCISCO DE BARREIRAS - FASB",
+                 "FASB",
+-                "42752675000137",
+                 "BARREIRAS",
+-                "Privada",
+-                "Privada",
+-                "47805270",
+-                "Boa Sorte",
+-                "(77) 3613-8800",
+-                "www.fasb.edu.br",
+-                "peda.direcao@fasb.edu.br",
+-                null
++                "Boa Sorte"
+             ),
+             1302 to University(
+                 "FACULDADE BATISTA BRASILEIRA",
+                 "FBB",
+-                "74333097000190",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41850050",
+-                "Itaigara",
+-                "(71) 3505 3434",
+-                "www.fbb.br",
+-                "secretariaadm@fbb.br /  atilajr@fbb.br / ckto@terra.com.br / marliw@fbb.br",
+-                null
++                "Itaigara"
+             ),
+             1318 to University(
+                 "FACULDADE JUVÊNCIO TERRA",
+                 "FJT",
+-                "63182539000129",
+                 "VITORIA DA CONQUISTA",
+-                "Privada",
+-                "Privada",
+-                "45020750",
+-                "Centro",
+-                "(77) 3425 1696",
+-                "www.juvencioterra.edu.br",
+-                "administrativo@juvencioterra.edu.br",
+-                null
++                "Centro"
+             ),
+             1363 to University(
+                 "FACULDADE VISCONDE DE CAIRÚ",
+                 "FAVIC",
+-                "15239981000100",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "40070200",
+-                "BARRIS",
+-                "(71) 2108 8503",
+-                "www.cairu.br",
+-                "presidencia@cairu.br",
+-                null
++                "BARRIS"
+             ),
+             1364 to University(
+                 "FACULDADE DE TECNOLOGIA E CIÊNCIAS DE VITÓRIA DA CONQUISTA",
+                 "FTC",
+-                "4670333000189",
+                 "VITORIA DA CONQUISTA",
+-                "Privada",
+-                "Privada",
+-                "45020510",
+-                "Exposição",
+-                "(77) 3422-8800",
+-                "www.ftc.br",
+-                "pesquisadorinstitucional.vic@ftc.br / avalia@ftc.br / smagalhaes.vic@ftc.br / cpa.vic@ftc.br",
+-                null
++                "Exposição"
+             ),
+             1394 to University(
+                 "FACULDADE CASTRO ALVES",
+                 "FCA",
+-                "2854823000100",
+                 "SALVADOR",
+-                "Privada",
+-                "Privada",
+-                "41820090",
+-                "Pituba",
+-                "(71) 32052200",
+-                "www.castroalves.br",
+-                "jairfilho@castroalves.br",
+-                null
++                "Pituba"
+             ),
+             1410 to University(
+                 "ÁREA1 - FACULDADE DE CIÊNCIA E TECNOLOGIA",
+Index: app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Amapa.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.olivercastilho.universidadesdobrasil.data.repositories.states\r\n\r\nimport com.olivercastilho.universidadesdobrasil.data.models.University\r\n\r\nclass Amapa {\r\n    companion object {\r\n        val universities = mapOf(\r\n            15522 to University(\r\n                \"INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO AMAPÁ\",\r\n                \"IFAP\",\r\n                \"10820882000195\",\r\n                \"MACAPA\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"68908198\",\r\n                \"Julião Ramos\",\r\n                \"\",\r\n                \"www.ifap.edu.br\",\r\n                \"reitoria@ifap.edu.br\",\r\n                null\r\n            ),\r\n            830 to University(\r\n                \"UNIVERSIDADE FEDERAL DO AMAPÁ\",\r\n                \"UNIFAP\",\r\n                \"34868257000181\",\r\n                \"MACAPA\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"68902280\",\r\n                \"Zerão\",\r\n                \"(96) 3312-1705\",\r\n                \"http://www.unifap.br\",\r\n                \"unifap@unifap.br / pi@unifap.br / prograd@unifap.br / reitor@unifap.br / dav@unifap.br\",\r\n                null\r\n            ),\r\n            861 to University(\r\n                \"CENTRO DE ENSINO SUPERIOR DO AMAPÁ\",\r\n                \"CEAP\",\r\n                \"4661922000109\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68906720\",\r\n                \"Alvorada\",\r\n                \"(96) 3261 2133\",\r\n                \"www.ceap.br\",\r\n                \"ceap@ceap.br\",\r\n                null\r\n            ),\r\n            1591 to University(\r\n                \"FACULDADE SEAMA\",\r\n                \"SEAMA\",\r\n                \"3065816000191\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68908126\",\r\n                \"Laguinho\",\r\n                \"(96) 21015151\",\r\n                \"www.seama.edu.br\",\r\n                \"seama@seama.edu.br\",\r\n                null\r\n            ),\r\n            1823 to University(\r\n                \"INSTITUTO DE ENSINO SUPERIOR DO AMAPÁ\",\r\n                \"IESAP\",\r\n                \"10227585000130\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68901025\",\r\n                \"Trem\",\r\n                \"(96) 3222 6605\",\r\n                \"www.iesap.edu.br\",\r\n                \"iesap@iesap.edu.br / iesap@hotmail.com\",\r\n                null\r\n            ),\r\n            1877 to University(\r\n                \"FACULDADE ATUAL\",\r\n                \"FAAT\",\r\n                \"6173834000185\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68906350\",\r\n                \"Central\",\r\n                \"(96)3 217 1491\",\r\n                \"www.faculdadeatual.com.br\",\r\n                \"katymotinha@uol.com.br\",\r\n                null\r\n            ),\r\n            2069 to University(\r\n                \"FACULDADE DE TEOLOGIA E CIÊNCIAS HUMANAS\",\r\n                \"FATECH\",\r\n                \"4191375000137\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68906370\",\r\n                \"Centro\",\r\n                \"(96) 32239239\",\r\n                \"faculdadefatech.com.br\",\r\n                \"fatech753@yahoo.com.br\",\r\n                null\r\n            ),\r\n            2380 to University(\r\n                \"Faculdade Estácio do Amapá - Estácio FAMAP\",\r\n                \"FAMAP\",\r\n                \"2608755000107\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68903000\",\r\n                \"Jardim Equatorial\",\r\n                \"(96) 3312-2201\",\r\n                \"www.famap.edu.br\",\r\n                \"famap@famap.edu.br / cgfamap@gmail.com\",\r\n                null\r\n            ),\r\n            2469 to University(\r\n                \"INSTITUTO MACAPAENSE DE ENSINO SUPERIOR\",\r\n                \"IMMES\",\r\n                \"4159727000177\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68900075\",\r\n                \"Centro\",\r\n                \"(96) 3223 4244\",\r\n                \"www.immes.com.br\",\r\n                \"diretoria@immes.com.br / mrivaldo@uol.com.br\",\r\n                null\r\n            ),\r\n            2773 to University(\r\n                \"FACULDADE DE MACAPÁ\",\r\n                \"FAMA\",\r\n                \"4492733000141\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68900000\",\r\n                \"Cabralzinho\",\r\n                \"(96) 2101-0400\",\r\n                \"\",\r\n                \"ddi@kroton.com.br\",\r\n                null\r\n            ),\r\n            2917 to University(\r\n                \"FACULDADE BRASIL NORTE\",\r\n                \"FABRAN\",\r\n                \"6099229000101\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68908127\",\r\n                \"Jesus de Nazaré\",\r\n                \"(96) 3223-7924\",\r\n                \"\",\r\n                \"marcioacbarros@yahoo.com.br\",\r\n                null\r\n            ),\r\n            3769 to University(\r\n                \"FACULDADE MADRE TEREZA\",\r\n                \"FAMAT\",\r\n                \"4666494000107\",\r\n                \"SANTANA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68925000\",\r\n                \"Nova Brasília\",\r\n                \"(96) 3281 2645\",\r\n                \"www.madretereza.edu.br\",\r\n                \"madretereza@madretereza.edu.br\",\r\n                null\r\n            ),\r\n            3787 to University(\r\n                \"FACULDADE DE ENSINO SUPERIOR DA AMAZÔNIA\",\r\n                \"FESAM\",\r\n                \"1711282000106\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"0\",\r\n                \"Laguinho\",\r\n                \"(96) 3224= 2954\",\r\n                \"\",\r\n                \"marcioacbarros@yahoo.com.br\",\r\n                null\r\n            ),\r\n            3977 to University(\r\n                \"FACULDADE DE TECNOLOGIA DO AMAPÁ\",\r\n                \"META\",\r\n                \"5255345000100\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68903150\",\r\n                \"Jardim Marco Zero\",\r\n                \"(96) 3241 6636\",\r\n                \"www.meta.edu.br\",\r\n                \"hildemar@meta.edu.br\",\r\n                null\r\n            ),\r\n            5701 to University(\r\n                \"UNIVERSIDADE DO ESTADO DO AMAPÁ\",\r\n                \"UEAP\",\r\n                \"394577000125\",\r\n                \"MACAPA\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"68900070\",\r\n                \"Central\",\r\n                \"(96) 2101-0524\",\r\n                \"www.ueap.ap.gov.br\",\r\n                \"ueap@ueap.ap.gov.br\",\r\n                null\r\n            ),\r\n            11593 to University(\r\n                \"FACULDADE DE TECNOLOGIA DE MACAPÁ\",\r\n                \"FTA\",\r\n                \"8790056000107\",\r\n                \"MACAPA\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"68908080\",\r\n                \"Julião Ramos\",\r\n                \"96-32222208\",\r\n                \"\",\r\n                \"apoena@secrel.com.br\",\r\n                null\r\n            ),\r\n            24 to University(\r\n                \"UNIVERSIDADE ESTADUAL DE SANTA CRUZ\",\r\n                \"UESC\",\r\n                \"40738999000195\",\r\n                \"ILHEUS\",\r\n                \"Pública\",\r\n                \"Estadual\",\r\n                \"45662900\",\r\n                \"Salobrinho\",\r\n                \"73 3680 5311\",\r\n                \"www.uesc.br\",\r\n                \"reitoria@uesc.br\",\r\n                null\r\n            )\r\n        )\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Amapa.kt	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Amapa.kt	(date 1577338570278)
+@@ -8,240 +8,104 @@
+             15522 to University(
+                 "INSTITUTO FEDERAL DE EDUCAÇÃO CIÊNCIA E TECNOLOGIA DO AMAPÁ",
+                 "IFAP",
+-                "10820882000195",
+                 "MACAPA",
+-                "Pública",
+-                "Federal",
+-                "68908198",
+-                "Julião Ramos",
+-                "",
+-                "www.ifap.edu.br",
+-                "reitoria@ifap.edu.br",
+-                null
++                "Julião Ramos"
+             ),
+             830 to University(
+                 "UNIVERSIDADE FEDERAL DO AMAPÁ",
+                 "UNIFAP",
+-                "34868257000181",
+                 "MACAPA",
+-                "Pública",
+-                "Federal",
+-                "68902280",
+-                "Zerão",
+-                "(96) 3312-1705",
+-                "http://www.unifap.br",
+-                "unifap@unifap.br / pi@unifap.br / prograd@unifap.br / reitor@unifap.br / dav@unifap.br",
+-                null
++                "Zerão"
+             ),
+             861 to University(
+                 "CENTRO DE ENSINO SUPERIOR DO AMAPÁ",
+                 "CEAP",
+-                "4661922000109",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68906720",
+-                "Alvorada",
+-                "(96) 3261 2133",
+-                "www.ceap.br",
+-                "ceap@ceap.br",
+-                null
++                "Alvorada"
+             ),
+             1591 to University(
+                 "FACULDADE SEAMA",
+                 "SEAMA",
+-                "3065816000191",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68908126",
+-                "Laguinho",
+-                "(96) 21015151",
+-                "www.seama.edu.br",
+-                "seama@seama.edu.br",
+-                null
++                "Laguinho"
+             ),
+             1823 to University(
+                 "INSTITUTO DE ENSINO SUPERIOR DO AMAPÁ",
+                 "IESAP",
+-                "10227585000130",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68901025",
+-                "Trem",
+-                "(96) 3222 6605",
+-                "www.iesap.edu.br",
+-                "iesap@iesap.edu.br / iesap@hotmail.com",
+-                null
++                "Trem"
+             ),
+             1877 to University(
+                 "FACULDADE ATUAL",
+                 "FAAT",
+-                "6173834000185",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68906350",
+-                "Central",
+-                "(96)3 217 1491",
+-                "www.faculdadeatual.com.br",
+-                "katymotinha@uol.com.br",
+-                null
++                "Central"
+             ),
+             2069 to University(
+                 "FACULDADE DE TEOLOGIA E CIÊNCIAS HUMANAS",
+                 "FATECH",
+-                "4191375000137",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68906370",
+-                "Centro",
+-                "(96) 32239239",
+-                "faculdadefatech.com.br",
+-                "fatech753@yahoo.com.br",
+-                null
++                "Centro"
+             ),
+             2380 to University(
+                 "Faculdade Estácio do Amapá - Estácio FAMAP",
+                 "FAMAP",
+-                "2608755000107",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68903000",
+-                "Jardim Equatorial",
+-                "(96) 3312-2201",
+-                "www.famap.edu.br",
+-                "famap@famap.edu.br / cgfamap@gmail.com",
+-                null
++                "Jardim Equatorial"
+             ),
+             2469 to University(
+                 "INSTITUTO MACAPAENSE DE ENSINO SUPERIOR",
+                 "IMMES",
+-                "4159727000177",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68900075",
+-                "Centro",
+-                "(96) 3223 4244",
+-                "www.immes.com.br",
+-                "diretoria@immes.com.br / mrivaldo@uol.com.br",
+-                null
++                "Centro"
+             ),
+             2773 to University(
+                 "FACULDADE DE MACAPÁ",
+                 "FAMA",
+-                "4492733000141",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68900000",
+-                "Cabralzinho",
+-                "(96) 2101-0400",
+-                "",
+-                "ddi@kroton.com.br",
+-                null
++                "Cabralzinho"
+             ),
+             2917 to University(
+                 "FACULDADE BRASIL NORTE",
+                 "FABRAN",
+-                "6099229000101",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68908127",
+-                "Jesus de Nazaré",
+-                "(96) 3223-7924",
+-                "",
+-                "marcioacbarros@yahoo.com.br",
+-                null
++                "Jesus de Nazaré"
+             ),
+             3769 to University(
+                 "FACULDADE MADRE TEREZA",
+                 "FAMAT",
+-                "4666494000107",
+                 "SANTANA",
+-                "Privada",
+-                "Privada",
+-                "68925000",
+-                "Nova Brasília",
+-                "(96) 3281 2645",
+-                "www.madretereza.edu.br",
+-                "madretereza@madretereza.edu.br",
+-                null
++                "Nova Brasília"
+             ),
+             3787 to University(
+                 "FACULDADE DE ENSINO SUPERIOR DA AMAZÔNIA",
+                 "FESAM",
+-                "1711282000106",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "0",
+-                "Laguinho",
+-                "(96) 3224= 2954",
+-                "",
+-                "marcioacbarros@yahoo.com.br",
+-                null
++                "Laguinho"
+             ),
+             3977 to University(
+                 "FACULDADE DE TECNOLOGIA DO AMAPÁ",
+                 "META",
+-                "5255345000100",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68903150",
+-                "Jardim Marco Zero",
+-                "(96) 3241 6636",
+-                "www.meta.edu.br",
+-                "hildemar@meta.edu.br",
+-                null
++                "Jardim Marco Zero"
+             ),
+             5701 to University(
+                 "UNIVERSIDADE DO ESTADO DO AMAPÁ",
+                 "UEAP",
+-                "394577000125",
+                 "MACAPA",
+-                "Pública",
+-                "Estadual",
+-                "68900070",
+-                "Central",
+-                "(96) 2101-0524",
+-                "www.ueap.ap.gov.br",
+-                "ueap@ueap.ap.gov.br",
+-                null
++                "Central"
+             ),
+             11593 to University(
+                 "FACULDADE DE TECNOLOGIA DE MACAPÁ",
+                 "FTA",
+-                "8790056000107",
+                 "MACAPA",
+-                "Privada",
+-                "Privada",
+-                "68908080",
+-                "Julião Ramos",
+-                "96-32222208",
+-                "",
+-                "apoena@secrel.com.br",
+-                null
++                "Julião Ramos"
+             ),
+             24 to University(
+                 "UNIVERSIDADE ESTADUAL DE SANTA CRUZ",
+                 "UESC",
+-                "40738999000195",
+                 "ILHEUS",
+-                "Pública",
+-                "Estadual",
+-                "45662900",
+-                "Salobrinho",
+-                "73 3680 5311",
+-                "www.uesc.br",
+-                "reitoria@uesc.br",
+-                null
++                "Salobrinho"
+             )
+         )
+     }
+Index: app/src/main/res/values/colors.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<resources>\r\n    <color name=\"colorPrimary\">#0069ba</color>\r\n    <color name=\"colorPrimaryDark\">#00574B</color>\r\n    <color name=\"colorAccent\">#D81B60</color>\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/colors.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/values/colors.xml	(date 1577337265247)
+@@ -1,6 +1,2 @@
+ <?xml version="1.0" encoding="utf-8"?>
+-<resources>
+-    <color name="colorPrimary">#0069ba</color>
+-    <color name="colorPrimaryDark">#00574B</color>
+-    <color name="colorAccent">#D81B60</color>
+-</resources>
++<resources></resources>
+Index: app/src/main/res/values/strings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n    <string name=\"app_name\">Universidades do Brasil</string>\r\n    <string name=\"label_estado\"><b>Estado:</b> </string>\r\n    <string name=\"label_numero_de_graduados\"><b>Número de graduados:</b> </string>\r\n    <string name=\"sao_paulo\">São Paulo</string>\r\n    <string name=\"zero\">0</string>\r\n    <string name=\"ad_unit_id\">ca-app-pub-2100499132829579/5041032326</string>\r\n    <string name=\"test_ad_unit_id\">ca-app-pub-3940256099942544/6300978111</string>\r\n    <string name=\"test_devive_id\">33BE2250B43518CCDA7DE426D04EE231</string>\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/strings.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/values/strings.xml	(date 1577337265378)
+@@ -1,10 +1,7 @@
+ <resources>
+     <string name="app_name">Universidades do Brasil</string>
+-    <string name="label_estado"><b>Estado:</b> </string>
+-    <string name="label_numero_de_graduados"><b>Número de graduados:</b> </string>
+     <string name="sao_paulo">São Paulo</string>
+     <string name="zero">0</string>
+     <string name="ad_unit_id">ca-app-pub-2100499132829579/5041032326</string>
+-    <string name="test_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+     <string name="test_devive_id">33BE2250B43518CCDA7DE426D04EE231</string>
+ </resources>
+Index: app/src/main/res/values/styles.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><resources>\r\n\r\n    <!-- Base application theme. -->\r\n    <style name=\"AppTheme\" parent=\"Theme.AppCompat.Light.DarkActionBar\">\r\n        <!-- Customize your theme here. -->\r\n        <item name=\"colorPrimary\">@color/colorPrimary</item>\r\n        <item name=\"colorPrimaryDark\">@color/colorPrimaryDark</item>\r\n        <item name=\"colorAccent\">@color/colorAccent</item>\r\n    </style>\r\n\r\n</resources>\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/values/styles.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/values/styles.xml	(date 1577337265431)
+@@ -1,11 +1,5 @@
+ <resources>
+ 
+     <!-- Base application theme. -->
+-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+-        <!-- Customize your theme here. -->
+-        <item name="colorPrimary">@color/colorPrimary</item>
+-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+-        <item name="colorAccent">@color/colorAccent</item>
+-    </style>
+ 
+ </resources>
+Index: app/src/main/res/layout/actionbar.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n\r\n<androidx.constraintlayout.widget.ConstraintLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"wrap_content\"\r\n    xmlns:app=\"http://schemas.android.com/apk/res-auto\"\r\n    android:background=\"#f1f2f6\">\r\n    <LinearLayout\r\n        android:id=\"@+id/linearLayout_actionBar\"\r\n        android:layout_width=\"match_parent\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:orientation=\"horizontal\"\r\n        app:layout_constraintLeft_toLeftOf=\"parent\"\r\n        app:layout_constraintTop_toTopOf=\"parent\">\r\n    <ImageView\r\n        android:id=\"@+id/imageView_ublogo\"\r\n        android:layout_width=\"60dp\"\r\n        android:layout_height=\"60dp\"\r\n        android:layout_marginTop=\"10dp\"\r\n        android:layout_marginBottom=\"10dp\"\r\n        android:layout_marginLeft=\"20dp\"\r\n        android:layout_marginStart=\"20dp\"\r\n        android:layout_gravity=\"center_vertical\"\r\n        android:src=\"@drawable/ub_logo\"\r\n        android:adjustViewBounds=\"true\"/>\r\n    <TextView\r\n        android:id=\"@+id/textView_appName\"\r\n        android:text=\"@string/app_name\"\r\n        android:textSize=\"18sp\"\r\n        android:layout_width=\"wrap_content\"\r\n        android:layout_height=\"wrap_content\"\r\n        android:layout_marginLeft=\"20dp\"\r\n        android:singleLine=\"false\"\r\n        android:textColor=\"#1975f0\"\r\n        android:layout_gravity=\"center_vertical\"/>\r\n    </LinearLayout>\r\n\r\n</androidx.constraintlayout.widget.ConstraintLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/actionbar.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/layout/actionbar.xml	(date 1577337265602)
+@@ -6,7 +6,6 @@
+     xmlns:app="http://schemas.android.com/apk/res-auto"
+     android:background="#f1f2f6">
+     <LinearLayout
+-        android:id="@+id/linearLayout_actionBar"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+Index: app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Acre.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.olivercastilho.universidadesdobrasil.data.repositories.states\r\n\r\nimport com.olivercastilho.universidadesdobrasil.data.models.University\r\n\r\nclass Acre {\r\n    companion object {\r\n        val universities = mapOf(\r\n            549 to University(\r\n                \"UNIVERSIDADE FEDERAL DO ACRE\",\r\n                \"UFAC\",\r\n                \"4071106000137\",\r\n                \"RIO BRANCO\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"69915900\",\r\n                \"Distrito Industrial\",\r\n                \"(68) 3901 2571\",\r\n                \"http://www.ufac.br\",\r\n                \"reitoria@ufac.br\",\r\n                null\r\n            ),\r\n            1226 to University(\r\n                \"INSTITUTO DE ENSINO SUPERIOR DO ACRE\",\r\n                \"IESACRE\",\r\n                \"1115444000135\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69910100\",\r\n                \"José Augusto\",\r\n                \"(68) 3302 7058\",\r\n                \"\",\r\n                \"marco.brandao@uninorteac.com.br / dacicleudo.silva@uninorteac.com.br\",\r\n                null\r\n            ),\r\n            2072 to University(\r\n                \"FACULDADE DE DESENVOLVIMENTO SUSTENTÁVEL DE CRUZEIRO DO SUL\",\r\n                \"IEVAL\",\r\n                \"4137969000160\",\r\n                \"CRUZEIRO DO SUL\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69980000\",\r\n                \"Boca da Alemanha\",\r\n                \"(68) 3311-1500\",\r\n                \"http://www.avec.br/ieval/site/\",\r\n                \"ieval@avec.br / avec@avec.br\",\r\n                null\r\n            ),\r\n            2132 to University(\r\n                \"FACULDADE BARÃO DO RIO BRANCO\",\r\n                \"FAB\",\r\n                \"4515940000174\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69911900\",\r\n                \"Jardim Europa II\",\r\n                \"(68) 3213 7070\",\r\n                \"\",\r\n                \"marco.brandao@uninorteac.com.br / dacicleudo.silva@uninorteac.com.br\",\r\n                null\r\n            ),\r\n            2146 to University(\r\n                \"FACULDADE DO ACRE\",\r\n                \"FAC\",\r\n                \"4515940000174\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69911900\",\r\n                \"Jardim Europa II\",\r\n                \"(68) 3213 7070\",\r\n                \"\",\r\n                \"marco.brandao@uninorteac.com.br / dacicleudo.silva@uninorteac.com.br\",\r\n                null\r\n            ),\r\n            2343 to University(\r\n                \"FACULDADE DA AMAZÔNIA OCIDENTAL\",\r\n                \"FAAO\",\r\n                \"3294357000118\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69911845\",\r\n                \"Jardim Primavera\",\r\n                \"(68) 2106-8235\",\r\n                \"www.faao.com.br\",\r\n                \"valdecirsimao@yahoo.com.br\",\r\n                null\r\n            ),\r\n            2613 to University(\r\n                \"Faculdade Meta\",\r\n                \"FAMETA\",\r\n                \"4952095000102\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69907170\",\r\n                \"Abrahao Alab\",\r\n                \"(68)32261501 / (69)8112-7866\",\r\n                \"www.fameta.edu.br\",\r\n                \"desin@athenaseducacional.com.br\",\r\n                null\r\n            ),\r\n            3587 to University(\r\n                \"FACULDADE DIOCESANA SÃO JOSÉ\",\r\n                \"FADISI\",\r\n                \"529443000174\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69909021\",\r\n                \"Vitória\",\r\n                \"(68) 92389961\",\r\n                \"www.fadisiacre.com\",\r\n                \"fadisi.acre@hotmail.com\",\r\n                null\r\n            ),\r\n            3675 to University(\r\n                \"SINAL - FACULDADE DE TEOLOGIA E FILOSOFIA\",\r\n                \"SINAL\",\r\n                \"4143659000158\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69907000\",\r\n                \"Abrahão Alab\",\r\n                \"(68) 32216781\",\r\n                \"www.sinalacre.edu.br\",\r\n                \"sinalfaculdade@yahoo.com.br / assisprof@yahoo.com.br / sarah_cs77@yahoo.com.br\",\r\n                null\r\n            ),\r\n            4836 to University(\r\n                \"FACULDADE DE EDUCAÇÃO  ACREANO EUCLIDES DA CUNHA\",\r\n                \"INEC\",\r\n                \"3397208000184\",\r\n                \"RIO BRANCO\",\r\n                \"Privada\",\r\n                \"Privada\",\r\n                \"69900000\",\r\n                \"Aviário\",\r\n                \"(68)3224-7395\",\r\n                \"\",\r\n                \"caa.souza@uol.com.br\",\r\n                null\r\n            ),\r\n            15507 to University(\r\n                \"Instituto Federal de Educação Ciência e Tecnologia do Acre\",\r\n                \"IFAC\",\r\n                \"10918674000123\",\r\n                \"RIO BRANCO\",\r\n                \"Pública\",\r\n                \"Federal\",\r\n                \"69914610\",\r\n                \"Vila Ivonete\",\r\n                \"(68)84237918\",\r\n                \"www.ifac.edu.br\",\r\n                \"degmar.anjos@ifac.edu.br\",\r\n                null\r\n            )\r\n        )\r\n    }\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Acre.kt	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/java/com/olivercastilho/universidadesdobrasil/data/repositories/states/Acre.kt	(date 1577338570320)
+@@ -8,156 +8,68 @@
+             549 to University(
+                 "UNIVERSIDADE FEDERAL DO ACRE",
+                 "UFAC",
+-                "4071106000137",
+                 "RIO BRANCO",
+-                "Pública",
+-                "Federal",
+-                "69915900",
+-                "Distrito Industrial",
+-                "(68) 3901 2571",
+-                "http://www.ufac.br",
+-                "reitoria@ufac.br",
+-                null
++                "Distrito Industrial"
+             ),
+             1226 to University(
+                 "INSTITUTO DE ENSINO SUPERIOR DO ACRE",
+                 "IESACRE",
+-                "1115444000135",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69910100",
+-                "José Augusto",
+-                "(68) 3302 7058",
+-                "",
+-                "marco.brandao@uninorteac.com.br / dacicleudo.silva@uninorteac.com.br",
+-                null
++                "José Augusto"
+             ),
+             2072 to University(
+                 "FACULDADE DE DESENVOLVIMENTO SUSTENTÁVEL DE CRUZEIRO DO SUL",
+                 "IEVAL",
+-                "4137969000160",
+                 "CRUZEIRO DO SUL",
+-                "Privada",
+-                "Privada",
+-                "69980000",
+-                "Boca da Alemanha",
+-                "(68) 3311-1500",
+-                "http://www.avec.br/ieval/site/",
+-                "ieval@avec.br / avec@avec.br",
+-                null
++                "Boca da Alemanha"
+             ),
+             2132 to University(
+                 "FACULDADE BARÃO DO RIO BRANCO",
+                 "FAB",
+-                "4515940000174",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69911900",
+-                "Jardim Europa II",
+-                "(68) 3213 7070",
+-                "",
+-                "marco.brandao@uninorteac.com.br / dacicleudo.silva@uninorteac.com.br",
+-                null
++                "Jardim Europa II"
+             ),
+             2146 to University(
+                 "FACULDADE DO ACRE",
+                 "FAC",
+-                "4515940000174",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69911900",
+-                "Jardim Europa II",
+-                "(68) 3213 7070",
+-                "",
+-                "marco.brandao@uninorteac.com.br / dacicleudo.silva@uninorteac.com.br",
+-                null
++                "Jardim Europa II"
+             ),
+             2343 to University(
+                 "FACULDADE DA AMAZÔNIA OCIDENTAL",
+                 "FAAO",
+-                "3294357000118",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69911845",
+-                "Jardim Primavera",
+-                "(68) 2106-8235",
+-                "www.faao.com.br",
+-                "valdecirsimao@yahoo.com.br",
+-                null
++                "Jardim Primavera"
+             ),
+             2613 to University(
+                 "Faculdade Meta",
+                 "FAMETA",
+-                "4952095000102",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69907170",
+-                "Abrahao Alab",
+-                "(68)32261501 / (69)8112-7866",
+-                "www.fameta.edu.br",
+-                "desin@athenaseducacional.com.br",
+-                null
++                "Abrahao Alab"
+             ),
+             3587 to University(
+                 "FACULDADE DIOCESANA SÃO JOSÉ",
+                 "FADISI",
+-                "529443000174",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69909021",
+-                "Vitória",
+-                "(68) 92389961",
+-                "www.fadisiacre.com",
+-                "fadisi.acre@hotmail.com",
+-                null
++                "Vitória"
+             ),
+             3675 to University(
+                 "SINAL - FACULDADE DE TEOLOGIA E FILOSOFIA",
+                 "SINAL",
+-                "4143659000158",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69907000",
+-                "Abrahão Alab",
+-                "(68) 32216781",
+-                "www.sinalacre.edu.br",
+-                "sinalfaculdade@yahoo.com.br / assisprof@yahoo.com.br / sarah_cs77@yahoo.com.br",
+-                null
++                "Abrahão Alab"
+             ),
+             4836 to University(
+                 "FACULDADE DE EDUCAÇÃO  ACREANO EUCLIDES DA CUNHA",
+                 "INEC",
+-                "3397208000184",
+                 "RIO BRANCO",
+-                "Privada",
+-                "Privada",
+-                "69900000",
+-                "Aviário",
+-                "(68)3224-7395",
+-                "",
+-                "caa.souza@uol.com.br",
+-                null
++                "Aviário"
+             ),
+             15507 to University(
+                 "Instituto Federal de Educação Ciência e Tecnologia do Acre",
+                 "IFAC",
+-                "10918674000123",
+                 "RIO BRANCO",
+-                "Pública",
+-                "Federal",
+-                "69914610",
+-                "Vila Ivonete",
+-                "(68)84237918",
+-                "www.ifac.edu.br",
+-                "degmar.anjos@ifac.edu.br",
+-                null
++                "Vila Ivonete"
+             )
+         )
+     }
+Index: app/src/main/res/layout/cardview_state.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"utf-8\"?>\r\n<LinearLayout xmlns:android=\"http://schemas.android.com/apk/res/android\"\r\n    android:layout_width=\"match_parent\"\r\n    android:layout_height=\"120dp\"\r\n    android:layout_marginLeft=\"2dp\"\r\n    android:layout_marginTop=\"2dp\"\r\n    android:layout_marginRight=\"2dp\"\r\n    android:background=\"#ffffff\"\r\n    android:orientation=\"horizontal\">\r\n    <de.hdodenhof.circleimageview.CircleImageView\r\n        android:id=\"@+id/image_imageState\"\r\n        android:layout_width=\"80dp\"\r\n        android:layout_height=\"80dp\"\r\n        android:layout_marginLeft=\"18dp\"\r\n        android:layout_gravity=\"center_vertical\"\r\n        android:contentDescription=\"TODO\" />\r\n\r\n    <LinearLayout\r\n        android:layout_width=\"0dp\"\r\n        android:layout_weight=\"1\"\r\n        android:layout_height=\"match_parent\"\r\n\r\n        android:layout_margin=\"10dp\"\r\n        android:orientation=\"vertical\">\r\n\r\n        <LinearLayout\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:orientation=\"horizontal\">\r\n\r\n            <TextView\r\n                android:id=\"@+id/textView_statePosition\"\r\n                android:layout_width=\"wrap_content\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:fontFamily=\"casual\"\r\n                android:text=\"1º\"\r\n                android:textSize=\"12sp\"\r\n                android:textStyle=\"bold\"\r\n                android:textColor=\"#1d1d1d\"/>\r\n\r\n            <TextView\r\n                android:id=\"@+id/textView_stateName\"\r\n                android:layout_width=\"wrap_content\"\r\n                android:layout_height=\"wrap_content\"\r\n                android:fontFamily=\"casual\"\r\n                android:text=\"@string/sao_paulo\"\r\n                android:textSize=\"12sp\"\r\n                android:textStyle=\"bold\"\r\n                android:textColor=\"#1d1d1d\" />\r\n        </LinearLayout>\r\n\r\n        <TextView\r\n            android:id=\"@+id/textView_demography\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:fontFamily=\"sans-serif-light\"\r\n            android:text=\"@string/zero\"\r\n            android:textColor=\"#1d1d1d\" />\r\n\r\n        <TextView\r\n            android:id=\"@+id/textView_graduatedNumber\"\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:fontFamily=\"sans-serif-light\"\r\n            android:text=\"@string/zero\"\r\n            android:textSize=\"10sp\"\r\n            android:textColor=\"#1d1d1d\" />\r\n    </LinearLayout>\r\n\r\n    <LinearLayout\r\n        android:id=\"@+id/linearLayout_viewUniversities\"\r\n        android:layout_width=\"0dp\"\r\n        android:layout_height=\"match_parent\"\r\n        android:layout_weight=\".4\"\r\n        android:layout_margin=\"10dp\"\r\n        android:orientation=\"vertical\"\r\n        android:gravity=\"center\">\r\n        <ImageView\r\n            android:layout_width=\"wrap_content\"\r\n            android:layout_height=\"wrap_content\"\r\n            android:src=\"@drawable/ic_search_black_24dp\"/>\r\n    </LinearLayout>\r\n\r\n</LinearLayout>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/cardview_state.xml	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/res/layout/cardview_state.xml	(date 1577337265639)
+@@ -68,7 +68,6 @@
+     </LinearLayout>
+ 
+     <LinearLayout
+-        android:id="@+id/linearLayout_viewUniversities"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight=".4"
+Index: app/src/main/java/com/olivercastilho/universidadesdobrasil/data/models/University.kt
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package com.olivercastilho.universidadesdobrasil.data.models\r\n\r\ndata class University(\r\n    val name: String,\r\n    val initials: String,\r\n    val cnpj: String,\r\n    val city: String,\r\n    val network: String,\r\n    val administrativeCategory: String,\r\n    val cep: String,\r\n    val neighborhood: String,\r\n    val telephone: String,\r\n    val site: String,\r\n    val email: String,\r\n    val image: Int?\r\n)
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/java/com/olivercastilho/universidadesdobrasil/data/models/University.kt	(revision 95937a138b1171a778019b903cdc8eec2a065992)
++++ app/src/main/java/com/olivercastilho/universidadesdobrasil/data/models/University.kt	(date 1577338570360)
+@@ -3,14 +3,6 @@
+ data class University(
+     val name: String,
+     val initials: String,
+-    val cnpj: String,
+     val city: String,
+-    val network: String,
+-    val administrativeCategory: String,
+-    val cep: String,
+-    val neighborhood: String,
+-    val telephone: String,
+-    val site: String,
+-    val email: String,
+-    val image: Int?
++    val neighborhood: String
+ )
+\ No newline at end of file
