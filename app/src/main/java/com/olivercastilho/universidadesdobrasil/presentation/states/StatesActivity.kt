@@ -1,6 +1,7 @@
 package com.olivercastilho.universidadesdobrasil.presentation.states
 
 import android.os.Bundle
+import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.gms.ads.AdRequest
@@ -8,8 +9,11 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
 import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
+import com.olivercastilho.universidadesdobrasil.data.StorageManager.Companion.clearApplicationData
 import com.olivercastilho.universidadesdobrasil.data.repositories.StateRepository
 import kotlinx.android.synthetic.main.activity_main.*
+import java.io.File
+
 
 class StatesActivity : AppCompatActivity() {
 
@@ -35,6 +39,8 @@ class StatesActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
+        System.gc()
+        clearApplicationData(cacheDir)
         finishAffinity()
     }
 }

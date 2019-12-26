@@ -11,6 +11,7 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
 import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
+import com.olivercastilho.universidadesdobrasil.data.StorageManager.Companion.clearApplicationData
 import com.olivercastilho.universidadesdobrasil.presentation.AppBarTitle
 import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
@@ -31,20 +32,20 @@ class WebSearchActivity : AppCompatActivity() {
 
 
         MobileAds.initialize(this)
-        if(BuildConfig.DEBUG) {
+        if (BuildConfig.DEBUG) {
             val testDeviceIds = listOf(getString(R.string.test_devive_id))
             val configuration =
                 RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
             MobileAds.setRequestConfiguration(configuration)
         }
-        val adRequest  = AdRequest.Builder()
+        val adRequest = AdRequest.Builder()
             .build()
         adView.loadAd(adRequest)
 
-        name = intent.getStringExtra("name")?:""
-        initials = intent.getStringExtra("initials")?:""
-        neighborhood = intent.getStringExtra("neighborhood")?:""
-        state = intent.getStringExtra("state")?:""
+        name = intent.getStringExtra("name") ?: ""
+        initials = intent.getStringExtra("initials") ?: ""
+        neighborhood = intent.getStringExtra("neighborhood") ?: ""
+        state = intent.getStringExtra("state") ?: ""
 
         originalUrl = "https://www.google.com.br/search?q=$name+$initials+$neighborhood&newwindow=0"
         url = originalUrl
@@ -78,12 +79,14 @@ class WebSearchActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if(url != originalUrl) {
+        if (url != originalUrl) {
             url = originalUrl
             webview_search.loadUrl(url)
             webview_search.copyBackForwardList()
             return
         } else {
+            System.gc()
+            clearApplicationData(cacheDir)
             super.onBackPressed()
         }
     }
