@@ -18,7 +18,7 @@ class IntroActivity : AppCompatActivity() {
 
 
         GlobalScope.launch {
-            delay(3000)
+            delay(1000)
             runOnUiThread {
                 intent = Intent(applicationContext, StatesActivity::class.java)
                 startActivity(intent)
