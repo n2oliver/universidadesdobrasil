@@ -1,9 +1,11 @@
 package com.olivercastilho.universidadesdobrasil.presentation.states
 
 import android.os.Bundle
+import android.provider.UserDictionary.Words.APP_ID
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.adcolony.sdk.AdColony
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
@@ -20,6 +22,8 @@ class StatesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        val ZONE_IDS = "2131231234332";
+        AdColony.configure(this, APP_ID, ZONE_IDS)
 
         MobileAds.initialize(this)
         if(BuildConfig.DEBUG) {
