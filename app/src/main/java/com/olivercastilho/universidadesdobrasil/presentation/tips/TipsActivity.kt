@@ -10,13 +10,11 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
 import com.olivercastilho.universidadesdobrasil.BuildConfig
 import com.olivercastilho.universidadesdobrasil.R
-import com.olivercastilho.universidadesdobrasil.data.models.Tip
+import com.olivercastilho.universidadesdobrasil.data.models.Step
 import com.olivercastilho.universidadesdobrasil.data.repositories.TipsRepository
 import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_tips.*
-import kotlinx.android.synthetic.main.activity_tips.adView
-import kotlinx.android.synthetic.main.activity_universities.*
 
 class TipsActivity : AppCompatActivity() {
 
@@ -35,9 +33,19 @@ class TipsActivity : AppCompatActivity() {
             .build()
         adView.loadAd(adRequest)
 
-        var universities = TipsRepository.all
+        if(intent.getStringExtra("tip_title") != "" && intent.getSerializableExtra("tip_steps") != null) {
+            var tips = intent.getSerializableExtra("tip_steps")
+            textView_title.text = intent.getStringExtra("tip_title")
+            tipsList.adapter = StepsAdapter(this, tips as ArrayList<Step>)
+            lightDicas.setOnClickListener {
+                intent = Intent(this, TipsActivity::class.java)
+                startActivity(intent)
+            }
+        } else {
+            var tips = TipsRepository.all
+            tipsList.adapter = TipsAdapter(this, tips)
+        }
         tipsList.layoutManager = LinearLayoutManager(this, HORIZONTAL, false)
-        tipsList.adapter = TipsAdapter(this, universities)
 
         imageView_ublogo.setOnClickListener {
             intent = Intent(this, StatesActivity::class.java)
