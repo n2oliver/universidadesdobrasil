@@ -12,6 +12,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 import com.olivercastilho.universidadesdobrasil.data.repositories.UniversityRepository
 import com.olivercastilho.universidadesdobrasil.presentation.AppBarTitle.Companion.changeAppBarTitle
 import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivity
+import com.olivercastilho.universidadesdobrasil.presentation.tips.TipsActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
 import kotlin.collections.ArrayList
@@ -56,6 +57,11 @@ class UniversitiesActivity : AppCompatActivity() {
         })
         imageView_ublogo.setOnClickListener {
             intent = Intent(this, StatesActivity::class.java)
+            startActivity(intent)
+        }
+
+        lightDicas.setOnClickListener {
+            intent = Intent(this, TipsActivity::class.java)
             startActivity(intent)
         }
     }
