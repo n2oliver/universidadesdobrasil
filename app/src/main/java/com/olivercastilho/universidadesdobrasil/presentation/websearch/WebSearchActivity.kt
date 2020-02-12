@@ -34,29 +34,16 @@ class WebSearchActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_search)
 
-        val ZONE_ID = "vze6584654f648469b9b"
-        AdColony.configure(this, "app80b9f52db1fc47dab3", ZONE_ID)
-        val listener: AdColonyAdViewListener = object : AdColonyAdViewListener() {
-            override fun onRequestFilled(ad: AdColonyAdView) {
-                adView.addView(ad)
-            }
-
-            override fun onRequestNotFilled(zone: AdColonyZone?) {
-                super.onRequestNotFilled(zone)
-                MobileAds.initialize(applicationContext)
-                if(BuildConfig.DEBUG) {
-                    val testDeviceIds = listOf(getString(R.string.test_devive_id))
-                    val configuration =
-                        RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
-                    MobileAds.setRequestConfiguration(configuration)
-                }
-                val adRequest  = AdRequest.Builder()
-                    .build()
-                adView.loadAd(adRequest)
-            }
+        MobileAds.initialize(applicationContext)
+        if(BuildConfig.DEBUG) {
+            val testDeviceIds = listOf(getString(R.string.test_devive_id))
+            val configuration =
+                RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
+            MobileAds.setRequestConfiguration(configuration)
         }
-
-        AdColony.requestAdView(ZONE_ID, listener, AdColonyAdSize.BANNER)
+        val adRequest  = AdRequest.Builder()
+            .build()
+        adView.loadAd(adRequest)
 
         name = intent.getStringExtra("name") ?: ""
         initials = intent.getStringExtra("initials") ?: ""
