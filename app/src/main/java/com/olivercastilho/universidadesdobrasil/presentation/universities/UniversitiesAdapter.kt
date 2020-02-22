@@ -33,7 +33,7 @@ class UniversitiesAdapter(private val context: Context, private val universities
             val intent = Intent(view.context, WebSearchActivity::class.java)
             intent.putExtra("name", university.name)
             intent.putExtra("initials", university.initials)
-            intent.putExtra("neighborhood", university.neighborhood)
+            intent.putExtra("city", university.city)
             intent.putExtra("state", stateName)
             ContextCompat.startActivity(view.context, intent, null)
         }

@@ -25,7 +25,7 @@ import kotlinx.android.synthetic.main.universityname.*
 class WebSearchActivity : AppCompatActivity() {
     private lateinit var name: String
     private lateinit var initials: String
-    private lateinit var neighborhood: String
+    private lateinit var city: String
     private lateinit var state: String
     private lateinit var originalUrl: String
     private var url: String? = null
@@ -52,10 +52,10 @@ class WebSearchActivity : AppCompatActivity() {
 
         name = intent.getStringExtra("name") ?: ""
         initials = intent.getStringExtra("initials") ?: ""
-        neighborhood = intent.getStringExtra("neighborhood") ?: ""
+        city = intent.getStringExtra("city") ?: ""
         state = intent.getStringExtra("state") ?: ""
 
-        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$neighborhood&newwindow=0"
+        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$city&newwindow=0"
         history.add(originalUrl)
 
         val context = this
