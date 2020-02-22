@@ -9,12 +9,12 @@ import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.olivercastilho.universidadesdobrasil.R
 import com.olivercastilho.universidadesdobrasil.data.models.State
+import com.olivercastilho.universidadesdobrasil.data.repositories.UniversityRepository
 import com.olivercastilho.universidadesdobrasil.presentation.universities.UniversitiesActivity
 import kotlinx.android.synthetic.main.cardview_state.view.*
 
 class StatesAdapter(private val context: Context, private val states: List<State>) : RecyclerView.Adapter<StatesAdapter.ViewHolder>() {
 
-    private var statePosition = 0
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.cardview_state, parent, false)
         return ViewHolder(
@@ -28,8 +28,7 @@ class StatesAdapter(private val context: Context, private val states: List<State
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        statePosition++
-        holder.bindView(states[position], "${position+1}º - ", context)
+        holder.bindView(states[position])
     }
 
     class ViewHolder(itemView: View, val states: List<State>) : RecyclerView.ViewHolder(itemView) {
@@ -42,23 +41,22 @@ class StatesAdapter(private val context: Context, private val states: List<State
             startActivity(view.context, intent, null)
         }
 
-        fun bindView(state: State, statePosition: String, context: Context) {
-            var graduatedNumber = ""
+        fun bindView(state: State) {
+            var universityNumber = ""
+            var universityNuberByState = UniversityRepository.getByState(state.name).size
             var i = 0
-            state.graduatedNumber.toString().reversed().forEach {
+            universityNuberByState.toString().reversed().forEach {
                 if(i == 3){
-                    graduatedNumber += "."
+                    universityNumber += "."
                     i = 0
                 }
-                graduatedNumber += it
+                universityNumber += it
                 i++
             }
-            graduatedNumber = graduatedNumber.reversed()
+            universityNumber = universityNumber.reversed()
             itemView.textView_stateName.text = state.name
-            itemView.textView_graduatedNumber.text = "$graduatedNumber graduados"
+            itemView.textView_demography.text = "Existem $universityNumber nessa região."
             itemView.image_imageState.setImageResource(state.image)
-            itemView.textView_statePosition.text = statePosition
-            itemView.textView_demography.text = "${state.demography}% da população com nível superior"
 
             itemView.setOnClickListener {
                 goToState(it, state)

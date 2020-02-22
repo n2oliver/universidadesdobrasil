@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="120dp"
+    android:layout_height="100dp"
     android:layout_marginLeft="2dp"
     android:layout_marginTop="2dp"
     android:layout_marginRight="2dp"
@@ -18,25 +18,15 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_weight="1"
-        android:layout_height="match_parent"
-
+        android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_gravity="center">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView_statePosition"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="casual"
-                android:text="1º"
-                android:textSize="12sp"
-                android:textStyle="bold"
-                android:textColor="#1d1d1d"/>
 
             <TextView
                 android:id="@+id/textView_stateName"
@@ -54,31 +44,16 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/zero"
+            android:text="@string/cliqueaqui"
             android:textColor="#1d1d1d" />
 
         <TextView
-            android:id="@+id/textView_graduatedNumber"
+            android:id="@+id/textView_cliqueAqui"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-light"
-            android:text="@string/zero"
-            android:textSize="10sp"
+            android:text="@string/cliqueaqui"
+            android:textSize="12sp"
             android:textColor="#1d1d1d" />
     </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout_viewUniversities"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight=".4"
-        android:layout_margin="10dp"
-        android:orientation="vertical"
-        android:gravity="center">
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/ic_search_black_24dp"/>
-    </LinearLayout>
-
 </LinearLayout>

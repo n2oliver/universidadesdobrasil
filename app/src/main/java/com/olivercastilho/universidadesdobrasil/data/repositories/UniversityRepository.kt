@@ -1,9 +1,14 @@
 package com.olivercastilho.universidadesdobrasil.data.repositories
 
+import com.olivercastilho.universidadesdobrasil.data.models.University
 import com.olivercastilho.universidadesdobrasil.data.repositories.states.*
 
 class UniversityRepository {
     companion object {
+        fun getByState(state: String?): ArrayList<University> {
+            return ArrayList((university[state] ?: error("Cannot fetch all universities")).values)
+        }
+
         val university = mapOf(
             StateRepository.acre.name to Acre.universities,
 

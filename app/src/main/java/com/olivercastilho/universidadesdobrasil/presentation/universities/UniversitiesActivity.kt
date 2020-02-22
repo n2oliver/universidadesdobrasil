@@ -39,7 +39,7 @@ class UniversitiesActivity : AppCompatActivity() {
         val stateInitials = intent.getStringExtra("stateInitials")
 
         changeAppBarTitle(textView_appName, state)
-        var universities = ArrayList<University>((UniversityRepository.university[state] ?: error("Cannot fetch all universities")).values)
+        var universities = UniversityRepository.getByState(state)
         findUniversities("", universities, stateInitials, state)
         searchInput.setOnQueryTextListener (object : OnQueryTextListener,
             androidx.appcompat.widget.SearchView.OnQueryTextListener {

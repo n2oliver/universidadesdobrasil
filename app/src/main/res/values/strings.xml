@@ -3,7 +3,7 @@
     <string name="label_estado"><b>Estado:</b> </string>
     <string name="label_numero_de_graduados"><b>Número de graduados:</b> </string>
     <string name="sao_paulo">São Paulo</string>
-    <string name="zero">0</string>
+    <string name="cliqueaqui">Toque para selecionar.</string>
     <string name="ad_unit_id">ca-app-pub-2100499132829579/5041032326</string>
     <string name="test_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="test_devive_id">33BE2250B43518CCDA7DE426D04EE231</string>
