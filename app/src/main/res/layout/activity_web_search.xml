@@ -12,20 +12,20 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"/>
-    <WebView
-        android:id="@+id/webview_search"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        app:layout_constraintVertical_weight="1"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/action_bar"
-        app:layout_constraintBottom_toTopOf="@id/universityname"/>
     <include layout="@layout/universityname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/universityname"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/action_bar"/>
+    <WebView
+        android:id="@+id/webview_search"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintVertical_weight="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/universityname"
         app:layout_constraintBottom_toTopOf="@id/adView"/>
 
     <com.google.android.gms.ads.AdView
