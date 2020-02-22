@@ -91,15 +91,15 @@ class WebSearchActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if (url == originalUrl) {
-            System.gc()
-            clearApplicationData(cacheDir)
-            super.onBackPressed()
-        } else {
-            history.remove(history.last())
+        history.remove(history.last())
+        if(history.isNotEmpty()) {
             webview_search.loadUrl(history.last())
             webview_search.copyBackForwardList()
             return
+        } else {
+            System.gc()
+            clearApplicationData(cacheDir)
+            super.onBackPressed()
         }
     }
 }
