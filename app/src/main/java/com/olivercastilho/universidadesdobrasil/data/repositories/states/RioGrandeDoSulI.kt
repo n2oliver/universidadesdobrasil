@@ -1003,8 +1003,7 @@ class RioGrandeDoSulI {
             1098208 to University("UNIVERSIDADE DE ARARAQUARA", "UNIARA", "Caxias do Sul", "Polo EaD Caxias do Sul"),
             1110303 to University("CENTRO UNIVERSITÁRIO FACVEST", "UNIFACVEST", "Caxias do Sul", "SIND DOS TRABS NAS INDS MET MEC E DE MAT ELETRIC DE CXS"),
             1060945 to University("", "-", "Caxias do Sul", "Faculdade de Tecnologia da Serra Gaúcha - FTSG"),
-            1107724 to University("UNIVERSIDADE DO VALE DO RIO DOS SINOS", "UNISINOS", "Caxias do Sul", "Polo Unisinos Caxias do Sul"),
-            1050211 to University("FACULDADE ANHANGUERA DE CAXIAS DO SUL", "-", "Caxias do Sul", "Faculdade Anhanguera de Caxias do Sul")
+            1107724 to University("UNIVERSIDADE DO VALE DO RIO DOS SINOS", "UNISINOS", "Caxias do Sul", "Polo Unisinos Caxias do Sul")
         )
     }
 }

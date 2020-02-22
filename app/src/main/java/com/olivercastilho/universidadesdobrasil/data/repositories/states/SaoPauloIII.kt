@@ -4,6 +4,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class SaoPauloIII {
     companion object {
         val universities = mapOf(
+            1087937 to University("ESCOLA SUPERIOR ABERTA DO BRASIL", "ESAB", "Praia Grande", "ESAB - Praia Grande"),
             1103701 to University("Centro Universitário das Américas", "CAM", "Praia Grande", "POLO CIDADE OCIAN - SP"),
             1105672 to University("UNIVERSIDADE DO SUL DE SANTA CATARINA", "UNISUL", "Praia Grande", "POLO DE PRAIA GRANDE - SP"),
             1068614 to University("CENTRO UNIVERSITÁRIO BRAZ CUBAS", "-", "Praia Grande", "Praia Grande"),
@@ -1002,9 +1003,7 @@ class SaoPauloIII {
             1098379 to University("CENTRO UNIVERSITÁRIO CAMPOS DE ANDRADE", "UNIANDRADE", "Franco da Rocha", "FRANCO DA ROCHA"),
             1111347 to University("CENTRO UNIVERSITÁRIO ANHANGUERA PITÁGORAS AMPLI", "-", "Franco da Rocha", "FRANCO DA ROCHA/SP - I"),
             1095437 to University("FACULDADE DE TECNOLOGIA DE FRANCO DA ROCHA", "-", "Franco da Rocha", "Campus Principal"),
-            1088398 to University("FACULDADE CAMPOS ELÍSEOS", "FCE", "Franco da Rocha", "Polo Franco da Rocha"),
-            1103854 to University("Centro Universitário das Américas", "CAM", "Francisco Morato", "POLO FRANCISCO MORATO - SP"),
-            1061052 to University("FACULDADE DE TECNOLOGIA FRANCISCO MORATO", "FFRAMO", "Francisco Morato", "Centro de Ensino Superior Francisco Morato")
+            1088398 to University("FACULDADE CAMPOS ELÍSEOS", "FCE", "Franco da Rocha", "Polo Franco da Rocha")
         )
     }
 }

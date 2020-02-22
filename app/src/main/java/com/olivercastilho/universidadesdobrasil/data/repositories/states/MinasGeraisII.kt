@@ -4,6 +4,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class MinasGeraisII {
     companion object {
         val universities = mapOf(
+            2008660 to University("CENTRO UNIVERSITÁRIO DE RIO PRETO", "UNIRP", "Montes Claros", "MONTES CLAROS"),
             1083871 to University("CENTRO UNIVERSITÁRIO LEONARDO DA VINCI", "UNIASSELVI", "Montes Claros", "Polo de Apoio Presencial de Montes Claros/MG"),
             660092 to University("FACULDADES INTEGRADAS DO NORTE DE MINAS - FUNORTE", "FUNORTE", "Montes Claros", "CAMPUS São Luis"),
             1099219 to University("CENTRO UNIVERSITÁRIO SANT´ANNA", "UNISANT'ANNA", "Montes Claros", "POLO MONTES CLAROS MELO"),
@@ -1002,10 +1003,7 @@ class MinasGeraisII {
             1060221 to University("UNIVERSIDADE PRESBITERIANA MACKENZIE", "MACKENZIE", "Coronel Fabriciano", "Polo de Apoio Presencial - Coronel Fabriciano"),
             1091045 to University("CENTRO UNIVERSITÁRIO FACVEST", "UNIFACVEST", "Coronel Fabriciano", "Polo Coronel Fabriciano"),
             1088609 to University("ESCOLA SUPERIOR ABERTA DO BRASIL", "ESAB", "Coronel Fabriciano", "ESAB Coronel Fabriciano"),
-            147490 to University("UNIVERSIDADE PAULISTA", "UNIP", "Coromandel", "POLO EAD - COROMANDEL"),
-            1044340 to University("UNIVERSIDADE FEDERAL DE OURO PRETO", "UFOP", "Coromandel", "Polo UAB - COROMANDEL"),
-            2006509 to University("INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO", "IFMT", "Coromandel", "Polo UAB - COROMANDEL"),
-            2006416 to University("UNIVERSIDADE DE BRASÍLIA", "UNB", "Coromandel", "Polo UAB - COROMANDEL")
+            147490 to University("UNIVERSIDADE PAULISTA", "UNIP", "Coromandel", "POLO EAD - COROMANDEL")
         )
     }
 }

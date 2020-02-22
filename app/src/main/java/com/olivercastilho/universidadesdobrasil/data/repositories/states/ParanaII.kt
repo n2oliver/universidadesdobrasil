@@ -4,6 +4,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class ParanaII {
     companion object {
         val universities = mapOf(
+            1089504 to University("Faculdade Única de Ipatinga", "FUNIP", "Diamante do Sul", "Polo de Diamente do Sul"),
             130725 to University("UNIVERSIDADE PAULISTA", "UNIP", "Diamante D´Oeste", "Pólo EAD - Diamante D Oeste"),
             658708 to University("ESCOLA SUPERIOR DE GESTÃO COMERCIAL E MARKETING", "ESIC", "Curitiba", "Escola Superior de Gestão Comercial e Marketing"),
             146612 to University("INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO PARANÁ", "IFPR", "Curitiba", "Reitoria"),

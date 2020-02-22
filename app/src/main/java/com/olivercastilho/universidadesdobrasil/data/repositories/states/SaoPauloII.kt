@@ -4,6 +4,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class SaoPauloII {
     companion object {
         val universities = mapOf(
+            1069569 to University("", "-", "São Paulo", "Campus Principal"),
             708152 to University("CENTRO UNIVERSITÁRIO DAS FACULDADES METROPOLITANAS UNIDAS", "FMU", "São Paulo", "FMU - Morumbi"),
             1111105 to University("CENTRO UNIVERSITÁRIO CELSO LISBOA", "UCL", "São Paulo", "São Paulo 3"),
             1085190 to University("Centro Universitário das Américas", "CAM", "São Paulo", "POLO BUTANTÃ - SP"),
@@ -1002,8 +1003,7 @@ class SaoPauloII {
             1081074 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Presidente Epitácio", "PRESIDENTE EPITÁCIO"),
             1085981 to University("CENTRO UNIVERSITÁRIO DE MARINGÁ - UNICESUMAR", "UNICESUMAR", "Presidente Epitácio", "PRESIDENTE EPITÁCIO - SP"),
             658856 to University("FACULDADE DO LITORAL SUL PAULISTA", "FALS", "Praia Grande", "Canto do Forte"),
-            1085870 to University("ESCOLA SUPERIOR ABERTA DO BRASIL", "ESAB", "Praia Grande", "Venegas Cursos"),
-            1087937 to University("ESCOLA SUPERIOR ABERTA DO BRASIL", "ESAB", "Praia Grande", "ESAB - Praia Grande")
+            1085870 to University("ESCOLA SUPERIOR ABERTA DO BRASIL", "ESAB", "Praia Grande", "Venegas Cursos")
         )
     }
 }

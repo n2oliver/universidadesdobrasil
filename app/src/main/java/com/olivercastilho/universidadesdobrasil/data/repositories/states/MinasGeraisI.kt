@@ -1003,8 +1003,7 @@ class MinasGeraisI {
             140363 to University("UNIVERSIDADE PAULISTA", "UNIP", "Montes Claros", "PÓLO EAD - MONTES CLAROS"),
             25031 to University("FACULDADES INTEGRADAS DO NORTE DE MINAS - FUNORTE", "FUNORTE", "Montes Claros", "Unidade JK"),
             1047215 to University("FACULDADE DE TECNOLOGIA DE ENSINO SUPERIOR - FATEC", "CENTES", "Montes Claros", "Unidade Sede - Sociedade Educacional Turano Ltda"),
-            699323 to University("FACULDADES INTEGRADAS DO NORTE DE MINAS - FUNORTE", "FUNORTE", "Montes Claros", "CAMPUS - MONTES CLAROS - JK"),
-            2008660 to University("CENTRO UNIVERSITÁRIO DE RIO PRETO", "UNIRP", "Montes Claros", "MONTES CLAROS")
-        )
+            699323 to University("FACULDADES INTEGRADAS DO NORTE DE MINAS - FUNORTE", "FUNORTE", "Montes Claros", "CAMPUS - MONTES CLAROS - JK")
+            )
     }
 }

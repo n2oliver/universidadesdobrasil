@@ -1003,8 +1003,7 @@ class RioDeJaneiroI {
             1081028 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Japeri", "JAPERI"),
             1089112 to University("CENTRO UNIVERSITÁRIO FACVEST", "UNIFACVEST", "Japeri", "JAPERI"),
             1098140 to University("CENTRO UNIVERSITÁRIO CENECISTA DE OSÓRIO", "UNICNEC", "Japeri", "POLO- Japeri"),
-            1098111 to University("CENTRO UNIVERSITÁRIO CENECISTA DE OSÓRIO", "UNICNEC", "Itatiaia", "POLO - Itatiaia"),
-            1051563 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Itaperuna", "ITAPERUNA/RJ II (1051563)")
+            1098111 to University("CENTRO UNIVERSITÁRIO CENECISTA DE OSÓRIO", "UNICNEC", "Itatiaia", "POLO - Itatiaia")
         )
     }
 }

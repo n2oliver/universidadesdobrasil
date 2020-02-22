@@ -4,6 +4,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class BahiaII {
     companion object {
         val universities = mapOf(
+            1086219 to University("CENTRO UNIVERSITARIO AVANTIS", "UNIAVAN", "Ilhéus", "POLO AVANTIS ILHÉUS"),
             1111199 to University("CENTRO UNIVERSITÁRIO DE MARINGÁ - UNICESUMAR", "UNICESUMAR", "Ilhéus", "Ilhéus - BA"),
             1087720 to University("Centro Universitário das Américas", "CAM", "Ilhéus", "POLO ILHEUS - BA"),
             1106443 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Iguaí", "IGUAI/BA- I"),

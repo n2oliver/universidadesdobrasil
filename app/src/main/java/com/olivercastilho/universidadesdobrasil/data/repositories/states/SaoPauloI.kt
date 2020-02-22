@@ -1003,8 +1003,7 @@ class SaoPauloI {
             1060115 to University("Centro Universitário das Américas", "CAM", "São Paulo", "Vila Maria"),
             1108797 to University("CENTRO UNIVERSITÁRIO DO SUL DE MINAS", "UNIS-MG", "São Paulo", "Polo UNIS São Paulo - Cerqueira César"),
             1097445 to University("CENTRO UNIVERSITÁRIO INGÁ", "-", "São Paulo", "SÃO PAULO I"),
-            140362 to University("UNIVERSIDADE PAULISTA", "UNIP", "São Paulo", "SÃO PAULO III"),
-            1069569 to University("", "-", "São Paulo", "Campus Principal")
+            140362 to University("UNIVERSIDADE PAULISTA", "UNIP", "São Paulo", "SÃO PAULO III")
         )
     }
 }

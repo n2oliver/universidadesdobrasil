@@ -1003,8 +1003,7 @@ class ParanaI {
             658658 to University("CENTRO UNIVERSITÁRIO UNISEP", "-", "Dois Vizinhos", "Centro Universitário Unisep - CEUUN"),
             1103264 to University("CENTRO UNIVERSITÁRIO SÃO LUCAS", "UniSL", "Dois Vizinhos", "PR - DOIS VIZINHOS"),
             1062761 to University("UNIVERSIDADE ESTADUAL DO CENTRO OESTE", "UNICENTRO", "Dois Vizinhos", "Polo UAB Dois Vizinhos"),
-            1087383 to University("CENTRO UNIVERSITÁRIO DAS FACULDADES METROPOLITANAS UNIDAS", "FMU", "Dois Vizinhos", "POLO DOIS VIZINHOS"),
-            1089504 to University("Faculdade Única de Ipatinga", "FUNIP", "Diamante do Sul", "Polo de Diamente do Sul")
+            1087383 to University("CENTRO UNIVERSITÁRIO DAS FACULDADES METROPOLITANAS UNIDAS", "FMU", "Dois Vizinhos", "POLO DOIS VIZINHOS")
         )
     }
 }

@@ -4,6 +4,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class RioDeJaneiroII {
     companion object {
         val universities = mapOf(
+            1051563 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Itaperuna", "ITAPERUNA/RJ II (1051563)"),
             1084717 to University("CENTRO UNIVERSITÁRIO BRAZ CUBAS", "-", "Itaperuna", "Itaperuna/RJ"),
             1096416 to University("UNIVERSIDADE PAULISTA", "UNIP", "Itaperuna", "ITAPERUNA"),
             349 to University("UNIVERSIDADE IGUAÇU", "UNIG", "Itaperuna", "Unidade Permanente de Itaperuna"),

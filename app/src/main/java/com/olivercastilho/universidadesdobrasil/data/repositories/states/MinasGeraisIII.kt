@@ -4,6 +4,9 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class MinasGeraisIII {
     companion object {
         val universities = mapOf(
+            1044340 to University("UNIVERSIDADE FEDERAL DE OURO PRETO", "UFOP", "Coromandel", "Polo UAB - COROMANDEL"),
+            2006509 to University("INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DE MATO GROSSO", "IFMT", "Coromandel", "Polo UAB - COROMANDEL"),
+            2006416 to University("UNIVERSIDADE DE BRASÍLIA", "UNB", "Coromandel", "Polo UAB - COROMANDEL"),
             1062879 to University("UNIVERSIDADE DE FRANCA", "UNIFRAN", "Corinto", "POLO CORINTO"),
             1095988 to University("INSTITUTO FEDERAL DE EDUCAÇÃO, CIÊNCIA E TECNOLOGIA DO NORTE DE MINAS GERAIS", "IFNMG", "Corinto", "IFNMG - Polo UAB Corinto"),
             1080149 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Coração de Jesus", "CORAÇÃO DE JESUS"),

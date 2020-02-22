@@ -4,6 +4,8 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class SaoPauloIV {
     companion object {
         val universities = mapOf(
+            1103854 to University("Centro Universitário das Américas", "CAM", "Francisco Morato", "POLO FRANCISCO MORATO - SP"),
+            1061052 to University("FACULDADE DE TECNOLOGIA FRANCISCO MORATO", "FFRAMO", "Francisco Morato", "Centro de Ensino Superior Francisco Morato"),
             1111346 to University("CENTRO UNIVERSITÁRIO ANHANGUERA PITÁGORAS AMPLI", "-", "Francisco Morato", "FRANCISCO MORATO/SP - I"),
             1069080 to University("UNIVERSIDADE PAULISTA", "UNIP", "Francisco Morato", "FRANCISCO MORATO"),
             1076281 to University("FACULDADE FREIRE DE ENSINO", "FFE", "Francisco Morato", "Campus Principal"),

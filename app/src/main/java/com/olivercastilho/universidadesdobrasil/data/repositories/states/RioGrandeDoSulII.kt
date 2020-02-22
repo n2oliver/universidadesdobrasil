@@ -4,6 +4,7 @@ import com.olivercastilho.universidadesdobrasil.data.models.University
 class RioGrandeDoSulII {
     companion object {
         val universities = mapOf(
+            1050211 to University("FACULDADE ANHANGUERA DE CAXIAS DO SUL", "-", "Caxias do Sul", "Faculdade Anhanguera de Caxias do Sul"),
             1083251 to University("ESCOLA SUPERIOR ABERTA DO BRASIL", "ESAB", "Carlos Barbosa", "Instituto Educacional de Carlos Barboza"),
             1107980 to University("CENTRO UNIVERSITÁRIO ASSIS GURGACZ", "FAG", "Carlos Barbosa", "POLO EAD FAG CARLOS BARBOSA"),
             1100809 to University("UNIVERSIDADE DE CUIABÁ", "UNIC/UNIME", "Carazinho", "CARAZINHO/RS - I"),
