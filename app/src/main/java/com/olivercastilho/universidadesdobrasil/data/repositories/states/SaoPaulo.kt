@@ -3928,7 +3928,7 @@ class SaoPaulo {
             658634 to University("", "-", "Aguaí", "CAMPUS - AGUAÍ - CENTRO"),
             1094503 to University("Faculdade de Tecnologia de Adamantina", "-", "Adamantina", "Campus Principal"),
             9694 to University("UNIVERSIDADE PAULISTA", "UNIP", "Adamantina", "ADAMANTINA"),
-            1080508 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Adamantina", "ADAMANTINA"),
+            1080508 to University("UNIVERSIDADE PITÁGORAS UNOPAR", "-", "Adamantina", "ADAMANTINA")
             )
     }
 }
