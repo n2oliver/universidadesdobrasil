@@ -30,6 +30,8 @@ class WebSearchActivity : AppCompatActivity() {
     private lateinit var state: String
     private lateinit var originalUrl: String
     private var url: String? = null
+    var history: ArrayList<String> = arrayListOf()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_search)
@@ -51,7 +53,8 @@ class WebSearchActivity : AppCompatActivity() {
         state = intent.getStringExtra("state") ?: ""
 
         originalUrl = "https://www.google.com.br/search?q=$name+$initials+$neighborhood&newwindow=0"
-        url = originalUrl
+        history.add(originalUrl)
+
         val context = this
         textView_universityNameBottom.text = "$name ($initials)"
 
@@ -60,6 +63,7 @@ class WebSearchActivity : AppCompatActivity() {
         webview_search.webViewClient = object : WebViewClient() {
             override fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
                 context.url = url
+                history.add(url!!)
                 if (url == null || url.startsWith("http://") || url.startsWith("https://"))
                     return false
 
@@ -73,7 +77,7 @@ class WebSearchActivity : AppCompatActivity() {
             }
         }
         webview_search.settings.javaScriptEnabled = true
-        webview_search.loadUrl(url)
+        webview_search.loadUrl(history.first())
 
         imageView_ublogo.setOnClickListener {
             intent = Intent(this, StatesActivity::class.java)
@@ -87,15 +91,15 @@ class WebSearchActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        if (url != originalUrl) {
-            url = originalUrl
-            webview_search.loadUrl(url)
-            webview_search.copyBackForwardList()
-            return
-        } else {
+        if (url == originalUrl) {
             System.gc()
             clearApplicationData(cacheDir)
             super.onBackPressed()
+        } else {
+            history.remove(history.last())
+            webview_search.loadUrl(history.last())
+            webview_search.copyBackForwardList()
+            return
         }
     }
 }

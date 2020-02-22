@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    android:targetSandboxVersion="1"
     package="com.olivercastilho.universidadesdobrasil">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -8,10 +9,10 @@
         android:allowBackup="true"
         android:icon="@drawable/ub_logo"
         android:label="@string/app_name"
-        android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@drawable/ub_logo"
         android:supportsRtl="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:usesCleartextTraffic="true">
         <activity android:name=".presentation.tips.TipsActivity"></activity>
 
         <meta-data
