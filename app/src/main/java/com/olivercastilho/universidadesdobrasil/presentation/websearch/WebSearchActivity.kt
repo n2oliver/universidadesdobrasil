@@ -73,11 +73,17 @@ class WebSearchActivity : AppCompatActivity() {
         webview_search.loadUrl(history.first())
 
         imageView_ublogo.setOnClickListener {
+            history.clear()
+            System.gc()
+            clearApplicationData(cacheDir)
             intent = Intent(this, StatesActivity::class.java)
             startActivity(intent)
         }
 
         lightDicas.setOnClickListener {
+            history.clear()
+            System.gc()
+            clearApplicationData(cacheDir)
             intent = Intent(this, TipsActivity::class.java)
             startActivity(intent)
         }
@@ -90,12 +96,12 @@ class WebSearchActivity : AppCompatActivity() {
             webview_search.copyBackForwardList()
             return
         } else {
+            history.clear()
             System.gc()
             clearApplicationData(cacheDir)
             super.onBackPressed()
         }
     }
-
 
     class AppWebViewClients : WebViewClient() {
         private var progressBar: ProgressBar? = progressHorizontal
