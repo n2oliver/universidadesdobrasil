@@ -35,6 +35,7 @@ class UniversitiesAdapter(private val context: Context, private val universities
             intent.putExtra("initials", university.initials)
             intent.putExtra("city", university.city)
             intent.putExtra("state", stateName)
+            intent.putExtra("neighborhood", university.neighborhood)
             ContextCompat.startActivity(view.context, intent, null)
         }
 

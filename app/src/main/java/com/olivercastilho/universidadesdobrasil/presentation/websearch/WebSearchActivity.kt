@@ -19,6 +19,7 @@ import com.olivercastilho.universidadesdobrasil.presentation.states.StatesActivi
 import com.olivercastilho.universidadesdobrasil.presentation.tips.TipsActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_web_search.*
+import kotlinx.android.synthetic.main.cardview_university.*
 import kotlinx.android.synthetic.main.universityname.*
 
 
@@ -27,6 +28,7 @@ class WebSearchActivity : AppCompatActivity() {
     private lateinit var initials: String
     private lateinit var city: String
     private lateinit var state: String
+    private lateinit var neighborhood: String
     private lateinit var originalUrl: String
     private var url: String? = null
 
@@ -54,8 +56,9 @@ class WebSearchActivity : AppCompatActivity() {
         initials = intent.getStringExtra("initials") ?: ""
         city = intent.getStringExtra("city") ?: ""
         state = intent.getStringExtra("state") ?: ""
+        neighborhood = intent.getStringExtra("neighborhood") ?: ""
 
-        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$city&newwindow=0"
+        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$city+$neighborhood&newwindow=0"
         history.add(originalUrl)
 
         val context = this
