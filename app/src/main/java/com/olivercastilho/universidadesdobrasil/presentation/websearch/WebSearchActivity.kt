@@ -101,17 +101,24 @@ class WebSearchActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        history.remove(history.last())
         if (history.isNotEmpty()) {
-            webview_search.loadUrl(history.last())
-            webview_search.copyBackForwardList()
-            return
-        } else {
-            history.clear()
-            System.gc()
-            clearApplicationData(cacheDir)
-            super.onBackPressed()
+            history.remove(history.last())
+
+            if (history.isNotEmpty()) {
+                webview_search.loadUrl(history.last())
+                webview_search.copyBackForwardList()
+                return
+            } else {
+                super.onBackPressed()
+            }
         }
+    }
+
+    override fun onDestroy() {
+        history.clear()
+        System.gc()
+        clearApplicationData(cacheDir)
+        super.onDestroy()
     }
 
     class AppWebViewClients : WebViewClient() {
