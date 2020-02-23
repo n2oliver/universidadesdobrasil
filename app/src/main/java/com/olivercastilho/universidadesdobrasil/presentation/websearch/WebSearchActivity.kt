@@ -29,7 +29,6 @@ class WebSearchActivity : AppCompatActivity() {
     private lateinit var city: String
     private lateinit var state: String
     private lateinit var stateInitials: String
-    private lateinit var neighborhood: String
     private lateinit var originalUrl: String
     private var url: String? = null
 
@@ -54,13 +53,18 @@ class WebSearchActivity : AppCompatActivity() {
         adView.loadAd(adRequest)
 
         name = intent.getStringExtra("name") ?: ""
-        initials = intent.getStringExtra("initials") ?: ""
+        initials = intent.getStringExtra("initials")
+        var search = name
+
+        if((initials) != "-" && initials != ""){
+            search = intent.getStringExtra("initials") ?: ""
+        }
+
         city = intent.getStringExtra("city") ?: ""
         state = intent.getStringExtra("state") ?: ""
         stateInitials = intent.getStringExtra("stateInitials") ?: ""
-        neighborhood = intent.getStringExtra("neighborhood") ?: ""
 
-        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$city+$neighborhood+$state+$stateInitials&newwindow=0"
+        originalUrl = "https://www.google.com.br/search?q=$search+$state+$stateInitials&newwindow=0"
         history.add(originalUrl)
 
         val context = this
