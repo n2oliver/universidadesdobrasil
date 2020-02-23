@@ -30,7 +30,7 @@ class WebSearchActivity : AppCompatActivity() {
     private lateinit var state: String
     private lateinit var stateInitials: String
     private lateinit var originalUrl: String
-    private var url: String? = null
+    private lateinit var neighborhood: String
 
     companion object {
         var history: ArrayList<String> = arrayListOf()
@@ -53,26 +53,27 @@ class WebSearchActivity : AppCompatActivity() {
         adView.loadAd(adRequest)
 
         name = intent.getStringExtra("name") ?: ""
-        initials = intent.getStringExtra("initials")
+        initials = intent.getStringExtra("initials") ?: ""
+        neighborhood = intent.getStringExtra("neighborhood")
+
         var search = name
 
-        if((initials) != "-" && initials != ""){
-            search = intent.getStringExtra("initials") ?: ""
+        if(initials != "-" && initials != ""){
+            search = initials
+            textView_universityNameBottom.text = "$name ($initials)"
         }
 
         city = intent.getStringExtra("city") ?: ""
         state = intent.getStringExtra("state") ?: ""
         stateInitials = intent.getStringExtra("stateInitials") ?: ""
 
-        originalUrl = "https://www.google.com.br/search?q=$search+$state+$stateInitials&newwindow=0"
+        originalUrl = "https://www.google.com.br/search?q=$search+$neighborhood+$state+$stateInitials&newwindow=0"
         history.add(originalUrl)
 
-        val context = this
-        textView_universityNameBottom.text = "$name ($initials)"
 
         AppBarTitle.changeAppBarTitle(textView_appName, state)
 
-        webview_search.webViewClient = AppWebViewClients().AppWebViewClients(progress_horizontal)
+        webview_search.webViewClient = AppWebViewClients().appWebViewClients(progress_horizontal)
         webview_search.settings.javaScriptEnabled = true
         webview_search.loadUrl(history.first())
 
@@ -90,6 +91,12 @@ class WebSearchActivity : AppCompatActivity() {
             clearApplicationData(cacheDir)
             intent = Intent(this, TipsActivity::class.java)
             startActivity(intent)
+        }
+
+        universityname.setOnClickListener {
+            history.clear()
+            history.add(originalUrl)
+            webview_search.loadUrl(history.first())
         }
     }
 
@@ -109,7 +116,7 @@ class WebSearchActivity : AppCompatActivity() {
 
     class AppWebViewClients : WebViewClient() {
         private var progressBar: ProgressBar? = progressHorizontal
-        fun AppWebViewClients(progressBar: ProgressBar): WebViewClient {
+        fun appWebViewClients(progressBar: ProgressBar): WebViewClient {
             this.progressBar = progressBar
             progressBar.visibility = View.VISIBLE
             return this
@@ -117,7 +124,7 @@ class WebSearchActivity : AppCompatActivity() {
 
         override fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
             history.add(url!!)
-            AppWebViewClients(this.progressBar!!)
+            appWebViewClients(this.progressBar!!)
             if (url == null || url.startsWith("http://") || url.startsWith("https://"))
                 return false
 
