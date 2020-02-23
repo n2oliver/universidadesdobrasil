@@ -58,7 +58,7 @@ class WebSearchActivity : AppCompatActivity() {
         state = intent.getStringExtra("state") ?: ""
         neighborhood = intent.getStringExtra("neighborhood") ?: ""
 
-        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$city+$neighborhood&newwindow=0"
+        originalUrl = "https://www.google.com.br/search?q=$name+$initials+$city+$neighborhood+$state&newwindow=0"
         history.add(originalUrl)
 
         val context = this
