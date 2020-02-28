@@ -43,7 +43,7 @@ class UniversitiesAdapter(private val context: Context, private val universities
         fun bindView(university: University) {
             itemView.textView_universityName.text = "${university.name} (${university.initials})"
             itemView.textView_universityNeighborhood.text = "${university.neighborhood}, ${university.city} - $stateInitials"
-            itemView.setOnClickListener {
+            itemView.universityData.setOnClickListener {
                 openBrowser(it, university)
             }
         }
