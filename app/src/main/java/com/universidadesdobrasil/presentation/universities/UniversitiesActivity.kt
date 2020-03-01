@@ -1,6 +1,8 @@
 package com.universidadesdobrasil.presentation.universities
 
+import android.content.Context
 import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.SearchView.OnQueryTextListener
@@ -28,6 +30,8 @@ class UniversitiesActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     private var isLoggedIn: Boolean = false
     private lateinit var allUniversities: Map<Int, University>
+    private var toggleFavorites: Boolean = false
+    private lateinit var sharedPreferences: SharedPreferences
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -38,6 +42,11 @@ class UniversitiesActivity : AppCompatActivity() {
         val currentUser = auth.currentUser
 
         isLoggedIn = currentUser != null
+        sharedPreferences = getSharedPreferences("favorites", Context.MODE_PRIVATE)
+
+        if(!sharedPreferences.contains("toggleFavorites")) {
+            saveFavoritesToggleOption()
+        }
 
         MobileAds.initialize(this)
         if(BuildConfig.DEBUG) {
@@ -57,8 +66,8 @@ class UniversitiesActivity : AppCompatActivity() {
 
         viewModel.initializeDatabase(this)
 
+        var favorites: ArrayList<Int> = arrayListOf()
         viewModel.getUniversities(state).observe(this, Observer { universities ->
-            val favorites: ArrayList<Int> = arrayListOf()
             viewModel.getFavoritesUniversities().observe(this, Observer { favoritesUnivertities ->
                 favoritesUnivertities!!.forEach {
                     if(universities!!.keys.contains(it.id!!.toInt())) {
@@ -66,7 +75,42 @@ class UniversitiesActivity : AppCompatActivity() {
                     }
                 }
                 allUniversities = universities!!
-                findUniversities("", universities, stateInitials, state, favorites, viewModel)
+
+                if(sharedPreferences.getBoolean("toggleFavorites", false)) {
+                    imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
+                    val universitiesFiltered = HashMap<Int, University>()
+                    allUniversities.forEach {
+                        if (favorites.contains(it.key)) {
+                            universitiesFiltered[it.key] = it.value
+                        }
+                    }
+                    findUniversities("", universitiesFiltered, stateInitials, state, favorites, viewModel, false)
+                } else {
+                    imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
+                    findUniversities("", allUniversities, stateInitials, state, favorites, viewModel, false)
+                }
+
+                imageView_filterFavorites.setOnClickListener {
+                    val universities: Map<Int, University>?
+                    if(!sharedPreferences.getBoolean("toggleFavorites", false)) {
+                        toggleFavorites = true
+                        saveFavoritesToggleOption()
+                        imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
+                        val universitiesFiltered = HashMap<Int, University>()
+                        allUniversities.forEach {
+                            if (favorites.contains(it.key)) {
+                                universitiesFiltered[it.key] = it.value
+                            }
+                        }
+                        universities = universitiesFiltered
+                    } else {
+                        toggleFavorites = false
+                        saveFavoritesToggleOption()
+                        imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
+                        universities = allUniversities
+                    }
+                    findUniversities("", universities, stateInitials, state, favorites, viewModel, false)
+                }
             })
         })
 
@@ -83,39 +127,47 @@ class UniversitiesActivity : AppCompatActivity() {
         }
     }
 
+    private fun saveFavoritesToggleOption() {
+        sharedPreferences.edit().putBoolean("toggleFavorites", toggleFavorites).apply()
+    }
+
     private fun findUniversities(
         str: String,
         universitiesItems: Map<Int, University>?,
         stateInitials: String?,
         stateName: String?,
         favorites: ArrayList<Int>,
-        viewModel: UniversityViewModel
+        viewModel: UniversityViewModel,
+        searching: Boolean
     ){
         var universities = universitiesItems
-        val universitiesFiltered = HashMap<Int, University>()
+        if(searching) {
+            val universitiesFiltered = HashMap<Int, University>()
 
-        val searchString = str.toLowerCase()
+            val searchString = str.toLowerCase()
 
-        if(searchString != "") {
-            universities!!.forEach {
-                if (searchString.toRegex().find(it.value.initials) != null ||
-                    searchString.toRegex().find(it.value.neighborhood.toLowerCase()) != null ||
-                    searchString.toRegex().find(it.value.name.toLowerCase()) != null ||
-                    searchString.toRegex().find(it.value.city.toLowerCase()) != null) {
-                    (universitiesFiltered as java.util.HashMap).put(it.key, it.value)
+            if (searchString != "") {
+                universities!!.forEach {
+                    if (searchString.toRegex().find(it.value.initials) != null ||
+                        searchString.toRegex().find(it.value.neighborhood.toLowerCase()) != null ||
+                        searchString.toRegex().find(it.value.name.toLowerCase()) != null ||
+                        searchString.toRegex().find(it.value.city.toLowerCase()) != null
+                    ) {
+                        universitiesFiltered[it.key] = it.value
+                    }
                 }
             }
-        }
 
-        if(universitiesFiltered.isNotEmpty() && searchString != ""){
-            noresults.visibility = View.GONE
-            universities = universitiesFiltered
-        } else if(universitiesFiltered.isEmpty() && searchString != "") {
-            noresults.visibility = View.VISIBLE
-            universities = universitiesFiltered
-        } else {
-            noresults.visibility = View.GONE
-            universities = allUniversities
+            if (universitiesFiltered.isNotEmpty() && searchString != "") {
+                noresults.visibility = View.GONE
+                universities = universitiesFiltered
+            } else if (universitiesFiltered.isEmpty() && searchString != "") {
+                noresults.visibility = View.VISIBLE
+                universities = universitiesFiltered
+            } else {
+                noresults.visibility = View.GONE
+                universities = allUniversities
+            }
         }
 
         universitiesList.layoutManager = LinearLayoutManager(this)
@@ -141,7 +193,8 @@ class UniversitiesActivity : AppCompatActivity() {
                     stateInitials,
                     stateName,
                     favorites,
-                    viewModel
+                    viewModel,
+                    true
                 )
                 return false
             }

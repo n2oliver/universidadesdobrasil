@@ -15,22 +15,35 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchInput"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:id="@+id/linearLayout_searchInput"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/action_bar"
-        app:queryHint="Pesquise por instituição ou localidade" />
-
+        app:layout_constraintTop_toBottomOf="@id/action_bar" >
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            app:queryHint="Pesquise por instituição ou localidade" />
+        <ImageView
+            android:id="@+id/imageView_filterFavorites"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:src="@drawable/ic_favorite_border_24dp"/>
+    </LinearLayout>
     <TextView
         android:id="@+id/noresults"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nenhuma universidade encontrada"
         android:gravity="center"
-        app:layout_constraintTop_toBottomOf="@id/searchInput"
+        app:layout_constraintTop_toBottomOf="@id/linearLayout_searchInput"
         android:elevation="2dp"
         android:visibility="gone"
         app:layout_constraintLeft_toLeftOf="parent"/>
