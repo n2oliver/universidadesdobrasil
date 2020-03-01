@@ -14,16 +14,25 @@ import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.R.drawable.ic_favorite_border_24dp
 import com.universidadesdobrasil.R.drawable.ic_favorite_fulled_24dp
+import com.universidadesdobrasil.data.entities.FavoriteUniversity
 import com.universidadesdobrasil.data.models.University
 import com.universidadesdobrasil.presentation.login.LoginActivity
 import com.universidadesdobrasil.presentation.websearch.WebSearchActivity
+import com.universidadesdobrasil.viewmodels.UniversityViewModel
 import kotlinx.android.synthetic.main.cardview_university.view.*
 
 
-class UniversitiesAdapter(private val context: Context, private val universities: ArrayList<University>, private val stateInitials: String, private val stateName: String, private val isLoggedIn: Boolean) :
+class UniversitiesAdapter(
+    private val context: Context,
+    private val universities: Map<Int, University>?,
+    private val stateInitials: String?,
+    private val stateName: String?,
+    private val isLoggedIn: Boolean,
+    private var favorites: ArrayList<Int>,
+    private var viewModel: UniversityViewModel
+) :
     RecyclerView.Adapter<UniversitiesAdapter.ViewHolder>() {
 
-    private var favoritesArrayList: ArrayList<Int> = arrayListOf()
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val view = LayoutInflater.from(context).inflate(R.layout.cardview_university, parent, false)
@@ -36,14 +45,15 @@ class UniversitiesAdapter(private val context: Context, private val universities
     }
 
     override fun getItemCount(): Int {
-        return universities.count()
+        return universities!!.entries.size
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
-        holder.bindView(universities[position], favoritesArrayList)
+        holder.setIsRecyclable(false)
+        holder.bindView(universities, favorites, viewModel, position)
     }
 
-    class ViewHolder(itemView: View, private val stateInitials: String, private val stateName: String, private val isLoggedIn: Boolean) : RecyclerView.ViewHolder(itemView) {
+    class ViewHolder(itemView: View, private val stateInitials: String?, private val stateName: String?, private val isLoggedIn: Boolean) : RecyclerView.ViewHolder(itemView) {
         private fun openBrowser(view: View, university: University){
             val intent = Intent(view.context, WebSearchActivity::class.java)
             intent.putExtra("name", university.name)
@@ -55,13 +65,23 @@ class UniversitiesAdapter(private val context: Context, private val universities
             startActivity(view.context, intent, null)
         }
 
-        fun bindView(university: University, favoritesArrayList: ArrayList<Int>) {
+        fun bindView(
+            universities: Map<Int, University>?,
+            favorites: ArrayList<Int>,
+            viewModel: UniversityViewModel,
+            position: Int
+        ) {
+            val university = universities!!.values.elementAt(position)
             val universityNeighborhood = "${university.neighborhood}, ${university.city} - $stateInitials"
             val universityName = "${university.name} (${university.initials})"
             itemView.textView_universityName.text = universityName
             itemView.textView_universityNeighborhood.text = universityNeighborhood
             itemView.universityData.setOnClickListener {
                 openBrowser(it, university)
+            }
+
+            if(favorites.contains(universities.keys.elementAt(position))){
+                itemView.favoriteStar.setImageResource(ic_favorite_fulled_24dp)
             }
 
             itemView.favoriteStar.setOnClickListener {
@@ -71,17 +91,16 @@ class UniversitiesAdapter(private val context: Context, private val universities
                     val intent = Intent(itemView.context, LoginActivity::class.java)
                     startActivity(itemView.context, intent, null)
                 } else {
-
-
-                    itemView.favoriteStar.jumpDrawablesToCurrentState()
-                    if (favoritesArrayList.contains(101)) {
+                    if (favorites.contains(universities.keys.elementAt(position))) {
+                        viewModel.deleteFavorite(universities.keys.elementAt(position))
+                        favorites.remove(universities.keys.elementAt(position))
                         itemView.favoriteStar.setImageResource(ic_favorite_border_24dp)
                         makeText(itemView.context, "A universidade '${university.name}' foi removida dos favoritos", LENGTH_SHORT).show()
-                        favoritesArrayList.remove(101)
                     } else {
+                        viewModel.addFavorite(FavoriteUniversity(null, universities.keys.elementAt(position).toString()))
+                        favorites.add(universities.keys.elementAt(position))
                         itemView.favoriteStar.setImageResource(ic_favorite_fulled_24dp)
-                        makeText(itemView.context, "Universidade '${university.name}' adicionada aos favoritos", LENGTH_SHORT).show()
-                        favoritesArrayList.add(101)
+                        makeText(itemView.context, "A universidade '${university.name}' adicionada aos favoritos", LENGTH_SHORT).show()
                     }
                 }
             }

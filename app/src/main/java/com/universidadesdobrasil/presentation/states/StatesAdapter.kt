@@ -43,7 +43,7 @@ class StatesAdapter(private val context: Context, private val states: List<State
 
         fun bindView(state: State) {
             var universityNumber = ""
-            var universityNuberByState = UniversityRepository.getByState(state.name).size
+            var universityNuberByState = UniversityRepository.getByState(state.name)!!.size
             var i = 0
             universityNuberByState.toString().reversed().forEach {
                 if(i == 3){

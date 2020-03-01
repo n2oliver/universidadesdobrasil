@@ -5,8 +5,8 @@ import com.universidadesdobrasil.data.repositories.states.*
 
 class UniversityRepository {
     companion object {
-        fun getByState(state: String?): ArrayList<University> {
-            return ArrayList((university[state] ?: error("Cannot fetch all universities")).values)
+        fun getByState(state: String?): Map<Int, University>? {
+            return university[state]
         }
 
         val university = mapOf(

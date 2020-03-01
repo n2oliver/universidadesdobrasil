@@ -48,8 +48,6 @@ class StatesActivity : AppCompatActivity() {
     }
 
     override fun onBackPressed() {
-        System.gc()
-        clearApplicationData(cacheDir)
         finishAffinity()
     }
 }

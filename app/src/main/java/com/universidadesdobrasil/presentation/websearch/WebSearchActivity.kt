@@ -59,7 +59,8 @@ class WebSearchActivity : AppCompatActivity() {
 
         if(initials != "-" && initials != ""){
             search = initials
-            textView_universityNameBottom.text = "$name ($initials)"
+            val universityDescription = "$name ($initials)"
+            textView_universityDescription.text = universityDescription
         }
 
         city = intent.getStringExtra("city") ?: ""
@@ -75,20 +76,17 @@ class WebSearchActivity : AppCompatActivity() {
         webview_search.webViewClient = AppWebViewClients()
             .appWebViewClients(progress_horizontal)
         webview_search.settings.javaScriptEnabled = true
+        webview_search.settings.setAppCacheEnabled(false)
         webview_search.loadUrl(history.first())
 
         imageView_ublogo.setOnClickListener {
-            history.clear()
-            System.gc()
-            clearApplicationData(cacheDir)
+            clearNavigation()
             intent = Intent(this, StatesActivity::class.java)
             startActivity(intent)
         }
 
         lightDicas.setOnClickListener {
-            history.clear()
-            System.gc()
-            clearApplicationData(cacheDir)
+            clearNavigation()
             intent = Intent(this, TipsActivity::class.java)
             startActivity(intent)
         }
@@ -98,6 +96,11 @@ class WebSearchActivity : AppCompatActivity() {
             history.add(originalUrl)
             webview_search.loadUrl(history.first())
         }
+    }
+
+    private fun clearNavigation() {
+        history.clear()
+        System.gc()
     }
 
     override fun onBackPressed() {
@@ -116,9 +119,7 @@ class WebSearchActivity : AppCompatActivity() {
     }
 
     override fun onDestroy() {
-        history.clear()
-        System.gc()
-        clearApplicationData(cacheDir)
+        clearNavigation()
         super.onDestroy()
     }
 

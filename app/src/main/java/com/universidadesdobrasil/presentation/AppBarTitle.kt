@@ -5,7 +5,7 @@ import com.universidadesdobrasil.data.repositories.StateRepository
 
 class AppBarTitle {
     companion object {
-        fun changeAppBarTitle(view: TextView, state: String) {
+        fun changeAppBarTitle(view: TextView, state: String?) {
             var of = "do"
             if(
                 state == StateRepository.saoPaulo.name ||
@@ -25,7 +25,8 @@ class AppBarTitle {
             ){
                 of = "da"
             }
-            view.text = "Universidades\n$of $state"
+            val universityState = "Universidades\n$of $state"
+            view.text = universityState
         }
     }
 }

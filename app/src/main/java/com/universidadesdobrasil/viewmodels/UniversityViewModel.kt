@@ -6,9 +6,9 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.room.Room
 import com.universidadesdobrasil.data.databases.AppDatabase
-import com.universidadesdobrasil.data.entities.University
-import kotlinx.coroutines.GlobalScope
-import kotlinx.coroutines.launch
+import com.universidadesdobrasil.data.entities.FavoriteUniversity
+import com.universidadesdobrasil.data.models.University
+import com.universidadesdobrasil.data.repositories.UniversityRepository
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 
@@ -20,15 +20,31 @@ class UniversityViewModel : ViewModel() {
             AppDatabase::class.java, "app-database"
         ).build()
     }
-    private val universities: MutableLiveData<List<University>> by lazy {
-        MutableLiveData<List<University>>()
+    private val favoritesUniversities: MutableLiveData<List<FavoriteUniversity>> by lazy {
+        MutableLiveData<List<FavoriteUniversity>>()
+    }
+    private val universities: MutableLiveData<Map<Int, University>?> by lazy {
+        MutableLiveData<Map<Int, University>?>()
     }
 
-    fun getUniversities(): LiveData<List<University>>? {
+    fun getFavoritesUniversities(): LiveData<List<FavoriteUniversity>> {
 
-        var list: List<University>?
+        var list: List<FavoriteUniversity>?
         doAsync {
-            list = loadUniversities()
+            list = loadFavoritesUniversities()
+            uiThread {
+                favoritesUniversities.value = list
+            }
+        }
+
+        return favoritesUniversities
+    }
+
+    fun getUniversities(state: String?): LiveData<Map<Int, University>?> {
+
+        var list: Map<Int, University>?
+        doAsync {
+            list = loadUniversities(state)
             uiThread {
                 universities.value = list
             }
@@ -37,7 +53,23 @@ class UniversityViewModel : ViewModel() {
         return universities
     }
 
-    private fun loadUniversities(): List<University> {
-        return db.universityDao().getAll()
+    fun deleteFavorite(id: Int){
+        doAsync {
+            db.favoriteUniversityDao().delete(id)
+        }
+    }
+
+    fun addFavorite(favorite: FavoriteUniversity){
+        doAsync {
+            db.favoriteUniversityDao().insert(favorite)
+        }
+    }
+
+    private fun loadFavoritesUniversities(): List<FavoriteUniversity> {
+        return db.favoriteUniversityDao().getAll()
+    }
+
+    private fun loadUniversities(state: String?): Map<Int, University>? {
+        return UniversityRepository.getByState(state)
     }
 }
