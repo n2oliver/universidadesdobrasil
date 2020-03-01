@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1004839134082",
+    "firebase_url": "https://universidades-do-brasil-22ae8.firebaseio.com",
+    "project_id": "universidades-do-brasil-22ae8",
+    "storage_bucket": "universidades-do-brasil-22ae8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004839134082:android:28877ecc863b3b646ba59b",
+        "android_client_info": {
+          "package_name": "com.universidadesdobrasil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004839134082-00sqmt3uokb0hd7mjjeo4f5kebkivfsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universidadesdobrasil",
+            "certificate_hash": "6d50a3d9fa89139fe4e225a39125affe7f0f05f6"
+          }
+        },
+        {
+          "client_id": "1004839134082-hkvg6lnjjm82b7h7spucavcpuuejhbif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvh1xA-7G4daLM8e4b2Q3s4BumVhoSB7U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1004839134082-hkvg6lnjjm82b7h7spucavcpuuejhbif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -15,6 +15,22 @@
       },
       "oauth_client": [
         {
+          "client_id": "1004839134082-faf9h5qtsjeahl25j81gnb5gpe3bf193.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universidadesdobrasil",
+            "certificate_hash": "22da27d100c78e7b19c610f1a1cbbb79bc68000b"
+          }
+        },
+        {
+          "client_id": "1004839134082-00sqmt3uokb0hd7mjjeo4f5kebkivfsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universidadesdobrasil",
+            "certificate_hash": "6d50a3d9fa89139fe4e225a39125affe7f0f05f6"
+          }
+        },
+        {
           "client_id": "1004839134082-hkvg6lnjjm82b7h7spucavcpuuejhbif.apps.googleusercontent.com",
           "client_type": 3
         }

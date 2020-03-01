@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.universities.UniversitiesActivity">
+    tools:context="com.universidadesdobrasil.presentation.universities.UniversitiesActivity">
 
     <include
         android:id="@+id/action_bar"
@@ -45,6 +45,6 @@
         ads:adUnitId="@string/ad_unit_id"
         ads:layout_constraintBottom_toBottomOf="parent"
         ads:layout_constraintLeft_toLeftOf="parent"
-        ads:layout_constraintRight_toRightOf="parent"></com.google.android.gms.ads.AdView>
+        ads:layout_constraintRight_toRightOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

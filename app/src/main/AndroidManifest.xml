@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    android:targetSandboxVersion="1"
-    package="com.olivercastilho.universidadesdobrasil">
+    package="com.universidadesdobrasil"
+    android:targetSandboxVersion="1">
 
     <uses-permission android:name="android.permission.INTERNET" />
 
@@ -13,15 +13,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar"
         android:usesCleartextTraffic="true">
-        <activity android:name=".presentation.tips.TipsActivity"></activity>
+        <activity android:name="com.universidadesdobrasil.presentation.login.LoginActivity"></activity>
+        <activity android:name="com.universidadesdobrasil.presentation.tips.TipsActivity" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-2100499132829579~3564299129" />
 
-        <activity android:name=".presentation.websearch.WebSearchActivity" />
+        <activity android:name="com.universidadesdobrasil.presentation.websearch.WebSearchActivity" />
         <activity
-            android:name=".presentation.intro.IntroActivity"
+            android:name="com.universidadesdobrasil.presentation.intro.IntroActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,13 +31,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".presentation.landing.LandingActivity"
+            android:name="com.universidadesdobrasil.presentation.landing.LandingActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".presentation.states.StatesActivity"
+            android:name="com.universidadesdobrasil.presentation.states.StatesActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".presentation.universities.UniversitiesActivity"
+            android:name="com.universidadesdobrasil.presentation.universities.UniversitiesActivity"
             android:screenOrientation="portrait" />
     </application>
 
