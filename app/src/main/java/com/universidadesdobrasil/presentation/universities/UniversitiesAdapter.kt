@@ -56,8 +56,10 @@ class UniversitiesAdapter(private val context: Context, private val universities
         }
 
         fun bindView(university: University, favoritesArrayList: ArrayList<Int>) {
-            itemView.textView_universityName.text = "${university.name} (${university.initials})"
-            itemView.textView_universityNeighborhood.text = "${university.neighborhood}, ${university.city} - $stateInitials"
+            val universityNeighborhood = "${university.neighborhood}, ${university.city} - $stateInitials"
+            val universityName = "${university.name} (${university.initials})"
+            itemView.textView_universityName.text = universityName
+            itemView.textView_universityNeighborhood.text = universityNeighborhood
             itemView.universityData.setOnClickListener {
                 openBrowser(it, university)
             }
