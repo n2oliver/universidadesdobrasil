@@ -6,6 +6,7 @@ import android.content.SharedPreferences
 import android.os.Bundle
 import android.view.View
 import android.widget.SearchView.OnQueryTextListener
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
@@ -44,18 +45,18 @@ class UniversitiesActivity : AppCompatActivity() {
         isLoggedIn = currentUser != null
         sharedPreferences = getSharedPreferences("favorites", Context.MODE_PRIVATE)
 
-        if(!sharedPreferences.contains("toggleFavorites")) {
+        if (!sharedPreferences.contains("toggleFavorites")) {
             saveFavoritesToggleOption()
         }
 
         MobileAds.initialize(this)
-        if(BuildConfig.DEBUG) {
+        if (BuildConfig.DEBUG) {
             val testDeviceIds = listOf(getString(R.string.test_device_id))
             val configuration =
                 RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
             MobileAds.setRequestConfiguration(configuration)
         }
-        val adRequest  = AdRequest.Builder()
+        val adRequest = AdRequest.Builder()
             .build()
         adView.loadAd(adRequest)
 
@@ -66,36 +67,35 @@ class UniversitiesActivity : AppCompatActivity() {
 
         viewModel.initializeDatabase(this)
 
-        var favorites: ArrayList<Int> = arrayListOf()
-        viewModel.getUniversities(state).observe(this, Observer { universities ->
-            viewModel.getFavoritesUniversities().observe(this, Observer { favoritesUnivertities ->
-                favoritesUnivertities!!.forEach {
-                    if(universities!!.keys.contains(it.id!!.toInt())) {
-                        favorites.add(it.id.toInt())
-                    }
-                }
-                allUniversities = universities!!
+        val favorites: ArrayList<Int> = arrayListOf()
 
-                if(isLoggedIn && sharedPreferences.getBoolean("toggleFavorites", false)) {
-                    imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
-                    val universitiesFiltered = HashMap<Int, University>()
-                    allUniversities.forEach {
-                        if (favorites.contains(it.key)) {
-                            universitiesFiltered[it.key] = it.value
+        if (isLoggedIn) {
+            viewModel.getRemoteFavoritesUniversities(currentUser!!.uid)
+        } else {
+            Toast.makeText(this, "Para ver seus favoritos, faça o login.", Toast.LENGTH_LONG).show()
+        }
+
+        viewModel.getUniversities(state).observe(this, Observer { universities ->
+
+            allUniversities = universities!!
+
+            viewModel.remoteFavorites
+                .observe(this, Observer { remoteFavorites ->
+                    favorites.addAll(remoteFavorites)
+                    findUniversities("", allUniversities, stateInitials, state, favorites, viewModel, false)
+                })
+
+            viewModel.getFavoritesUniversities()
+                .observe(this, Observer { favoritesUnivertities ->
+                    favoritesUnivertities!!.forEach {
+                        if (universities!!.keys.contains(it.id!!.toInt())) {
+                            favorites.add(it.id.toInt())
                         }
                     }
-                    findUniversities("", universitiesFiltered, stateInitials, state, favorites, viewModel, false)
-                } else {
-                    imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
-                    findUniversities("", allUniversities, stateInitials, state, favorites, viewModel, false)
-                }
 
-                imageView_filterFavorites.setOnClickListener {
-                    val universities: Map<Int, University>?
-                    if(isLoggedIn && !sharedPreferences.getBoolean("toggleFavorites", false)) {
-                        toggleFavorites = true
-                        saveFavoritesToggleOption()
-                        viewModel.syncFavorite(favorites, auth.uid!!)
+                    var universitiesList = allUniversities
+
+                    if (isLoggedIn && sharedPreferences.getBoolean("toggleFavorites", false)) {
                         imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
                         val universitiesFiltered = HashMap<Int, University>()
                         allUniversities.forEach {
@@ -103,14 +103,37 @@ class UniversitiesActivity : AppCompatActivity() {
                                 universitiesFiltered[it.key] = it.value
                             }
                         }
-                        universities = universitiesFiltered
+                        universitiesList = universitiesFiltered
                     } else {
-                        turnOffFavorites()
-                        universities = allUniversities
+                        imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
                     }
-                    findUniversities("", universities, stateInitials, state, favorites, viewModel, false)
-                }
-            })
+
+                    findUniversities("", universitiesList, stateInitials, state, favorites, viewModel, false)
+
+                    imageView_filterFavorites.setOnClickListener {
+                        val universities: Map<Int, University>?
+                        if (isLoggedIn && !sharedPreferences.getBoolean(
+                                "toggleFavorites",
+                                false
+                            )
+                        ) {
+                            toggleFavorites = true
+                            saveFavoritesToggleOption()
+                            imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
+                            val universitiesFiltered = HashMap<Int, University>()
+                            allUniversities.forEach {
+                                if (favorites.contains(it.key)) {
+                                    universitiesFiltered[it.key] = it.value
+                                }
+                            }
+                            universities = universitiesFiltered
+                        } else {
+                            turnOffFavorites()
+                            universities = allUniversities
+                        }
+                        findUniversities("", universities, stateInitials, state, favorites, viewModel, false)
+                    }
+                })
         })
 
         changeAppBarTitle(textView_appName, state)
@@ -136,17 +159,9 @@ class UniversitiesActivity : AppCompatActivity() {
         sharedPreferences.edit().putBoolean("toggleFavorites", toggleFavorites).apply()
     }
 
-    private fun findUniversities(
-        str: String,
-        universitiesItems: Map<Int, University>?,
-        stateInitials: String?,
-        stateName: String?,
-        favorites: ArrayList<Int>,
-        viewModel: UniversityViewModel,
-        searching: Boolean
-    ){
+    private fun findUniversities(str: String, universitiesItems: Map<Int, University>?, stateInitials: String?, stateName: String?, favorites: ArrayList<Int>, viewModel: UniversityViewModel, searching: Boolean) {
         var universities = universitiesItems
-        if(searching) {
+        if (searching) {
             turnOffFavorites()
             universities = allUniversities
             val universitiesFiltered = HashMap<Int, University>()
@@ -178,36 +193,19 @@ class UniversitiesActivity : AppCompatActivity() {
         }
 
         universitiesList.layoutManager = LinearLayoutManager(this)
-
+        val uid = auth.currentUser?.uid
         universitiesList.adapter =
-            UniversitiesAdapter(
-                this,
-                universities,
-                stateInitials,
-                stateName,
-                isLoggedIn,
-                favorites,
-                viewModel
-            )
+            UniversitiesAdapter(this, universities, stateInitials, stateName, isLoggedIn, favorites, viewModel, uid)
 
-        searchInput.setOnQueryTextListener (object : OnQueryTextListener,
+        searchInput.setOnQueryTextListener(object : OnQueryTextListener,
             androidx.appcompat.widget.SearchView.OnQueryTextListener {
 
             override fun onQueryTextChange(newText: String): Boolean {
-                findUniversities(
-                    newText,
-                    universities,
-                    stateInitials,
-                    stateName,
-                    favorites,
-                    viewModel,
-                    true
-                )
+                findUniversities(newText, universities, stateInitials, stateName, favorites, viewModel, true)
                 return false
             }
 
             override fun onQueryTextSubmit(query: String): Boolean {
-                // task HERE
                 return false
             }
         })

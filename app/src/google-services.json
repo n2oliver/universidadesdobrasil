@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "1004839134082-faf9h5qtsjeahl25j81gnb5gpe3bf193.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.universidadesdobrasil",
+            "certificate_hash": "22da27d100c78e7b19c610f1a1cbbb79bc68000b"
+          }
+        },
+        {
           "client_id": "1004839134082-00sqmt3uokb0hd7mjjeo4f5kebkivfsa.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

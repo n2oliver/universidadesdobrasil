@@ -6,8 +6,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast.LENGTH_SHORT
-import android.widget.Toast.makeText
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.gms.auth.api.signin.GoogleSignIn
@@ -29,7 +27,8 @@ class UniversitiesAdapter(
     private val stateName: String?,
     private val isLoggedIn: Boolean,
     private var favorites: ArrayList<Int>,
-    private var viewModel: UniversityViewModel
+    private var viewModel: UniversityViewModel,
+    private var uid: String?
 ) :
     RecyclerView.Adapter<UniversitiesAdapter.ViewHolder>() {
 
@@ -50,7 +49,7 @@ class UniversitiesAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.setIsRecyclable(false)
-        holder.bindView(universities, favorites, viewModel, position)
+        holder.bindView(universities, favorites, viewModel, uid, position)
     }
 
     class ViewHolder(itemView: View, private val stateInitials: String?, private val stateName: String?, private val isLoggedIn: Boolean) : RecyclerView.ViewHolder(itemView) {
@@ -69,6 +68,7 @@ class UniversitiesAdapter(
             universities: Map<Int, University>?,
             favorites: ArrayList<Int>,
             viewModel: UniversityViewModel,
+            uid: String?,
             position: Int
         ) {
             val university = universities!!.values.elementAt(position)
@@ -91,16 +91,15 @@ class UniversitiesAdapter(
                     val intent = Intent(itemView.context, LoginActivity::class.java)
                     startActivity(itemView.context, intent, null)
                 } else {
-                    if (favorites.contains(universities.keys.elementAt(position))) {
-                        viewModel.deleteFavorite(universities.keys.elementAt(position))
-                        favorites.remove(universities.keys.elementAt(position))
+                    val universityId = universities.keys.elementAt(position)
+                    if (favorites.contains(universityId)) {
+                        viewModel.deleteFavorite(universityId, uid!!)
+                        favorites.removeAll(arrayListOf(universities.keys.elementAt(position)))
                         itemView.favoriteStar.setImageResource(ic_favorite_border_24dp)
-                        makeText(itemView.context, "A universidade '${university.name}' foi removida dos favoritos", LENGTH_SHORT).show()
                     } else {
-                        viewModel.addFavorite(FavoriteUniversity(null, universities.keys.elementAt(position).toString()))
-                        favorites.add(universities.keys.elementAt(position))
+                        viewModel.addFavorite(FavoriteUniversity(null, universityId.toString()), uid!!)
+                        favorites.add(universityId)
                         itemView.favoriteStar.setImageResource(ic_favorite_fulled_24dp)
-                        makeText(itemView.context, "A universidade '${university.name}' adicionada aos favoritos", LENGTH_SHORT).show()
                     }
                 }
             }
