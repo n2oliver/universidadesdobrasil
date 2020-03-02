@@ -87,7 +87,6 @@ class UniversitiesAdapter(
             itemView.favoriteStar.setOnClickListener {
                 if(!isLoggedIn) {
                     val account = GoogleSignIn.getLastSignedInAccount(itemView.context)
-                    Log.d("Logged ccount: ", account.toString())
                     val intent = Intent(itemView.context, LoginActivity::class.java)
                     startActivity(itemView.context, intent, null)
                 } else {
