@@ -90,7 +90,7 @@ class UniversitiesActivity : AppCompatActivity() {
             viewModel.getFavoritesUniversities()
                 .observe(this, Observer { favoritesUnivertities ->
                     favoritesUnivertities!!.forEach {
-                        if (universities!!.keys.contains(it.id!!.toInt())) {
+                        if (universities.keys.contains(it.id!!.toInt())) {
                             favorites.add(it.id.toInt())
                         }
                     }
@@ -194,7 +194,7 @@ class UniversitiesActivity : AppCompatActivity() {
             val searchString = str.toLowerCase()
 
             if (searchString != "") {
-                universities!!.forEach {
+                universities.forEach {
                     if (searchString.toRegex().find(it.value.initials) != null ||
                         searchString.toRegex().find(it.value.neighborhood.toLowerCase()) != null ||
                         searchString.toRegex().find(it.value.name.toLowerCase()) != null ||

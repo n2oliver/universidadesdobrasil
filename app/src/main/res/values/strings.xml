@@ -1,13 +1,9 @@
 <resources>
     <string name="app_name">Universidades do Brasil</string>
-    <string name="label_estado"><b>Estado:</b> </string>
-    <string name="label_numero_de_graduados"><b>Número de graduados:</b> </string>
     <string name="sao_paulo">São Paulo</string>
     <string name="cliqueaqui">Toque para selecionar.</string>
     <string name="ad_unit_id">ca-app-pub-2100499132829579/5041032326</string>
-    <string name="test_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="test_device_id">33BE2250B43518CCDA7DE426D04EE231</string>
     <string name="existem_x_universidades_nessa_regi_o">Existem X universidades nessa região.</string>
     <string name="login_text">Salve ou compartilhe suas buscas,<br/> e recupere sempre que precisar.</string>
-    <string name="server_client_id">e620487062eae6bb5490ebbce0e2c80e56689e20</string>
 </resources>

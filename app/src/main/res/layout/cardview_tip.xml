@@ -6,7 +6,6 @@
     android:background="#1c3c3c"
     android:gravity="center_vertical">
     <ScrollView
-        android:id="@+id/scrollView_item"
         android:layout_width="200dp"
         android:layout_height="300dp"
         android:layout_margin="4dp"

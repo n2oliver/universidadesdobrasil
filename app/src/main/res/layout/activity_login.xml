@@ -7,7 +7,6 @@
     tools:context="com.universidadesdobrasil.presentation.login.LoginActivity">
 
     <ImageView
-        android:id="@+id/ubLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
         android:src="@drawable/ub_logo"

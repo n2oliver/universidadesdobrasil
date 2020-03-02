@@ -7,7 +7,7 @@ class StorageManager {
     companion object {
         fun clearApplicationData(cacheDir: File) {
             val cache: File = cacheDir
-            val appDir = File(cache.getParent())
+            val appDir = File(cache.parent)
             if (appDir.exists()) {
                 val children: Array<String> = appDir.list()
                 for (s in children) {
@@ -25,7 +25,7 @@ class StorageManager {
         }
 
         fun deleteDir(dir: File?): Boolean {
-            if (dir != null && dir.isDirectory()) {
+            if (dir != null && dir.isDirectory) {
                 val children: Array<String> = dir.list()
                 for (i in children.indices) {
                     val success =

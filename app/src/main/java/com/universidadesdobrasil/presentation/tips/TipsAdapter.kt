@@ -36,7 +36,7 @@ class TipsAdapter(private val context: Context, private val tips: ArrayList<Tip>
         private fun openTip(context: Context, title: String, steps: ArrayList<Step>){
 
             val intent = Intent(context, TipsActivity::class.java)
-            intent.putExtra("tip_title", title);
+            intent.putExtra("tip_title", title)
             intent.putExtra("tip_steps",  steps)
             startActivity(context, intent, null)
         }
