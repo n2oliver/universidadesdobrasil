@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".presentation.landing.LandingActivity">
+    tools:context="com.universidadesdobrasil.presentation.landing.LandingActivity">
     <include layout="@layout/actionbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
