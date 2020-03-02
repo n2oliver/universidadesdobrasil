@@ -55,7 +55,7 @@ class StatesAdapter(private val context: Context, private val states: List<State
             }
             universityNumber = universityNumber.reversed()
             itemView.textView_stateName.text = state.name
-            itemView.textView_demography.text = "Existem $universityNumber nessa região."
+            itemView.textView_demography.text = "tem $universityNumber universidades."
             itemView.image_imageState.setImageResource(state.image)
 
             itemView.setOnClickListener {

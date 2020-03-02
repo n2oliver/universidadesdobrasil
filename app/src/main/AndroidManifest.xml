@@ -32,9 +32,6 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.universidadesdobrasil.presentation.landing.LandingActivity"
-            android:screenOrientation="fullSensor" />
-        <activity
             android:name="com.universidadesdobrasil.presentation.states.StatesActivity"
             android:screenOrientation="fullSensor" />
         <activity
