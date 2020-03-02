@@ -13,7 +13,6 @@ import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
 import com.universidadesdobrasil.BuildConfig
 import com.universidadesdobrasil.R
-import com.universidadesdobrasil.data.StorageManager.Companion.clearApplicationData
 import com.universidadesdobrasil.presentation.AppBarTitle
 import com.universidadesdobrasil.presentation.states.StatesActivity
 import com.universidadesdobrasil.presentation.tips.TipsActivity
@@ -77,7 +76,7 @@ class WebSearchActivity : AppCompatActivity() {
             .appWebViewClients(progress_horizontal)
         webview_search.settings.javaScriptEnabled = true
         webview_search.settings.setAppCacheEnabled(false)
-        webview_search.loadUrl(history.first())
+        webview_search.loadUrl(history.last())
 
         imageView_ublogo.setOnClickListener {
             clearNavigation()
@@ -150,5 +149,15 @@ class WebSearchActivity : AppCompatActivity() {
             super.onPageFinished(view, url)
             progressBar!!.visibility = View.GONE
         }
+    }
+
+    override fun onSaveInstanceState(outState: Bundle) {
+        super.onSaveInstanceState(outState)
+        webview_search.saveState(outState)
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        webview_search.restoreState(savedInstanceState)
     }
 }
