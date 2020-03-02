@@ -5,12 +5,14 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.room.Room
+import com.google.firebase.database.FirebaseDatabase
 import com.universidadesdobrasil.data.databases.AppDatabase
 import com.universidadesdobrasil.data.entities.FavoriteUniversity
 import com.universidadesdobrasil.data.models.University
 import com.universidadesdobrasil.data.repositories.UniversityRepository
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
+
 
 class UniversityViewModel : ViewModel() {
     private lateinit var db: AppDatabase
@@ -63,6 +65,12 @@ class UniversityViewModel : ViewModel() {
         doAsync {
             db.favoriteUniversityDao().insert(favorite)
         }
+    }
+
+    fun syncFavorite(favorites: ArrayList<Int>, uid: String){
+        val database = FirebaseDatabase.getInstance()
+        val myRef = database.getReference("favorites/$uid")
+        myRef.setValue(favorites)
     }
 
     private fun loadFavoritesUniversities(): List<FavoriteUniversity> {

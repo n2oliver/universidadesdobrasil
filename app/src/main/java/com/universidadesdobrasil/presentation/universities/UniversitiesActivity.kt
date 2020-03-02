@@ -76,7 +76,7 @@ class UniversitiesActivity : AppCompatActivity() {
                 }
                 allUniversities = universities!!
 
-                if(sharedPreferences.getBoolean("toggleFavorites", false)) {
+                if(isLoggedIn && sharedPreferences.getBoolean("toggleFavorites", false)) {
                     imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
                     val universitiesFiltered = HashMap<Int, University>()
                     allUniversities.forEach {
@@ -92,9 +92,10 @@ class UniversitiesActivity : AppCompatActivity() {
 
                 imageView_filterFavorites.setOnClickListener {
                     val universities: Map<Int, University>?
-                    if(!sharedPreferences.getBoolean("toggleFavorites", false)) {
+                    if(isLoggedIn && !sharedPreferences.getBoolean("toggleFavorites", false)) {
                         toggleFavorites = true
                         saveFavoritesToggleOption()
+                        viewModel.syncFavorite(favorites, auth.uid!!)
                         imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
                         val universitiesFiltered = HashMap<Int, University>()
                         allUniversities.forEach {
@@ -104,9 +105,7 @@ class UniversitiesActivity : AppCompatActivity() {
                         }
                         universities = universitiesFiltered
                     } else {
-                        toggleFavorites = false
-                        saveFavoritesToggleOption()
-                        imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
+                        turnOffFavorites()
                         universities = allUniversities
                     }
                     findUniversities("", universities, stateInitials, state, favorites, viewModel, false)
@@ -127,6 +126,12 @@ class UniversitiesActivity : AppCompatActivity() {
         }
     }
 
+    private fun turnOffFavorites() {
+        toggleFavorites = false
+        saveFavoritesToggleOption()
+        imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
+    }
+
     private fun saveFavoritesToggleOption() {
         sharedPreferences.edit().putBoolean("toggleFavorites", toggleFavorites).apply()
     }
@@ -142,6 +147,8 @@ class UniversitiesActivity : AppCompatActivity() {
     ){
         var universities = universitiesItems
         if(searching) {
+            turnOffFavorites()
+            universities = allUniversities
             val universitiesFiltered = HashMap<Int, University>()
 
             val searchString = str.toLowerCase()
