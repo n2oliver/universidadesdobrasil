@@ -41,7 +41,9 @@ class StatesActivity : AppCompatActivity() {
                         auth.signOut()
                         AlertDialog.Builder(this)
                             .setMessage("Você saiu de sua conta!")
-                            .setPositiveButton("Ok") { _: DialogInterface, _: Int -> }
+                            .setPositiveButton("Ok") { _: DialogInterface, _: Int ->
+                                startActivity(Intent(this, StatesActivity::class.java))
+                            }
                             .show()
                     }
                     .setNegativeButton("Não") { _: DialogInterface, _: Int -> }
