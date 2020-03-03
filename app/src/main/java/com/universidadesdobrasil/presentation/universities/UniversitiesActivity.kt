@@ -11,12 +11,12 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import androidx.multidex.BuildConfig
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
 import com.google.firebase.auth.FirebaseAuth
-import com.universidadesdobrasil.BuildConfig
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.data.models.University
 import com.universidadesdobrasil.presentation.AppBarTitle.Companion.changeAppBarTitle

@@ -3,12 +3,12 @@ package com.universidadesdobrasil.presentation.tips
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.multidex.BuildConfig
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager.HORIZONTAL
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
-import com.universidadesdobrasil.BuildConfig
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.data.models.Step
 import com.universidadesdobrasil.data.repositories.TipsRepository

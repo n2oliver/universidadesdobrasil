@@ -8,10 +8,10 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.multidex.BuildConfig
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
 import com.google.android.gms.ads.RequestConfiguration
-import com.universidadesdobrasil.BuildConfig
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.presentation.AppBarTitle
 import com.universidadesdobrasil.presentation.states.StatesActivity
