@@ -64,12 +64,11 @@ class UniversitiesActivity : AppCompatActivity() {
 
         val state = intent.getStringExtra("state")
         val stateInitials = intent.getStringExtra("stateInitials")
+        val favorites: ArrayList<Int> = arrayListOf()
 
         val viewModel = ViewModelProviders.of(this)[UniversityViewModel::class.java]
 
         viewModel.initializeDatabase(this)
-
-        val favorites: ArrayList<Int> = arrayListOf()
 
         if (isLoggedIn) {
             viewModel.getRemoteFavoritesUniversities(currentUser!!.uid)
@@ -83,8 +82,8 @@ class UniversitiesActivity : AppCompatActivity() {
 
             viewModel.remoteFavorites
                 .observe(this, Observer { remoteFavorites ->
+                    favorites.clear()
                     favorites.addAll(remoteFavorites)
-                    findUniversities("", allUniversities, stateInitials, state, favorites, viewModel, false)
                 })
 
             viewModel.getFavoritesUniversities()

@@ -93,19 +93,20 @@ class UniversityViewModel : ViewModel() {
 
     fun getRemoteFavoritesUniversities(uid: String) {
         val myRef = database.getReference("favorites/$uid/")
+
         myRef.addValueEventListener(object : ValueEventListener {
             override fun onDataChange(dataSnapshot: DataSnapshot) { // This method is called once with the initial value and again
 // whenever data at this location is updated.
-                val favoriteList = arrayListOf<Int>()
                 try {
+                    val favoriteList = arrayListOf<Int>()
                     for (postSnapshot in dataSnapshot.children) {
                         val universityId: Int = postSnapshot.getValue<String>(String::class.java)!!.toInt()
                         favoriteList.add(universityId)
                     }
+                    remoteFavorites.value = favoriteList
                 } catch (e: Exception) {
                     e.printStackTrace()
                 }
-                remoteFavorites.value = favoriteList
             }
 
             override fun onCancelled(error: DatabaseError) { // Failed to read value
