@@ -8,6 +8,7 @@ import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.content.ContextCompat.startActivity
 import androidx.multidex.BuildConfig
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
@@ -18,7 +19,6 @@ import com.universidadesdobrasil.presentation.states.StatesActivity
 import com.universidadesdobrasil.presentation.tips.TipsActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_web_search.*
-import kotlinx.android.synthetic.main.universityname.*
 
 
 class WebSearchActivity : AppCompatActivity() {
@@ -52,21 +52,17 @@ class WebSearchActivity : AppCompatActivity() {
 
         name = intent.getStringExtra("name") ?: ""
         initials = intent.getStringExtra("initials") ?: ""
-        neighborhood = intent.getStringExtra("neighborhood")
-
-        var search = name
-
-        if(initials != "-" && initials != ""){
-            search = initials
-            val universityDescription = "$name ($initials)"
-            textView_universityDescription.text = universityDescription
-        }
-
-        city = intent.getStringExtra("city") ?: ""
-        state = intent.getStringExtra("state") ?: ""
         stateInitials = intent.getStringExtra("stateInitials") ?: ""
 
-        originalUrl = "https://www.google.com.br/search?q=$search+$neighborhood+$state+$stateInitials&newwindow=0"
+        var universityDescription = name
+        if(initials != "-") {
+            universityDescription +=  " ($initials)"
+        }
+        universityDescription += stateInitials
+        city = intent.getStringExtra("city") ?: ""
+        state = intent.getStringExtra("state") ?: ""
+
+        originalUrl = "https://www.google.com.br/search?q=$universityDescription+$stateInitials&newwindow=0"
         history.add(originalUrl)
 
 
@@ -131,14 +127,32 @@ class WebSearchActivity : AppCompatActivity() {
             return this
         }
 
-        override fun shouldOverrideUrlLoading(view: WebView, url: String?): Boolean {
-            history.add(url!!)
+        override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
             appWebViewClients(this.progressBar!!)
-            if (url == null || url.startsWith("http://") || url.startsWith("https://"))
-                return false
+            if (url.startsWith("http://") || url.startsWith("https://"))
+                return when {
+                    url.contains("https://maps.google.com") -> {
+                        val i = Intent(Intent.ACTION_VIEW)
+                        i.data = Uri.parse(url)
+                        startActivity(view.context, i, null)
+                        true
+                    }
+                    url.contains("https://m.youtube.com/") -> {
+                        val i = Intent(Intent.ACTION_VIEW)
+                        i.data = Uri.parse(url)
+                        startActivity(view.context, i, null)
+                        true
+                    }
+                    else -> {
+                        history.add(url)
+                        false
+                    }
+                }
 
             return try {
-                view.context.startActivity(Intent(Intent.ACTION_VIEW, Uri.parse(url)))
+                val i = Intent(Intent.ACTION_VIEW)
+                i.data = Uri.parse(url)
+                startActivity(view.context, i, null)
                 true
             } catch (e: Exception) {
                 true
