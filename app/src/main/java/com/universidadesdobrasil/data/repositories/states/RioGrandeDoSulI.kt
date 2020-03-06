@@ -120,7 +120,7 @@ class RioGrandeDoSulI {
             ),
             1094487 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "Veranópolis",
                 "Polo Veranópolis - Centro"
             ),

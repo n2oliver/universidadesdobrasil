@@ -1140,7 +1140,7 @@ class SaoPauloI {
             ),
             1111836 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "Valparaíso",
                 "Polo Valparaíso - Parque Industrial"
             ),

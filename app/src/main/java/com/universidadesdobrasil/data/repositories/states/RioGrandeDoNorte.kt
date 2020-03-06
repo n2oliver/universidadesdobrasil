@@ -48,7 +48,7 @@ class RioGrandeDoNorte {
             ),
             1094473 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "São José de Mipibu",
                 "Polo São José do Mipibu - Centro"
             ),

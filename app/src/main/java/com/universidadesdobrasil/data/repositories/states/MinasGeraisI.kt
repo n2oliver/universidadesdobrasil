@@ -1579,8 +1579,8 @@ class MinasGeraisI {
             1049782 to University(
                 "UNIVERSIDADE FEDERAL DE MINAS GERAIS",
                 "UFMG",
-                "Uberaba",
-                "Polo UAB - UBERABA"
+                "Belo Horizonte",
+                "Belo Horizonte - MG"
             ),
             1090024 to University(
                 " CENTRO UNIVERSITÁRIO ESTÁCIO DE RIBEIRÃO PRETO",

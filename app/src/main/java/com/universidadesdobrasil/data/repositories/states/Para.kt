@@ -912,7 +912,7 @@ class Para {
             ),
             1109344 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "Xinguara",
                 "Polo Xinguara - Centro"
             ),

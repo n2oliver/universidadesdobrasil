@@ -61,11 +61,11 @@ class WebSearchActivity : AppCompatActivity() {
 
         var universityDescription = ""
         if(initials != "-") {
-            universityDescription +=  "$initials"
+            universityDescription +=  "$initials, "
         } else {
-            universityDescription +=  "$name"
+            universityDescription +=  "$name, $neighborhood, $city - "
         }
-        universityDescription += ", $neighborhood, $city - $stateInitials"
+        universityDescription += "$state"
 
         originalUrl = "https://www.google.com.br/search?q=$universityDescription&newwindow=0"
         history.add(originalUrl)

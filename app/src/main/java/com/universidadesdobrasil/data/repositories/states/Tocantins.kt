@@ -708,7 +708,7 @@ class Tocantins {
             ),
             1111825 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "Tocantinópolis",
                 "Polo Tocantinópolis - Centro"
             ),

@@ -954,7 +954,7 @@ class Piaui {
             ),
             1097286 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "Uruçuí",
                 "Polo Uruçuí - Centro"
             ),

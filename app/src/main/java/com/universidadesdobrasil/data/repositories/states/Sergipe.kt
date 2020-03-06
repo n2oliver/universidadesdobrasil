@@ -132,7 +132,7 @@ class Sergipe {
             ),
             1094466 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "Poço Verde",
                 "Polo Poço Verde - Centro"
             ),
