@@ -18,7 +18,6 @@ import com.universidadesdobrasil.data.repositories.UniversityRepository
 import org.jetbrains.anko.doAsync
 import org.jetbrains.anko.uiThread
 
-
 class UniversityViewModel : ViewModel() {
     private lateinit var db: AppDatabase
     private val database = FirebaseDatabase.getInstance()
@@ -93,8 +92,7 @@ class UniversityViewModel : ViewModel() {
         val myRef = database.getReference("favorites/$uid/")
 
         myRef.addValueEventListener(object : ValueEventListener {
-            override fun onDataChange(dataSnapshot: DataSnapshot) { // This method is called once with the initial value and again
-// whenever data at this location is updated.
+            override fun onDataChange(dataSnapshot: DataSnapshot) {
                 try {
                     val favoriteList = arrayListOf<Int>()
                     for (postSnapshot in dataSnapshot.children) {
@@ -111,25 +109,5 @@ class UniversityViewModel : ViewModel() {
                 Log.w(TAG, "Failed to read value.", error.toException())
             }
         })
-    }
-
-    fun getSearchResults(searchString: String, universitiesList: Map<Int, University>){
-        doAsync {
-            if (searchString != "") {
-                val universitiesFiltered = HashMap<Int, University>()
-                universitiesList.forEach {
-                    if (searchString.toRegex().find(it.value.initials) != null ||
-                        searchString.toRegex().find(it.value.neighborhood.toLowerCase()) != null ||
-                        searchString.toRegex().find(it.value.name.toLowerCase()) != null ||
-                        searchString.toRegex().find(it.value.city.toLowerCase()) != null
-                    ) {
-                        universitiesFiltered[it.key] = it.value
-                    }
-                }
-                uiThread {
-                    universities.value = universitiesFiltered
-                }
-            }
-        }
     }
 }

@@ -2,7 +2,6 @@ package com.universidadesdobrasil.presentation.universities
 
 import android.content.Context
 import android.content.Intent
-import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -18,7 +17,6 @@ import com.universidadesdobrasil.presentation.login.LoginActivity
 import com.universidadesdobrasil.presentation.websearch.WebSearchActivity
 import com.universidadesdobrasil.viewmodels.UniversityViewModel
 import kotlinx.android.synthetic.main.cardview_university.view.*
-
 
 class UniversitiesAdapter(
     private val context: Context,
@@ -57,10 +55,10 @@ class UniversitiesAdapter(
             val intent = Intent(view.context, WebSearchActivity::class.java)
             intent.putExtra("name", university.name)
             intent.putExtra("initials", university.initials)
+            intent.putExtra("neighborhood", university.city)
             intent.putExtra("city", university.city)
             intent.putExtra("state", stateName)
             intent.putExtra("stateInitials", stateInitials)
-            intent.putExtra("neighborhood", university.neighborhood)
             startActivity(view.context, intent, null)
         }
 

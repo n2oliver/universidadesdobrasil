@@ -27,7 +27,6 @@ import com.universidadesdobrasil.viewmodels.UniversityViewModel
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
 
-
 class UniversitiesActivity : AppCompatActivity() {
 
     private lateinit var auth: FirebaseAuth
@@ -190,7 +189,7 @@ class UniversitiesActivity : AppCompatActivity() {
 
             if (searchString != "") {
                 universities.forEach {
-                    if (searchString.toRegex().find(it.value.initials) != null ||
+                    if (searchString.toRegex().find(it.value.initials.toLowerCase()) != null ||
                         searchString.toRegex().find(it.value.neighborhood.toLowerCase()) != null ||
                         searchString.toRegex().find(it.value.name.toLowerCase()) != null ||
                         searchString.toRegex().find(it.value.city.toLowerCase()) != null

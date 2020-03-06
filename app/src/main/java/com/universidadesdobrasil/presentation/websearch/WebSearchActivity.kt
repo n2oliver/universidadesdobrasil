@@ -19,16 +19,16 @@ import com.universidadesdobrasil.presentation.states.StatesActivity
 import com.universidadesdobrasil.presentation.tips.TipsActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_web_search.*
-
+import kotlinx.android.synthetic.main.universityname.*
 
 class WebSearchActivity : AppCompatActivity() {
     private lateinit var name: String
     private lateinit var initials: String
+    private lateinit var neighborhood: String
     private lateinit var city: String
     private lateinit var state: String
     private lateinit var stateInitials: String
     private lateinit var originalUrl: String
-    private lateinit var neighborhood: String
 
     companion object {
         var history: ArrayList<String> = arrayListOf()
@@ -53,20 +53,26 @@ class WebSearchActivity : AppCompatActivity() {
         name = intent.getStringExtra("name") ?: ""
         initials = intent.getStringExtra("initials") ?: ""
         stateInitials = intent.getStringExtra("stateInitials") ?: ""
-
-        var universityDescription = name
-        if(initials != "-") {
-            universityDescription +=  " ($initials)"
-        }
-        universityDescription += stateInitials
+        neighborhood = intent.getStringExtra("neighborhood") ?: ""
         city = intent.getStringExtra("city") ?: ""
         state = intent.getStringExtra("state") ?: ""
 
-        originalUrl = "https://www.google.com.br/search?q=$universityDescription+$stateInitials&newwindow=0"
+        city = intent.getStringExtra("city") ?: ""
+
+        var universityDescription = ""
+        if(initials != "-") {
+            universityDescription +=  "$initials"
+        } else {
+            universityDescription +=  "$name"
+        }
+        universityDescription += ", $neighborhood, $city - $stateInitials"
+
+        originalUrl = "https://www.google.com.br/search?q=$universityDescription&newwindow=0"
         history.add(originalUrl)
 
 
         AppBarTitle.changeAppBarTitle(textView_appName, state)
+        textView_universityDescription.text = universityDescription
 
         webview_search.webViewClient = AppWebViewClients()
             .appWebViewClients(progress_horizontal)
