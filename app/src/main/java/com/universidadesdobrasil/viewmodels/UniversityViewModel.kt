@@ -31,7 +31,7 @@ class UniversityViewModel : ViewModel() {
     private val favoritesUniversities: MutableLiveData<List<FavoriteUniversity>> by lazy {
         MutableLiveData<List<FavoriteUniversity>>()
     }
-    private val universities: MutableLiveData<Map<Int, University>?> by lazy {
+    val universities: MutableLiveData<Map<Int, University>?> by lazy {
         MutableLiveData<Map<Int, University>?>()
     }
 
@@ -52,7 +52,7 @@ class UniversityViewModel : ViewModel() {
         return favoritesUniversities
     }
 
-    fun getUniversities(state: String?): LiveData<Map<Int, University>?> {
+    fun getUniversities(state: String?) {
 
         var list: Map<Int, University>?
         doAsync {
@@ -61,8 +61,6 @@ class UniversityViewModel : ViewModel() {
                 universities.value = list
             }
         }
-
-        return universities
     }
 
     fun deleteFavorite(universityId: Int, uid: String){
@@ -113,5 +111,25 @@ class UniversityViewModel : ViewModel() {
                 Log.w(TAG, "Failed to read value.", error.toException())
             }
         })
+    }
+
+    fun getSearchResults(searchString: String, universitiesList: Map<Int, University>){
+        doAsync {
+            if (searchString != "") {
+                val universitiesFiltered = HashMap<Int, University>()
+                universitiesList.forEach {
+                    if (searchString.toRegex().find(it.value.initials) != null ||
+                        searchString.toRegex().find(it.value.neighborhood.toLowerCase()) != null ||
+                        searchString.toRegex().find(it.value.name.toLowerCase()) != null ||
+                        searchString.toRegex().find(it.value.city.toLowerCase()) != null
+                    ) {
+                        universitiesFiltered[it.key] = it.value
+                    }
+                }
+                uiThread {
+                    universities.value = universitiesFiltered
+                }
+            }
+        }
     }
 }

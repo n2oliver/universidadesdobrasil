@@ -75,90 +75,86 @@ class UniversitiesActivity : AppCompatActivity() {
         } else {
             Toast.makeText(this, "Para ver seus favoritos, faça o login.", Toast.LENGTH_LONG).show()
         }
-
-        viewModel.getUniversities(state).observe(this, Observer { universities ->
-
+        viewModel.getUniversities(state)
+        viewModel.universities.observe(this, Observer { universities ->
             allUniversities = universities!!
-
-            viewModel.remoteFavorites
-                .observe(this, Observer { remoteFavorites ->
-                    favorites.clear()
-                    favorites.addAll(remoteFavorites)
-                })
-
-            viewModel.getFavoritesUniversities()
-                .observe(this, Observer { favoritesUnivertities ->
-                    favoritesUnivertities!!.forEach {
-                        if (universities.keys.contains(it.id!!.toInt())) {
-                            favorites.add(it.id.toInt())
-                        }
-                    }
-
-                    var universitiesList = allUniversities
-
-                    if (isLoggedIn && sharedPreferences.getBoolean("toggleFavorites", false)) {
-                        imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
-                        val universitiesFiltered = HashMap<Int, University>()
-                        allUniversities.forEach {
-                            if (favorites.contains(it.key)) {
-                                universitiesFiltered[it.key] = it.value
-                            }
-                        }
-                        universitiesList = universitiesFiltered
-                    } else {
-                        imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
-                    }
-
-                    findUniversities("", universitiesList, stateInitials, state, favorites, viewModel, false)
-
-                    if(isLoggedIn) {
-                        imageView_filterFavorites.setOnClickListener {
-                            val universities: Map<Int, University>?
-                            if (!sharedPreferences.getBoolean(
-                                    "toggleFavorites",
-                                    false
-                                )
-                            ) {
-                                toggleFavorites = true
-                                saveFavoritesToggleOption()
-                                imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
-                                val universitiesFiltered = HashMap<Int, University>()
-                                allUniversities.forEach {
-                                    if (favorites.contains(it.key)) {
-                                        universitiesFiltered[it.key] = it.value
-                                    }
-                                }
-                                findUniversities(
-                                    "",
-                                    universitiesFiltered,
-                                    stateInitials,
-                                    state,
-                                    favorites,
-                                    viewModel,
-                                    false
-                                )
-                            } else {
-                                turnOffFavorites()
-                                findUniversities(
-                                    "",
-                                    allUniversities,
-                                    stateInitials,
-                                    state,
-                                    favorites,
-                                    viewModel,
-                                    false
-                                )
-                            }
-                        }
-                    } else {
-                        imageView_filterFavorites.setOnClickListener {
-                            val intent = Intent(this, LoginActivity::class.java)
-                            ContextCompat.startActivity(this, intent, null)
-                        }
-                    }
-                    
-                })
         })
+        viewModel.remoteFavorites
+            .observe(this, Observer { remoteFavorites ->
+                favorites.clear()
+                favorites.addAll(remoteFavorites)
+            })
+        viewModel.getFavoritesUniversities()
+            .observe(this, Observer { favoritesUnivertities ->
+                favoritesUnivertities!!.forEach {
+                    if (allUniversities.keys.contains(it.id!!.toInt())) {
+                        favorites.add(it.id.toInt())
+                    }
+                }
+
+                if (isLoggedIn && sharedPreferences.getBoolean("toggleFavorites", false)) {
+                    imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
+                    val universitiesFiltered = HashMap<Int, University>()
+                    allUniversities.forEach {
+                        if (favorites.contains(it.key)) {
+                            universitiesFiltered[it.key] = it.value
+                        }
+                    }
+                    allUniversities = universitiesFiltered
+                } else {
+                    imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_border_24dp)
+                    viewModel.getUniversities(state)
+                }
+
+                findUniversities("", allUniversities, stateInitials, state, favorites, viewModel, false)
+
+                if(isLoggedIn) {
+                    imageView_filterFavorites.setOnClickListener {
+                        val universities: Map<Int, University>?
+                        if (!sharedPreferences.getBoolean(
+                                "toggleFavorites",
+                                false
+                            )
+                        ) {
+                            toggleFavorites = true
+                            saveFavoritesToggleOption()
+                            imageView_filterFavorites.setImageResource(R.drawable.ic_favorite_fulled_24dp)
+                            val universitiesFiltered = HashMap<Int, University>()
+                            allUniversities.forEach {
+                                if (favorites.contains(it.key)) {
+                                    universitiesFiltered[it.key] = it.value
+                                }
+                            }
+                            findUniversities(
+                                "",
+                                universitiesFiltered,
+                                stateInitials,
+                                state,
+                                favorites,
+                                viewModel,
+                                false
+                            )
+                        } else {
+                            turnOffFavorites()
+                            findUniversities(
+                                "",
+                                allUniversities,
+                                stateInitials,
+                                state,
+                                favorites,
+                                viewModel,
+                                false
+                            )
+                        }
+                    }
+                } else {
+                    imageView_filterFavorites.setOnClickListener {
+                        val intent = Intent(this, LoginActivity::class.java)
+                        ContextCompat.startActivity(this, intent, null)
+                    }
+                }
+
+            })
 
         changeAppBarTitle(textView_appName, state)
 
