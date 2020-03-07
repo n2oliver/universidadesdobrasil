@@ -39,6 +39,17 @@ class WebSearchActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_search)
 
+        lightDicas.visibility = View.GONE
+        imageView_shareButton.visibility = View.VISIBLE
+
+        imageView_shareButton.setOnClickListener {
+            val intent = Intent()
+            intent.action = Intent.ACTION_SEND;
+            intent.type = "text/plain";
+            intent.putExtra(Intent.EXTRA_TEXT, history.last());
+            startActivity(Intent.createChooser(intent, "Share"));
+        }
+
         MobileAds.initialize(applicationContext)
         if (BuildConfig.DEBUG) {
             val testDeviceIds = listOf(getString(R.string.test_device_id))
@@ -63,9 +74,9 @@ class WebSearchActivity : AppCompatActivity() {
         if(initials != "-") {
             universityDescription +=  "$initials, "
         } else {
-            universityDescription +=  "$name, $neighborhood, $city - "
+            universityDescription +=  "$name, $neighborhood, $state - "
         }
-        universityDescription += "$state"
+        universityDescription += " $city"
 
         originalUrl = "https://www.google.com.br/search?q=$universityDescription&newwindow=0"
         history.add(originalUrl)

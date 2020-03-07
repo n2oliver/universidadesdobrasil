@@ -26,6 +26,9 @@ import com.universidadesdobrasil.presentation.tips.TipsActivity
 import com.universidadesdobrasil.viewmodels.UniversityViewModel
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
+import java.util.*
+import kotlin.collections.ArrayList
+import kotlin.collections.HashMap
 
 class UniversitiesActivity : AppCompatActivity() {
 
@@ -186,18 +189,37 @@ class UniversitiesActivity : AppCompatActivity() {
             val universitiesFiltered = HashMap<Int, University>()
 
             val searchString = str.toLowerCase()
+            val strArray = searchString.split(" ")
+            var firstString = if(strArray.isNotEmpty()) strArray[0].toRegex() else "".toRegex()
+
+            var secondString =  if(strArray.size > 1) strArray[1].toRegex() else "".toRegex()
+
+            var thirdString = if(strArray.size > 2) strArray[2].toRegex() else "".toRegex()
+
 
             if (searchString != "") {
                 universities.forEach {
-                    if (searchString.toRegex().find(it.value.initials.toLowerCase()) != null ||
-                        searchString.toRegex().find(it.value.neighborhood.toLowerCase()) != null ||
-                        searchString.toRegex().find(it.value.name.toLowerCase()) != null ||
-                        searchString.toRegex().find(it.value.city.toLowerCase()) != null
-                    ) {
+                    if(it.value.name.toLowerCase()
+                            .plus(" ${ it.value.initials.toLowerCase() }")
+                            .plus(" ${ it.value.neighborhood.toLowerCase() }")
+                            .plus(" ${ it.value.city.toLowerCase() }")
+                            .plus(" ${ stateName!!.toLowerCase() }")
+                            .plus(" ${ stateInitials!!.toLowerCase() }")
+                            .split(" ").containsAll(strArray))
+
                         universitiesFiltered[it.key] = it.value
-                    }
+
+                    else if(it.value.name.toLowerCase()
+                            .plus(" ${ it.value.initials.toLowerCase() }")
+                            .plus(" ${ it.value.neighborhood.toLowerCase() }")
+                            .plus(" ${ it.value.city.toLowerCase() }")
+                            .plus(" ${ stateName!!.toLowerCase() }")
+                            .plus(" ${ stateInitials!!.toLowerCase() }").contains(searchString))
+
+                        universitiesFiltered[it.key] = it.value
                 }
             }
+
 
             if (universitiesFiltered.isNotEmpty() && searchString != "") {
                 noresults.visibility = View.GONE

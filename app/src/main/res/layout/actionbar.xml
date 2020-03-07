@@ -36,15 +36,15 @@
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/lightDicas"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
+        android:orientation="horizontal"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:elevation="2dp">
 
         <ImageView
+            android:id="@+id/lightDicas"
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_marginTop="5dp"
@@ -52,6 +52,17 @@
             android:layout_marginRight="5dp"
             android:layout_marginEnd="5dp"
             android:src="@drawable/ic_lightbulb_outline_black_24dp" />
+
+        <ImageView
+            android:id="@+id/imageView_shareButton"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginEnd="5dp"
+            android:src="@drawable/ic_share_black_24dp"
+            android:visibility="gone"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

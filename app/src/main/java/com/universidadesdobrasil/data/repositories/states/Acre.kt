@@ -18,13 +18,13 @@ class Acre {
             ),
             1088218 to University(
                 " Centro Universitário UNIBTA",
-                "-",
+                "UNIBTA",
                 "Tarauacá",
                 "UNIBTA-TARAUACA-CENTRO"
             ),
             2006916 to University(
                 " UNIVERSIDADE PITÁGORAS UNOPAR",
-                "-",
+                "UNOPAR",
                 "Tarauacá",
                 "TARAUACÁ"
             ),
@@ -36,7 +36,7 @@ class Acre {
             ),
             1090718 to University(
                 " UNIVERSIDADE PITÁGORAS UNOPAR",
-                "-",
+                "UNOPAR",
                 "Tarauacá",
                 "TARAUACA/AC"
             ),
