@@ -11,24 +11,18 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
-import androidx.multidex.BuildConfig
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.RequestConfiguration
 import com.google.firebase.auth.FirebaseAuth
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.data.models.University
 import com.universidadesdobrasil.presentation.AppBarTitle.Companion.changeAppBarTitle
+import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.login.LoginActivity
 import com.universidadesdobrasil.presentation.states.StatesActivity
 import com.universidadesdobrasil.presentation.tips.TipsActivity
 import com.universidadesdobrasil.viewmodels.UniversityViewModel
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_universities.*
-import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 class UniversitiesActivity : AppCompatActivity() {
 
@@ -42,27 +36,12 @@ class UniversitiesActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_universities)
 
-        auth = FirebaseAuth.getInstance()
-
-        val currentUser = auth.currentUser
-
-        isLoggedIn = currentUser != null
-        sharedPreferences = getSharedPreferences("favorites", Context.MODE_PRIVATE)
+        setUserData()
+        AdsHelper.setAds(adView, this)
 
         if (!sharedPreferences.contains("toggleFavorites")) {
             saveFavoritesToggleOption()
         }
-
-        MobileAds.initialize(this)
-        if (BuildConfig.DEBUG) {
-            val testDeviceIds = listOf(getString(R.string.test_device_id))
-            val configuration =
-                RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
-            MobileAds.setRequestConfiguration(configuration)
-        }
-        val adRequest = AdRequest.Builder()
-            .build()
-        adView.loadAd(adRequest)
 
         val state = intent.getStringExtra("state")
         val stateInitials = intent.getStringExtra("stateInitials")
@@ -73,13 +52,22 @@ class UniversitiesActivity : AppCompatActivity() {
         viewModel.initializeDatabase(this)
 
         if (isLoggedIn) {
-            viewModel.getRemoteFavoritesUniversities(currentUser!!.uid)
+            viewModel.getRemoteFavoritesUniversities(auth.currentUser!!.uid)
         } else {
             Toast.makeText(this, "Para ver seus favoritos, faça o login.", Toast.LENGTH_LONG).show()
         }
         viewModel.getUniversities(state)
         viewModel.universities.observe(this, Observer { universities ->
             allUniversities = universities!!
+            findUniversities(
+                    "",
+                allUniversities,
+                stateInitials,
+                state,
+                favorites,
+                viewModel,
+                false
+            )
         })
         viewModel.remoteFavorites
             .observe(this, Observer { remoteFavorites ->
@@ -112,7 +100,6 @@ class UniversitiesActivity : AppCompatActivity() {
 
                 if(isLoggedIn) {
                     imageView_filterFavorites.setOnClickListener {
-                        val universities: Map<Int, University>?
                         if (!sharedPreferences.getBoolean(
                                 "toggleFavorites",
                                 false
@@ -138,15 +125,7 @@ class UniversitiesActivity : AppCompatActivity() {
                             )
                         } else {
                             turnOffFavorites()
-                            findUniversities(
-                                "",
-                                allUniversities,
-                                stateInitials,
-                                state,
-                                favorites,
-                                viewModel,
-                                false
-                            )
+                            viewModel.getUniversities(state)
                         }
                     }
                 } else {
@@ -171,6 +150,12 @@ class UniversitiesActivity : AppCompatActivity() {
         }
     }
 
+    private fun setUserData() {
+        auth = FirebaseAuth.getInstance()
+        isLoggedIn = auth.currentUser != null
+        sharedPreferences = getSharedPreferences("favorites", Context.MODE_PRIVATE)
+    }
+
     private fun turnOffFavorites() {
         toggleFavorites = false
         saveFavoritesToggleOption()
@@ -190,12 +175,6 @@ class UniversitiesActivity : AppCompatActivity() {
 
             val searchString = str.toLowerCase()
             val strArray = searchString.split(" ")
-            var firstString = if(strArray.isNotEmpty()) strArray[0].toRegex() else "".toRegex()
-
-            var secondString =  if(strArray.size > 1) strArray[1].toRegex() else "".toRegex()
-
-            var thirdString = if(strArray.size > 2) strArray[2].toRegex() else "".toRegex()
-
 
             if (searchString != "") {
                 universities.forEach {

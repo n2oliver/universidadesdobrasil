@@ -9,12 +9,9 @@ import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
-import androidx.multidex.BuildConfig
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.RequestConfiguration
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.presentation.AppBarTitle
+import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.states.StatesActivity
 import com.universidadesdobrasil.presentation.tips.TipsActivity
 import kotlinx.android.synthetic.main.actionbar.*
@@ -50,16 +47,7 @@ class WebSearchActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(intent, "Share"));
         }
 
-        MobileAds.initialize(applicationContext)
-        if (BuildConfig.DEBUG) {
-            val testDeviceIds = listOf(getString(R.string.test_device_id))
-            val configuration =
-                RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
-            MobileAds.setRequestConfiguration(configuration)
-        }
-        val adRequest = AdRequest.Builder()
-            .build()
-        adView.loadAd(adRequest)
+        AdsHelper.setAds(adView, this)
 
         name = intent.getStringExtra("name") ?: ""
         initials = intent.getStringExtra("initials") ?: ""

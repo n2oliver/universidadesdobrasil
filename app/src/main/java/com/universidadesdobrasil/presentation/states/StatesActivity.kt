@@ -8,14 +8,11 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
-import androidx.multidex.BuildConfig
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.google.android.gms.ads.AdRequest
-import com.google.android.gms.ads.MobileAds
-import com.google.android.gms.ads.RequestConfiguration
 import com.google.firebase.auth.FirebaseAuth
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.data.repositories.StateRepository
+import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.tips.TipsActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_main.*
@@ -64,17 +61,7 @@ class StatesActivity : AppCompatActivity() {
                     .show()
             }
         }
-
-        MobileAds.initialize(applicationContext)
-        if(BuildConfig.DEBUG) {
-            val testDeviceIds = listOf(getString(R.string.test_device_id))
-            val configuration =
-                RequestConfiguration.Builder().setTestDeviceIds(testDeviceIds).build()
-            MobileAds.setRequestConfiguration(configuration)
-        }
-        val adRequest  = AdRequest.Builder()
-            .build()
-        adView.loadAd(adRequest)
+        AdsHelper.setAds(adView, this)
 
         val states = StateRepository.getStates()
         statesList.layoutManager = LinearLayoutManager(this)
