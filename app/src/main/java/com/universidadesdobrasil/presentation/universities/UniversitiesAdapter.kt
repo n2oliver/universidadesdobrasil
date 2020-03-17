@@ -7,7 +7,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
-import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.R.drawable.ic_favorite_border_24dp
 import com.universidadesdobrasil.R.drawable.ic_favorite_fulled_24dp
@@ -53,12 +52,8 @@ class UniversitiesAdapter(
     class ViewHolder(itemView: View, private val stateInitials: String?, private val stateName: String?, private val isLoggedIn: Boolean) : RecyclerView.ViewHolder(itemView) {
         private fun openBrowser(view: View, university: University){
             val intent = Intent(view.context, WebSearchActivity::class.java)
-            intent.putExtra("name", university.name)
-            intent.putExtra("initials", university.initials)
-            intent.putExtra("neighborhood", university.city)
-            intent.putExtra("city", university.city)
+            intent.putExtra("search", university.search)
             intent.putExtra("state", stateName)
-            intent.putExtra("stateInitials", stateInitials)
             startActivity(view.context, intent, null)
         }
 
@@ -70,7 +65,7 @@ class UniversitiesAdapter(
             position: Int
         ) {
             val university = universities!!.values.elementAt(position)
-            val universityNeighborhood = "${university.neighborhood}, ${university.city} - $stateInitials"
+            val universityNeighborhood = "${university.search}, ${university.city} - $stateInitials"
             val universityName = "${university.name} (${university.initials})"
             itemView.textView_universityName.text = universityName
             itemView.textView_universityNeighborhood.text = universityNeighborhood

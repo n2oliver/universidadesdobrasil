@@ -180,7 +180,7 @@ class UniversitiesActivity : AppCompatActivity() {
                 universities.forEach {
                     if(it.value.name.toLowerCase()
                             .plus(" ${ it.value.initials.toLowerCase() }")
-                            .plus(" ${ it.value.neighborhood.toLowerCase() }")
+                            .plus(" ${ it.value.search.toLowerCase() }")
                             .plus(" ${ it.value.city.toLowerCase() }")
                             .plus(" ${ stateName!!.toLowerCase() }")
                             .plus(" ${ stateInitials!!.toLowerCase() }")
@@ -190,7 +190,7 @@ class UniversitiesActivity : AppCompatActivity() {
 
                     else if(it.value.name.toLowerCase()
                             .plus(" ${ it.value.initials.toLowerCase() }")
-                            .plus(" ${ it.value.neighborhood.toLowerCase() }")
+                            .plus(" ${ it.value.search.toLowerCase() }")
                             .plus(" ${ it.value.city.toLowerCase() }")
                             .plus(" ${ stateName!!.toLowerCase() }")
                             .plus(" ${ stateInitials!!.toLowerCase() }").contains(searchString))

@@ -4,6 +4,8 @@ import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
 import android.view.View
+import android.webkit.WebChromeClient
+import android.webkit.WebSettings
 import android.webkit.WebView
 import android.webkit.WebViewClient
 import android.widget.ProgressBar
@@ -19,12 +21,8 @@ import kotlinx.android.synthetic.main.activity_web_search.*
 import kotlinx.android.synthetic.main.universityname.*
 
 class WebSearchActivity : AppCompatActivity() {
-    private lateinit var name: String
-    private lateinit var initials: String
-    private lateinit var neighborhood: String
-    private lateinit var city: String
+    private lateinit var search: String
     private lateinit var state: String
-    private lateinit var stateInitials: String
     private lateinit var originalUrl: String
 
     companion object {
@@ -49,34 +47,24 @@ class WebSearchActivity : AppCompatActivity() {
 
         AdsHelper.setAds(adView, this)
 
-        name = intent.getStringExtra("name") ?: ""
-        initials = intent.getStringExtra("initials") ?: ""
-        stateInitials = intent.getStringExtra("stateInitials") ?: ""
-        neighborhood = intent.getStringExtra("neighborhood") ?: ""
-        city = intent.getStringExtra("city") ?: ""
+        search = intent.getStringExtra("search") ?: ""
         state = intent.getStringExtra("state") ?: ""
 
-        city = intent.getStringExtra("city") ?: ""
-
-        var universityDescription = ""
-        if(initials != "-") {
-            universityDescription +=  "$initials, "
-        } else {
-            universityDescription +=  "$name, $neighborhood, $state - "
-        }
-        universityDescription += " $city"
-
-        originalUrl = "https://www.google.com.br/search?q=$universityDescription&newwindow=0"
+        originalUrl = "https://www.google.com.br/search?q=$search&newwindow=0"
         history.add(originalUrl)
 
 
         AppBarTitle.changeAppBarTitle(textView_appName, state)
-        textView_universityDescription.text = universityDescription
-
+        textView_universityDescription.text = search
+        webview_search.webChromeClient = WebChromeClient()
         webview_search.webViewClient = AppWebViewClients()
             .appWebViewClients(progress_horizontal)
         webview_search.settings.javaScriptEnabled = true
         webview_search.settings.setAppCacheEnabled(false)
+        webview_search.setLayerType(View.LAYER_TYPE_SOFTWARE, null)
+        webview_search.settings.layoutAlgorithm = WebSettings.LayoutAlgorithm.NORMAL
+        webview_search.settings.loadWithOverviewMode = true
+        webview_search.settings.useWideViewPort = true
         webview_search.loadUrl(history.last())
 
         imageView_ublogo.setOnClickListener {

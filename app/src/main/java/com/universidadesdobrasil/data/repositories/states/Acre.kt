@@ -8,7 +8,7 @@ class Acre {
                 "UNIVERSIDADE FEDERAL DO ACRE",
                 "UFAC",
                 "Xapuri",
-                "Núcleo Universitário de Xapuri"
+                "Universidade Federal do Acre, Xapuri"
             ),
             150749 to University(
                 "Instituto Federal de Educação, Ciência e Tecnologia do Acre",
