@@ -78,13 +78,12 @@ class UniversitiesAdapter(
                 openBrowser(it, university)
             }
 
-            if(favorites.contains(universities.keys.elementAt(position))){
+            if(favorites.contains(universities.keys.elementAt(position)) && isLoggedIn){
                 itemView.favoriteStar.setImageResource(ic_favorite_fulled_24dp)
             }
 
             itemView.favoriteStar.setOnClickListener {
                 if(!isLoggedIn) {
-                    val account = GoogleSignIn.getLastSignedInAccount(itemView.context)
                     val intent = Intent(itemView.context, LoginActivity::class.java)
                     startActivity(itemView.context, intent, null)
                 } else {
