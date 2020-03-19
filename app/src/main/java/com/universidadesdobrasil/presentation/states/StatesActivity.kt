@@ -8,12 +8,14 @@ import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
+import androidx.lifecycle.Observer
+import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.google.firebase.auth.FirebaseAuth
 import com.universidadesdobrasil.R
-import com.universidadesdobrasil.data.repositories.StateRepository
 import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.tips.TipsActivity
+import com.universidadesdobrasil.viewmodels.StateViewModel
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -63,13 +65,16 @@ class StatesActivity : AppCompatActivity() {
         }
         AdsHelper.setAds(adView, this)
 
-        val states = StateRepository.getStates()
-        statesList.layoutManager = LinearLayoutManager(this)
-        statesList.adapter =
-            StatesAdapter(
-                this,
-                states
-            )
+        val viewModel = ViewModelProviders.of(this)[StateViewModel::class.java]
+        viewModel.getStates()
+        viewModel.states.observe(this, Observer { states ->
+            statesList.layoutManager = LinearLayoutManager(this)
+            statesList.adapter =
+                StatesAdapter(
+                    this,
+                    states
+                )
+        })
 
         lightDicas.setOnClickListener {
             intent = Intent(this, TipsActivity::class.java)
