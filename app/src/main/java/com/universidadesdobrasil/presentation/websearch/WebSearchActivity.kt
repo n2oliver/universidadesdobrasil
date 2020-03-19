@@ -134,25 +134,17 @@ class WebSearchActivity : AppCompatActivity() {
 
         override fun shouldOverrideUrlLoading(view: WebView, url: String): Boolean {
             appWebViewClients(this.progressBar!!)
-            if (url.startsWith("http://") || url.startsWith("https://"))
-                return when {
-                    url.contains("https://maps.google.com") -> {
-                        val i = Intent(Intent.ACTION_VIEW)
-                        i.data = Uri.parse(url)
-                        startActivity(view.context, i, null)
-                        true
-                    }
-                    url.contains("https://m.youtube.com/") -> {
-                        val i = Intent(Intent.ACTION_VIEW)
-                        i.data = Uri.parse(url)
-                        startActivity(view.context, i, null)
-                        true
-                    }
-                    else -> {
-                        history.add(url)
-                        false
-                    }
+            if (url.startsWith("http://") || url.startsWith("https://")) {
+                return if(url.contains("https://maps.google.com") || url.contains("https://m.youtube.com/")) {
+                    val i = Intent(Intent.ACTION_VIEW)
+                    i.data = Uri.parse(url)
+                    startActivity(view.context, i, null)
+                    true
+                } else {
+                    history.add(url)
+                    false
                 }
+            }
 
             return try {
                 val i = Intent(Intent.ACTION_VIEW)
