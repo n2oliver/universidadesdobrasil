@@ -216,7 +216,9 @@ class UniversitiesActivity : AppCompatActivity() {
         val uid = auth.currentUser?.uid
         universitiesList.adapter =
             UniversitiesAdapter(this, universities, stateInitials, stateName, isLoggedIn, favorites, viewModel, uid)
-
+        searchInput.setOnClickListener {
+            searchInput.isIconified = false
+        }
         searchInput.setOnQueryTextListener(object : OnQueryTextListener,
             androidx.appcompat.widget.SearchView.OnQueryTextListener {
 
