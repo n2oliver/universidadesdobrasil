@@ -9,9 +9,11 @@ import android.webkit.WebViewClient
 import android.widget.ProgressBar
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat.startActivity
+import com.facebook.ads.AdSize
+import com.facebook.ads.AdView
+import com.facebook.ads.AudienceNetworkAds
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.presentation.AppBarTitle
-import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.states.StatesActivity
 import com.universidadesdobrasil.presentation.tips.TipsActivity
 import kotlinx.android.synthetic.main.actionbar.*
@@ -47,7 +49,10 @@ class WebSearchActivity : AppCompatActivity() {
             startActivity(Intent.createChooser(intent, "Share"));
         }
 
-        AdsHelper.setAds(adView, this)
+        AudienceNetworkAds.initialize(this)
+        val adView = AdView(this, getString(R.string.PLACEMENT_ID), AdSize.BANNER_HEIGHT_50)
+        banner_container.addView(adView)
+        adView.loadAd()
 
         name = intent.getStringExtra("name") ?: ""
         initials = intent.getStringExtra("initials") ?: ""

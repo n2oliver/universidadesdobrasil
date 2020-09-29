@@ -12,11 +12,13 @@ import androidx.core.content.ContextCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.facebook.ads.AdSize
+import com.facebook.ads.AdView
+import com.facebook.ads.AudienceNetworkAds
 import com.google.firebase.auth.FirebaseAuth
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.data.models.University
 import com.universidadesdobrasil.presentation.AppBarTitle.Companion.changeAppBarTitle
-import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.login.LoginActivity
 import com.universidadesdobrasil.presentation.states.StatesActivity
 import com.universidadesdobrasil.presentation.tips.TipsActivity
@@ -37,7 +39,10 @@ class UniversitiesActivity : AppCompatActivity() {
         setContentView(R.layout.activity_universities)
 
         setUserData()
-        AdsHelper.setAds(adView, this)
+        AudienceNetworkAds.initialize(this)
+        val adView = AdView(this, getString(R.string.PLACEMENT_ID), AdSize.BANNER_HEIGHT_50)
+        banner_container.addView(adView)
+        adView.loadAd()
 
         if (!sharedPreferences.contains("toggleFavorites")) {
             saveFavoritesToggleOption()

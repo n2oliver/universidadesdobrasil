@@ -11,9 +11,11 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.facebook.ads.AdSize
+import com.facebook.ads.AdView
+import com.facebook.ads.AudienceNetworkAds
 import com.google.firebase.auth.FirebaseAuth
 import com.universidadesdobrasil.R
-import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.tips.TipsActivity
 import com.universidadesdobrasil.viewmodels.StateViewModel
 import kotlinx.android.synthetic.main.actionbar.*
@@ -63,7 +65,10 @@ class StatesActivity : AppCompatActivity() {
                     .show()
             }
         }
-        AdsHelper.setAds(adView, this)
+        AudienceNetworkAds.initialize(this);
+        val adView = AdView(this, getString(R.string.PLACEMENT_ID), AdSize.BANNER_HEIGHT_50)
+        banner_container.addView(adView)
+        adView.loadAd()
 
         val viewModel = ViewModelProviders.of(this)[StateViewModel::class.java]
         viewModel.getStates()
