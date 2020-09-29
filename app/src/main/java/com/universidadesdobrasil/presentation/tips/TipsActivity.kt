@@ -5,10 +5,12 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.LinearLayoutManager.HORIZONTAL
+import com.facebook.ads.AdSize
+import com.facebook.ads.AdView
+import com.facebook.ads.AudienceNetworkAds
 import com.universidadesdobrasil.R
 import com.universidadesdobrasil.data.models.Step
 import com.universidadesdobrasil.data.repositories.TipsRepository
-import com.universidadesdobrasil.presentation.ads.AdsHelper
 import com.universidadesdobrasil.presentation.states.StatesActivity
 import kotlinx.android.synthetic.main.actionbar.*
 import kotlinx.android.synthetic.main.activity_tips.*
@@ -18,7 +20,11 @@ class TipsActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tips)
-        AdsHelper.setAds(adView, this)
+
+        AudienceNetworkAds.initialize(this);
+        val adView = AdView(this, getString(R.string.PLACEMENT_ID), AdSize.BANNER_HEIGHT_50)
+        banner_container.addView(adView)
+        adView.loadAd()
 
         if(intent.getStringExtra("tip_title") != "" && intent.getSerializableExtra("tip_steps") != null) {
             var tips = intent.getSerializableExtra("tip_steps")

@@ -5,64 +5,63 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.universidadesdobrasil.presentation.states.StatesActivity">
-    <include layout="@layout/actionbar"
+
+    <include
+        android:id="@+id/action_bar"
+        layout="@layout/actionbar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/action_bar"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"/>
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <LinearLayout
         android:id="@+id/linearLayout_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="end"
         android:orientation="horizontal"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/action_bar"
-        android:gravity="end">
+        app:layout_constraintTop_toBottomOf="@id/action_bar">
 
         <ImageView
             android:id="@+id/imageView_star"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:padding="8dp"
-            android:src="@drawable/ic_star_yellow_24dp"/>
+            android:src="@drawable/ic_star_yellow_24dp" />
 
         <ImageView
             android:id="@+id/imageView_signOut"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:padding="8dp"
-            android:src="@drawable/ic_input_yellow_24dp"/>
+            android:src="@drawable/ic_input_yellow_24dp" />
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/statesList"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        app:layout_constraintVertical_weight="1"
         android:text="Hello World!"
-        tools:listitem="@layout/cardview_state"
+        app:layout_constraintBottom_toTopOf="@id/banner_container"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/linearLayout_menu"
-        app:layout_constraintBottom_toTopOf="@id/banner_container"/>
+        app:layout_constraintVertical_weight="1"
+        tools:listitem="@layout/cardview_state" />
 
-    <com.google.android.gms.ads.AdView
-        xmlns:ads="http://schemas.android.com/apk/res-auto"
+    <LinearLayout
         android:id="@+id/banner_container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_alignParentBottom="true"
-        ads:adSize="BANNER"
-        ads:adUnitId="@string/ad_unit_id"
-        ads:layout_constraintLeft_toLeftOf="parent"
-        ads:layout_constraintRight_toRightOf="parent"
-        ads:layout_constraintBottom_toBottomOf="parent">
-    </com.google.android.gms.ads.AdView>
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
